@@ -1,0 +1,66 @@
+2018-05-30 18:38:49.595 INFO 错误页3: 3
+2018-05-30 18:38:49.597 INFO 错误页4: 4
+2018-05-30 18:41:27.946 INFO 错误页3: 3
+2018-05-30 18:41:27.948 INFO 错误页4: 4
+2018-05-30 18:41:31.125 ERROR openid: 1
+2018-05-30 18:41:31.125 ERROR Setopenid: 
+2018-05-30 18:41:31.126 ERROR AdminHotelid: 1004613
+2018-05-30 18:41:31.126 ERROR Hotelid: 0
+2018-05-30 18:41:31.137 DEBUG 配置账号信息: NOTIFY_URL:www.zidinn.com
+2018-05-30 18:41:31.137 DEBUG 配置账号信息: appid:wx41bd9e5d7867ad93
+2018-05-30 18:41:31.138 DEBUG 配置账号信息: MCHID:1375851902
+2018-05-30 18:41:31.180 DEBUG 配置账号信息: KEYS:bgEggVhq0zivPLc8lTRzdgl1AOTWvdCd
+2018-05-30 18:41:31.188 DEBUG 配置账号信息: appid:wx41bd9e5d7867ad93
+2018-05-30 18:41:31.188 DEBUG 公众账号ID公众账号ID: wx41bd9e5d7867ad93
+2018-05-30 18:41:31.188 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx41bd9e5d7867ad93]]></appid><attach><![CDATA[HYK20180530184131111,1004613,注册购买会员卡,,99]]></attach><body><![CDATA[注册购买会员卡，订单编号：HYK20180530184131111]]></body><goods_tag><![CDATA[test]]></goods_tag><mch_id><![CDATA[1375851902]]></mch_id><nonce_str><![CDATA[20dcab7e4dfe4bb691ee0e4428f84563]]></nonce_str><notify_url><![CDATA[http://www.zidinn.com/Reservation/ResultNotifyPage.aspx?AdminHotelid=1004613&Hotelid=0]]></notify_url><openid><![CDATA[1]]></openid><out_trade_no><![CDATA[HYK20180530184131111]]></out_trade_no><sign><![CDATA[E1B9DB50B0548F900D568D3E401B0B83]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20180530185131]]></time_expire><time_start><![CDATA[20180530184131]]></time_start><total_fee>0</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2018-05-30 18:41:32.365 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[FAIL]]></return_code>
+<return_msg><![CDATA[invalid total_fee]]></return_msg>
+</xml>
+2018-05-30 18:41:32.411 ERROR RM.Web.business.JsApiPay: UnifiedOrder response error!
+2018-05-30 18:41:32.433 INFO 注册购买会员卡报错: RM.Web.Lib.WxPayException: UnifiedOrder response error!
+   在 RM.Web.business.JsApiPay.GetUnifiedOrderResult(String AdminHotelid, String Setopenid, Int32 Hotelid) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\business\JsApiPay.cs:行号 197
+   在 RM.Web.Members.Register.Page_Load(Object sender, EventArgs e) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\Members\Register.aspx.cs:行号 100
+2018-05-30 18:41:32.443 DEBUG 配置账号信息: appid:wx41bd9e5d7867ad93
+2018-05-30 18:41:32.463 DEBUG 配置账号信息: appid:wx41bd9e5d7867ad93
+2018-05-30 18:41:32.464 DEBUG 配置账号信息: APPSECRET:ee8dfe055e22953e0f07adda79167fb5
+2018-05-30 18:41:48.723 INFO 积分升级成功: 1原等级sort=3
+2018-05-30 18:41:48.868 INFO 累积充值升级成功: 1原等级sort=3
+2018-05-30 18:41:49.275 INFO 积分升级成功: 1原等级sort=2
+2018-05-30 18:41:49.387 INFO 累积充值升级成功: 1原等级sort=2
+2018-05-30 18:41:49.406 DEBUG 配置账号信息: appid:wx41bd9e5d7867ad93
+2018-05-30 18:41:49.407 DEBUG 配置账号信息: appid:wx41bd9e5d7867ad93
+2018-05-30 18:41:49.407 DEBUG 配置账号信息: APPSECRET:ee8dfe055e22953e0f07adda79167fb5
+2018-05-30 18:42:04.793 DEBUG 配置账号信息: appid:wx41bd9e5d7867ad93
+2018-05-30 18:42:04.794 DEBUG 配置账号信息: appid:wx41bd9e5d7867ad93
+2018-05-30 18:42:04.795 DEBUG 配置账号信息: APPSECRET:ee8dfe055e22953e0f07adda79167fb5
+2018-05-30 18:43:59.231 INFO 错误页3: 3
+2018-05-30 18:43:59.232 INFO 错误页4: 4
+2018-05-30 18:45:04.952 ERROR openid: 1
+2018-05-30 18:45:04.953 ERROR Setopenid: 
+2018-05-30 18:45:04.955 ERROR AdminHotelid: 1004613
+2018-05-30 18:45:04.956 ERROR Hotelid: 0
+2018-05-30 18:45:04.970 DEBUG 配置账号信息: NOTIFY_URL:www.zidinn.com
+2018-05-30 18:45:04.971 DEBUG 配置账号信息: appid:wx41bd9e5d7867ad93
+2018-05-30 18:45:04.972 DEBUG 配置账号信息: MCHID:1375851902
+2018-05-30 18:45:04.974 DEBUG 配置账号信息: KEYS:bgEggVhq0zivPLc8lTRzdgl1AOTWvdCd
+2018-05-30 18:45:04.977 DEBUG 配置账号信息: appid:wx41bd9e5d7867ad93
+2018-05-30 18:45:04.977 DEBUG 公众账号ID公众账号ID: wx41bd9e5d7867ad93
+2018-05-30 18:45:04.978 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx41bd9e5d7867ad93]]></appid><attach><![CDATA[HYK20180530184504934,1004613,注册购买会员卡,,99]]></attach><body><![CDATA[注册购买会员卡，订单编号：HYK20180530184504934]]></body><goods_tag><![CDATA[test]]></goods_tag><mch_id><![CDATA[1375851902]]></mch_id><nonce_str><![CDATA[09fb55af884442259282ace17a59e5bc]]></nonce_str><notify_url><![CDATA[http://www.zidinn.com/Reservation/ResultNotifyPage.aspx?AdminHotelid=1004613&Hotelid=0]]></notify_url><openid><![CDATA[1]]></openid><out_trade_no><![CDATA[HYK20180530184504934]]></out_trade_no><sign><![CDATA[3AE84CF5D171FF0DCCC019FD2EB87CE8]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20180530185504]]></time_expire><time_start><![CDATA[20180530184504]]></time_start><total_fee>0</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2018-05-30 18:45:05.297 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[FAIL]]></return_code>
+<return_msg><![CDATA[invalid total_fee]]></return_msg>
+</xml>
+2018-05-30 18:45:05.321 ERROR RM.Web.business.JsApiPay: UnifiedOrder response error!
+2018-05-30 18:45:05.339 INFO 注册购买会员卡报错: RM.Web.Lib.WxPayException: UnifiedOrder response error!
+   在 RM.Web.business.JsApiPay.GetUnifiedOrderResult(String AdminHotelid, String Setopenid, Int32 Hotelid) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\business\JsApiPay.cs:行号 197
+   在 RM.Web.Members.Register.Page_Load(Object sender, EventArgs e) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\Members\Register.aspx.cs:行号 100
+2018-05-30 18:45:05.350 DEBUG 配置账号信息: appid:wx41bd9e5d7867ad93
+2018-05-30 18:45:05.351 DEBUG 配置账号信息: appid:wx41bd9e5d7867ad93
+2018-05-30 18:45:05.352 DEBUG 配置账号信息: APPSECRET:ee8dfe055e22953e0f07adda79167fb5
+2018-05-30 18:46:20.282 INFO 积分升级成功: 1原等级sort=3
+2018-05-30 18:46:52.656 INFO 积分升级成功: 1原等级sort=2
+2018-05-30 18:46:52.692 DEBUG 配置账号信息: appid:wx41bd9e5d7867ad93
+2018-05-30 18:46:52.693 DEBUG 配置账号信息: appid:wx41bd9e5d7867ad93
+2018-05-30 18:46:52.694 DEBUG 配置账号信息: APPSECRET:ee8dfe055e22953e0f07adda79167fb5
+2018-05-30 18:46:59.458 DEBUG 配置账号信息: appid:wx41bd9e5d7867ad93
+2018-05-30 18:46:59.459 DEBUG 配置账号信息: appid:wx41bd9e5d7867ad93
+2018-05-30 18:46:59.459 DEBUG 配置账号信息: APPSECRET:ee8dfe055e22953e0f07adda79167fb5

@@ -1,0 +1,278 @@
+﻿@import url(public.css);
+
+
+/*
+ * $Rev: * $
+ * Created: fengling
+ * Modified: $Author: fengling $ $LastChangedDate: 2010-08-03 09:00:00 +0800 (星期二, 03 八月 2010) $
+ */
+
+/* 通用
+-------------------------------------------------------------- */
+
+
+/* 日历
+--------------------------------------------------------------  */
+.clArea 
+{
+	
+	border:1px solid #DB840D;
+	background-color:#FDF1AC;
+	padding-top:1px;
+	
+	margin-bottom:20px;
+	width:474px;
+	position:relative;
+	margin-left:150px;
+	
+	}
+	.clArea .titleAre 
+	{
+		text-align:center;
+		padding-top:4px;
+		height:21px;
+		background-color:#FCE562;
+		}
+		.clArea .titleAre .L 
+		{
+			width:13px;
+			height:9px;
+			display:inline-block;
+			background:url(/App_Themes/admin/images/clAreaLeftBg.gif) no-repeat scroll center 0;
+			}
+		.clArea .titleAre .R 
+		{
+			width:13px;
+			height:9px;
+			display:inline-block;
+			background:url(/App_Themes/admin/images/clAreaRightBg.gif) no-repeat scroll center 0;
+			}
+			.clArea .titleAre .L span,
+			.clArea .titleAre .R span 
+			{
+				display:none;
+				}
+		.clArea .titleAre em 
+		{
+			font-style:normal;
+			font-weight:700;
+			color:#83292E;
+			margin:0 25px;
+			font-size:12px;
+			font-family:Verdana;
+			
+			}
+	.clArea .conArea 
+	{
+	 padding:6px;
+		}
+		.clArea .conArea ul 
+		{
+			padding:0px !important;
+			margin:0px !important;
+			height:auto !important;
+			}
+		.clArea .conArea li 
+		{
+			float:left;
+			width:66px;
+			text-align:center;
+			font-weight:700;
+			padding:0px !important;
+			margin:0px !important;
+			height:auto !important;
+			font-size:12px;
+			color:#000;
+			}
+		.clArea .conArea th 
+		{
+			text-align:center;
+			}
+		.clArea  table
+		{
+			border-right:1px solid #FDED95;
+			border-bottom:1px solid #FDED95;
+			
+			}	
+		.clArea .conArea td 
+		{
+			width:66px;
+			vertical-align:top;
+			height:40px;
+			text-align:center;
+			background-color:#FFFFFF;
+			border-top:1px solid #FDED95;
+			border-left:1px solid #FDED95;
+			}
+		.clArea .conArea a 
+		{
+			color:#41A610;
+			}
+		.clArea .conArea .w 
+		{
+			background-color:#FEFBE0;
+			}
+		.clArea .conArea .nc 
+		{
+			color:#C5C5C5;
+			}
+	.clArea .conArea .list
+	{
+	position:absolute;
+	 right:-140px;
+	 top:7px;
+		
+		
+		}
+	.clArea .conArea .list ul li
+	{
+	 float:none;
+	 font-size:14px;
+	 font-weight:normal;
+	 color:#000;
+	 padding-bottom:15px !important;
+     padding-left:17px;
+		}
+
+	.clArea .conArea .list ul li.man
+	{
+	background:url(../images/man.gif) no-repeat left 1px ;
+	width:100px;
+	 text-align:left !important;
+	 padding-left:17px !important;
+		}
+	.clArea .conArea .list ul li.woman
+	{
+	background:url(../images/woman.gif) no-repeat left 1px ;
+	width:100px;
+	 text-align:left !important;
+	 padding-left:17px !important;
+	
+	
+		
+		}
+	.clArea .conArea .list ul li.Kids
+	{
+	background:url(../images/Kids.gif) no-repeat left 1px ;
+		width:100px;
+			 text-align:left !important;
+	 padding-left:17px !important;
+		}
+	.clArea .conArea .list ul li.Decoration
+	{
+	background:url(../images/Decoration.gif) no-repeat left 1px ;
+		width:100px;
+			 text-align:left !important;
+	 padding-left:17px !important;
+		}
+		.clArea .conArea td  p
+		{
+			padding-top:5px;
+		
+			
+			}
+		.clArea .conArea td  p img
+		{
+			margin:0 1px;
+
+			
+			}	
+
+
+.Market2 .titleArea
+{
+
+	background: url(../images/guangzhoufaguo.jpg) no-repeat  left top !important;
+	height:30px;
+	}
+	
+	/*////////////////弹出层//////////*/
+.popup 
+{
+	background-color:#FFFFFF; 
+	position:absolute; 
+	/*left:230px;*/ 
+	/*top:200px;*/ 
+	z-index:101;
+	border: none;
+	width: 320px !important;
+	margin-top: 10px;
+	}
+
+.popup .popup-title 
+{
+	border:0px;
+	color:#000;
+	background:url(../images/title3_bg.jpg) repeat-x;
+	font-weight:bold;
+	border-left:1px solid #DDE3E3;
+	border-right:1px solid #DDE3E3;
+	}
+.popup table 
+{
+	width:100%;
+	/*border-bottom:#ccc 1px solid;*/
+	border-collapse:collapse;
+	/*border-left: #ccc 1px solid;*/
+	/*border-right: #ccc 1px solid; */
+	}
+.popup .popup-title th 
+{
+	font-size:12px;
+	padding-top:5px;
+	height:25px;
+	text-align:center;
+	}
+.popup td 
+{
+    padding:4px 5px;
+    line-height:1.8em;
+    font-size: 13px !important;
+    border-radius:8px !important;
+	}
+.popup td input[type="text"],
+.popup td select
+{
+    height: 30px;
+    line-height: 30px;
+    font-size: 13px;
+    width:180px;
+    cursor: pointer;
+    border-radius:5px;
+    border: 1px solid #bbb;
+}
+.popup .popup-btn td 
+{
+	padding:12px 5px 10px;
+	text-align:center;
+	}
+.popup .popup-btn input
+{
+	margin:0 10px;
+	}
+.bt
+{
+   padding-left:150px;	
+	}
+	
+	
+.aui_border tr 
+{
+    background: #333;
+}
+.popup-btn td input[type="submit"]
+{
+    padding:7px 22px;
+    border:1px solid #ddd;
+    outline: none;
+    color: black;
+    border-radius: 6px;
+    background: #fff;
+}
+.popup-btn td input[type="submit"]:hover,
+.popup-btn td input[type="submit"].active
+{
+    background: #c00;
+    color: white;
+    border:1px solid #fff;
+}

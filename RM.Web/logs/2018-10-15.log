@@ -1,0 +1,8 @@
+2018-10-15 17:43:11.491 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=14_hCXLNhrxbY13LyCl2-_fduy3Ia3t8v2dPDjDLmZF4Jc12wSLFDGzW5jU-IAAqX0TY6FPtWJvVV6wu3mnHLctFR3k5SY2xm8Jt23UN_RsOh5NW2fcH8T27Rm0AQgBKQcABAPYE
+2018-10-15 17:43:12.311 INFO //获取返回信息22----------)：: {"list":[{"ref_date":"2018-10-14","user_source":0,"cumulate_user":429}]}
+2018-10-15 17:48:29.481 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=14_hCXLNhrxbY13LyCl2-_fduy3Ia3t8v2dPDjDLmZF4Jc12wSLFDGzW5jU-IAAqX0TY6FPtWJvVV6wu3mnHLctFR3k5SY2xm8Jt23UN_RsOh5NW2fcH8T27Rm0AQgBKQcABAPYE
+2018-10-15 17:48:30.059 INFO //获取返回信息22----------)：: {"list":[{"ref_date":"2018-10-14","user_source":0,"cumulate_user":429}]}
+2018-10-15 17:50:52.773 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=14_hCXLNhrxbY13LyCl2-_fduy3Ia3t8v2dPDjDLmZF4Jc12wSLFDGzW5jU-IAAqX0TY6FPtWJvVV6wu3mnHLctFR3k5SY2xm8Jt23UN_RsOh5NW2fcH8T27Rm0AQgBKQcABAPYE
+2018-10-15 17:50:53.332 INFO //获取返回信息22----------)：: {"list":[{"ref_date":"2018-10-14","user_source":0,"cumulate_user":429}]}
+2018-10-15 17:51:00.639 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=14_hCXLNhrxbY13LyCl2-_fduy3Ia3t8v2dPDjDLmZF4Jc12wSLFDGzW5jU-IAAqX0TY6FPtWJvVV6wu3mnHLctFR3k5SY2xm8Jt23UN_RsOh5NW2fcH8T27Rm0AQgBKQcABAPYE
+2018-10-15 17:51:00.790 INFO //获取返回信息22----------)：: {"list":[{"ref_date":"2018-10-14","user_source":0,"cumulate_user":429}]}

@@ -1,0 +1,29 @@
+2018-11-28 09:01:29.434 DEBUG WxPayApi: Refund request : <xml><amount>100</amount><check_name><![CDATA[NO_CHECK]]></check_name><desc><![CDATA[奖金提现！]]></desc><mch_appid><![CDATA[wx41bd9e5d7867ad93]]></mch_appid><mchid><![CDATA[1375851902]]></mchid><nonce_str><![CDATA[924a84e2f590481a98569431b8eaf1f9]]></nonce_str><openid><![CDATA[oQQLEw9kDkPsA4vfWbus-Nl9akjQ]]></openid><partner_trade_no><![CDATA[137585190220181128090128390]]></partner_trade_no><sign><![CDATA[3A71DF51EA19508FBB4B93A2967B21E9]]></sign><spbill_create_ip><![CDATA[127.0.0.1]]></spbill_create_ip></xml>
+2018-11-28 09:01:31.058 DEBUG WxPayApi: PostXml used cert
+2018-11-28 09:01:34.668 DEBUG WxPayApi: Refund response : <xml>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[]]></return_msg>
+<mch_appid><![CDATA[wx41bd9e5d7867ad93]]></mch_appid>
+<mchid><![CDATA[1375851902]]></mchid>
+<nonce_str><![CDATA[924a84e2f590481a98569431b8eaf1f9]]></nonce_str>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<partner_trade_no><![CDATA[137585190220181128090128390]]></partner_trade_no>
+<payment_no><![CDATA[1375851902201811281257842597]]></payment_no>
+<payment_time><![CDATA[2018-11-28 09:01:35]]></payment_time>
+</xml>
+2018-11-28 09:01:34.691 INFO Refund: Refund process complete, result : <xml><mch_appid><![CDATA[wx41bd9e5d7867ad93]]></mch_appid><mchid><![CDATA[1375851902]]></mchid><nonce_str><![CDATA[924a84e2f590481a98569431b8eaf1f9]]></nonce_str><partner_trade_no><![CDATA[137585190220181128090128390]]></partner_trade_no><payment_no><![CDATA[1375851902201811281257842597]]></payment_no><payment_time><![CDATA[2018-11-28 09:01:35]]></payment_time><result_code><![CDATA[SUCCESS]]></result_code><return_code><![CDATA[SUCCESS]]></return_code><return_msg><![CDATA[]]></return_msg></xml>
+2018-11-28 09:24:40.743 DEBUG WxPayApi: Refund request : <xml><amount>100</amount><check_name><![CDATA[NO_CHECK]]></check_name><desc><![CDATA[奖金提现！]]></desc><mch_appid><![CDATA[wx41bd9e5d7867ad93]]></mch_appid><mchid><![CDATA[1375851902]]></mchid><nonce_str><![CDATA[1b49146bd8ea4903a5d56b051d78c510]]></nonce_str><openid><![CDATA[oQQLEw9kDkPsA4vfWbus-Nl9akjQ]]></openid><partner_trade_no><![CDATA[137585190220181128092440177]]></partner_trade_no><sign><![CDATA[672DEA455337ABF9C4BD74ACC5DDEE2B]]></sign><spbill_create_ip><![CDATA[127.0.0.1]]></spbill_create_ip></xml>
+2018-11-28 09:24:40.835 DEBUG WxPayApi: PostXml used cert
+2018-11-28 09:24:42.599 DEBUG WxPayApi: Refund response : <xml>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[]]></return_msg>
+<mch_appid><![CDATA[wx41bd9e5d7867ad93]]></mch_appid>
+<mchid><![CDATA[1375851902]]></mchid>
+<nonce_str><![CDATA[1b49146bd8ea4903a5d56b051d78c510]]></nonce_str>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<partner_trade_no><![CDATA[137585190220181128092440177]]></partner_trade_no>
+<payment_no><![CDATA[1375851902201811281226887111]]></payment_no>
+<payment_time><![CDATA[2018-11-28 09:24:42]]></payment_time>
+</xml>
+2018-11-28 09:24:42.714 INFO Refund: Refund process complete, result : <xml><mch_appid><![CDATA[wx41bd9e5d7867ad93]]></mch_appid><mchid><![CDATA[1375851902]]></mchid><nonce_str><![CDATA[1b49146bd8ea4903a5d56b051d78c510]]></nonce_str><partner_trade_no><![CDATA[137585190220181128092440177]]></partner_trade_no><payment_no><![CDATA[1375851902201811281226887111]]></payment_no><payment_time><![CDATA[2018-11-28 09:24:42]]></payment_time><result_code><![CDATA[SUCCESS]]></result_code><return_code><![CDATA[SUCCESS]]></return_code><return_msg><![CDATA[]]></return_msg></xml>
+2018-11-28 20:21:29.349 INFO newhead报错信息：: 正在中止线程。

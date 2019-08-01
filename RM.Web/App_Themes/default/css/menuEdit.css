@@ -1,0 +1,426 @@
+﻿
+@import "Total.css";
+*{box-sizing: inherit;}
+
+body{background-color: #eee}
+
+#SetUseName{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: rgba(0,0,0,.5);
+	color: white;
+	z-index: 110;
+	color: #fff;
+	border-radius: 4px;
+	padding: 16px 22px;
+	max-width: 200px;
+	line-height: 1.5em;
+	display: none;
+}
+
+
+.meEdit{
+	font-family: "微软雅黑";
+	width: 1200px;
+	background-color: #fff;
+	margin: 0 auto;
+	box-sizing: border-box;
+    height: 100%;
+    border-left: 1px solid #e3e3e3;
+    border-right: 1px solid #e3e3e3;
+}
+.meEdit h2{
+	height: 80px;
+	line-height: 80px;
+	overflow: hidden;
+	font-size: 1rem;
+	padding: 0 30px;
+}
+.meEdit h2 b{float: left;}
+.meEdit h2 span{float: right; font-size: 14px; cursor: pointer;}
+.meEdit h2 span:after{
+	content: "\e939";
+	font-family: 'icomoon';
+	color: #999;
+	margin-right: 2px;
+	font-size: 18px;
+	float: left;
+}
+
+
+.meEdit .meCare{
+	line-height: 40px;
+	background-color: #f6f6f6;
+	border-top: 1px solid #e3e3e3;
+	position: relative;
+	padding: 20px 30px 20px 80px;
+}
+.meEdit .meCare:before{
+	content: "\e93c";
+	font-family: 'icomoon';
+	font-size: 44px;
+	position: absolute;
+	color: #44B548;
+	top: 20px;
+	left: 30px;
+}
+.meEdit .meCare span{display: block; line-height: 20px; font-size: 14px;}
+.meEdit .meCare span + span{color: #999; }
+.meEdit .meCare span a{color: #44B548}
+
+
+.meEdit .meMain{padding: 30px; position: relative;}
+.meEdit .meMain .phase{
+	float: left; 
+	width: 322px; 
+	border: 1px solid #e3e3e3;
+	overflow: hidden;
+	position: relative; 
+	height: 560px;
+}
+
+
+.meEdit .meMain .ph_head{
+	background: url("/App_Themes/default/images/bg_mobile_head.png") no-repeat;
+	height: 64px;
+	color: #fff;
+	padding-top: 31px;
+}
+.meEdit .meMain .ph_head b{
+	display: block;
+	text-align: center;
+}
+.meEdit .meMain .ph_foot{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	border-top: 1px solid #e3e3e3;
+	background-color: #fafafa;
+	cursor: pointer;
+}
+.meEdit .meMain .ph_foot .keybord{
+	float: left; 
+	width: 42px; 
+	height: 50px;
+	border-right: 1px solid #e3e3e3;
+	cursor: pointer;
+	background: url("/App_Themes/default/images/bg_mobile_foot.png") no-repeat;
+}
+.meEdit .meMain .ph_foot .phfoNav{
+	float: left; 
+	width: 278px;
+	display: flex;
+}
+.meEdit .meMain .ph_foot .phfoNav li{
+	font-size: 14px;
+	text-align: center;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	border: 1px solid transparent;
+	position: relative;
+}
+.meEdit .meMain .ph_foot .phfoNav li + li{border-left-color: #e3e3e3}
+.meEdit .meMain .ph_foot .phfoNav li b{position: relative; padding-left: 20px;}    
+.meEdit .meMain .ph_foot .phfoNav li b:before{
+	font-family: 'icomoon';
+	content: "\e918";
+	font-size: 18px;
+	color: #999;
+	position: absolute;
+	top: 1px;
+	left: 0;
+	line-height: 1;
+}
+.meEdit .meMain .ph_foot .phfoNav li.icon-plus{
+	display: block; 
+	width: 100%; 
+	font-size: 20px;
+	color: #999;
+	text-align: center;
+	line-height: 50px;
+}
+.meEdit .meMain .ph_foot .phfoNav li .subNav{
+	position: absolute;
+	bottom: 50px;
+	left: -1px;
+	width: calc(100% + 2px); 
+	padding-bottom: 20px;
+	display: none;
+}
+.meEdit .meMain .ph_foot .phfoNav li a{
+	background-color: #fafafa;
+	font-size: 14px;
+	color: #999;
+	line-height: 50px;
+    height: 50px;
+	display: block;
+	border: 1px solid #e3e3e3;
+}
+.meEdit .meMain .ph_foot .phfoNav li a.curr{border: 1px solid #44B548; background-color: #44B548; color: #fff}
+.meEdit .meMain .ph_foot .phfoNav li a + a{border-top: none;}
+.meEdit .meMain .ph_foot .phfoNav li .icon-plus:before{font-size: 20px;}
+.meEdit .meMain .ph_foot .phfoNav li .icon-plus:after{
+	content: "";
+	width: 12px;
+	height: 12px;
+	border-left: 1px solid #e3e3e3;
+	border-bottom: 1px solid #e3e3e3;
+	transform: rotate(-45deg);
+	position: absolute;
+	bottom: 14px;
+	left: 50%;
+	background-color: #fafafa;
+	margin-left: -6px;
+
+}
+.meEdit .meMain .ph_foot .phfoNav li.active{border: 1px solid #44B548; color: #44B548}
+.meEdit .meMain .ph_foot .phfoNav li.active b:before{color: #44B548}
+.meEdit .meMain .ph_foot .phfoNav li.active .subNav{display: block;}
+
+
+.phtip{
+	position: absolute;
+	top: 240px;
+	left: 630px;
+	width: 300px;
+	text-align: center;
+	color: #999;
+	font-size: 14px;
+}
+
+
+.meEdit .survey{
+	float: right; 
+	width: 780px; 
+	height: 560px; 
+	position: relative;
+	border: 1px solid #e3e3e3;
+	background-color: #f6f6f6; 
+	padding: 0 20px; 
+	display: none;
+}
+
+
+.meEdit .survey:before{
+	content: "";
+	width: 20px;
+	height: 20px;
+	border-left: 1px solid #e3e3e3;
+	border-bottom: 1px solid #e3e3e3;
+	transform: rotate(45deg);
+	position: absolute;
+	bottom: 50px;
+	left: -11px;
+	background-color: #f6f6f6;
+}
+
+.meEdit .survey h4{
+	height: 50px;
+	line-height: 50px;
+	overflow: hidden;
+	border-bottom: 1px solid #e3e3e3;
+}
+.meEdit .survey h4 b{float: left;}
+.meEdit .survey h4 span{float: right; cursor: pointer; font-size: 14px; color: #6AB2ED}
+
+
+.meEdit .survey .sm{height: 30px; line-height: 40px; color: #999; font-size: 14px;}
+
+.meEdit .survey .surList{font-size: 14px;}
+.meEdit .survey .surList .surSon{padding-top: 30px; overflow: hidden; line-height: 32px;}
+.meEdit .survey .surList .surSon .fill{ float: left;}
+.meEdit .survey .surList .surSon .fill + span{margin-left: 20px;  float: left; }
+.meEdit .survey .surList .surSon .fill + span i{
+	color: #999;
+	display: block;
+	font-size: 13px;
+}
+.meEdit .survey .surList .surSon .fill + span input{
+	background-color: #fff;
+	display: block;
+	width: 500px;
+	border: 1px solid #eee;
+	box-sizing: content-box;
+	font-size: 14px;
+	padding: 5px 10px;
+	color: #737373;
+}
+.meEdit .survey .surList .surSon .fill + span a{float: left; position: relative; padding-left: 22px;}
+.meEdit .survey .surList .surSon .fill + span a + a{margin-left: 18px;}
+.meEdit .survey .surList .surSon .fill + span a:before{
+	content: "";
+	width: 16px;
+	height: 16px;
+	border-radius: 16px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	position: absolute;
+	top: 7px;
+	left: 0;
+}
+.meEdit .survey .surList .surSon .fill + span a.active:before{background-color: #f6f6f6;}
+.meEdit .survey .surList .surSon .fill + span a.active:after{
+	content: "";
+	width: 8px;
+	height: 8px;
+	border-radius: 8px;
+	background-color: #666;
+	position: absolute;
+	top: 11px;
+	left: 4px;
+}
+
+.meEdit .surList .desCxt{
+	/*border: 1px solid #e3e3e3;
+	background-color: #fff;*/
+}
+.meEdit .surList .desCxt li{
+	background-color: #fff; 
+	padding: 14px 20px; 
+	border: 1px solid #e3e3e3;
+	display: none;
+	border-radius: 2px;
+	line-height: 30px;
+}
+.meEdit .surList .desCxt li .tt{color: #999;}
+.meEdit .surList .desCxt li .ctx_form{overflow: hidden; margin: 6px 0}
+.meEdit .surList .desCxt li .ctx_form dd{overflow: hidden;}
+.meEdit .surList .desCxt li .ctx_form dd + dd{margin-top: 10px;}
+
+.meEdit .surList .desCxt li .ctx_form label{float: left;}
+.meEdit .surList .desCxt li .ctx_form input{
+	background-color: #fff;
+	width: 500px;
+	border: 1px solid #eee;
+	box-sizing: content-box;
+	font-size: 14px;
+	padding: 5px 10px;
+	float: left;
+	margin-left: 20px;
+	color: #737373;
+}
+.meEdit .surList .desCxt li .ctx_form a.swap{display: block; padding-left: 80px; color: #6AB2ED;}
+.meEdit .surList .desCxt li .ctx_form i.swap{display: block; padding-left: 64px; color: #999;}
+.meEdit .surList .desCxt li .ctx_form .icon-close{
+	float: left;
+	font-size: 22px;
+	line-height: 32px;
+	width: 30px;
+	text-align: center;
+	margin-left: 10px;
+	color: #999;
+	cursor: pointer;
+	display: none;
+}
+.meEdit .surList .desCxt li .ctx_form dd:hover .icon-close{display: block;}
+
+.meEdit .surList .desCxt li textarea{height: 100px; font-size: 14px; color: #737373;}
+
+
+.meEdit .phBtn{padding: 20px 30px; overflow: hidden; display: none;}
+.meEdit .phBtn a{
+	display: block;
+	width: 100px;
+	height: 36px;
+	margin: 0 auto;
+	line-height: 36px;
+	border-radius: 4px;
+	text-align: center;
+	font-size: 14px;
+	color: #666;
+	border: 1px solid #e3e3e3;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+.meEdit .phBtn a.active{background-color: #44B548; color: #fff; border: none;}
+
+
+
+/*弹出层 - 删除*/
+	.delAlert{
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0,0,0,.6);
+		display: none;
+	}
+	.delAlert .delAlr{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		-webkit-transform: translate(-50%, -50%);
+		background-color: #fff;
+		width: 720px;
+		border-radius: 4px;
+		overflow: hidden;
+		box-shadow: 4px 4px 14px rgba(0,0,0,.3);
+	}
+	.delAlert .delAlr h3{
+		height: 54px;
+		line-height: 54px;
+		background-color: #f6f6f6;
+		padding: 0 14px 0 30px;
+		font-size: 1rem;
+		cursor: pointer;
+	}
+	.delAlert .delAlr h3:after{
+		float: right;
+		content: "\e973";
+		font-family: 'icomoon';
+		font-size: 24px;
+		color: #999;
+	}
+
+	.delAlert .delAlr .delText{padding: 70px; min-height: 240px;}
+	    
+	.delAlert .delAlr .delText div{width: 400px; margin: 0 auto; padding-left: 54px; font-size: 14px; position: relative;}
+	.delAlert .delAlr .delText div:before{
+		content: "\e93c";
+	    font-family: 'icomoon';
+	    font-size: 48px;
+	    position: absolute;
+	    color: #44B548;
+	    top: 0;
+	    left: 0;
+	}
+	.delAlert .delAlr .delText b{display: block; line-height: 24px}
+	.delAlert .delAlr .delText span{display: block; color: #999; line-height: 24px}
+
+	.delAlert .delAlr .delBtn{
+		height: 30px; 
+		line-height: 30px;
+		padding: 20px 30px;
+		display: flex;
+		display: -webkit-flex;
+		display: -moz-flex;
+		align-items: center;
+		justify-content: center;
+		background-color: #f6f6f6;
+		box-sizing: content-box;
+	}
+	.delAlert .delAlr .delBtn a{
+		width: 100px; 
+		text-align: center; 
+		color: #333; 
+		border: 1px solid #ccc; 
+		box-sizing: border-box;
+		border-radius: 4px;
+	}
+	.delAlert .delAlr .delBtn a:hover{background-color: #eee}
+	.delAlert .delAlr .delBtn a.active{
+		background-color: #44B548; 
+		border: 1px solid #44B548; 
+		color: white; 
+		margin-right: 10px;
+	}
+	.delAlert .delAlr .delBtn a.active:hover{background-color: #2C9735; border: 1px solid #2C9735; }
+
+
+

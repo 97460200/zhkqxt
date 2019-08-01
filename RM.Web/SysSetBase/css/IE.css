@@ -1,0 +1,55 @@
+﻿
+
+.button{ line-height: 28px;}
+.wdyhd div span{line-height: 26px;}
+.wdyhd div a{ line-height: 28px}
+
+
+/*客房设置*/
+.gtrm .gmNav{line-height: 48px;}
+.gtrm .gmNav a.active:after {bottom: 4px;}
+.gmkf .gmkfStion .evDayhd div b{line-height: 28px;}
+.gmkf .gmkfStion .daytable .dz{ line-height: 20px;}
+.gmkf .gmkfStion .daytable .currInfo span small.star:before{ line-height: 16px;}
+
+
+
+/*积分设置*/
+.points .poCfgList li .icon-radio6,
+.points .poConfig label:before{ line-height: 28px;}
+
+
+
+/*会员设置*/
+.memr .mrNav{line-height: 48px;}
+.memr .mrNav a.active:after {bottom: 4px;}
+.memr .memrList li td label:before{ line-height: 18px;}
+
+
+/*生日设置*/
+.brhy .byfig label:before{ line-height: 44px;}
+.brhy .even b:before,
+.brhy .odd span:before{ line-height:18px;}
+
+
+
+
+
+/*微信设置*/
+.WX .WXnav{line-height: 48px;}
+.WX .WXnav a.active:after {bottom: 4px;}
+.WX .tx{line-height: 14px;}
+.WX .wxfig label:before{ line-height: 28px; font-size: 14px;}
+.WX .noteList span{ line-height: 26px;}
+
+.Alert .repdd .reptype span:before{line-height: 29px;}
+.Alert .repdd .reptype span,
+.Alert .repdd b{ line-height: 32px;}
+
+
+
+
+
+/*支付设置*/
+.pay .tx{line-height: 52px;}
+.pay .pyList .pytype span:before{ line-height: 37px;}

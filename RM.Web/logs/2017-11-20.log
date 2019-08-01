@@ -1,0 +1,26 @@
+2017-11-20 11:19:03.983 INFO 错误页3: 3
+2017-11-20 11:19:03.985 INFO 错误页4: 4
+2017-11-20 11:19:11.447 INFO 错误页3: 3
+2017-11-20 11:19:11.448 INFO 错误页4: 4
+2017-11-20 11:19:47.364 INFO 错误页4: 4
+2017-11-20 11:20:02.320 INFO 错误页4: 4
+2017-11-20 11:20:18.375 INFO 错误页4: 4
+2017-11-20 11:20:38.146 INFO 错误页3: 3
+2017-11-20 11:20:38.148 INFO 错误页4: 4
+2017-11-20 11:30:32.988 INFO 错误页3: 3
+2017-11-20 11:30:33.007 INFO 错误页4: 4
+2017-11-20 11:30:47.501 INFO 错误页3: 3
+2017-11-20 11:30:47.513 INFO 错误页4: 4
+2017-11-20 14:44:56.974 INFO 错误页2: SELECT (SELECT TOP 1 id FROM dbo.Hotel WHERE Hotel.AdminHotelid=@AdminHotelid)hotelid,Hotel_Admin.type,
+                     (SELECT type FROM Stylesheet WHERE IsAuxiliary=0 AND Stylesheet.id=dbo.Hotel_Admin.Stylesheet_ID)typecss,
+                     (SELECT type FROM Stylesheet WHERE IsAuxiliary=1 AND Stylesheet.id=dbo.Hotel_Admin.Complex_stylecss)Complex_stylecss, 
+                     state,openid FROM dbo.Hotel_Admin where Hotel_Admin.AdminHotelid=@AdminHotelid
+2017-11-20 14:44:56.977 INFO 报错信息：: 文件“E:\刘航\酒店模板\c程序文件\RM.Web\logs\2017-11-20.log”正由另一进程使用，因此该进程无法访问此文件。
+2017-11-20 14:46:41.420 INFO 错误页2: SELECT (SELECT TOP 1 id FROM dbo.Hotel WHERE Hotel.AdminHotelid=@AdminHotelid)hotelid,Hotel_Admin.type,
+                     (SELECT type FROM Stylesheet WHERE IsAuxiliary=0 AND Stylesheet.id=dbo.Hotel_Admin.Stylesheet_ID)typecss,
+                     (SELECT type FROM Stylesheet WHERE IsAuxiliary=1 AND Stylesheet.id=dbo.Hotel_Admin.Complex_stylecss)Complex_stylecss, 
+                     state,openid FROM dbo.Hotel_Admin where Hotel_Admin.AdminHotelid=@AdminHotelid
+2017-11-20 14:46:41.681 INFO 错误页2: SELECT (SELECT TOP 1 id FROM dbo.Hotel WHERE Hotel.AdminHotelid=@AdminHotelid)hotelid,Hotel_Admin.type,
+                     (SELECT type FROM Stylesheet WHERE IsAuxiliary=0 AND Stylesheet.id=dbo.Hotel_Admin.Stylesheet_ID)typecss,
+                     (SELECT type FROM Stylesheet WHERE IsAuxiliary=1 AND Stylesheet.id=dbo.Hotel_Admin.Complex_stylecss)Complex_stylecss, 
+                     state,openid FROM dbo.Hotel_Admin where Hotel_Admin.AdminHotelid=@AdminHotelid

@@ -1,0 +1,12 @@
+2018-03-14 14:52:13.450 INFO 错误页2: SELECT (SELECT TOP 1 id FROM dbo.Hotel WHERE Hotel.AdminHotelid=@AdminHotelid)hotelid,Hotel_Admin.type,
+                     (SELECT type FROM Stylesheet WHERE IsAuxiliary=0 AND Stylesheet.id=dbo.Hotel_Admin.Stylesheet_ID)typecss,
+                     (SELECT type FROM Stylesheet WHERE IsAuxiliary=1 AND Stylesheet.id=dbo.Hotel_Admin.Complex_stylecss)Complex_stylecss, 
+                     state,openid,Default_color FROM dbo.Hotel_Admin where Hotel_Admin.AdminHotelid=@AdminHotelid
+2018-03-14 14:53:14.578 INFO 错误页2: SELECT (SELECT TOP 1 id FROM dbo.Hotel WHERE Hotel.AdminHotelid=@AdminHotelid)hotelid,Hotel_Admin.type,
+                     (SELECT type FROM Stylesheet WHERE IsAuxiliary=0 AND Stylesheet.id=dbo.Hotel_Admin.Stylesheet_ID)typecss,
+                     (SELECT type FROM Stylesheet WHERE IsAuxiliary=1 AND Stylesheet.id=dbo.Hotel_Admin.Complex_stylecss)Complex_stylecss, 
+                     state,openid,Default_color FROM dbo.Hotel_Admin where Hotel_Admin.AdminHotelid=@AdminHotelid
+2018-03-14 15:09:18.101 INFO 错误页2: SELECT (SELECT TOP 1 id FROM dbo.Hotel WHERE Hotel.AdminHotelid=@AdminHotelid)hotelid,Hotel_Admin.type,
+                     (SELECT type FROM Stylesheet WHERE IsAuxiliary=0 AND Stylesheet.id=dbo.Hotel_Admin.Stylesheet_ID)typecss,
+                     (SELECT type FROM Stylesheet WHERE IsAuxiliary=1 AND Stylesheet.id=dbo.Hotel_Admin.Complex_stylecss)Complex_stylecss, 
+                     state,openid,Default_color FROM dbo.Hotel_Admin where Hotel_Admin.AdminHotelid=@AdminHotelid

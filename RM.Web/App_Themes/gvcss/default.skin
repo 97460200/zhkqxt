@@ -1,0 +1,17 @@
+﻿ <asp:GridView runat="server" AutoGenerateColumns="False" CellPadding="4" Width="100%" ForeColor="#333333" GridLines="None"  BorderWidth="0" EmptyDataText="没有可显示的数据记录。">
+          
+            <FooterStyle BackColor="#000FFF" ForeColor="Black" Font-Bold="True" />
+
+            <SelectedRowStyle BackColor="#eee" Font-Bold="True" ForeColor="#333333" />
+           
+            <PagerStyle BackColor="White" ForeColor="Black" HorizontalAlign="Center" />
+            <HeaderStyle CssClass="headerTitle"/>     
+      
+      <RowStyle BackColor="#FFFFFF" ForeColor="#000000" />
+                        <EditRowStyle BackColor="#999999" />
+                        <AlternatingRowStyle BackColor="#eee" ForeColor="#000000" />
+        </asp:GridView>
+        
+<asp:Button runat="server" CssClass="button_input_out"></asp:Button>
+
+<asp:TextBox runat="server" CssClass="inputTxb"></asp:TextBox> 

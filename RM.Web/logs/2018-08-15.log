@@ -1,0 +1,46 @@
+2018-08-15 08:47:01.240 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=
+2018-08-15 08:47:01.785 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [OCDM900224696!]"}
+2018-08-15 08:47:46.793 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=
+2018-08-15 08:47:46.842 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [YHR6cA0067c442!]"}
+2018-08-15 08:47:47.176 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=
+2018-08-15 08:47:47.228 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [6iRR3a00688050!]"}
+2018-08-15 08:47:47.438 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=
+2018-08-15 08:47:47.493 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [4jqhBa00684682!]"}
+2018-08-15 08:47:47.785 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=
+2018-08-15 08:47:47.837 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [jMe5tA00681527!]"}
+2018-08-15 08:47:48.150 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=
+2018-08-15 08:47:48.195 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [fcxUXa00691527!]"}
+2018-08-15 08:47:48.527 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=
+2018-08-15 08:47:48.569 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [sj0EQA00694696!]"}
+2018-08-15 08:47:48.810 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=
+2018-08-15 08:47:48.850 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [H9Fmna00694142!]"}
+2018-08-15 08:47:49.034 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=
+2018-08-15 08:47:49.085 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [I.uGFa00704696!]"}
+2018-08-15 09:54:58.723 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=12_j4F3i82JunqykD5DXo1l-JjD7GzWVl-n5ktelTrj7d49P9MaMePU7DNP3L9_RM6EIcvSq8YNzeq0nYWDaiNJZ8KPrPJoSc0eTq1TzRhk4UK2xjGRJ2bBPo0uyzSwni5Puwwp68XRXsA_YSL6GXTdAIARIE
+2018-08-15 09:54:59.411 INFO //获取返回信息22----------)：: {"errcode":0,"errmsg":"ok","msgid":414495036571533314}
+2018-08-15 09:55:09.460 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=12_PEdC_9mRS5CmhY2BXo1l-JjD7GzWVl-n5ktelTrj7d49P9MaMePU7DNP3L_gPYJWfwkVkfqugicvM1-gTIrqUfnTppH2VfUVlyDne7oFxgjTI-qHms6tq3AkO05IIKYy69LKbIySYhCZ0V3vFWUdAIALCA
+2018-08-15 09:55:09.834 INFO //获取返回信息22----------)：: {"errcode":0,"errmsg":"ok","msgid":414495212497600512}
+2018-08-15 09:55:11.469 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=12_xxVZ3srCjr9LPxPDXo1l-JjD7GzWVl-n5ktelTrj7d49P9MaMePU7DNP3L96bavNV-J6tbV7Ju-JWl30mDD5Sn9TOoHcjcHfax_xpHtuiJGmwjxtW5D7D8iGlQdXg_RvBZHGXf5eovqIkm25SNVdAIAAVD
+2018-08-15 09:55:11.786 INFO //获取返回信息22----------)：: {"errcode":0,"errmsg":"ok","msgid":414495245481410560}
+2018-08-15 09:55:12.805 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=12_Jz_0M54XvyFhrNAUXo1l-JjD7GzWVl-n5ktelTrj7d49P9MaMePU7DNP3L8itb0bx0LAN87O9O3KFRAxKg2noYS9KS1iIHDIAsg9KlTP1lYMIQPKaFzBhaYtfo3_-QaAtGvNPfjtukzGaE7NERYdAIAANU
+2018-08-15 09:55:13.129 INFO //获取返回信息22----------)：: {"errcode":0,"errmsg":"ok","msgid":414495267744743425}
+2018-08-15 09:55:16.629 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=12_6GXMvtOPgeD9BAhIXo1l-JjD7GzWVl-n5ktelTrj7d49P9MaMePU7DNP3L_X_KiBV9J6vk1ndFaN3pLcYr03SkemzjkM8fqAvdQXOvd8IkDZltAWBoAv-KeyF8e5ZMXIaLXdXTBKghYhKKvxBEBdAIAGJG
+2018-08-15 09:55:16.970 INFO //获取返回信息22----------)：: {"errcode":0,"errmsg":"ok","msgid":414495332135747588}
+2018-08-15 09:55:17.121 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=12_EPsluYOa0SNyBSbRXo1l-JjD7GzWVl-n5ktelTrj7d49P9MaMePU7DNP3L8beKk9yRxAl00yBV8XMEKi3XZsrVP6s65VPXgJ-eY-UjyPKkZoeSbne83iGvh1yPWPWvgu14KfVL_fdW4abH2pBUNdAIAEXQ
+2018-08-15 09:55:17.474 INFO //获取返回信息22----------)：: {"errcode":0,"errmsg":"ok","msgid":414495340608421891}
+2018-08-15 09:55:17.644 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=12_Yh0evgfalVFcrum9Xo1l-JjD7GzWVl-n5ktelTrj7d49P9MaMePU7DNP3L8-fz1d93Ya7rKb8iZ7PAQxttC7TBGDPI2KBiDxIhYaUxw0THK8lg7Jion_3LFltvzMy_Z-WVpzUbDwbS_VXOKcIWWdAIAUII
+2018-08-15 09:55:19.122 INFO //获取返回信息22----------)：: {"errcode":43004,"errmsg":"require subscribe hint: [Z01204125]"}
+2018-08-15 09:56:42.772 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=12_e3xgE03TI1SDxuQuunZNCBU0-P7e0-cyq38L3VE3IoxHDaRpD3RNcRWI6n7poqfpyTnCT9z17gnOc1Eu2ikUBLMzIY0DP_pPvLri-ugqA8h7od-1RawpB2p8ihAJHIeAHAPNO
+2018-08-15 09:56:46.615 INFO //获取返回信息22----------)：: {"errcode":0,"errmsg":"ok","msgid":414496788364541953}
+2018-08-15 10:12:50.385 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=12_xEC6jxAy45_Nx2jN7Yz3UUIeklRMSaMNdrd8acPrR-LlN7if3zgBhK2Bf9T1ticuk9vSR8q2yJ5vL0ryl6Tp935VreCHwlT8nHCf6aPxKy3xR-T00rvLpgOAkZclshxVJCiaE1YteJiqblb-PXSaAGADLG
+2018-08-15 10:12:51.132 INFO //获取返回信息22----------)：: {"list":[{"ref_date":"2018-08-14","user_source":0,"cumulate_user":170}]}
+2018-08-15 10:39:34.856 INFO 错误页3: 3
+2018-08-15 10:46:21.259 INFO 错误页3: 3
+2018-08-15 16:56:46.143 INFO 错误页3: 3
+2018-08-15 16:56:46.184 INFO 错误页4: 4
+2018-08-15 17:02:58.174 INFO 错误页3: 3
+2018-08-15 17:02:58.179 INFO 错误页4: 4
+2018-08-15 17:03:15.634 INFO 错误页3: 3
+2018-08-15 17:03:15.635 INFO 错误页4: 4
+2018-08-15 17:04:36.206 INFO 酒店客房报错信息: System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 RM.Web.Reservation.Gethotel.GetHotelDetailsList(HttpContext context) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\Reservation\Gethotel.ashx.cs:行号 488

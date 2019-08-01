@@ -1,0 +1,67 @@
+2018-09-13 10:16:37.220 INFO 错误页3: 3
+2018-09-13 10:16:37.270 INFO newhead报错信息：: 正在中止线程。
+2018-09-13 10:17:46.223 INFO 错误页3: 3
+2018-09-13 10:17:46.224 INFO newhead报错信息：: 正在中止线程。
+2018-09-13 10:17:47.740 ERROR openid: 111
+2018-09-13 10:17:47.741 ERROR Setopenid: 
+2018-09-13 10:17:47.741 ERROR AdminHotelid: 1002047
+2018-09-13 10:17:47.742 ERROR Hotelid: 0
+2018-09-13 10:17:47.765 DEBUG 公众账号ID公众账号ID: wx697b8e3261212043
+2018-09-13 10:17:47.765 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx697b8e3261212043]]></appid><attach><![CDATA[HYK20180913101747415,1002047,注册购买会员卡,,99]]></attach><body><![CDATA[注册购买会员卡，订单编号：HYK20180913101747415]]></body><goods_tag><![CDATA[test]]></goods_tag><mch_id><![CDATA[1510057021]]></mch_id><nonce_str><![CDATA[62023b6feb944eb6ace4a17e32361bea]]></nonce_str><notify_url><![CDATA[http://www.zidinn.com/Reservation/ResultNotifyPage.aspx?AdminHotelid=1002047&Hotelid=0]]></notify_url><openid><![CDATA[111]]></openid><out_trade_no><![CDATA[HYK20180913101747415]]></out_trade_no><sign><![CDATA[AA115EDE79AE72822225336F8D7A2C88]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20180913102747]]></time_expire><time_start><![CDATA[20180913101747]]></time_start><total_fee>0</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2018-09-13 10:17:48.687 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[FAIL]]></return_code>
+<return_msg><![CDATA[invalid total_fee]]></return_msg>
+</xml>
+2018-09-13 10:17:48.689 ERROR RM.Web.business.JsApiPay: UnifiedOrder response error!
+2018-09-13 10:17:48.814 INFO 注册购买会员卡报错: RM.Web.Lib.WxPayException: UnifiedOrder response error!
+   在 RM.Web.business.JsApiPay.GetUnifiedOrderResult(String AdminHotelid, String Setopenid, Int32 Hotelid) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\business\JsApiPay.cs:行号 197
+   在 RM.Web.Members.Register.Page_Load(Object sender, EventArgs e) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\Members\Register.aspx.cs:行号 112
+2018-09-13 15:46:14.596 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-09-13 15:46:15.103 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [..N.fA07791504]"}
+2018-09-13 15:47:06.254 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-09-13 15:47:06.359 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [yU1TLA08301556]"}
+2018-09-13 15:58:52.610 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-09-13 15:58:53.031 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [pl2yTA05371487]"}
+2018-09-13 16:00:57.357 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-09-13 16:00:57.795 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [HY554a06611487]"}
+2018-09-13 16:04:08.069 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-09-13 16:04:08.515 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [1BjjMA08521487]"}
+2018-09-13 16:04:43.094 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-09-13 16:04:43.214 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [JKD7NA08871504]"}
+2018-09-13 16:35:01.400 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-09-13 16:35:01.851 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [h07051556]"}
+2018-09-13 16:35:52.594 INFO 奖金列表报错信息: System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.Convert.ToDateTime(String value)
+   在 RM.Web.Melt.Getdeal.GetAgentHotelList(HttpContext c) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\Melt\Getdeal.ashx.cs:行号 699
+2018-09-13 16:36:05.932 INFO 奖金列表报错信息: System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.Convert.ToDateTime(String value)
+   在 RM.Web.Melt.Getdeal.GetAgentHotelList(HttpContext c) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\Melt\Getdeal.ashx.cs:行号 699
+2018-09-13 16:37:18.099 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-09-13 16:37:18.542 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [gEDasA08421556]"}
+2018-09-13 16:39:07.097 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-09-13 16:39:07.515 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [vK2IaA09511504]"}
+2018-09-13 16:41:42.416 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-09-13 16:41:42.843 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [LOE_bA01061504]"}
+2018-09-13 17:11:38.323 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-09-13 17:11:38.775 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [i2quPA09021504]"}
+2018-09-13 17:17:34.590 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-09-13 17:17:35.044 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [xS0jga02591487]"}
+2018-09-13 17:30:05.401 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-09-13 17:30:05.837 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [TnmeWa00091556]"}
+2018-09-13 17:30:52.937 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-09-13 17:30:53.044 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [b_ItAA00571556]"}
+2018-09-13 17:36:15.032 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-09-13 17:36:15.475 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [6ltQqa03791504]"}
+2018-09-13 17:37:19.975 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-09-13 17:37:20.115 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [d89Lga04441556]"}
+2018-09-13 17:40:02.856 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-09-13 17:40:03.298 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [j_31ka06071504]"}
+2018-09-13 18:09:42.720 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-09-13 18:09:43.152 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [kUUgoA03871504]"}
+2018-09-13 18:50:48.133 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-09-13 18:50:48.550 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [ADmVZa08521556]"}
+2018-09-13 18:52:47.724 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-09-13 18:52:48.145 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [AjUAfa09721556]"}
+2018-09-13 18:53:17.618 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-09-13 18:53:17.753 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [EEfdEA00011504]"}

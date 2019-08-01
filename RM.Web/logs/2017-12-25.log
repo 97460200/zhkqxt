@@ -1,0 +1,188 @@
+2017-12-25 01:09:15.458 INFO lianj: https://dh.sewa-power.com/HotelCenter/list.aspx?AdminHotelid=1
+2017-12-25 08:03:41.355 INFO lianj: https://dh.sewa-power.com/Reservation/HotelDetails.aspx?AdminHotelid=SEWA004160&hotelid=37
+2017-12-25 09:07:18.371 INFO lianj: https://dh.sewa-power.com/HotelCenter/list.aspx?AdminHotelid=1
+2017-12-25 11:03:39.073 INFO lianj: https://dh.sewa-power.com/Members/MemberCantre.aspx?AdminHotelid=SEWA004160
+2017-12-25 11:20:42.292 INFO lianj: https://dh.sewa-power.com/Reservation/HotelDetails.aspx?AdminHotelid=SEWA004160&hotelid=37
+2017-12-25 11:21:08.144 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx30ea63b510813128]]></appid><attach><![CDATA[WX20171225112108021,SEWA004160,客房预定]]></attach><body><![CDATA[预定：测试房，订单编号：WX20171225112108021]]></body><goods_tag><![CDATA[test]]></goods_tag><mch_id><![CDATA[1491087592]]></mch_id><nonce_str><![CDATA[d78498cbc3644f9c894c71f52a2ba438]]></nonce_str><notify_url><![CDATA[http://dh.sewa-power.com/Reservation/ResultNotifyPage.aspx?AdminHotelid=SEWA004160]]></notify_url><openid><![CDATA[oodrFs1BGmEi7aofUx_bw4n_KvWs]]></openid><out_trade_no><![CDATA[WX20171225112108021]]></out_trade_no><sign><![CDATA[F8DAAF9DFA68D83A8413C9D3C45B8BEF]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20171225113108]]></time_expire><time_start><![CDATA[20171225112108]]></time_start><total_fee>100</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2017-12-25 11:21:08.414 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx30ea63b510813128]]></appid>
+<mch_id><![CDATA[1491087592]]></mch_id>
+<nonce_str><![CDATA[osjqeG2Kz4IzaIOS]]></nonce_str>
+<sign><![CDATA[2A93AED7747A5C055EE2AACC073BB9E4]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx201712251121104f28b580240531317080]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+2017-12-25 11:21:08.446 DEBUG RM.Web.business.JsApiPay: Get jsApiParam : {"appId":"wx30ea63b510813128","nonceStr":"e46108b5e7604083b3a6639f804cf805","package":"prepay_id=wx201712251121104f28b580240531317080","paySign":"8C6D6AEAE5A664AE7ECF12528F084080","signType":"MD5","timeStamp":"1514172068"}
+2017-12-25 11:31:06.261 INFO lianj: https://dh.sewa-power.com/Reservation/HotelDetails.aspx?AdminHotelid=SEWA004160&hotelid=37
+2017-12-25 11:31:18.611 INFO 支付回调: https://dh.sewa-power.com/Reservation/ResultNotifyPage.aspx?AdminHotelid=SEWA004160
+2017-12-25 11:31:18.621 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx30ea63b510813128]]></appid><attach><![CDATA[WX20171225113118501,SEWA004160,客房预定]]></attach><body><![CDATA[预定：测试房，订单编号：WX20171225113118501]]></body><goods_tag><![CDATA[test]]></goods_tag><mch_id><![CDATA[1491087592]]></mch_id><nonce_str><![CDATA[1d00d87d54714087a98d3128d7cace52]]></nonce_str><notify_url><![CDATA[https://dh.sewa-power.com/Reservation/ResultNotifyPage.aspx?AdminHotelid=SEWA004160]]></notify_url><openid><![CDATA[oodrFs1BGmEi7aofUx_bw4n_KvWs]]></openid><out_trade_no><![CDATA[WX20171225113118501]]></out_trade_no><sign><![CDATA[F92F5704388905FB473440D5EACC10BA]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20171225114118]]></time_expire><time_start><![CDATA[20171225113118]]></time_start><total_fee>100</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2017-12-25 11:31:18.898 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx30ea63b510813128]]></appid>
+<mch_id><![CDATA[1491087592]]></mch_id>
+<nonce_str><![CDATA[NTPKg7GXDyowcP0U]]></nonce_str>
+<sign><![CDATA[AD09C7451C67C1707D9C2B5C3BFCCC63]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx20171225113120cc18fe76a60124373360]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+2017-12-25 11:31:18.929 DEBUG RM.Web.business.JsApiPay: Get jsApiParam : {"appId":"wx30ea63b510813128","nonceStr":"cc211ef0a9744b5dbc75749d9c4bea2b","package":"prepay_id=wx20171225113120cc18fe76a60124373360","paySign":"86DCB5168CD6F3FD79E49C1A3F5ED36E","signType":"MD5","timeStamp":"1514172679"}
+2017-12-25 11:45:09.027 INFO lianj: https://dh.sewa-power.com/Reservation/HotelDetails.aspx?AdminHotelid=SEWA004160&hotelid=37
+2017-12-25 11:45:16.836 INFO 支付回调: https://dh.sewa-power.com/Reservation/ResultNotifyPage.aspx?AdminHotelid=SEWA004160
+2017-12-25 11:45:16.847 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx30ea63b510813128]]></appid><attach><![CDATA[WX20171225114516701,SEWA004160,客房预定]]></attach><body><![CDATA[预定：测试房，订单编号：WX20171225114516701]]></body><goods_tag><![CDATA[test]]></goods_tag><mch_id><![CDATA[1491087592]]></mch_id><nonce_str><![CDATA[590f38189e8d4440bd7880a3819b5cdf]]></nonce_str><notify_url><![CDATA[https://dh.sewa-power.com/Reservation/ResultNotifyPage.aspx?AdminHotelid=SEWA004160]]></notify_url><openid><![CDATA[oodrFs1BGmEi7aofUx_bw4n_KvWs]]></openid><out_trade_no><![CDATA[WX20171225114516701]]></out_trade_no><sign><![CDATA[4E56568079E0B81080407198976627E3]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20171225115516]]></time_expire><time_start><![CDATA[20171225114516]]></time_start><total_fee>100</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2017-12-25 11:45:17.148 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx30ea63b510813128]]></appid>
+<mch_id><![CDATA[1491087592]]></mch_id>
+<nonce_str><![CDATA[fOzl4tkdCm8F9z08]]></nonce_str>
+<sign><![CDATA[0F8DF9D5FEFB73AA68C1FE3CD2DFA99E]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx201712251145180bfb0d3c2a0960551790]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+2017-12-25 11:45:17.180 DEBUG RM.Web.business.JsApiPay: Get jsApiParam : {"appId":"wx30ea63b510813128","nonceStr":"b61108c3b5384a5896c6d02b792cda98","package":"prepay_id=wx201712251145180bfb0d3c2a0960551790","paySign":"78F368F785E34F3227D598C4E733DD92","signType":"MD5","timeStamp":"1514173517"}
+2017-12-25 11:48:48.542 INFO RM.Web.business.ResultNotify: Receive data from WeChat : 
+2017-12-25 11:48:48.546 ERROR RM.Web.Lib.WxPayData: 将空的xml串转换为WxPayData不合法!
+2017-12-25 11:48:48.549 ERROR RM.Web.business.ResultNotify: Sign check error : <xml><return_code><![CDATA[FAIL]]></return_code><return_msg><![CDATA[将空的xml串转换为WxPayData不合法!]]></return_msg></xml>
+2017-12-25 12:03:11.675 INFO lianj: https://dh.sewa-power.com/Reservation/HotelDetails.aspx?AdminHotelid=SEWA004160&hotelid=37
+2017-12-25 12:03:22.131 INFO 支付回调: https://dh.sewa-power.com/Reservation/ResultNotifyPage.aspx?AdminHotelid=SEWA004160
+2017-12-25 12:03:22.143 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx30ea63b510813128]]></appid><attach><![CDATA[WX20171225120320842,SEWA004160,客房预定]]></attach><body><![CDATA[预定：测试房，订单编号：WX20171225120320842]]></body><goods_tag><![CDATA[test]]></goods_tag><mch_id><![CDATA[1491087592]]></mch_id><nonce_str><![CDATA[32c8cad30c7c4c6390998f05afb6b4dd]]></nonce_str><notify_url><![CDATA[https://dh.sewa-power.com/Reservation/ResultNotifyPage.aspx?AdminHotelid=SEWA004160]]></notify_url><openid><![CDATA[oodrFs1BGmEi7aofUx_bw4n_KvWs]]></openid><out_trade_no><![CDATA[WX20171225120320842]]></out_trade_no><sign><![CDATA[6007DD1F9D03561E415E29C914DC25FA]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20171225121322]]></time_expire><time_start><![CDATA[20171225120322]]></time_start><total_fee>100</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2017-12-25 12:03:22.470 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx30ea63b510813128]]></appid>
+<mch_id><![CDATA[1491087592]]></mch_id>
+<nonce_str><![CDATA[tLIMgTTETiv1OR42]]></nonce_str>
+<sign><![CDATA[6405CA608DCA26055D87AC7E2518F592]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx20171225120324e2b62090c80381921793]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+2017-12-25 12:03:22.501 DEBUG RM.Web.business.JsApiPay: Get jsApiParam : {"appId":"wx30ea63b510813128","nonceStr":"15355e2e62a245c996b94f9fa6cd2ecb","package":"prepay_id=wx20171225120324e2b62090c80381921793","paySign":"9046EDF2D34FDD8A0F5FD3B06DF4E4D4","signType":"MD5","timeStamp":"1514174602"}
+2017-12-25 12:51:18.261 INFO RM.Web.business.ResultNotify: Receive data from WeChat : 
+2017-12-25 12:51:18.265 ERROR RM.Web.Lib.WxPayData: 将空的xml串转换为WxPayData不合法!
+2017-12-25 12:51:18.269 ERROR RM.Web.business.ResultNotify: Sign check error : <xml><return_code><![CDATA[FAIL]]></return_code><return_msg><![CDATA[将空的xml串转换为WxPayData不合法!]]></return_msg></xml>
+2017-12-25 13:39:49.760 INFO lianj: https://dh.sewa-power.com/Reservation/HotelDetails.aspx?AdminHotelid=SEWA004160&hotelid=37
+2017-12-25 13:40:01.879 INFO 支付回调: https://dh.sewa-power.com/Reservation/ResultNotifyPage.aspx?AdminHotelid=SEWA004160
+2017-12-25 13:40:01.891 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx30ea63b510813128]]></appid><attach><![CDATA[WX20171225134001657,SEWA004160,客房预定]]></attach><body><![CDATA[预定：测试房，订单编号：WX20171225134001657]]></body><goods_tag><![CDATA[test]]></goods_tag><mch_id><![CDATA[1491087592]]></mch_id><nonce_str><![CDATA[e159a00688b44fbfacd55df8980dc82e]]></nonce_str><notify_url><![CDATA[https://dh.sewa-power.com/Reservation/ResultNotifyPage.aspx]]></notify_url><openid><![CDATA[oodrFs1BGmEi7aofUx_bw4n_KvWs]]></openid><out_trade_no><![CDATA[WX20171225134001657]]></out_trade_no><sign><![CDATA[5951832D7D9D8BAB96302928673721E5]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20171225135001]]></time_expire><time_start><![CDATA[20171225134001]]></time_start><total_fee>100</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2017-12-25 13:40:02.156 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx30ea63b510813128]]></appid>
+<mch_id><![CDATA[1491087592]]></mch_id>
+<nonce_str><![CDATA[ErKatiSgI9pb4okk]]></nonce_str>
+<sign><![CDATA[12DBF2CC4A6A76235767E825AFC8F3A4]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx201712251340049f16979f440029306098]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+2017-12-25 13:40:02.189 DEBUG RM.Web.business.JsApiPay: Get jsApiParam : {"appId":"wx30ea63b510813128","nonceStr":"d1a6ea0d6aa84255bd19eb4931cad2cc","package":"prepay_id=wx201712251340049f16979f440029306098","paySign":"95E33B955BB4AF69833C6D8D64E9E7C4","signType":"MD5","timeStamp":"1514180402"}
+2017-12-25 13:45:34.001 INFO lianj: https://dh.sewa-power.com/Reservation/HotelDetails.aspx?AdminHotelid=SEWA004160&hotelid=37
+2017-12-25 13:46:49.469 INFO 支付回调: http://dh.sewa-power.com/Reservation/ResultNotifyPage.aspx?AdminHotelid=SEWA004160
+2017-12-25 13:46:49.482 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx30ea63b510813128]]></appid><attach><![CDATA[WX20171225134649393,SEWA004160,客房预定]]></attach><body><![CDATA[预定：测试房，订单编号：WX20171225134649393]]></body><goods_tag><![CDATA[test]]></goods_tag><mch_id><![CDATA[1491087592]]></mch_id><nonce_str><![CDATA[4cab1fb4ba7e4520b6f0cddfff7011a6]]></nonce_str><notify_url><![CDATA[http://dh.sewa-power.com/Reservation/ResultNotifyPage.aspx?AdminHotelid=SEWA004160]]></notify_url><openid><![CDATA[oodrFs1BGmEi7aofUx_bw4n_KvWs]]></openid><out_trade_no><![CDATA[WX20171225134649393]]></out_trade_no><sign><![CDATA[543AF00378599E18213B1509D40C6B3A]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20171225135649]]></time_expire><time_start><![CDATA[20171225134649]]></time_start><total_fee>100</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2017-12-25 13:46:49.738 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx30ea63b510813128]]></appid>
+<mch_id><![CDATA[1491087592]]></mch_id>
+<nonce_str><![CDATA[svARBi2UTwj4yChV]]></nonce_str>
+<sign><![CDATA[3718F79A725743D87CCF61F3D7AC72DA]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx20171225134651218ce2fad90530890036]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+2017-12-25 13:46:49.771 DEBUG RM.Web.business.JsApiPay: Get jsApiParam : {"appId":"wx30ea63b510813128","nonceStr":"f094836d15c4495bbebe35aacd2564fa","package":"prepay_id=wx20171225134651218ce2fad90530890036","paySign":"05AA9D0C414C81B96546F1991D37C074","signType":"MD5","timeStamp":"1514180810"}
+2017-12-25 13:48:05.504 INFO 开始回调: 
+2017-12-25 13:48:05.505 INFO 开始回调: 
+2017-12-25 13:48:05.509 INFO 回调1: 
+2017-12-25 13:48:05.510 INFO 微信支付后台返回的数据: 
+2017-12-25 13:48:05.511 INFO RM.Web.business.ResultNotify: Receive data from WeChat : 
+2017-12-25 13:48:05.512 ERROR RM.Web.Lib.WxPayData: 将空的xml串转换为WxPayData不合法!
+2017-12-25 13:48:05.513 ERROR RM.Web.business.ResultNotify: Sign check error : <xml><return_code><![CDATA[FAIL]]></return_code><return_msg><![CDATA[将空的xml串转换为WxPayData不合法!]]></return_msg></xml>
+2017-12-25 13:49:27.240 INFO 开始回调: 
+2017-12-25 13:49:27.241 INFO 开始回调: SEWA004160
+2017-12-25 13:49:27.241 INFO 回调1: 
+2017-12-25 13:49:27.242 INFO 微信支付后台返回的数据: SEWA004160
+2017-12-25 13:49:27.242 INFO RM.Web.business.ResultNotify: Receive data from WeChat : 
+2017-12-25 13:49:27.243 ERROR RM.Web.Lib.WxPayData: 将空的xml串转换为WxPayData不合法!
+2017-12-25 13:49:27.243 ERROR RM.Web.business.ResultNotify: Sign check error : <xml><return_code><![CDATA[FAIL]]></return_code><return_msg><![CDATA[将空的xml串转换为WxPayData不合法!]]></return_msg></xml>
+2017-12-25 13:52:59.044 INFO lianj: http://dh.sewa-power.com/Reservation/HotelDetails.aspx?AdminHotelid=SEWA004160&hotelid=37
+2017-12-25 13:53:16.179 INFO 酒店客房报错信息: System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 RM.Web.Reservation.Gethotel.GetHotelDetailsList(HttpContext context) 位置 F:\黎强\项目文件\z 直销系统\c 程序文件\Hotel_frame\RM.Web\Reservation\Gethotel.ashx.cs:行号 495
+2017-12-25 13:54:03.711 INFO 酒店客房报错信息: System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 RM.Web.Reservation.Gethotel.GetHotelDetailsList(HttpContext context) 位置 F:\黎强\项目文件\z 直销系统\c 程序文件\Hotel_frame\RM.Web\Reservation\Gethotel.ashx.cs:行号 495
+2017-12-25 13:54:47.368 INFO lianj: https://dh.sewa-power.com/Reservation/HotelDetails.aspx?AdminHotelid=SEWA004160&hotelid=37
+2017-12-25 13:55:03.168 INFO 酒店客房报错信息: System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 RM.Web.Reservation.Gethotel.GetHotelDetailsList(HttpContext context) 位置 F:\黎强\项目文件\z 直销系统\c 程序文件\Hotel_frame\RM.Web\Reservation\Gethotel.ashx.cs:行号 495
+2017-12-25 13:59:15.856 INFO lianj: https://dh.sewa-power.com/Reservation/HotelDetails.aspx?AdminHotelid=SEWA004160&hotelid=37
+2017-12-25 13:59:45.874 INFO 酒店客房报错信息: System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 RM.Web.Reservation.Gethotel.GetHotelDetailsList(HttpContext context) 位置 F:\黎强\项目文件\z 直销系统\c 程序文件\Hotel_frame\RM.Web\Reservation\Gethotel.ashx.cs:行号 495
+2017-12-25 14:00:14.366 INFO 酒店客房报错信息: System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 RM.Web.Reservation.Gethotel.GetHotelDetailsList(HttpContext context) 位置 F:\黎强\项目文件\z 直销系统\c 程序文件\Hotel_frame\RM.Web\Reservation\Gethotel.ashx.cs:行号 495
+2017-12-25 14:01:19.339 INFO 酒店客房报错信息: System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 RM.Web.Reservation.Gethotel.GetHotelDetailsList(HttpContext context) 位置 F:\黎强\项目文件\z 直销系统\c 程序文件\Hotel_frame\RM.Web\Reservation\Gethotel.ashx.cs:行号 495
+2017-12-25 14:01:41.694 INFO 酒店客房报错信息: System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 RM.Web.Reservation.Gethotel.GetHotelDetailsList(HttpContext context) 位置 F:\黎强\项目文件\z 直销系统\c 程序文件\Hotel_frame\RM.Web\Reservation\Gethotel.ashx.cs:行号 495
+2017-12-25 14:08:33.443 INFO 开始回调: 
+2017-12-25 14:08:33.444 INFO 开始回调: SEWA0041601
+2017-12-25 14:08:33.450 INFO 回调1: 
+2017-12-25 14:08:33.452 INFO 微信支付后台返回的数据: SEWA0041601
+2017-12-25 14:08:33.453 INFO RM.Web.business.ResultNotify: Receive data from WeChat : 
+2017-12-25 14:08:33.456 ERROR RM.Web.Lib.WxPayData: 将空的xml串转换为WxPayData不合法!
+2017-12-25 14:08:33.459 ERROR RM.Web.business.ResultNotify: Sign check error : <xml><return_code><![CDATA[FAIL]]></return_code><return_msg><![CDATA[将空的xml串转换为WxPayData不合法!]]></return_msg></xml>
+2017-12-25 14:08:46.841 INFO lianj: https://dh.sewa-power.com/Reservation/HotelDetails.aspx?AdminHotelid=SEWA004160&hotelid=37
+2017-12-25 14:12:13.795 INFO lianj: https://dh.sewa-power.com/Reservation/HotelDetails.aspx?AdminHotelid=SEWA004160&hotelid=37
+2017-12-25 14:15:05.124 INFO 支付回调: http://dh.sewa-power.com/Reservation/ResultNotifyPage.aspx?AdminHotelid=SEWA004160
+2017-12-25 14:15:05.134 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx30ea63b510813128]]></appid><attach><![CDATA[WX20171225141505025,SEWA004160,客房预定]]></attach><body><![CDATA[预定：测试房，订单编号：WX20171225141505025]]></body><goods_tag><![CDATA[test]]></goods_tag><mch_id><![CDATA[1491087592]]></mch_id><nonce_str><![CDATA[4ebd3ff6b09e4695ad03625eea30a5c9]]></nonce_str><notify_url><![CDATA[http://dh.sewa-power.com/Reservation/ResultNotifyPage.aspx?AdminHotelid=SEWA004160]]></notify_url><openid><![CDATA[oodrFs1BGmEi7aofUx_bw4n_KvWs]]></openid><out_trade_no><![CDATA[WX20171225141505025]]></out_trade_no><sign><![CDATA[01F0772399E60809BAACE186CB179054]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20171225142505]]></time_expire><time_start><![CDATA[20171225141505]]></time_start><total_fee>100</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2017-12-25 14:15:05.444 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx30ea63b510813128]]></appid>
+<mch_id><![CDATA[1491087592]]></mch_id>
+<nonce_str><![CDATA[gLHqw4RKCxfs3mDU]]></nonce_str>
+<sign><![CDATA[3803F5A1E22904A7E96E45F3B20D61D4]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx201712251415074bfe6fb3010250867260]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+2017-12-25 14:15:05.476 DEBUG RM.Web.business.JsApiPay: Get jsApiParam : {"appId":"wx30ea63b510813128","nonceStr":"ed28baf1819847b2bf5f23c23ed56cbe","package":"prepay_id=wx201712251415074bfe6fb3010250867260","paySign":"FD59A549C199E5A69C2C8386246619DB","signType":"MD5","timeStamp":"1514182505"}
+2017-12-25 14:17:06.152 INFO lianj: https://dh.sewa-power.com/Reservation/HotelDetails.aspx?AdminHotelid=SEWA004160&hotelid=37
+2017-12-25 14:17:23.756 INFO 酒店客房报错信息: System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 RM.Web.Reservation.Gethotel.GetHotelDetailsList(HttpContext context) 位置 F:\黎强\项目文件\z 直销系统\c 程序文件\Hotel_frame\RM.Web\Reservation\Gethotel.ashx.cs:行号 495
+2017-12-25 14:19:19.459 INFO 酒店客房报错信息: System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 RM.Web.Reservation.Gethotel.GetHotelDetailsList(HttpContext context) 位置 F:\黎强\项目文件\z 直销系统\c 程序文件\Hotel_frame\RM.Web\Reservation\Gethotel.ashx.cs:行号 495
+2017-12-25 14:19:38.562 INFO 酒店客房报错信息: System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 RM.Web.Reservation.Gethotel.GetHotelDetailsList(HttpContext context) 位置 F:\黎强\项目文件\z 直销系统\c 程序文件\Hotel_frame\RM.Web\Reservation\Gethotel.ashx.cs:行号 495
+2017-12-25 14:40:09.281 INFO 支付回调: https://dh.sewa-power.com/Reservation/ResultNotifyPage.aspx?AdminHotelid=SEWA004160
+2017-12-25 14:40:09.291 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx30ea63b510813128]]></appid><attach><![CDATA[WX20171225144009102,SEWA004160,客房预定]]></attach><body><![CDATA[预定：测试房，订单编号：WX20171225144009102]]></body><goods_tag><![CDATA[test]]></goods_tag><mch_id><![CDATA[1491087592]]></mch_id><nonce_str><![CDATA[56bf2d2efe654fa7895cf82ea20ff9c8]]></nonce_str><notify_url><![CDATA[https://dh.sewa-power.com/Reservation/ResultNotifyPage.aspx]]></notify_url><openid><![CDATA[oodrFs1BGmEi7aofUx_bw4n_KvWs]]></openid><out_trade_no><![CDATA[WX20171225144009102]]></out_trade_no><sign><![CDATA[53D337F62DCBEBA59B324191AA1BC171]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20171225145009]]></time_expire><time_start><![CDATA[20171225144009]]></time_start><total_fee>100</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2017-12-25 14:40:09.613 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx30ea63b510813128]]></appid>
+<mch_id><![CDATA[1491087592]]></mch_id>
+<nonce_str><![CDATA[ZkWcxJiYcXnHFsrR]]></nonce_str>
+<sign><![CDATA[4D41FFAC6B653EADB02D8B7F1D5D0E75]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx20171225144011ee77edf1140090993051]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+2017-12-25 14:40:09.645 DEBUG RM.Web.business.JsApiPay: Get jsApiParam : {"appId":"wx30ea63b510813128","nonceStr":"3139d9262bb946c0b00685d06c7ee9af","package":"prepay_id=wx20171225144011ee77edf1140090993051","paySign":"83401B5C87A9D03CE4CC517EC4E198FF","signType":"MD5","timeStamp":"1514184010"}
+2017-12-25 14:59:10.774 INFO lianj: https://dh.sewa-power.com/HotelCenter/list.aspx?AdminHotelid=1
+2017-12-25 15:02:11.076 INFO lianj: https://dh.sewa-power.com/Reservation/HotelDetails.aspx?AdminHotelid=SEWA004160&hotelid=37
+2017-12-25 15:02:41.058 INFO 支付回调: https://dh.sewa-power.com/Reservation/ResultNotifyPage.aspx?AdminHotelid=SEWA004160
+2017-12-25 15:02:41.069 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx30ea63b510813128]]></appid><attach><![CDATA[WX20171225150240888,SEWA004160,客房预定]]></attach><body><![CDATA[预定：测试房，订单编号：WX20171225150240888]]></body><goods_tag><![CDATA[test]]></goods_tag><mch_id><![CDATA[1491087592]]></mch_id><nonce_str><![CDATA[eb956bb32ee74fc99b30ce82e4149b9b]]></nonce_str><notify_url><![CDATA[https://dh.sewa-power.com/Reservation/ResultNotifyPage.aspx?AdminHotelid=SEWA004160]]></notify_url><openid><![CDATA[oodrFs1BGmEi7aofUx_bw4n_KvWs]]></openid><out_trade_no><![CDATA[WX20171225150240888]]></out_trade_no><sign><![CDATA[E937B2D2C6CE23742273E7C4449FCEF2]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20171225151241]]></time_expire><time_start><![CDATA[20171225150241]]></time_start><total_fee>100</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2017-12-25 15:02:41.388 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx30ea63b510813128]]></appid>
+<mch_id><![CDATA[1491087592]]></mch_id>
+<nonce_str><![CDATA[5WbDUD4Tdv8ni4LJ]]></nonce_str>
+<sign><![CDATA[D3CD557C1DE93DAFDDBBCA981E490525]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx20171225150243f19fc984d60393443349]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+2017-12-25 15:02:41.420 DEBUG RM.Web.business.JsApiPay: Get jsApiParam : {"appId":"wx30ea63b510813128","nonceStr":"8d0b79cf3cbe484d8a126d4ebca4171f","package":"prepay_id=wx20171225150243f19fc984d60393443349","paySign":"E1692C29665D0533144A2CDAFDD1196D","signType":"MD5","timeStamp":"1514185361"}
+2017-12-25 15:04:49.219 INFO 开始回调: 
+2017-12-25 15:04:49.219 INFO 开始回调: SEWA004160
+2017-12-25 15:04:49.223 INFO 回调1: 
+2017-12-25 15:04:49.225 INFO 微信支付后台返回的数据: SEWA004160
+2017-12-25 15:04:49.225 INFO RM.Web.business.ResultNotify: Receive data from WeChat : 
+2017-12-25 15:04:49.226 ERROR RM.Web.Lib.WxPayData: 将空的xml串转换为WxPayData不合法!
+2017-12-25 15:04:49.227 ERROR RM.Web.business.ResultNotify: Sign check error : <xml><return_code><![CDATA[FAIL]]></return_code><return_msg><![CDATA[将空的xml串转换为WxPayData不合法!]]></return_msg></xml>

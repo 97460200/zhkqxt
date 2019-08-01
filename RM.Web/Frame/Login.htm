@@ -1,0 +1,268 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>登录 - 智订云酒店营销系统</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <link href="/Themes/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <link href="/Themes/Styles/login.css" rel="stylesheet" type="text/css" />
+    <script src="/Themes/Scripts/jquery-1.8.2.min.js" type="text/javascript"></script>
+    <script src="/Themes/Scripts/FunctionJS.js" type="text/javascript"></script>
+    <link href="/Themes/Images/Login/logo.png" rel="icon" />
+    <script type="text/javascript">
+        window.top.location.href = "/Frame/login.aspx";
+        //回车键
+        document.onkeydown = function (e) {
+            if (!e) e = window.event; //火狐中是 window.event
+            if ((e.keyCode || e.which) == 13) {
+                var obtnSearch = document.getElementById("Log_Submit")
+                obtnSearch.focus(); //让另一个控件获得焦点就等于让文本输入框失去焦点
+                obtnSearch.click();
+            }
+        }
+        function LoginBtn() {
+            var name = $("#txtUserName").val();
+            var pwd = $("#txtUserPwd").val();
+            var adminhotel = $("#adminhotelid").val();
+            $("#errorMsg0").html("");
+            $("#errorMsg1").html("");
+            $("#errorMsg").html("");
+//            if (adminhotel == "") {
+//                $("#adminhotelid").focus();
+//                $("#errorMsg").html("酒店id不能为空");
+//                return false;
+//            }
+//            else 
+            if (name == "") {
+                $("#txtUserName").focus();
+                $("#errorMsg0").html("账户不能为空");
+                return false;
+            } else if (pwd == "") {
+                $("#txtUserPwd").focus();
+                $("#errorMsg1").html("密码不能为空");
+                return false;
+            } else {
+                return true;
+            }
+        }
+        function check(a) {
+            if (a.checked == true) {
+                document.getElementById("File1").value = 1;
+            } else {
+                document.getElementById("File1").value = 0;
+            }
+
+        }
+        /**
+        数据验证完整性
+        **/
+        function CheckUserDataValid() {
+            if (!LoginBtn()) {
+                return false;
+            }
+            else {
+                CheckingLogin(1);
+                var userName = $("#txtUserName").val();
+                var userPwd = $("#txtUserPwd").val();
+                //var jizhu = $("#File1").val();
+                var jizhu = "";
+                if ($("#Checkbox1").attr("class") == "xuanxuan") {
+                    jizhu = "0";
+                }
+                else if ($("#Checkbox1").attr("class") == "xuanxuanthis") {
+                    jizhu = "1";
+                }
+                var adminhotel = $("#adminhotelid").val();
+                var parm = 'action=login&user_Account=' + escape(userName) + '&userPwd=' + escape(userPwd) + '&AdminHotelid=' + escape(adminhotel) + '&jizhu=' + jizhu;
+                getAjax('Frame.ashx', parm, function (rs) {
+                    if (parseInt(rs) == 1) {
+                        $("#txtCode").focus();
+                        $("#errorMsg2").html("验证码输入不正确");
+                        CheckingLogin(0);
+                        ToggleCode("Verify_codeImag", '/Ajax/Verify_code.ashx');
+                        return false;
+                    } else if (parseInt(rs) == 2) {
+                        $("#txtUserName").focus();
+                        $("#errorMsg0").html("账户被锁,联系管理员");
+                        CheckingLogin(0);
+                        return false;
+                    } else if (parseInt(rs) == 4) {
+                        $("#txtUserName").focus();
+                        $("#errorMsg0").html("账户或密码有错误");
+                        CheckingLogin(0);
+                        return false;
+                    } else if (parseInt(rs) == 6) {
+                        $("#txtUserName").focus();
+                        $("#errorMsg0").html("该用户已经登录");
+                        CheckingLogin(0);
+                        return false;
+                    } else if (parseInt(rs) == 3) {
+                        setInterval(Load, 1000);
+                    } else {
+                        CheckingLogin(0);
+                        alert('服务器连接不上,联系管理员！');
+                        window.location.href = window.location.href.replace('#', '');
+                        return false;
+                    }
+                });
+            }
+        }
+        function xuan(a) {
+            if (a.className == "xuanxuan") {
+                a.className = "xuanxuanthis";
+                document.getElementById("File1").value = 1;
+            } else {
+                a.className = "xuanxuan";
+                document.getElementById("File1").value = 0;
+            }
+        }
+        $(function () {
+            $("#djjzmm").click(function () {
+                if ($("#Checkbox1").hasClass("xuanxuanthis")) {
+                    document.getElementById("File1").value = 0;
+                    $("#Checkbox1").attr("class", "xuanxuan");
+                }
+                else {
+                    document.getElementById("File1").value = 1;
+                    $("#Checkbox1").attr("class", "xuanxuanthis");
+
+                }
+            });
+        })
+
+        //登陆加载
+        function Load() {            
+            var userName = $.trim($("#txtUserName").val());
+            var userPwd = $.trim($("#txtUserPwd").val());
+            var AdminHotelid = $.trim($("#adminhotelid").val());
+
+            window.location.href = 'MainDefault.aspx';
+
+        }
+
+        function showtime() {
+            var now = new Date();
+            var year = now.getFullYear();
+            //document.getElementById("show").innerHTML = year;
+            //获取账号密码如果记住密码选中，复选框选中
+            var parm = "action=jizhumima";
+            getAjax('Frame.ashx', parm, function (rs) {
+                if (rs != "0") {
+                    var strs = new Array;
+                    strs = rs.split("&");
+                    $("#txtUserName").val(strs[0]);
+                    $("#txtUserPwd").val(strs[1]);
+                    $("#adminhotelid").val(strs[2]);
+                    document.getElementById("Checkbox1").className = 'xuanxuanthis';
+                    //选中复选框
+                }
+            })
+            //document.title = "酒店管理系统";
+
+            //            parm = "action=title";
+            //            getAjax('Frame.ashx', parm, function (rse) {
+            //                strs = rse.split("*");
+            //                $("#ds").html(strs[0]);
+            //                document.title = strs[0] + " - 网站内容管理系统";
+            //            })
+        }
+        //清空
+        function resetInput() {
+            $("#txtUserName").focus(); //默认焦点
+            $("#txtUserName").val("");
+            $("#txtUserPwd").val("");
+        }
+        function CheckingLogin(id) {
+            if (id == 1) {
+                $("#Log_Submit").attr("class", "signload");
+                $(".load").show();
+            } else {
+                $("#Log_Submit").attr("class", "sign");
+                $(".load").hide();
+            }
+        }
+
+        function Forget_pwd() {
+            var userName = $("#txtUserName").val();
+            if (userName == "") {
+                alert("请填写用户名");
+                return false;
+            }
+            else {
+                location.href = "UdWpd.aspx?uname=" + userName;
+            }
+        }
+    </script>
+    <script>
+        $(function () {
+            var myDate = new Date();
+            var year = myDate.getFullYear();
+            $("#NowData").html(year);
+        });
+    </script>
+</head>
+<body onload="showtime()">
+    <form id="form1" runat="server">
+    <div class="login">
+        <div class="boxLogin">
+            <div class="login_head">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="/Themes/Images/Login/adminL.png" />
+                        </td>
+                        <td class="nn" style="display: none;">
+                            深圳市升维动力科技有限公司
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <dl>
+                <dd style="display: none;">
+                    <div class="s0">
+                        <input type="text" id="adminhotelid" placeholder="酒店ID" class="txt" style="width: 227px;" />
+                        <span id="errorMsg" class="errorMsg"></span>
+                    </div>
+                </dd>
+                <dd>
+                    <div class="s1">
+                        <input type="text" id="txtUserName" placeholder="手机/用户名" class="txt" style="width: 227px;" />
+                        <span id="errorMsg0" class="errorMsg"></span>
+                    </div>
+                </dd>
+                <dd>
+                    <div class="s2">
+                        <input type="password" onpaste="return false;" placeholder="密码" id="txtUserPwd" class="txt"
+                            onpaste="return false;" style="width: 227px;" />&nbsp;<span id="errorMsg1" class="errorMsg"></span>
+                    </div>
+                </dd>
+                <dd>
+                    <div class="s4" style="font-family: 宋体;">
+                        <div class="xuanxuan" id="Checkbox1" onclick="xuan(this)" style="float: left; padding-right: 5px;
+                            margin-top: 2px !important;">
+                        </div>
+                        <span id="djjzmm">记住密码</span> <a href="UdWpd.aspx">忘记密码？</a>
+                    </div>
+                    <input id="File1" type="hidden" />
+                </dd>
+                <dd>
+                    <div class="load">
+                        <img src="../Themes/Images/Login/loading.gif" /></div>
+                </dd>
+            </dl>
+            <div class="s8">
+                <input id="Log_Submit" type="button" class="sign" onclick="return CheckUserDataValid();" />
+            </div>
+        </div>
+        <div class="copyright">
+            <p id="cp">
+                © 2003-<span id="NowData">2017</span> SEWA
+            </p>
+            <p>
+                <a class="sewa" href="http://www.sewa-power.com" target="_blank"></a>
+            </p>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

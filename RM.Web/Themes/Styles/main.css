@@ -1,0 +1,524 @@
+﻿@import url(public.css);
+.list_pg ul li
+{
+	height:48px;
+	line-height:20px;
+	border-bottom:1px solid #CCCCCC;
+	overflow:hidden;
+	padding-left:10px;
+	}
+.list_pg ul li a.ui-link
+{
+	display:block;
+	float:left;
+	font-size:160%;
+	color:#333333;
+	height:48px;
+	width:98px;
+	font-weight:normal;
+	}	
+.list_pg ul li span
+{
+	color:#808080;
+	font-family:Arial;
+	display:block;
+	float:right;
+	height:48px;
+	font-size:120%;
+	margin-right:10px;
+	}	
+	
+/*==========================保安服务详细页============================*/
+.financial_pg
+{
+           padding-top:10px;
+}
+.financial_pg ul li
+{
+	height:40px;
+	line-height:40px;
+	border-bottom:1px solid #CCCCCC;
+	overflow:hidden;
+	padding-left:10px;
+
+	}
+.financial_pg ul li a.ui-link
+{
+	display:block;
+	float:left;
+	font-size:160%;
+	color:#333333;
+	height:40px;
+	font-weight:normal;
+	}	
+.financial_pg ul li span
+{
+	display:block;
+	float:right;
+	height:40px;
+	font-size:120%;
+	margin-right:20px;
+	}
+	
+/*==========================产品展示页============================*/	
+.vipleft_bottom ul {
+overflow: hidden;
+background: url(../App_Themes/admin/images/vipnavi.jpg) no-repeat;
+height: 38px;
+padding-left: 12px;
+}
+.vipleft_bottom ul li {
+float: left;
+width: 96px;
+padding-right: 5px;
+text-align: center;
+}
+.vipleft_bottom ul li a.this {
+background: url(../App_Themes/images/vipnavion.jpg) no-repeat;
+text-decoration: none;
+color: #000000;
+}
+.vipleft_bottom ul li a {
+font-family: 宋体;
+font-size: 14px;
+color: #333333;
+font-weight: bold;
+display: block;
+background: url(../App_Themes/images/vipnavioff.jpg) no-repeat;
+height: 31px;
+margin-top: 8px;
+padding-top: 7px;
+text-decoration: none;
+cursor: pointer;
+}
+.vipmain2
+{
+	margin-top:14px;
+	overflow:hidden;
+	}
+	
+#min
+{
+	width:24px ;
+	}
+
+
+	
+	
+	
+	
+	
+/*==========================通知通告详细页============================*/	
+.show h2
+{
+	text-align:left;
+	padding-left:10px;
+    font-weight:normal;
+	font-size:180%;
+	padding-top:15px;	
+	line-height:150%;
+	}
+.show .mesg
+{
+	text-align:left;
+	padding-top:8px;
+	padding-bottom:15px;
+	padding-left:10px;
+	font-size:100%;
+	}
+.show .mesg span
+{	
+	
+	font-size:120%;
+	color:#808080;
+	margin-right:13px;
+	}	
+/*==========================纠察通报============================*/	
+#noLogin 
+{
+	text-align:center;
+	}
+#noLogin p
+{
+	text-align:center;
+	font-family:宋体;
+	font-size:13px;
+	color:#CC0000;
+	line-height:180%;
+	}	
+#noLogin a
+{
+
+	display:block;
+
+	line-height:35px;
+	margin:15px 10px;
+	font-weight:normal;
+	}	
+#noLogin a	.ui-btn-inner
+{
+	padding:0px;
+	}
+.showyw
+{
+	color:#005AB5;
+	 font-size: 14px;
+	  cursor:pointer;
+	  margin-left:10px;
+}	
+.jcshowtit
+{
+	padding-bottom:10px;
+}
+.jcshowtit a
+{
+	margin:0px 10px;
+	 color:#113160;
+}
+.jcshowtitt a
+{
+	margin:0px 5px 0px 10px;
+}
+.jcshowtit a b
+{
+	font-weight:bold;
+}
+.jcshowtit a.ui-link
+{
+	color:#113160;
+	cursor:pointer;
+	font-size:120%;
+}
+.jc_con
+{
+	padding:10px;
+	border-top:1px solid #ccc;
+}
+.jc_con2
+{
+	background:#f5f5f5;
+}
+.xtop
+{
+	overflow:hidden;
+	font-size:120%;
+	padding-bottom:8px;
+}
+.fk
+{
+	border-top:1px dotted #ccc;
+	padding-top:8px;
+	margin-top:10px;
+}
+.xtop .zz
+{
+	float:left;
+	
+}
+.xtop .zz b span
+{
+	color:#333;
+
+}
+.xtop .zz span
+{
+	color:#808080;
+
+}
+.xtop .yy
+{
+	float:right;
+}
+.xtop .yy em
+{
+	font-style:normal;
+}
+.jc_con p
+{
+	font-size:120%;
+}
+/*==========================会员列表页样式============================*/		
+.vip_show dl
+{
+	overflow:hidden;
+
+	border-bottom:1px solid #CCCCCC;
+	padding:20px 10px;
+	}	
+.vip_show dl dt
+{
+ 
+	margin-right:10px;
+	padding-top:5px;
+	}	
+.vip_show dl dd h2
+{
+font-size:140%;
+padding-top:8px;
+    
+	}
+.vip_show dl dd p
+{
+	line-height:180%;
+	font-size:120%;
+}		
+.vip_show dl dd .yuedu	
+{
+	 color:#808080;
+}
+/*==========================会员详细页样式============================*/	
+.company_show .title img
+{
+	width:216px;
+	height:77px;
+	margin-top:20px;
+	margin-left:20px;
+	}
+.company_show .title h2
+{
+	margin-top:8px;
+	margin-bottom:5px;
+	margin-left:20px;
+	font-family:微软雅黑;
+	font-size:18px;
+	color:#333333;
+	}
+.company_show .title p
+{
+	margin-left:20px;
+	margin-right:20px;
+	font-family:宋体;
+	font-size:14px;
+	color:#333333;
+	line-height:180%;
+	text-indent:2em;
+	padding-bottom:15px;
+	}
+.company_show .zyyw h2
+{
+	height:45px;
+	line-height:39px;
+	font-family:微软雅黑;
+	font-size:18px;
+	color:#000000;
+	padding-left:20px;
+	background:url("../images/menu_bg.jpg") repeat-x;
+	}
+.company_show .zyyw  div
+{
+	margin-left:20px;
+	margin-right:20px;
+	font-family:宋体;
+	font-size:14px;
+	color:#333333;
+	line-height:180%;
+	text-indent:2em;
+	padding-top:15px;
+	padding-bottom:15px;
+	}
+.company_show .zyyw table
+{
+	margin-left:20px;
+	margin-right:20px;	
+	padding-top:15px;
+	}
+.company_show .zyyw table td
+{
+	font-family:宋体;
+	font-size:14px;
+	color:#333333;
+	line-height:200%;
+	}
+/*=========================联系我们===============================*/
+.connectUs
+{
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:15px;
+	}
+/*=========================视屏列表页样式===============================*/
+.video_p dl
+{
+	overflow:hidden;
+	border-bottom:1px solid #ccc;
+	margin-top:20px;
+	padding-bottom:20px;
+	padding-left:20px;
+	padding-right:20px;
+	}
+.video_p dl dt
+{
+	float:left;
+	margin-right:16px;
+	}
+.video_p dl dd
+{
+	float:left;
+	}
+.video_p dl dd h2 a.ui-link
+{
+	font-family:宋体;
+	font-size:14px;
+	color:#333333;
+	line-height:220%;	
+	}
+.video_p dl dd p
+{
+	font-family:宋体;
+	font-size:12px;
+	color:#666666;
+	line-height:220%;	
+	}
+/*=========================奖励列表===============================*/
+.jLpage  table th
+{
+	height: 44px;
+	background: url('../images/thbg.jpg') repeat-x scroll 0% 0% transparent;
+	text-align: center;
+	font-family: 微软雅黑;
+	font-size: 13px;
+	color: #000;
+	border: 1px solid #DFDFDF;
+} 
+.jLpage  table td
+{
+	font-family: 宋体;
+	font-size: 12px;
+	color: #000;
+	text-align: center;
+	height: 29px;
+	line-height: 29px;
+border: 1px solid #DFDFDF;
+	}
+	
+.jLpage .search
+{
+	margin:20px 20px 15px 20px;
+	border:1px solid #ccc;
+	overflow:hidden;
+	height:35px;
+	}
+.jLpage .search input
+{
+	width:30px;
+	float:left;
+	height:35px;
+	}
+
+.bottom
+{
+	width:60px;
+	padding-left:13px;
+	color:#464646;
+	font-family:微软雅黑;
+	font-size:14px;
+	 margin:0 auto;
+	}
+	
+.bottom img
+{
+	height:50px;
+}
+
+/*=========================会员登录===============================*/
+.login
+{
+	 padding:10px;
+	 padding-bottom:150px;
+}
+.login .ll
+{
+	width:70px;
+	font-size:140%;
+	text-align:right;
+	padding-right:5px;
+}
+.login table tr td
+{
+	color:#808080;
+		font-size:140%;
+}
+.login table tr td.ll
+{
+	color:#333;
+}
+.perinfo table tr td
+{
+	padding:3px 0px;
+}
+.ui-body-c .ui-link:visited {
+color: #333;
+}
+/*=========================辅警===============================*/
+	
+.ntit
+{
+	 height:40px;
+	 line-height:40px;
+	 background:#f3f3f3;
+	 overflow:hidden;
+	 border-bottom:2px solid #0158B1;
+}
+.ntit h2
+{
+	float: left;
+font-family: 微软雅黑;
+font-size: 18px;
+line-height: 42px;
+padding-left: 10px;
+}
+.ntit a {
+float: right;
+display: block;
+background: url("../images/r_jian.jpg") no-repeat right 16px;
+width: 44px;
+line-height: 42px;
+font-family: 微软雅黑;
+font-size: 140%;
+color: #464646;
+margin-right: 15px;
+}
+	
+.ntit .ui-body-c ,
+.ntit .ui-link
+{
+ color:#333;
+ font-weight:normal;
+}
+	
+.mesg table td a
+{
+	display:block;
+	font-size:120%;
+	color:#333333;
+	padding:6px;
+	text-align:center;
+	}
+.mesg table
+{
+	padding-bottom:15px;
+	border-collapse: collapse;
+	}
+	.ui-body-c .ui-link
+	{
+		color:#333;
+		font-weight:normal;
+	}
+/*=========================新乐促进会 · 群众举报===============================*/	
+	
+.jubao
+{
+	padding:0px 10px 20px 10px;
+}
+.jubao table tr td
+{
+	font-size:120%;
+}
+.jubao table tr td.ll
+{
+	width:60px;
+	padding-right:10px;
+	text-align:right;
+}
+	
+	

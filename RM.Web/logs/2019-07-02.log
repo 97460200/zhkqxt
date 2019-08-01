@@ -1,0 +1,8 @@
+2019-07-02 16:02:48.822 ERROR HttpService: System.Security.Cryptography.CryptographicException: 系统找不到指定的路径。
+
+   在 System.Security.Cryptography.CryptographicException.ThrowCryptographicException(Int32 hr)
+   在 System.Security.Cryptography.X509Certificates.X509Utils._QueryCertFileType(String fileName)
+   在 System.Security.Cryptography.X509Certificates.X509Certificate.LoadCertificateFromFile(String fileName, Object password, X509KeyStorageFlags keyStorageFlags)
+   在 System.Security.Cryptography.X509Certificates.X509Certificate..ctor(String fileName, String password, X509KeyStorageFlags keyStorageFlags)
+   在 System.Security.Cryptography.X509Certificates.X509Certificate2..ctor(String fileName, String password, X509KeyStorageFlags keyStorageFlags)
+   在 RM.Web.Lib.HttpService.Post(String xml, String url, Boolean isUseCert, Int32 timeout, String AdminHotelid, Int32 Hotelid) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\Lib\HttpService.cs:行号 72

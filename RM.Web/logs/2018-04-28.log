@@ -1,0 +1,70 @@
+2018-04-28 12:06:30.103 INFO 订单号: WX201804281156007112订单号
+2018-04-28 12:06:30.135 DEBUG 配置账号信息: appid:wx756f617540199773
+2018-04-28 12:06:30.139 DEBUG 配置账号信息: APPSECRET:a463541526f89fc572506376ca3dac18
+2018-04-28 12:06:30.496 DEBUG 配置账号信息: NOTIFY_URL:www.zidinn.com
+2018-04-28 12:06:30.509 INFO //获取返回信息11-----menuInfo: {"touser":"","template_id":"","url":"http://www.zidinn.com/Reservation/OrderWith.aspx?AdminHotelid=1008077&Id=WX201804281156007112","data":{"first":{"value":"您的订单已正式提交并支付成功，点击查看详情","color":"#173177"},"keyword1":{"value":"WX201804281156007112","color":"#173177"},"keyword2":{"value":"1.00元","color":"#173177"},"keyword3":{"value":"深圳D House国际服务公寓","color":"#173177"},"keyword4":{"value":"尊贵总裁套房（测试）","color":"#173177"},"keyword5":{"value":"2018年04月28日-2018年04月29日","color":"#173177"},"remark":{"value":"感谢您的预订。","color":"#173177"}}}
+2018-04-28 12:06:30.510 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=
+2018-04-28 12:06:30.918 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [fvYMBA03934142!]"}
+2018-04-28 12:06:30.977 DEBUG 配置账号信息: appid:wx41bd9e5d7867ad93
+2018-04-28 12:06:30.977 DEBUG 配置账号信息: APPSECRET:ee8dfe055e22953e0f07adda79167fb5
+2018-04-28 12:06:31.178 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=
+2018-04-28 12:06:31.306 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [VAKZeA0393a456!]"}
+2018-04-28 12:06:31.307 DEBUG 配置账号信息: appid:wx41bd9e5d7867ad93
+2018-04-28 12:06:31.307 DEBUG 配置账号信息: APPSECRET:ee8dfe055e22953e0f07adda79167fb5
+2018-04-28 12:06:31.446 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=
+2018-04-28 12:06:31.576 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [rSxXAa03932862!]"}
+2018-04-28 12:06:31.577 DEBUG 配置账号信息: appid:wx41bd9e5d7867ad93
+2018-04-28 12:06:31.577 DEBUG 配置账号信息: APPSECRET:ee8dfe055e22953e0f07adda79167fb5
+2018-04-28 12:06:31.942 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=
+2018-04-28 12:06:32.063 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [ivK03944689!]"}
+2018-04-28 12:06:32.064 DEBUG 配置账号信息: appid:wx41bd9e5d7867ad93
+2018-04-28 12:06:32.064 DEBUG 配置账号信息: APPSECRET:ee8dfe055e22953e0f07adda79167fb5
+2018-04-28 12:06:32.225 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=
+2018-04-28 12:06:32.364 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [dZaE03944694!]"}
+2018-04-28 12:06:32.365 DEBUG 配置账号信息: appid:wx41bd9e5d7867ad93
+2018-04-28 12:06:32.366 DEBUG 配置账号信息: APPSECRET:ee8dfe055e22953e0f07adda79167fb5
+2018-04-28 12:06:32.602 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=
+2018-04-28 12:06:32.727 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [5O4HDa0395a456!]"}
+2018-04-28 12:06:32.728 DEBUG 配置账号信息: appid:wx41bd9e5d7867ad93
+2018-04-28 12:06:32.728 DEBUG 配置账号信息: APPSECRET:ee8dfe055e22953e0f07adda79167fb5
+2018-04-28 12:06:32.882 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=
+2018-04-28 12:06:33.035 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [8ai8Va03951530!]"}
+2018-04-28 14:11:22.300 DEBUG 配置账号信息: appid:wx7ee46a6b03e3dca9
+2018-04-28 14:11:22.895 DEBUG 配置账号信息: APPSECRET:a80c3df5a2b5ce8fbe9ad817f509457c
+2018-04-28 14:12:37.850 DEBUG 配置账号信息: appid:wx7ee46a6b03e3dca9
+2018-04-28 14:12:37.877 DEBUG 配置账号信息: APPSECRET:a80c3df5a2b5ce8fbe9ad817f509457c
+2018-04-28 14:49:37.415 DEBUG 配置账号信息: appid:wx7ee46a6b03e3dca9
+2018-04-28 14:49:37.416 DEBUG 配置账号信息: appid:wx7ee46a6b03e3dca9
+2018-04-28 14:49:37.416 DEBUG 配置账号信息: APPSECRET:a80c3df5a2b5ce8fbe9ad817f509457c
+2018-04-28 14:49:41.875 INFO 酒店客房报错信息: System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 RM.Web.Reservation.Gethotel.GetHotelDetailsList(HttpContext context) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\Reservation\Gethotel.ashx.cs:行号 494
+2018-04-28 14:50:31.303 DEBUG 配置账号信息: appid:wx7ee46a6b03e3dca9
+2018-04-28 14:50:31.303 DEBUG 配置账号信息: appid:wx7ee46a6b03e3dca9
+2018-04-28 14:50:31.304 DEBUG 配置账号信息: APPSECRET:a80c3df5a2b5ce8fbe9ad817f509457c
+2018-04-28 14:52:44.612 DEBUG 配置账号信息: appid:wx7ee46a6b03e3dca9
+2018-04-28 14:52:44.613 DEBUG 配置账号信息: appid:wx7ee46a6b03e3dca9
+2018-04-28 14:52:44.613 DEBUG 配置账号信息: APPSECRET:a80c3df5a2b5ce8fbe9ad817f509457c
+2018-04-28 14:52:54.283 DEBUG 配置账号信息: appid:wx7ee46a6b03e3dca9
+2018-04-28 14:52:54.284 DEBUG 配置账号信息: NOTIFY_URL:ys.zidinn.com
+2018-04-28 14:54:10.947 DEBUG 配置账号信息: appid:wx7ee46a6b03e3dca9
+2018-04-28 14:54:10.948 DEBUG 配置账号信息: appid:wx7ee46a6b03e3dca9
+2018-04-28 14:54:10.949 DEBUG 配置账号信息: APPSECRET:a80c3df5a2b5ce8fbe9ad817f509457c
+2018-04-28 14:54:19.052 DEBUG 配置账号信息: appid:wx7ee46a6b03e3dca9
+2018-04-28 14:54:19.052 DEBUG 配置账号信息: appid:wx7ee46a6b03e3dca9
+2018-04-28 14:54:19.053 DEBUG 配置账号信息: APPSECRET:a80c3df5a2b5ce8fbe9ad817f509457c
+2018-04-28 14:55:03.229 INFO 在线支付1: 1
+2018-04-28 14:55:03.274 INFO 在线支付2: WX201804281455036044
+2018-04-28 14:57:56.585 DEBUG 配置账号信息: appid:wx7ee46a6b03e3dca9
+2018-04-28 14:57:56.587 DEBUG 配置账号信息: appid:wx7ee46a6b03e3dca9
+2018-04-28 14:57:56.588 DEBUG 配置账号信息: APPSECRET:a80c3df5a2b5ce8fbe9ad817f509457c
+2018-04-28 14:58:03.941 DEBUG 配置账号信息: appid:wx7ee46a6b03e3dca9
+2018-04-28 14:58:03.942 DEBUG 配置账号信息: appid:wx7ee46a6b03e3dca9
+2018-04-28 14:58:03.943 DEBUG 配置账号信息: APPSECRET:a80c3df5a2b5ce8fbe9ad817f509457c
+2018-04-28 14:59:23.095 INFO 在线支付1: 1
+2018-04-28 14:59:31.056 INFO 在线支付2: WX201804281458338731
+2018-04-28 15:12:56.346 DEBUG 配置账号信息: appid:wx7ee46a6b03e3dca9
+2018-04-28 15:12:56.349 DEBUG 配置账号信息: appid:wx7ee46a6b03e3dca9
+2018-04-28 15:12:56.409 DEBUG 配置账号信息: APPSECRET:a80c3df5a2b5ce8fbe9ad817f509457c
+2018-04-28 15:13:03.549 DEBUG 配置账号信息: appid:wx7ee46a6b03e3dca9
+2018-04-28 15:13:03.550 DEBUG 配置账号信息: appid:wx7ee46a6b03e3dca9
+2018-04-28 15:13:03.550 DEBUG 配置账号信息: APPSECRET:a80c3df5a2b5ce8fbe9ad817f509457c

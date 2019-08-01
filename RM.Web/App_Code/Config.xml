@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<appSettings>
+	<!-- 连接字符串是否加密-->
+	<add key="ConStringEncrypt" value="false" />
+	<!-- SqlServer连接字符串:Server=服务器地址;Database=库名;Uid=用户;Pwd=密码-->
+	<!--测试-->
+	<!--<add key="SqlServer_RM_DB" value="Server=119.23.135.8;Database=hoteltemplate;Uid=sa;Pwd=sewa-power" />-->
+	<!--正式-->
+	<add key="SqlServer_RM_DB" value="Server=rm-wz9efz68bpwpjle29.sqlserver.rds.aliyuncs.com,3433;Database=hoteltemplate;Uid=sewa;Pwd=Sewa-power25787564" />
+	<!-- 网站网址-->
+	<add key="Url" value="http://www.zidinn.com" />
+	<!-- 系统默认登录账户 -->
+	<add key="CurrentUserName" value="Administrator" />
+	<!-- 系统默认登录密码 -->
+	<add key="CurrentPassword" value="64A2B83F276F1AE2AAD671346688E62E" />
+	<!-- 是否启动服务器缓存-->
+	<add key="IsCache" value="true" />
+	<!-- 服务器缓存设置时间（分钟）-->
+	<add key="TimeCache" value="30" />
+	<add key="CacheLogFilePath" value="C://ZDY_Log//CacheLog" />
+	<!-- 是否自动重启IIS-->
+	<add key="IsRestartIIS" value="false" />
+	<!-- 自动重启IIS设置时间（每天凌晨05点）-->
+	<add key="RestartIISTime" value="05:20:00" />
+	<!-- 是否写日志-->
+	<add key="LogIsWrite" value="false" />
+	<!-- 系统日志保存路径-->
+	<add key="LogFilePath" value="C://ZDY_Log//SysLog" />
+	<!-- 允许恢复数据库-->
+	<add key="IsRecoverData" value="false" />
+	<!-- 是否启动自动备份数据库-->
+	<add key="IsBackupsData" value="false" />
+	<!-- 自动启动备份数据库设置时间（每天凌晨05点）-->
+	<add key="BackupsDataTime" value="05:00:00" />
+	<!-- 备份数据库设置保存路径 -->
+	<add key="BackupsDataPath" value="C://ZDY_Log//DataBackups" />
+	<!-- 发出系统异常错误邮箱的地址 -->
+	<add key="ErrorReportMailUserName" value="313042718@qq.com" />
+	<!-- 软件注册码 -->
+	<add key="RegistrationCode" value="64A2B83F276F1AE2AAD671346688E62E" />
+	<!-- 公司信息 -->
+	<add key="CustomerCompanyName" value="深圳市升维动力科技有限公司" />
+	<!-- 软件名称 -->
+	<add key="SoftName" value=".NET快速开发架构" />
+	<!-- 当前软件版本 -->
+	<add key="Version" value="2.0" />
+	<!-- 设置pc手机版本 -->
+	<add key="IsPcMobile" value="3" />
+	<!-- 设置语言版本 -->
+	<add key="Language" value="4" />
+	<!-- 星期一 -->
+	<add key="Monday" value="0" />
+	<!-- 星期二 -->
+	<add key="Tuesday" value="0" />
+	<!-- 星期三 -->
+	<add key="Wednesday" value="0" />
+	<!-- 星期四 -->
+	<add key="Thursday" value="0" />
+	<!-- 星期五 -->
+	<add key="Friday" value="1" />
+	<!-- 星期六 -->
+	<add key="Saturday" value="1" />
+	<!-- 星期日 -->
+	<add key="Sunday" value="0" />
+</appSettings>

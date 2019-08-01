@@ -1,0 +1,4 @@
+F:\黎强\项目文件\z 最新框架\c 程序文件\酒店模版框架\BLL\bin\Debug\BLL.dll
+F:\黎强\项目文件\z 最新框架\c 程序文件\酒店模版框架\BLL\bin\Debug\BLL.pdb
+F:\黎强\项目文件\z 最新框架\c 程序文件\酒店模版框架\BLL\obj\Debug\BLL.dll
+F:\黎强\项目文件\z 最新框架\c 程序文件\酒店模版框架\BLL\obj\Debug\BLL.pdb

@@ -1,0 +1,16 @@
+2018-12-26 16:14:50.869 INFO 客房产品推广报错信息: System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToDouble(IFormatProvider provider)
+   在 System.Convert.ToDouble(Object value)
+   在 RM.Web.Melt.Distributor.Getdeal.GetPromotion(HttpContext c) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\Melt\Distributor\Getdeal.ashx.cs:行号 438
+2018-12-26 16:16:00.649 INFO 客房产品推广报错信息: System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToDouble(IFormatProvider provider)
+   在 System.Convert.ToDouble(Object value)
+   在 RM.Web.Melt.Distributor.Getdeal.GetPromotion(HttpContext c) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\Melt\Distributor\Getdeal.ashx.cs:行号 438
+2018-12-26 16:49:56.351 INFO 客房产品推广报错信息: System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToDouble(IFormatProvider provider)
+   在 System.Convert.ToDouble(Object value)
+   在 RM.Web.Melt.Distributor.Getdeal.GetPromotion(HttpContext c) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\Melt\Distributor\Getdeal.ashx.cs:行号 438
+2018-12-26 16:50:34.591 INFO 客房产品推广报错信息: System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToDouble(IFormatProvider provider)
+   在 System.Convert.ToDouble(Object value)
+   在 RM.Web.Melt.Distributor.Getdeal.GetPromotion(HttpContext c) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\Melt\Distributor\Getdeal.ashx.cs:行号 438

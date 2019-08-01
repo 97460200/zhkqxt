@@ -1,0 +1,308 @@
+@charset "UTF-8";
+
+body,form,header,article,aside,nav,section,footer,
+dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,p{margin: 0;padding: 0;}
+
+i,em{font-style: normal;}
+html,body,form{height: 100%; overflow: hidden;}
+html{
+	font-family: "SimSun";
+	font-size: 12px;
+	color: #333;
+	word-wrap: break-word;
+}
+
+table{border-collapse: collapse; width: 100%; /*table-layout:fixed;*/} 
+th,td{
+	text-align: center; 
+	padding: 0 4px; 
+	height: 34px;
+}
+
+ul,ol{list-style: none;}
+a{text-decoration: none; color: inherit; cursor: pointer;}
+a:hover{text-decoration: none; outline: 0;}
+img{border: 0; outline: 0; vertical-align: middle}
+
+::-moz-placeholder{color: #ccc;}
+::-ms-input-placeholder{color: #ccc;}
+::-webkit-input-placeholder{color: #ccc;}
+
+input[type="text"],input[type="password"],textarea,select{
+	outline: none; outline-offset: 0; resize: none; border: 1px solid #d6d6d6; border-radius: 4px;
+	-webkit-box-sizing: border-box; box-sizing: border-box;
+    appearance: none; -moz-appearance: none; -webkit-appearance: none;
+	width: 100%; padding: 0 6px; margin: 0;
+	height: 26px; line-height: 26px; font-size: 1rem;
+}
+input[type="search"]::-webkit-search-cancel-button{ display: none;}
+select{background: url('../img/down.png') no-repeat right center;}
+::-ms-expand { display: none; }
+::-ms-clear {display: none;}
+::-ms-reveal{display: none;}
+textarea{padding: 6px;height: 100px; line-height: 1.4; overflow: hidden;}
+
+
+/* button */
+.button{
+	cursor: pointer; display: block;
+	border-radius: 4px; border: 1px solid #ddd; outline: none;
+	box-sizing: border-box; -webkit-box-sizing: border-box;
+	appearance: none; -moz-appearance: none; -webkit-appearance: none;
+	width: 60px; height: 28px; line-height: 26px; text-align: center;
+	font-size: 1rem;
+}
+.buttonActive{color: #f90; border: 1px solid #f90; transition: all .2s; -webkit-transition: all .2s;}
+
+.buttonActive:hover{color: #fff; background-color: #f90;}
+
+
+/* clearfix */
+.clearfix{zoom: 1}
+.clearfix:after{
+	clear: both;
+	display: block;
+	visibility: hidden;
+	content: "";
+	height: 0;
+}
+
+
+
+/* ellipsis */
+.ellipsis{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+
+/* justify */
+.justify{
+	display: inline-block;
+	text-align: justify;
+}
+.justify:after{
+	content: "";
+	display: inline-block;
+	width: 100%;
+}
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar
+{
+    width: 6px;
+    height: 6px;
+    background-color: #F5F5F5;
+}
+ 
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+ 
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #c1c1c1;
+}
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?c6n3gd');
+  src:  url('fonts/icomoon.eot?c6n3gd#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?c6n3gd') format('truetype'),
+    url('fonts/icomoon.woff?c6n3gd') format('woff'),
+    url('fonts/icomoon.svg?c6n3gd#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-oydown:before {
+  content: "\e900";
+}
+.icon-addr_cir:before {
+  content: "\e901";
+}
+.icon-oyup:before {
+  content: "\e902";
+}
+.icon-cloadown:before {
+  content: "\e903";
+}
+.icon-boldclose:before {
+  content: "\e904";
+}
+.icon-radio3:before {
+  content: "\e905";
+}
+.icon-radiofull3:before {
+  content: "\e906";
+}
+.icon-tel:before {
+  content: "\e907";
+}
+.icon-kg1:before {
+  content: "\e908";
+}
+.icon-kg2:before {
+  content: "\e909";
+}
+.icon-lbx:before {
+  content: "\e90a";
+}
+.icon-edit4:before {
+  content: "\e90b";
+}
+.icon-quit:before {
+  content: "\e90c";
+}
+.icon-help:before {
+  content: "\e90d";
+}
+.icon-telfull:before {
+  content: "\e90e";
+}
+.icon-chgew:before {
+  content: "\e90f";
+}
+.icon-menu3:before {
+  content: "\e910";
+}
+.icon-add5:before {
+  content: "\e911";
+}
+.icon-addr:before {
+  content: "\e912";
+}
+.icon-reduce5:before {
+  content: "\e913";
+}
+.icon-setup5:before {
+  content: "\e914";
+}
+.icon-photo5:before {
+  content: "\e915";
+}
+.icon-fx5:before {
+  content: "\e916";
+}
+.icon-cls5:before {
+  content: "\e917";
+}
+.icon-file5:before {
+  content: "\e918";
+}
+.icon-hotel5:before {
+  content: "\e919";
+}
+.icon-home5:before {
+  content: "\e91a";
+}
+.icon-file3:before {
+  content: "\e91b";
+}
+.icon-wjjfull:before {
+  content: "\e91c";
+}
+.icon-wjj:before {
+  content: "\e91d";
+}
+.icon-radio6:before {
+  content: "\e91e";
+}
+.icon-radiofull6:before {
+  content: "\e91f";
+}
+.icon-boldright:before {
+  content: "\e921";
+}
+.icon-close:before {
+  content: "\e973";
+}
+.icon-close_cir:before {
+  content: "\e974";
+}
+.icon-closefull:before {
+  content: "\e975";
+}
+.icon-down:before {
+  content: "\e977";
+}
+.icon-downfull:before {
+  content: "\e978";
+}
+.icon-Hookfull:before {
+  content: "\e97d";
+}
+.icon-left:before {
+  content: "\e97e";
+}
+.icon-leftfull:before {
+  content: "\e980";
+}
+.icon-plus:before {
+  content: "\e981";
+}
+.icon-plusfull:before {
+  content: "\e982";
+}
+.icon-radio:before {
+  content: "\e983";
+}
+.icon-radioed:before {
+  content: "\e985";
+}
+.icon-reduce:before {
+  content: "\e986";
+}
+.icon-right:before {
+  content: "\e989";
+}
+.icon-rightfull:before {
+  content: "\e98b";
+}
+.icon-up:before {
+  content: "\e990";
+}
+.icon-like:before {
+  content: "\e993";
+}
+.icon-likefull:before {
+  content: "\e994";
+}
+.icon-star:before {
+  content: "\e997";
+}
+.icon-starfull:before {
+  content: "\e999";
+}
+.icon-search:before {
+  content: "\e920";
+}
+
+
+
+
+
+

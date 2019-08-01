@@ -1,0 +1,473 @@
+﻿body {
+	padding: 0px;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 0px;
+}
+
+html{
+	scrollbar-face-color: #eee;
+	scrollbar-highlight-color: #ffffff; 
+	scrollbar-shadow-color: #cccccc;
+	scrollbar-3dlight-color: #cccccc;
+	scrollbar-arrow-color: #330000;
+	scrollbar-track-color: #eee;
+	scrollbar-darkshadow-color: #ffffff;
+}
+
+.scrolling{
+	overflow:auto; 
+	height:100%;
+}
+	
+#div_content {
+	padding-right:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+	z-index: 1; left: 0px; width: 100%; position: absolute; top: 0px; height: 100%;
+	overflow-x:hidden;
+	
+}
+
+p {
+	font-weight: bold;
+	margin: 0px;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 14px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	text-indent: 1em;
+	display: block;
+}
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #c00;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	text-decoration: underline;
+}
+table {
+	font-size: 12px;
+	color: #000;
+}
+   
+.displayIt{
+	display:inline;
+}
+
+.hideIt{
+	display:none;
+}
+
+.chooseItem{
+	background:url(../images/pressOn.jpg);
+}
+
+.nochooseItem{
+	background:url(../images/pressMove.jpg);
+}
+    
+ /*class*/
+
+
+
+    
+/*单选框*/
+.radioBtn {
+	border:none;
+	}
+	
+.tableTitle{
+    font-weight:bold;
+    font-size:12px;  
+}
+/*GridView空数据行样式*/
+.emptyrowstyle
+{
+	color: Black;
+	font-weight: bold;
+	text-align:center;
+	font-size:18px;
+	width:100%;
+}
+/*Lsq_GridView控件中控制头样式*/
+.GridView {
+    padding-top:15px; 
+}
+.GridView_2 {
+    padding-top:8px;
+}
+.headerTitle{
+	height:25px;
+	background:url(../imagestitle3_bg.jpg) repeat-x;
+	color:#000000;
+}
+.headerTitle th {
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	font-size:12px;
+	padding-top:5px;
+	height:25px;
+	text-align:center;
+}
+
+
+
+.b_b {
+	border-style:solid; 
+	border-color:#CCCCCC; 
+}
+
+.main {
+	margin:10px;
+}
+	
+.title{
+	padding-left:5px;
+	font-weight:bold;
+	font-size:14px;
+	float:left;
+}
+	
+.toptitle{
+	height:23px;
+	background:url(../imagestitlebg.jpg) repeat-x;
+	border-bottom:1px solid #999999;
+	padding:5px 0px 0px 10px;
+}
+/*Lsq_GridView控件中控制行中的cells样式*/
+.tdGV{
+	border-bottom:1px solid #DDE3E3;
+	border-left:1px solid #DDE3E3;
+	border-right:1px solid #DDE3E3;
+	height:25px;
+	border-collapse:collapse;
+	padding-left:5px;
+	padding-right:5px;
+}
+.tdGV  a:link {
+	color: #000;
+	text-decoration:underline;
+}
+.tdGV  a:visited {
+	color: #000;
+	text-decoration:underline;
+}
+.tdGV  a:hover {
+	color: #c00;
+	text-decoration:underline;
+}
+.tdGV1 {
+	border-bottom:1px solid #DDE3E3;
+	border-left:1px solid #DDE3E3;
+	border-right:1px solid #DDE3E3;
+	height:25px;
+	border-collapse:collapse;
+	padding-left:5px;
+	padding-right:5px;
+}
+.tdGV1  a:link {
+	color: #000;
+	text-decoration:underline;
+}
+.tdGV1  a:visited {
+	color: #000;
+	text-decoration:underline;
+}
+.tdGV1  a:hover {
+	color: #c00;
+	text-decoration:underline;
+}
+/*Lsq_GridView控件中控制行中的cells样式结束*/
+
+.searchTxb { 
+	height:20px;
+	width:132px;
+	border:#999999 solid 1px;
+	font-size:12px;
+	color:#999999;
+	padding:3px;
+	margin-right:5px;
+	margin-bottom:3px;
+}
+
+.line {
+    border-bottom:1px solid #ccc;
+}
+
+.f_w {
+	font-weight:bold;
+	background-color:#f5f5f5;
+}
+
+
+/*右侧栏目标题*/
+#main_title {
+	background-image: url(../imageslineBgS.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+	margin: 0px;
+	height: 32px;
+	padding-top: 7px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	clear:both;
+	
+}
+#main_title h1 {
+	background-image: url(../imagesmain_title1.gif);
+	background-repeat: no-repeat;
+	background-position: left 0px;
+	float: left;
+	font-family: "宋体";
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+	text-indent: 22px;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+}
+.main_title_right{ float:right; padding-right:10px; font-family: "宋体"; font-size:12px;}
+
+.main_title_right a{ }
+
+.main_title_right a:hover{ color:#c00; text-decoration:underline;}
+
+/*查询栏菜单*/
+.back {
+  	height:27px;
+	/*padding-left:10px;*/
+	padding-right:10px;
+	clear:both;
+	margin-bottom:1px;
+	background-image: url(../imageslineBgS.jpg);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	padding-top:1px;
+}
+
+.back_left{
+    float:left;
+  
+}
+    
+.back_right {
+    float:right;
+    
+}
+
+.back_right a{
+   color:#000;
+}
+
+.back_right a:hover{
+    color:#c00;
+    text-decoration:underline;
+}
+
+.back_right_add {
+    float:right;margin-bottom:-8px; margin-right:-4px;
+}
+/*//////////////右侧添加、刷新、返回按钮样式/////////*/
+
+/*刷新按钮*/
+.Refurbishing {
+	background-image: url(../imagesRefurbishing.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left:23px;
+	line-height:2.0em;
+	float:left;
+	margin-left:10px;
+}
+
+.Refurbishing a{color:#000;}
+
+.Refurbishing a:hover{
+	color:#c00;
+	text-decoration:underline;
+}
+/*返回按钮*/
+.black2 {
+	background-image: url(../imagesblack2.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left:23px;
+	line-height:2.0em;
+	float:left;
+	margin-left:10px;
+}
+
+.black2 a{color:#000;}
+
+.black2 a:hover{
+	color:#c00;
+	text-decoration:underline;
+}
+
+/*发布信息按钮*/
+.fbxx {
+	background-image: url(../imagesfbxx.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left:23px;
+	line-height:2.0em;
+	float:left;
+	margin-left:10px;
+}
+
+.fbxx a{color:#000;}
+
+.fbxx a:hover{
+	color:#c00;
+	text-decoration:underline;
+}
+
+/*类型管理按钮*/
+.lxgl {
+	background-image: url(../imageslxgl.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left:23px;
+	line-height:2.0em;
+	float:left;
+	margin-left:10px;
+}
+
+.lxgl a{color:#000;}
+
+.lxgl a:hover{
+	color:#c00;
+	text-decoration:underline;
+}
+
+/*留言管理按钮*/
+
+.lygl {
+	background-image: url(../imageslygl.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left:23px;
+	line-height:2.0em;
+	float:left;
+	margin-left:10px;
+}
+
+.lygl a{color:#000;}
+
+.lygl a:hover{
+	color:#c00;
+	text-decoration:underline;
+}
+
+/*添加客户按钮*/
+.tjkh {
+	background-image: url(../imagestjkh.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left:23px;
+	line-height:2.0em;
+	float:left;
+	margin-left:10px;
+}
+
+.tjkh a{color:#000;}
+
+.tjkh a:hover{
+	color:#c00;
+	text-decoration:underline;
+}
+
+/*服务类型管理按钮*/
+.fwlx {
+	background-image: url(../imagesfwlx.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left:23px;
+	line-height:2.0em;
+	float:left;
+	margin-left:10px;
+}
+
+.fwlx a{color:#000;}
+
+.fwlx a:hover{
+	color:#c00;
+	text-decoration:underline;
+}
+
+/*////////////////提交按钮样式//////////*/
+.button_input_out{
+	background-image: url(../imagesbtn.jpg);
+	font-size: 12px;
+	margin-right: 10px;
+	height: 20px;
+	text-align: center;
+	padding-right: 1px;
+	padding-left: 3px;
+	background-repeat: repeat-x;
+	background-position: left top;
+	border: 1px solid #676767;
+	padding-top: 0px;
+	*padding-top: 3px;
+    cursor:pointer;
+
+}
+.button_input_over{
+	background-image: url(../imagesbtn_login.jpg);
+	font-size: 12px;
+	margin-right: 10px;
+	height: 20px;
+	text-align: center;
+	padding-right: 1px;
+	padding-left: 3px;
+	background-repeat: repeat-x;
+	background-position: left top;
+	border: 1px solid #676767;
+	padding-top: 0px;
+	*padding-top: 3px;
+    cursor:pointer;
+}
+.button a{
+	float: left;
+	background-image: url(../imagesbtn.jpg);
+	font-size: 12px;
+	margin-right: 10px;
+	height: 17px;
+	*height: 15px;
+	text-align: center;
+	list-style-type: none;
+	padding-right: 10px;
+	padding-left: 10px;
+	background-repeat: repeat-x;
+	background-position: left top;
+	border: 1px solid #676767;
+	padding-top: 1px;
+	*padding-top: 3px;
+
+}
+.button a:hover{
+	float: left;
+	background-image: url(../imagesbtn_login.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+	font-size: 12px;
+	margin-right: 10px;
+	height: 17px;
+	*height: 15px;
+	text-align: center;
+	list-style-type: none;
+	padding-right: 10px;
+	padding-left: 10px;
+	border: 1px solid #676767;
+	padding-top: 1px;
+	*padding-top: 3px;
+	color:#000;
+	text-decoration:none;
+}

@@ -1,0 +1,5 @@
+2019-01-29 08:59:31.187 INFO newhead报错信息：: 正在中止线程。
+2019-01-29 09:00:26.982 INFO newhead报错信息：: 正在中止线程。
+2019-01-29 11:36:37.386 INFO newhead报错信息：: 正在中止线程。
+2019-01-29 11:38:26.055 ERROR RM.Web.business.JsApiPay: UnifiedOrder response error!
+2019-01-29 11:40:44.291 ERROR RM.Web.business.JsApiPay: UnifiedOrder response error!

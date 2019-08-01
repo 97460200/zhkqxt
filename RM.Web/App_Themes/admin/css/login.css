@@ -1,0 +1,191 @@
+﻿body {
+	background: url("../images/bg.jpg") #5a5a5a repeat-x; background-position: top center ;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000;
+	margin-top:35px;
+}
+#login_box {
+	background-image: url(../images/pass_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: 320px 60px;
+	margin-top: 115px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	height: auto !important;
+	height: 270px;
+	min-height: 270px;
+	width: 530px;
+	padding: 0px;
+	background-color: #FFFFFF;
+}
+
+#login_box2 {
+	margin-top: 115px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	height: auto !important;
+	height: 270px;
+	min-height: 270px;
+	width: 570px;
+	padding: 0px;
+	background-color: #FFFFFF;
+}
+
+#login_top {
+	background-image: url(../images/login_top.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+	height: 107px;
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+}
+
+#login_logo {
+	padding: 0px;
+	margin: 0px;
+	float: left;
+}
+#system_registers {
+	float: left;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 0px;
+	padding-top: 38px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+}
+
+#system_registers span {
+	 font-weight:bold;
+	 font-size:14px;
+}
+
+#login_m {
+	clear: both;
+	margin: 0px;
+	height: auto !important;
+	height: 124px;
+	min-height: 124px;
+}
+#login_m_l {
+	padding-left: 100px;
+	padding-right: 25px;
+	float: left;
+}
+#login_m_m {
+	margin: 0px;
+	float: left;
+	padding-top: 3px;
+
+	padding-bottom: 0px;
+	padding-left: 0px;
+	width:203px;
+}
+#login_m_m p {
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 3px;
+	padding-left: 0px;
+}
+
+#login_m_m a {
+	display: block;
+	margin: 0px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	color: #4f4f4f;
+	text-decoration: underline;
+}
+#login_m_m a:hover {
+	text-decoration: underline;
+	color: #CC3300;
+}
+
+.inputTxb {
+    width :100px;
+    border:#999999 solid 1px;  
+    height:17px;
+    padding-left:2px;
+    padding-top:1px;
+}
+
+
+#login_m_r {
+	float: left;
+	padding-top: 3px;
+	*padding-top: 4px;
+}
+#login_m_r a {
+	color: #C00;
+	text-decoration: none;
+}
+#login_m_r a:hover {
+	text-decoration: underline;
+}
+
+#login_footer {
+	clear: both;
+	height: 40px;
+	z-index: auto;
+	background-image: url(../images/login_footer.jpg);
+	background-repeat: no-repeat;
+	background-position: left bottom;	
+	text-align:right;
+	padding-top:3px;
+	
+}
+#login_m_m  .tect
+{
+  border:1px solid #999;
+  font-size:12px;
+  padding:1px 0px;
+  padding-left:2px;
+  
+  height:16px;
+  line-height:17px;
+  *height:15px;
+  *line-height:15px;
+	}
+#login_m_m 
+{
+	position:relative;
+	}
+
+#login_m_m   table td
+{
+
+	padding-bottom:4px;
+	}
+#login_m_m   table td span
+{
+   position :relative;
+   top:1px;
+     *top:2px;
+	}
+#login_m_m   table td.jdys
+{
+	padding-top:1px;
+	padding-bottom:5px;
+	}
+#login_m_m  img
+{
+	position:absolute;
+ right:13px;
+  _right:12px;
+ bottom:22px;
+
+	}
+#imgCheckCode
+{
+	 width:43px;
+	 height:20px;
+
+	}

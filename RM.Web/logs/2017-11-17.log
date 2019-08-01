@@ -1,0 +1,84 @@
+2017-11-17 09:10:20.375 INFO 开启国光数据库链接:: GGRJ1    2017-11-17 09:10:20     127.0.0.1
+2017-11-17 09:10:20.571 INFO 关闭国光数据库链接:: GGRJ1    2017-11-17 09:10:20     127.0.0.1
+2017-11-17 09:14:23.486 INFO 开启国光数据库链接:: GGRJ1    2017-11-17 09:14:23     127.0.0.1
+2017-11-17 09:14:23.570 INFO 关闭国光数据库链接:: GGRJ1    2017-11-17 09:14:23     127.0.0.1
+2017-11-17 09:16:24.392 INFO 开启国光数据库链接:: GGRJ1    2017-11-17 09:16:24     127.0.0.1
+2017-11-17 09:16:24.724 INFO 关闭国光数据库链接:: GGRJ1    2017-11-17 09:16:24     127.0.0.1
+2017-11-17 09:16:43.178 INFO 开启国光数据库链接:: GGRJ1    2017-11-17 09:16:43     127.0.0.1
+2017-11-17 09:16:43.385 INFO 关闭国光数据库链接:: GGRJ1    2017-11-17 09:16:43     127.0.0.1
+2017-11-17 10:08:14.085 INFO 开启国光数据库链接:: GGRJ1    2017-11-17 10:08:14     127.0.0.1
+2017-11-17 10:08:14.377 INFO 关闭国光数据库链接:: GGRJ1    2017-11-17 10:08:14     127.0.0.1
+2017-11-17 10:38:46.982 INFO 开启国光数据库链接:: GGRJ1    2017-11-17 10:38:46     127.0.0.1
+2017-11-17 10:38:47.127 INFO 关闭国光数据库链接:: GGRJ1    2017-11-17 10:38:47     127.0.0.1
+2017-11-17 14:43:20.810 INFO 错误页3: 3
+2017-11-17 14:43:20.837 INFO 错误页4: 4
+2017-11-17 14:43:34.509 INFO 错误页3: 3
+2017-11-17 14:43:34.509 INFO 错误页4: 4
+2017-11-17 14:43:43.063 INFO 错误页3: 3
+2017-11-17 14:43:43.063 INFO 错误页4: 4
+2017-11-17 14:43:52.081 INFO 错误页3: 3
+2017-11-17 14:43:52.081 INFO 错误页4: 4
+2017-11-17 14:43:59.706 INFO 错误页3: 3
+2017-11-17 14:43:59.706 INFO 错误页4: 4
+2017-11-17 14:44:48.645 INFO 错误页3: 3
+2017-11-17 14:44:48.646 INFO 错误页4: 4
+2017-11-17 14:47:29.110 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx41bd9e5d7867ad93]]></appid><attach><![CDATA[WX20171117144530805]]></attach><body><![CDATA[客房预定，订单编号：WX20171117144530805]]></body><goods_tag><![CDATA[test]]></goods_tag><mch_id><![CDATA[1375851902]]></mch_id><nonce_str><![CDATA[88bb92e5676943299ae840115951ab0a]]></nonce_str><notify_url><![CDATA[http://dh.sewa-power.com/Reservation/ResultNotifyPage.aspx]]></notify_url><openid><![CDATA[ceshiopenid]]></openid><out_trade_no><![CDATA[WX20171117144530805]]></out_trade_no><sign><![CDATA[4F8BB20FB1E53B6AF2550A6737A30797]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20171117145704]]></time_expire><time_start><![CDATA[20171117144704]]></time_start><total_fee>1</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2017-11-17 14:47:35.557 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[FAIL]]></return_code>
+<return_msg><![CDATA[openid is invalid]]></return_msg>
+</xml>
+2017-11-17 14:50:17.717 ERROR RM.Web.business.JsApiPay: UnifiedOrder response error!
+2017-11-17 14:52:53.364 INFO 错误页3: 3
+2017-11-17 14:52:53.364 INFO 错误页4: 4
+2017-11-17 15:00:57.108 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx41bd9e5d7867ad93]]></appid><attach><![CDATA[WX20171117145310479]]></attach><body><![CDATA[客房预定，订单编号：WX20171117145310479]]></body><goods_tag><![CDATA[test]]></goods_tag><mch_id><![CDATA[1375851902]]></mch_id><nonce_str><![CDATA[6a1f8f044abf46bbb262c7758b9875d6]]></nonce_str><notify_url><![CDATA[http://dh.sewa-power.com/Reservation/ResultNotifyPage.aspx]]></notify_url><openid><![CDATA[ceshiopenid]]></openid><out_trade_no><![CDATA[WX20171117145310479]]></out_trade_no><sign><![CDATA[430F38FB1793C64DB12BEAF85418845A]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20171117151057]]></time_expire><time_start><![CDATA[20171117150057]]></time_start><total_fee>1</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2017-11-17 15:00:57.368 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[FAIL]]></return_code>
+<return_msg><![CDATA[openid is invalid]]></return_msg>
+</xml>
+2017-11-17 15:00:57.375 ERROR RM.Web.business.JsApiPay: UnifiedOrder response error!
+2017-11-17 15:01:48.744 INFO 错误页3: 3
+2017-11-17 15:01:48.769 INFO 错误页4: 4
+2017-11-17 15:02:19.141 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx41bd9e5d7867ad93]]></appid><attach><![CDATA[WX20171117150152592]]></attach><body><![CDATA[客房预定，订单编号：WX20171117150152592]]></body><goods_tag><![CDATA[test]]></goods_tag><mch_id><![CDATA[1375851902]]></mch_id><nonce_str><![CDATA[96039cba670d4b02908e50bd1751e6f1]]></nonce_str><notify_url><![CDATA[http://dh.sewa-power.com/Reservation/ResultNotifyPage.aspx]]></notify_url><openid><![CDATA[ceshiopenid]]></openid><out_trade_no><![CDATA[WX20171117150152592]]></out_trade_no><sign><![CDATA[CA136D4B84CD9D219DC3B7A0E8EF13B3]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20171117151219]]></time_expire><time_start><![CDATA[20171117150219]]></time_start><total_fee>1</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2017-11-17 15:02:19.423 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[FAIL]]></return_code>
+<return_msg><![CDATA[openid is invalid]]></return_msg>
+</xml>
+2017-11-17 15:02:19.468 ERROR RM.Web.business.JsApiPay: UnifiedOrder response error!
+2017-11-17 15:02:29.483 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx41bd9e5d7867ad93]]></appid><attach><![CDATA[WX20171117150152592]]></attach><body><![CDATA[客房预定，订单编号：WX20171117150152592]]></body><goods_tag><![CDATA[test]]></goods_tag><mch_id><![CDATA[1375851902]]></mch_id><nonce_str><![CDATA[40e04d0d3410411090056aac65e19c7c]]></nonce_str><notify_url><![CDATA[http://dh.sewa-power.com/Reservation/ResultNotifyPage.aspx]]></notify_url><openid><![CDATA[ceshiopenid]]></openid><out_trade_no><![CDATA[WX20171117150152592]]></out_trade_no><sign><![CDATA[5AF079DF370AC8824471B093AEEDD775]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20171117151227]]></time_expire><time_start><![CDATA[20171117150227]]></time_start><total_fee>1</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2017-11-17 15:02:29.734 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[FAIL]]></return_code>
+<return_msg><![CDATA[openid is invalid]]></return_msg>
+</xml>
+2017-11-17 15:02:46.704 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx41bd9e5d7867ad93]]></appid><attach><![CDATA[WX20171117150152592]]></attach><body><![CDATA[客房预定，订单编号：WX20171117150152592]]></body><goods_tag><![CDATA[test]]></goods_tag><mch_id><![CDATA[1375851902]]></mch_id><nonce_str><![CDATA[1ccbc2c7d5944ef2bae431319b1d478a]]></nonce_str><notify_url><![CDATA[http://dh.sewa-power.com/Reservation/ResultNotifyPage.aspx]]></notify_url><openid><![CDATA[ceshiopenid]]></openid><out_trade_no><![CDATA[WX20171117150152592]]></out_trade_no><sign><![CDATA[2FE21548292EE8F1FEAE35957754C4E7]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20171117151227]]></time_expire><time_start><![CDATA[20171117150227]]></time_start><total_fee>1</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2017-11-17 15:02:51.496 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[FAIL]]></return_code>
+<return_msg><![CDATA[openid is invalid]]></return_msg>
+</xml>
+2017-11-17 15:03:09.918 ERROR RM.Web.business.JsApiPay: UnifiedOrder response error!
+2017-11-17 15:17:55.054 INFO 错误页3: 3
+2017-11-17 15:17:55.055 INFO 错误页4: 4
+2017-11-17 15:23:26.342 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx41bd9e5d7867ad93]]></appid><attach><![CDATA[WX20171117151805967]]></attach><body><![CDATA[客房预定，订单编号：WX20171117151805967]]></body><goods_tag><![CDATA[test]]></goods_tag><mch_id><![CDATA[1375851902]]></mch_id><nonce_str><![CDATA[c8b5206674c744b1b1a667ff41c2e954]]></nonce_str><notify_url><![CDATA[http://dh.sewa-power.com/Reservation/ResultNotifyPage.aspx]]></notify_url><openid><![CDATA[ceshiopenid]]></openid><out_trade_no><![CDATA[WX20171117151805967]]></out_trade_no><sign><![CDATA[8E2CCCDE0B5938E50368A7CA2EF6BE0D]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20171117152822]]></time_expire><time_start><![CDATA[20171117151821]]></time_start><total_fee>1</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2017-11-17 15:23:26.574 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[FAIL]]></return_code>
+<return_msg><![CDATA[openid is invalid]]></return_msg>
+</xml>
+2017-11-17 15:23:26.618 ERROR RM.Web.business.JsApiPay: UnifiedOrder response error!
+2017-11-17 15:24:00.116 INFO 错误页3: 3
+2017-11-17 15:24:00.117 INFO 错误页4: 4
+2017-11-17 15:24:54.951 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx41bd9e5d7867ad93]]></appid><attach><![CDATA[WX20171117152442961]]></attach><body><![CDATA[客房预定，订单编号：WX20171117152442961]]></body><goods_tag><![CDATA[test]]></goods_tag><mch_id><![CDATA[1375851902]]></mch_id><nonce_str><![CDATA[1163deebcbbd4627a1feae2ca064d75b]]></nonce_str><notify_url><![CDATA[http://dh.sewa-power.com/Reservation/ResultNotifyPage.aspx]]></notify_url><openid><![CDATA[ceshiopenid]]></openid><out_trade_no><![CDATA[WX20171117152442961]]></out_trade_no><sign><![CDATA[291A42AA66C2157C8D6CB5A81008A0ED]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20171117153452]]></time_expire><time_start><![CDATA[20171117152452]]></time_start><total_fee>1</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2017-11-17 15:24:55.215 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[FAIL]]></return_code>
+<return_msg><![CDATA[openid is invalid]]></return_msg>
+</xml>
+2017-11-17 15:24:55.229 ERROR RM.Web.business.JsApiPay: UnifiedOrder response error!
+2017-11-17 15:25:29.044 INFO 错误页3: 3
+2017-11-17 15:25:29.046 INFO 错误页4: 4
+2017-11-17 15:27:48.857 INFO 错误页3: 3
+2017-11-17 15:27:48.858 INFO 错误页4: 4
+2017-11-17 15:28:40.127 INFO 错误页3: 3
+2017-11-17 15:28:40.128 INFO 错误页4: 4
+2017-11-17 15:29:04.132 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx41bd9e5d7867ad93]]></appid><attach><![CDATA[WX20171117152844791]]></attach><body><![CDATA[客房预定，订单编号：WX20171117152844791]]></body><goods_tag><![CDATA[test]]></goods_tag><mch_id><![CDATA[1375851902]]></mch_id><nonce_str><![CDATA[872e83f521b445158b62bd0c2bb29a75]]></nonce_str><notify_url><![CDATA[http://dh.sewa-power.com/Reservation/ResultNotifyPage.aspx]]></notify_url><openid><![CDATA[oQQLEw7PmnhL_p717Uwgxav5Olno]]></openid><out_trade_no><![CDATA[WX20171117152844791]]></out_trade_no><sign><![CDATA[C82B93F9A7D37721A4222877F365E0E7]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20171117153851]]></time_expire><time_start><![CDATA[20171117152851]]></time_start><total_fee>1</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2017-11-17 15:29:17.429 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx41bd9e5d7867ad93]]></appid>
+<mch_id><![CDATA[1375851902]]></mch_id>
+<nonce_str><![CDATA[ZMNBC97ZBqiWMTsC]]></nonce_str>
+<sign><![CDATA[E7D4053530F8351F4BC062BC680447B7]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx20171117152906fd7714406b0584260947]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+2017-11-17 15:29:24.250 DEBUG RM.Web.business.JsApiPay: Get jsApiParam : {"appId":"wx41bd9e5d7867ad93","nonceStr":"5f56a38519324c8d8e71d665686448e8","package":"prepay_id=wx20171117152906fd7714406b0584260947","paySign":"C5A6ADA1AE46059E63197BD71C8FCF72","signType":"MD5","timeStamp":"1510903764"}

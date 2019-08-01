@@ -1,0 +1,217 @@
+2018-07-25 11:03:27.337 INFO 错误页3: 3
+2018-07-25 11:03:27.355 INFO 错误页4: 4
+2018-07-25 11:04:30.806 INFO 错误页3: 3
+2018-07-25 11:04:30.812 INFO 错误页4: 4
+2018-07-25 11:04:31.650 ERROR openid: 1
+2018-07-25 11:04:31.651 ERROR Setopenid: 
+2018-07-25 11:04:31.652 ERROR AdminHotelid: 1008337
+2018-07-25 11:04:31.652 ERROR Hotelid: 0
+2018-07-25 11:04:31.691 DEBUG 公众账号ID公众账号ID: wxa3ddbb606957c79c
+2018-07-25 11:04:31.691 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wxa3ddbb606957c79c]]></appid><attach><![CDATA[HYK20180725110431161,1008337,注册购买会员卡,,99]]></attach><body><![CDATA[注册购买会员卡，订单编号：HYK20180725110431161]]></body><goods_tag><![CDATA[test]]></goods_tag><mch_id><![CDATA[1489905242]]></mch_id><nonce_str><![CDATA[9eaf31b017054ab69131d1711eaef46b]]></nonce_str><notify_url><![CDATA[http://www.zidinn.com/Reservation/ResultNotifyPage.aspx?AdminHotelid=1008337&Hotelid=0]]></notify_url><openid><![CDATA[1]]></openid><out_trade_no><![CDATA[HYK20180725110431161]]></out_trade_no><sign><![CDATA[E11A142F3F8231F50694D0CEFC25A1D5]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20180725111431]]></time_expire><time_start><![CDATA[20180725110431]]></time_start><total_fee>0</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2018-07-25 11:04:32.813 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[FAIL]]></return_code>
+<return_msg><![CDATA[invalid total_fee]]></return_msg>
+</xml>
+2018-07-25 11:04:32.842 ERROR RM.Web.business.JsApiPay: UnifiedOrder response error!
+2018-07-25 11:04:32.859 INFO 注册购买会员卡报错: RM.Web.Lib.WxPayException: UnifiedOrder response error!
+   在 RM.Web.business.JsApiPay.GetUnifiedOrderResult(String AdminHotelid, String Setopenid, Int32 Hotelid) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\business\JsApiPay.cs:行号 197
+   在 RM.Web.Members.Register.Page_Load(Object sender, EventArgs e) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\Members\Register.aspx.cs:行号 111
+2018-07-25 11:06:26.022 INFO 优惠券: 1008337|112114|注册赠送|0||
+2018-07-25 11:06:56.600 INFO 错误页3: 3
+2018-07-25 11:06:56.602 INFO 错误页4: 4
+2018-07-25 11:07:39.729 INFO 错误页3: 3
+2018-07-25 11:07:39.733 INFO 错误页4: 4
+2018-07-25 11:07:49.846 INFO 错误页3: 3
+2018-07-25 11:07:49.847 INFO 错误页4: 4
+2018-07-25 11:07:57.636 INFO 错误页3: 3
+2018-07-25 11:07:57.636 INFO 错误页4: 4
+2018-07-25 11:08:09.371 ERROR openid: 11
+2018-07-25 11:08:09.372 ERROR Setopenid: 
+2018-07-25 11:08:09.375 ERROR AdminHotelid: 1008337
+2018-07-25 11:08:09.376 ERROR Hotelid: 0
+2018-07-25 11:08:09.403 DEBUG 公众账号ID公众账号ID: wxa3ddbb606957c79c
+2018-07-25 11:08:09.403 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wxa3ddbb606957c79c]]></appid><attach><![CDATA[HYK20180725110808939,1008337,注册购买会员卡,,99]]></attach><body><![CDATA[注册购买会员卡，订单编号：HYK20180725110808939]]></body><goods_tag><![CDATA[test]]></goods_tag><mch_id><![CDATA[1489905242]]></mch_id><nonce_str><![CDATA[128c6ee5b2c343c9a49feebedb72d125]]></nonce_str><notify_url><![CDATA[http://www.zidinn.com/Reservation/ResultNotifyPage.aspx?AdminHotelid=1008337&Hotelid=0]]></notify_url><openid><![CDATA[11]]></openid><out_trade_no><![CDATA[HYK20180725110808939]]></out_trade_no><sign><![CDATA[885B9ACD635A4D9DBEFBB97B86269DED]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20180725111809]]></time_expire><time_start><![CDATA[20180725110809]]></time_start><total_fee>0</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2018-07-25 11:08:09.627 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[FAIL]]></return_code>
+<return_msg><![CDATA[invalid total_fee]]></return_msg>
+</xml>
+2018-07-25 11:08:09.697 ERROR RM.Web.business.JsApiPay: UnifiedOrder response error!
+2018-07-25 11:08:09.713 INFO 注册购买会员卡报错: RM.Web.Lib.WxPayException: UnifiedOrder response error!
+   在 RM.Web.business.JsApiPay.GetUnifiedOrderResult(String AdminHotelid, String Setopenid, Int32 Hotelid) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\business\JsApiPay.cs:行号 197
+   在 RM.Web.Members.Register.Page_Load(Object sender, EventArgs e) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\Members\Register.aspx.cs:行号 111
+2018-07-25 16:19:01.892 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 16:19:02.341 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [Iu2qXa07441556]"}
+2018-07-25 18:01:47.911 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:01:48.359 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [9swG.a09101487]"}
+2018-07-25 18:02:00.698 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:02:00.783 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [DVrk509221487]"}
+2018-07-25 18:02:01.120 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:02:01.219 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [09231504]"}
+2018-07-25 18:02:05.647 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:02:05.738 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [cRHPaa09271487]"}
+2018-07-25 18:02:09.252 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:02:09.346 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [E4UBqa09311556]"}
+2018-07-25 18:02:15.747 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:02:15.847 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [gU09371487]"}
+2018-07-25 18:02:16.116 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:02:16.220 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [zPoRPa09381556]"}
+2018-07-25 18:02:19.190 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:02:19.306 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [BLJl5a09411487]"}
+2018-07-25 18:02:21.282 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:02:21.392 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [E26.uA09431487]"}
+2018-07-25 18:02:26.471 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:02:26.565 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [s4XA309481556]"}
+2018-07-25 18:02:30.363 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:02:30.471 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [Fvm2pA09521504]"}
+2018-07-25 18:02:39.774 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:02:39.858 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [eyzASA09611504]"}
+2018-07-25 18:02:40.223 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:02:40.325 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [A5jc6a09621504]"}
+2018-07-25 18:02:42.649 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:02:42.742 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [OTFGcA09641504]"}
+2018-07-25 18:02:44.679 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:02:44.766 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [FrMTda09661487]"}
+2018-07-25 18:02:47.727 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:02:47.835 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [LRXPIa09691556]"}
+2018-07-25 18:02:48.116 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:02:48.200 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [VTpVsa09701504]"}
+2018-07-25 18:13:36.333 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:13:36.757 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [0JWyja06181487]"}
+2018-07-25 18:13:58.841 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:13:59.269 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [SCeooA06411487]"}
+2018-07-25 18:15:44.421 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:15:44.840 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [oMSFRA07461487]"}
+2018-07-25 18:15:58.076 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:15:58.166 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [YWZxja07601556]"}
+2018-07-25 18:16:00.160 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:16:00.253 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [QgCnKA07621504]"}
+2018-07-25 18:16:10.169 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:16:10.265 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [7..aja07721504]"}
+2018-07-25 18:16:13.869 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:16:13.982 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [I6gdia07751556]"}
+2018-07-25 18:17:06.754 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:17:06.859 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [JjIrCa08281487]"}
+2018-07-25 18:17:10.392 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:17:10.489 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [CKexqA08321504]"}
+2018-07-25 18:17:17.493 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:17:17.606 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [UshPgA08391487]"}
+2018-07-25 18:17:21.137 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:17:21.253 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [CmM2ba08431556]"}
+2018-07-25 18:17:27.509 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:17:27.630 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [vUdOIa08491556]"}
+2018-07-25 18:17:29.904 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:17:30.016 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [AUpXhA08511487]"}
+2018-07-25 18:17:34.497 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:17:34.611 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [pEYC0a08561504]"}
+2018-07-25 18:17:38.145 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:17:38.263 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [iL8LaA08601487]"}
+2018-07-25 18:17:43.038 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:17:43.143 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [.qxUaa08651487]"}
+2018-07-25 18:17:45.108 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:17:45.216 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [N3pdja08671556]"}
+2018-07-25 18:17:50.921 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:17:51.027 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [O7M3Za08721504]"}
+2018-07-25 18:17:54.688 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:17:54.796 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [GssBma08761487]"}
+2018-07-25 18:18:20.749 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:18:20.846 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [cZzI9a09021504]"}
+2018-07-25 18:18:24.628 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:18:24.723 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [UWSnDA09061487]"}
+2018-07-25 18:18:40.366 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:18:40.471 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [isXboa09221487]"}
+2018-07-25 18:18:43.994 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:18:44.134 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [bM89ta09251487]"}
+2018-07-25 18:18:53.304 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:18:53.411 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [.vgh409351556]"}
+2018-07-25 18:18:56.948 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:18:57.044 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [G_3Oda09381487]"}
+2018-07-25 18:19:01.958 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:19:02.057 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [AS385a09431487]"}
+2018-07-25 18:19:03.999 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:19:04.099 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [kS_A.a09451504]"}
+2018-07-25 18:19:09.072 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:19:09.168 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [KDEppA09511504]"}
+2018-07-25 18:19:09.635 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:19:09.739 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [L66xwA09511556]"}
+2018-07-25 18:19:12.170 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:19:12.272 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [LXfrCA09541556]"}
+2018-07-25 18:19:14.218 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:19:14.320 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [q6RAga09561487]"}
+2018-07-25 18:19:18.308 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:19:18.406 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [q3ETMa09601487]"}
+2018-07-25 18:19:21.938 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:19:22.039 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [LuYfMa09631504]"}
+2018-07-25 18:20:47.329 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:20:47.751 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [B.pe5a00491487]"}
+2018-07-25 18:20:59.874 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:20:59.964 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [erxVra00611487]"}
+2018-07-25 18:21:03.476 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:21:03.571 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [60LIiA00651487]"}
+2018-07-25 18:21:08.714 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:21:08.809 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [0bNwwa00701504]"}
+2018-07-25 18:21:10.754 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:21:10.877 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [hjvcMa00721556]"}
+2018-07-25 18:24:27.038 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:24:27.472 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [QQKu.a02691487]"}
+2018-07-25 18:24:29.436 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:24:29.532 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [Xn7R402711504]"}
+2018-07-25 18:24:39.837 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:24:39.933 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [Fg8K0a02811556]"}
+2018-07-25 18:24:40.285 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:24:40.386 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [AGIy2a02821504]"}
+2018-07-25 18:24:42.722 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:24:42.820 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [9_JVIA02841504]"}
+2018-07-25 18:24:46.375 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:24:46.465 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [Bw74Ra02881487]"}
+2018-07-25 18:24:52.019 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:24:52.219 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [jciiEA02931487]"}
+2018-07-25 18:24:55.755 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:24:55.842 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [p1qYFA02971504]"}
+2018-07-25 18:25:00.819 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:25:00.911 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [g2nICa03021487]"}
+2018-07-25 18:25:02.878 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:25:02.971 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [ClU1za03041504]"}
+2018-07-25 18:27:40.124 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:27:40.564 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [S65dha04621504]"}
+2018-07-25 18:27:45.421 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:27:45.532 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [BC8JlA04671487]"}
+2018-07-25 18:27:56.691 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:27:56.811 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [nf7M704781504]"}
+2018-07-25 18:28:10.500 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:28:10.621 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [R65k_a04921487]"}
+2018-07-25 18:28:31.918 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:28:32.034 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [uHxMDA05131556]"}
+2018-07-25 18:28:59.929 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:29:00.041 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [2rjy6a05411487]"}
+2018-07-25 18:29:00.784 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:29:00.876 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [fzEcha05421504]"}
+2018-07-25 18:30:19.914 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:30:20.008 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [F2sTWa06211487]"}
+2018-07-25 18:30:24.097 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:30:24.194 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [06261487]"}
+2018-07-25 18:30:35.126 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:30:35.225 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [xh06371504]"}
+2018-07-25 18:30:48.269 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:30:48.369 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [7P_sKA06501487]"}
+2018-07-25 18:30:49.139 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:30:49.237 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [0g4tZa06511504]"}
+2018-07-25 18:32:00.513 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:32:00.622 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [wjvHCa07221556]"}
+2018-07-25 18:32:09.084 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:32:09.183 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [RYFhwa07311487]"}
+2018-07-25 18:32:34.121 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:32:34.241 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [NCpDkA07561556]"}
+2018-07-25 18:32:55.747 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:32:55.857 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [iuCCNA07771487]"}
+2018-07-25 18:33:17.449 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:33:17.558 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [mUc8ma07991487]"}
+2018-07-25 18:34:37.932 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:34:38.353 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [L.nKEA08801487]"}
+2018-07-25 18:34:51.336 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:34:51.439 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [UExPGa08931487]"}
+2018-07-25 18:35:15.080 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:35:15.195 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [VFi9Fa09171504]"}
+2018-07-25 18:35:25.137 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:35:25.244 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [EJaLnA09271504]"}
+2018-07-25 18:35:38.273 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:35:38.382 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [Zvj5uA09401556]"}
+2018-07-25 18:36:00.691 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=
+2018-07-25 18:36:00.791 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [GQkH7a09621487]"}

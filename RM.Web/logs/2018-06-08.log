@@ -1,0 +1,71 @@
+2018-06-08 11:16:48.633 DEBUG 配置账号信息: appid:wx8a1f39b74faa0379
+2018-06-08 11:16:48.709 DEBUG 配置账号信息: appid:wx8a1f39b74faa0379
+2018-06-08 11:16:48.711 DEBUG 配置账号信息: APPSECRET:810d728c2b15402fa1531e4f10ac4882
+2018-06-08 11:25:23.028 DEBUG 配置账号信息: appid:wx8a1f39b74faa0379
+2018-06-08 11:25:23.029 DEBUG 配置账号信息: appid:wx8a1f39b74faa0379
+2018-06-08 11:25:23.030 DEBUG 配置账号信息: APPSECRET:810d728c2b15402fa1531e4f10ac4882
+2018-06-08 11:28:30.807 DEBUG 配置账号信息: appid:wx8a1f39b74faa0379
+2018-06-08 11:28:30.811 DEBUG 配置账号信息: appid:wx8a1f39b74faa0379
+2018-06-08 11:28:30.813 DEBUG 配置账号信息: APPSECRET:810d728c2b15402fa1531e4f10ac4882
+2018-06-08 11:37:36.999 DEBUG 配置账号信息: appid:wx8a1f39b74faa0379
+2018-06-08 11:37:37.002 DEBUG 配置账号信息: appid:wx8a1f39b74faa0379
+2018-06-08 11:37:37.003 DEBUG 配置账号信息: APPSECRET:810d728c2b15402fa1531e4f10ac4882
+2018-06-08 11:38:55.843 DEBUG 配置账号信息: appid:wx8a1f39b74faa0379
+2018-06-08 11:38:55.853 DEBUG 配置账号信息: appid:wx8a1f39b74faa0379
+2018-06-08 11:38:55.861 DEBUG 配置账号信息: APPSECRET:810d728c2b15402fa1531e4f10ac4882
+2018-06-08 14:35:51.034 DEBUG 配置账号信息: appid:wx8a1f39b74faa0379
+2018-06-08 14:35:51.121 DEBUG 配置账号信息: appid:wx8a1f39b74faa0379
+2018-06-08 14:35:51.121 DEBUG 配置账号信息: APPSECRET:810d728c2b15402fa1531e4f10ac4882
+2018-06-08 14:37:07.707 DEBUG 配置账号信息: appid:wx8a1f39b74faa0379
+2018-06-08 14:37:07.708 DEBUG 配置账号信息: appid:wx8a1f39b74faa0379
+2018-06-08 14:37:07.708 DEBUG 配置账号信息: APPSECRET:810d728c2b15402fa1531e4f10ac4882
+2018-06-08 14:37:46.428 DEBUG 配置账号信息: appid:wx8a1f39b74faa0379
+2018-06-08 14:37:46.429 DEBUG 配置账号信息: appid:wx8a1f39b74faa0379
+2018-06-08 14:37:46.430 DEBUG 配置账号信息: APPSECRET:810d728c2b15402fa1531e4f10ac4882
+2018-06-08 14:42:32.234 DEBUG 配置账号信息: appid:wx8a1f39b74faa0379
+2018-06-08 14:42:32.238 DEBUG 配置账号信息: appid:wx8a1f39b74faa0379
+2018-06-08 14:42:32.239 DEBUG 配置账号信息: APPSECRET:810d728c2b15402fa1531e4f10ac4882
+2018-06-08 14:42:49.334 DEBUG 配置账号信息: appid:wx8a1f39b74faa0379
+2018-06-08 14:42:49.335 DEBUG 配置账号信息: appid:wx8a1f39b74faa0379
+2018-06-08 14:42:49.336 DEBUG 配置账号信息: APPSECRET:810d728c2b15402fa1531e4f10ac4882
+2018-06-08 14:42:55.159 DEBUG 配置账号信息: appid:wx8a1f39b74faa0379
+2018-06-08 14:42:55.160 DEBUG 配置账号信息: appid:wx8a1f39b74faa0379
+2018-06-08 14:42:55.160 DEBUG 配置账号信息: APPSECRET:810d728c2b15402fa1531e4f10ac4882
+2018-06-08 14:43:08.129 ERROR openid: oYQa9vmBdAXmm3yrhgphCpRodO-A
+2018-06-08 14:43:08.130 ERROR Setopenid: 
+2018-06-08 14:43:08.131 ERROR AdminHotelid: 1003220
+2018-06-08 14:43:08.132 ERROR Hotelid: 0
+2018-06-08 14:43:08.148 DEBUG 配置账号信息: NOTIFY_URL:www.zidinn.com
+2018-06-08 14:43:08.149 DEBUG 配置账号信息: appid:wx8a1f39b74faa0379
+2018-06-08 14:43:08.149 DEBUG 配置账号信息: MCHID:1275732901
+2018-06-08 14:43:08.206 DEBUG 配置账号信息: KEYS:yUDKqL0WCgenNzR7t9zADztt8gG1jdsj
+2018-06-08 14:43:08.253 DEBUG 配置账号信息: appid:wx8a1f39b74faa0379
+2018-06-08 14:43:08.253 DEBUG 公众账号ID公众账号ID: wx8a1f39b74faa0379
+2018-06-08 14:43:08.254 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx8a1f39b74faa0379]]></appid><attach><![CDATA[HYK20180608144307964,1003220,会员卡升级,15572753239,,3]]></attach><body><![CDATA[会员卡升级，订单编号：HYK20180608144307964]]></body><goods_tag><![CDATA[test]]></goods_tag><mch_id><![CDATA[1275732901]]></mch_id><nonce_str><![CDATA[356ef93d27344386a45af5147ae4c12e]]></nonce_str><notify_url><![CDATA[http://www.zidinn.com/Reservation/ResultNotifyPage.aspx?AdminHotelid=1003220&Hotelid=0]]></notify_url><openid><![CDATA[oYQa9vmBdAXmm3yrhgphCpRodO-A]]></openid><out_trade_no><![CDATA[HYK20180608144307964]]></out_trade_no><sign><![CDATA[BE57F2580AA8DE10F0603AE643BF4A50]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20180608145308]]></time_expire><time_start><![CDATA[20180608144308]]></time_start><total_fee>19800</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2018-06-08 14:43:09.328 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx8a1f39b74faa0379]]></appid>
+<mch_id><![CDATA[1275732901]]></mch_id>
+<nonce_str><![CDATA[zMW63N66q2yqVIdD]]></nonce_str>
+<sign><![CDATA[57A9C6AF916FF569EEAFAA06D4D44E0F]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx08144310811059824ae5accb0288616484]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+2018-06-08 14:43:09.382 DEBUG 配置账号信息: KEYS:yUDKqL0WCgenNzR7t9zADztt8gG1jdsj
+2018-06-08 14:43:09.441 DEBUG RM.Web.business.JsApiPay: Get jsApiParam : {"appId":"wx8a1f39b74faa0379","nonceStr":"c966df659f77473ea699630c800bf116","package":"prepay_id=wx08144310811059824ae5accb0288616484","paySign":"CC4FA0CDFB44EA26B7ADB9E9A9CAF6D0","signType":"MD5","timeStamp":"1528440189"}
+2018-06-08 14:43:09.450 DEBUG 配置账号信息: appid:wx8a1f39b74faa0379
+2018-06-08 14:43:09.450 DEBUG 配置账号信息: appid:wx8a1f39b74faa0379
+2018-06-08 14:43:09.451 DEBUG 配置账号信息: APPSECRET:810d728c2b15402fa1531e4f10ac4882
+2018-06-08 14:44:00.167 DEBUG 配置账号信息: appid:wx8a1f39b74faa0379
+2018-06-08 14:44:00.168 DEBUG 配置账号信息: appid:wx8a1f39b74faa0379
+2018-06-08 14:44:00.174 DEBUG 配置账号信息: APPSECRET:810d728c2b15402fa1531e4f10ac4882
+2018-06-08 14:44:06.230 DEBUG 配置账号信息: appid:wx8a1f39b74faa0379
+2018-06-08 14:44:06.232 DEBUG 配置账号信息: appid:wx8a1f39b74faa0379
+2018-06-08 14:44:06.233 DEBUG 配置账号信息: APPSECRET:810d728c2b15402fa1531e4f10ac4882
+2018-06-08 18:20:56.654 DEBUG 配置账号信息: appid:wx8a1f39b74faa0379
+2018-06-08 18:20:56.731 DEBUG 配置账号信息: appid:wx8a1f39b74faa0379
+2018-06-08 18:20:56.732 DEBUG 配置账号信息: APPSECRET:810d728c2b15402fa1531e4f10ac4882
+2018-06-08 18:24:20.937 DEBUG 配置账号信息: appid:wx8a1f39b74faa0379
+2018-06-08 18:24:20.940 DEBUG 配置账号信息: appid:wx8a1f39b74faa0379
+2018-06-08 18:24:20.941 DEBUG 配置账号信息: APPSECRET:810d728c2b15402fa1531e4f10ac4882

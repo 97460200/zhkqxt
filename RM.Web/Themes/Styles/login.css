@@ -1,0 +1,448 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: "Microsoft Yahei";
+}
+body
+{
+    background: #282B2D;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+}
+
+
+::-ms-expand { display: none;}
+::-ms-reveal{display: none;}
+::-ms-clear { display: none; }
+input{outline: none;}
+
+.login
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -380px;
+    margin-left: -473px;
+    background: #282B2D url(/Themes/images/Login/lobg.jpg) no-repeat center;
+    width: 946px;
+    height: 642px;
+}
+.boxLogin
+{
+    width: 550px;
+    height: 245px;
+    margin: 0 auto;
+    background: url(/Themes/images/Login/bg2.jpg) no-repeat;
+    color: #000000;
+    position: relative;
+    margin-top: 185px;
+    padding: 25px;
+}
+.login_head table tr td.nn
+{
+    font: 微软雅黑;
+    font-size: 16px;
+    color: #666;
+    padding-left: 20px;
+    padding-top: 8px;
+}
+.login_head table tr td.nn span
+{
+    font-family: 微软雅黑;
+    font-size: 16px;
+}
+dl, dd
+{
+    padding: 0;
+    margin: 0;
+}
+
+
+::-moz-placeholder{color: #bbb;}
+::-webkit-input-placeholder{color: #bbb;}
+
+
+.s1, .s2, .s3, .s4, .s5, .s6, .s7
+{
+    position: absolute;
+}
+.s0
+{
+    width: 260px;
+    height: 32px;
+    background: url(/Themes/images/Login/ID.png) no-repeat left center;
+    position: absolute;
+    left: 202px;
+    top: 90px;
+    border: 1px solid #ccc;
+}
+.s1
+{
+    left: 202px;
+    top: 105px;
+    width: 260px;
+    height: 32px;
+    background: url(/Themes/images/Login/user.png) no-repeat left center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.s2
+{
+    left: 202px;
+    top: 145px;
+    width: 260px;
+    height: 32px;
+    background: url(/Themes/images/Login/pwd.png) no-repeat left center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.s3
+{
+    left: 202px;
+    top: 191px;
+    width: 260px;
+}
+.s4
+{
+    left: 202px;
+    top: 201px;
+    font-size: 12px;
+    color: #666;
+    font-family: 宋体;
+}
+.s4 a
+{
+    color: #cc0000;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.s4 a:hover
+{
+    text-decoration: underline;
+}
+.s4 .mimago
+{
+    float: left;
+    margin-top: 1px;
+    margin-right: 5px;
+    background: url("/Themes/images/fuxuank.png" ) no-repeat;
+    width: 13px;
+    height: 14px;
+}
+.s4 .mimago:hover
+{
+    background-position: 0px -15px;
+}
+.s5
+{
+    left: 177px;
+    top: 165px;
+    width: 50px;
+}
+.s6
+{
+    left: 230px;
+    top: 161px;
+}
+.s7
+{
+    left: 20px;
+    top: 195px;
+    width: 460px;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    margin: 1px;
+}
+.s8
+{
+    position: absolute;
+    left: 359px;
+    top: 195px;
+    cursor: pointer;
+}
+.txt
+{
+    font-family: Verdana;
+    padding: 0 0 0 4px !important;
+    margin-left: 32px;
+    border: none !important;
+    background: none;
+    font-size: 12px;
+    outline: none;
+    height: 32px;
+    line-height: 32px;
+}
+.inputbackground
+{
+    background: #EAFDE9;
+}
+.errorMsg
+{
+    color: #d00;
+    position: absolute;
+    right: -110px;
+    top: 7px;
+    display: block;
+    width: 100px;
+}
+
+.copyright
+{
+    font-family: Arial;
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+    padding-top: 15px;
+}
+.sign
+{
+    border: medium none;
+    width: 103px;
+    height: 29px;
+    border-style: none;
+    background: none;
+    background-image: url("/Themes/images/Login/137.png" );
+    cursor: pointer;
+    outline: none;
+}
+.sign:hover
+{
+    background-position: 0 -30px;
+}
+.sign_hover
+{
+    background-position: 0 -40px;
+}
+.load
+{
+    position: absolute;
+    z-index: 3000;
+    left: 62.5%;
+    top: 201px;
+    display: none;
+}
+.signload
+{
+    border: medium none;
+    width: 103px;
+    height: 29px;
+    border-style: none;
+    background: none;
+    background-image: url("/Themes/images/Login/login-v2-load.png" );
+}
+.sewa
+{
+    border: medium none;
+    width: 110px;
+    height: 11px;
+    border-style: none;
+    background: none;
+    background: url("/Themes/images/Login/sewa.png") no-repeat;
+    cursor: pointer;
+    outline: none;
+    background-position: 0 -1px;
+    display: inline-block;
+    margin-top: 10px;
+}
+/*.sewa:hover
+{
+    background-position: 0 -13px;
+}*/
+
+input::-webkit-input-placeholder {
+    color: #999;     
+}
+input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #999;
+}
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #999;
+}
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #999;
+}
+input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #999;
+}
+
+/*********找回密码*************/
+.boxpassword
+{
+    background: url(/Themes/images/bg3.jpg) no-repeat;
+}
+
+.boxpassword .s1
+{
+    left: 170px;
+    top: 105px;
+    width: 260px;
+    height: 32px;
+    background: url("/Themes/images/yh_bg.png") no-repeat;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+}
+.boxpassword .s2
+{
+    left: 170px;
+    top: 148px;
+    width: 260px;
+    height: 32px;
+    background: url("/Themes/images/psd1.png") no-repeat;
+    border: none;
+    border-radius: 5px;
+}
+
+.boxpassword .btn
+{
+    line-height: 26px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #CC0000;
+    background: #CC0000;
+    color: #fff;
+    font-size: 12px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    width: 74px;
+    box-sizing: border-box;
+    float: right;
+}
+.boxpassword .sign
+{
+    border: medium none;
+    width: 260px;
+    height: 29px;
+    border-style: none;
+    background: #CC0000;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-sizing: border-box;
+}
+.boxpassword .sign:hover
+{
+    background: #FF0000;
+}
+.boxpassword .s8
+{
+    position: absolute;
+    left: 170px;
+    top: 202px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.boxpassword p
+{
+    font-size: 12px;
+    color: #666666;
+    box-sizing: border-box;
+    position: absolute;
+    left: 170px;
+    top: 245px;
+}
+.setpassword
+{
+    background: url(/Themes/images/bg3.jpg) no-repeat;
+}
+.setpassword .s11
+{
+    left: 170px;
+    top: 105px;
+    width: 260px;
+    height: 32px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    position: absolute;
+}
+.setpassword .s22
+{
+    left: 170px;
+    top: 148px;
+    width: 260px;
+    height: 32px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    position: absolute;
+}
+.setpassword .s88
+{
+    position: absolute;
+    left: 170px;
+    top: 202px;
+    cursor: pointer;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.setpassword .sign
+{
+    border: medium none;
+    width: 260px;
+    height: 33px;
+    border-style: none;
+    background: #CC0000;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-sizing: border-box;
+}
+.setpassword .sign:hover
+{
+    background: #FF0000;
+}
+.setpassword .txt
+{
+    font-family: Verdana;
+    padding: 3px 2px 2px 2px;
+    margin-left: 10px;
+    line-height: 25px;
+    height: 25px;
+    border: none;
+    background: none;
+    color: #999;
+    font-size: 12px;
+    outline: none;
+    box-sizing: initial;
+    padding: 5px 2px 2px 2px !important;
+}
+
+.user_name input.txt
+{
+    width: 140px;
+    height: 22px;
+    line-height: 22px;
+    border: none;
+    margin: 1px 0px 1px 32px;
+    background: #fff !important;
+    box-sizing: initial;
+    padding: 5px 2px 2px 2px !important;
+}
+
+.pwd input.txt
+{
+    width: 222px;
+    height: 22px;
+    line-height: 22px;
+    border: none;
+    margin: 1px 0px 1px 32px;
+    background: #fff !important;
+    box-sizing: initial;
+    padding: 5px 2px 2px 2px !important;
+}
+
+
+

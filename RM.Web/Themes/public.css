@@ -1,0 +1,295 @@
+﻿@import url(screen.css);
+
+/*常用
+-----------------------------------------------------------------------------------------------*/
+*{ margin:0; padding:0;}
+a{cursor:hand;
+  cursor:pointer;
+  -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; transition: all 0.5s ease;
+  }
+body
+{
+ margin:0 auto;
+ padding:0;
+
+}
+
+.clear
+{
+ clear:both;
+	}
+/*头部
+-------------------------------------------------------------------------------------------------*/
+.HeadArea
+{
+	 width:1000px;
+	 height:105px;
+	 margin:0 auto;
+
+}
+
+.logo
+{
+	 float:left;
+	 width: 200px;
+	 margin-top:30px;
+}
+.headrr
+{
+float: right;
+width: 666px;
+padding-top:30px;
+padding-right:10px;
+}
+.head_top
+{
+	text-align:right;
+	color:#666;
+	padding-right:2px;
+	 font-family:Arial;
+ font-size:12px;
+ 
+}
+.head_top span
+{
+	 background: url(../images/phone.jpg) no-repeat ;
+	 padding-left:13px;
+}
+.head_top a
+{
+	color:#666;
+}
+
+.nav
+{
+      /*padding-top:17px;*/
+      *padding-top:17px;
+}
+
+.nav ul li.ww
+{
+	float:left;
+	padding-left:35px;
+	position:relative;
+}
+.nav ul li a
+{
+ font-family:宋体;
+ font-size:12px;
+ color:#666;
+ height: 36px;
+display: inline-block;
+}
+.nav ul li a.this,
+.nav ul li a.HeadBackgrundcolor
+{
+	 color:#cc0000;
+	 text-decoration:none;
+}
+.nav ul li a:hover
+{
+	color:#cc0000;
+	 text-decoration:none;
+	 
+}
+.nav ul li div
+{
+	 background: url(../images/nav2bg.png) no-repeat 50px top ;
+	 position:absolute; /*?navλ*/
+	top:33px; /*?navλ*/
+	left: 50%;
+z-index: 1;
+margin-left: -37px;
+	  z-index:1;
+	  display:none/*?*/
+}
+.nav ul li ul 
+{
+	/*;??????*/
+    width:50px;
+	background-color:#333;
+  padding: 10px 30px;
+margin-top: 7px;
+}
+.nav ul li ul.en
+{
+	max-width:230px;
+	min-width:175px;
+	width:auto;
+	_width:230px;
+			
+}
+.nav ul li ul li 
+{
+	float:none; /**/
+	_zoom:1; /*IE6Bug*/
+	line-height:33px;
+     color:#fff;
+     padding-left:0px;   
+}
+.nav ul li ul li a 
+{
+	float:none; /**/
+	background-color:#333;
+	color:#ebebeb;
+	padding:0px;
+	padding: 0px;
+	height:auto;
+	font-size:12px;
+	display: initial;
+	filter:alpha(opacity=60); 
+    -moz-opacity:0.6; 
+    opacity:0.6;
+}
+.nav ul li ul li a:hover
+{
+	text-decoration:none;
+	color:#fff;
+	filter:alpha(opacity=100); 
+    -moz-opacity:1; 
+    opacity:1;
+}			  
+.nfocus
+{
+	width:100%;
+	margin:0 auto;
+	height:260px;
+	position:relative;
+	overflow:hidden;
+	z-index:-1;
+}
+.nfocus img
+{
+	position:absolute;
+	left:50%;
+	margin-left:-960px;
+}			  
+					  
+/*底部
+-------------------------------------------------------------------------------------------------*/
+
+
+.foot
+{
+	 padding-top:40px;
+	 width:100%;
+	 height:350px;
+	 background: url(../images/foot.jpg) repeat ;
+
+}
+.foot_con
+{
+	width:980px;
+	margin:0 auto;
+	 overflow:hidden;
+	 padding:0px 10px;
+	 background: url(../images/footbg.jpg) no-repeat center bottom ;
+	 height: 100%;
+}
+.foot .top
+{
+	overflow:hidden;
+	height: 306px;
+}
+.foot_con .ll
+{
+	float:left;
+	 width:300px;
+	 background: url(../images/footll.jpg) no-repeat left top;
+}
+.foot_con .ll p
+{
+	margin-bottom:12px;
+	 font-family:Arial;
+ font-size:12px;
+ color:#999;
+ padding-left:18px;
+}
+.foot_con .ll p.last
+{
+	padding-top:2px;
+	position:relative;
+}
+.foot_con .ll p a
+{
+		 font-family:Arial;
+ font-size:12px;
+ color:#999;
+}
+.foot_con .ll p.last a
+{
+	background: url(../images/fxtt1.jpg) no-repeat 55px 6px;
+width: 70px;
+display: inline-block;
+}
+.foot_con .ll p.last a:hover
+{
+	background: url(../images/fxtt2.jpg) no-repeat 55px 6px;
+	color:#fff;
+	text-decoration:none;
+}
+.foot_con .ll p.last img
+{
+	position: absolute;
+left: 30px;
+top: 25px;
+width: 100px;
+height: 100px;
+display:none;
+}
+.foot_con .ll p.last a:hover img
+{
+	display:block;
+}
+.foot_con .rr
+{
+	 float:right;
+	 width:600px;
+}
+.foot_con .rr dl
+{
+	float:left;
+	margin-left:65px;
+	width:55px;
+}
+.foot_con .rr dl dt
+{
+	font-weight:bold;
+	color:#fff;
+	padding-bottom:20px;
+}
+.foot_con .rr dl dd
+{
+	padding-bottom:15px;
+}
+.foot_con .rr dl dd a
+{
+	color:#b3b3b3;
+}
+.bot p
+{
+	font-family:Arial;
+	font-size:12px;
+	color:#666;
+	width:368px;
+	margin:0 auto;
+}
+.bot p a
+{
+	font-size:12px;
+	color:#444;
+	margin-left:10px;
+}
+.bot p img
+{
+	float:right;
+	margin-top: 4px;
+	*margin-top: -14px;
+}
+.foot_con .rr dl dd a:hover,
+.foot_con .ll p a:hover,
+.bot p a:hover
+{
+	color:#fff;
+	text-decoration:none;
+}

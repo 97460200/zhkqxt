@@ -1,0 +1,71 @@
+﻿.zxsy
+{
+max-width:640px;
+height:100%;
+position:relative;
+margin:0 auto;
+background:url("/App_Themes/default/images/tjimage/sybg.jpg");
+background-size: 100% 100%;
+}
+.zxsy .zxLogo
+{
+width:32%;
+padding-left: 11%;
+}
+.zxsy .zxLogo img
+{
+width:100%;
+}
+.zxsy .zxlb
+{
+float:right;
+width:54%;
+padding-top:7%;
+overflow:hidden;
+margin-right: 3.5%;
+}
+.zxsy .zxlb ul
+{
+float:left;
+width:50%;
+list-style:none;
+}
+.zxsy .zxlb ul.lb1
+{
+margin-top:29%;
+}
+.zxsy .zxlb ul a
+{
+text-decoration:none;
+color:#fff;
+font-family:"微软雅黑";
+font-size:0.9rem;
+display: inline-block;
+text-align:center;
+margin-bottom:2rem;
+}
+.zxsy .zxlb ul a img
+{
+width:67.8%;
+display:block;
+margin:0 auto;
+margin-bottom:0.5rem;
+}
+              
+@media screen and (max-width:380px) and (min-width:331px)
+{
+body, html
+{
+font-size: 14px;
+}
+
+}
+
+@media screen and (max-width:330px)
+{
+body, html
+{
+font-size: 12px;
+}
+    
+}

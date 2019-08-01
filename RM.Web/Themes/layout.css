@@ -1,0 +1,282 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: #aaa;
+    color: #fff;
+    font: 16px Arial,sans-serif;
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px;
+    background: #111;
+    width: 100%;
+    height: 100%;
+}
+a.stuts, a.stuts:visited
+{
+    color: #FCFCFC;
+    font-size: 14px;
+    text-decoration: none;
+}
+.stuts span
+{
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.container
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #000;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+#pages
+{
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+#nav
+{
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 0;
+    outline: #333 solid 1px;
+    padding: 15px;
+    position: fixed;
+    left: 200px;
+    top: 50px;
+    width: 200px;
+    border: 1px solid #888;
+}
+#nav div a.go
+{
+    background: #333;
+    float: left;
+    height: 25px;
+    margin: 7px 7px 7px 0px;
+    overflow: hidden;
+    text-decoration: none;
+    width: 25px;
+}
+#nav div a.go:visited, #nav div a.visited
+{
+    background-color: #666;
+}
+#nav div a.go:active, #nav div a.active
+{
+    background-color: #fff !important;
+}
+#nav div a.go:hover, #nav div a.go:focus
+{
+    background-color: #00f;
+}
+#pages > div
+{
+    height: 1100px;
+    position: absolute;
+    width: 1700px;
+}
+#page1
+{
+    left: 0;
+    top: 0;
+}
+#page2
+{
+    left: 1800px;
+    top: 0;
+}
+#page3
+{
+    left: 3600px;
+    top: 0;
+}
+#page4
+{
+    left: 5400px;
+    top: 0;
+}
+#page5
+{
+    left: 0;
+    top: 1300px;
+}
+#page6
+{
+    left: 1800px;
+    top: 1300px;
+}
+#page7
+{
+    left: 3600px;
+    top: 1300px;
+}
+#page8
+{
+    left: 5400px;
+    top: 1300px;
+}
+#page9
+{
+    left: 0;
+    top: 2600px;
+}
+#page10
+{
+    left: 1800px;
+    top: 2600px;
+}
+#page11
+{
+    left: 3600px;
+    top: 2600px;
+}
+#page12
+{
+    left: 5400px;
+    top: 2600px;
+}
+#page13
+{
+    left: 0;
+    top: 3900px;
+}
+#page14
+{
+    left: 1800px;
+    top: 3900px;
+}
+#page15
+{
+    left: 3600px;
+    top: 3900px;
+}
+#page16
+{
+    left: 5400px;
+    top: 3900px;
+}
+#pages .left
+{
+    border-bottom: transparent solid 20px;
+    border-right: #ccc solid 20px;
+    border-top: transparent solid 20px;
+    height: 0;
+    left: 20px;
+    position: absolute;
+    top: 50%;
+    width: 0;
+    opacity: 0.5;
+}
+#pages .right
+{
+    border-bottom: transparent solid 20px;
+    border-left: #ccc solid 20px;
+    border-top: transparent solid 20px;
+    height: 0;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    width: 0;
+    opacity: 0.5;
+}
+#pages .top
+{
+    border-bottom: #333 solid 10px;
+    border-left: transparent solid 20px;
+    border-right: transparent solid 20px;
+    height: 0;
+    left: 50%;
+    position: absolute;
+    top: 20px;
+    width: 0;
+}
+#pages .bottom
+{
+    border-left: transparent solid 20px;
+    border-right: transparent solid 20px;
+    border-top: #333 solid 10px;
+    bottom: 20px;
+    height: 0;
+    left: 50%;
+    position: absolute;
+    width: 0;
+}
+#pages .left:hover
+{
+    border-right: #fff solid 20px;
+    opacity: 1;
+}
+#pages .right:hover
+{
+    border-left: #fff solid 20px;
+    opacity: 1;
+}
+#pages .top:hover
+{
+    border-bottom: #202020 solid 10px;
+}
+#pages .bottom:hover
+{
+    border-top: #202020 solid 10px;
+}
+
+
+#nav div .img_title, #nav div .img_info
+{
+    font-family: Arial, Microsoft YaHei;
+    line-height: 2.5em;
+    vertical-align: middle;
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+}
+
+#nav div .img_title
+{
+    font-size: 16px;
+}
+
+#nav div .img_info
+{
+    font-size: 15px;
+}
+
+.container a.print
+{
+    display: block;
+    margin-top: 15px;
+    color: #333;
+    width: 48px;
+    height: 21px;
+    line-height: 23px;
+    font-family: Arial, Microsoft YaHei;
+    font-weight:normal;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    background: url(Images/a_btn_bg.png) repeat-x;
+    border-radius: 3px;
+}
+
+.container a.print:hover
+{
+    color: #666;
+    opacity: .8;
+    background:#fff;
+    font-weight:normal;
+}
+
+#nav > div
+{
+    overflow: hidden;
+    text-align: center;
+}

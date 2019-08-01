@@ -1,0 +1,238 @@
+.minicolors { position: relative }
+.minicolors-swatch { position: absolute; display: inline-block; margin: 0; padding: 0; cursor: text; vertical-align: middle; border: solid 1px #ccc; background: url('/Themes/Images/minicolors.png') -80px 0 }
+.minicolors-swatch-color { position: absolute; top: 0; right: 0; bottom: 0; left: 0 }
+.minicolors input[type=hidden] + .minicolors-swatch { position: static; width: 28px; cursor: pointer }
+.minicolors-panel { position: absolute; z-index: 99999; display: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; width: 173px; height: 152px; border: solid 1px #ccc; background: white; box-shadow: 0 0 20px rgba(0, 0, 0, .2) }
+.minicolors-panel.minicolors-visible { display: block }
+.minicolors-position-top .minicolors-panel { top: -154px }
+.minicolors-position-right .minicolors-panel { right: 0 }
+.minicolors-position-bottom .minicolors-panel { top: auto }
+.minicolors-position-left .minicolors-panel { left: 0 }
+.minicolors-position-left .minicolors-panel * { transition: all 0s }
+.minicolors-with-opacity .minicolors-panel { width: 194px }
+.minicolors .minicolors-grid { position: absolute; top: 1px; left: 1px; width: 150px; height: 150px; cursor: crosshair; background: url('/Themes/Images/minicolors.png') -120px 0 }
+.minicolors .minicolors-grid-inner { position: absolute; top: 0; left: 0; width: 150px; height: 150px; background: none }
+.minicolors-slider-saturation .minicolors-grid { background-position: -420px 0 }
+.minicolors-slider-saturation .minicolors-grid-inner { background: url('/Themes/Images/minicolors.png') -270px 0 }
+.minicolors-slider-brightness .minicolors-grid { background-position: -570px 0 }
+.minicolors-slider-brightness .minicolors-grid-inner { background: black }
+.minicolors-slider-wheel .minicolors-grid { background-position: -720px 0 }
+.minicolors-slider, .minicolors-opacity-slider { position: absolute; top: 1px; left: 152px; width: 20px; height: 150px; cursor: row-resize; background: white url('/Themes/Images/minicolors.png') 0 0 }
+.minicolors-slider-saturation .minicolors-slider { background-position: -60px 0 }
+.minicolors-slider-brightness .minicolors-slider { background-position: -20px 0 }
+.minicolors-slider-wheel .minicolors-slider { background-position: -20px 0 }
+.minicolors-opacity-slider { left: 173px; display: none; background-position: -40px 0 }
+.minicolors-with-opacity .minicolors-opacity-slider { display: block }
+.minicolors-grid .minicolors-picker { position: absolute; top: 70px; left: 70px; width: 12px; height: 12px; margin-top: -6px; margin-left: -6px; border: solid 1px black; border-radius: 10px; background: none }
+.minicolors-grid .minicolors-picker > div { position: absolute; top: 0; left: 0; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; width: 8px; height: 8px; border: solid 2px white; border-radius: 8px }
+.minicolors-picker { position: absolute; top: 0; left: 0; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; width: 18px; height: 2px; margin-top: -2px; border: solid 1px black; background: white }
+.minicolors-inline { display: inline-block }
+.minicolors-inline .minicolors-input { display: none !important }
+.minicolors-inline .minicolors-panel { position: relative; z-index: auto; top: auto; left: auto; display: inline-block; box-shadow: none }
+.minicolors-theme-default .minicolors-swatch { position: absolute; top: 5px; right: 5px; display: block; width: 20px; height: 20px; cursor: pointer; border: 1px solid #e3e2e2; background: #fff; background: url('/Themes/Images/color06.png') no-repeat; z-index: 10; display: none }
+.minicolors-theme-default .minicolors-swatch:after { position: absolute; right: 0; bottom: 0; display: block; width: 7px; height: 4px; content: ''; background: url('/Themes/Images/color06.png') no-repeat -23px -8px }
+.minicolors-theme-default.minicolors-position-right .minicolors-swatch { right: 5px; left: auto }
+.minicolors-theme-default.minicolors { display: inline-block; width: auto }
+.minicolors-theme-default .minicolors-input { display: inline-block; width: auto; height: 20px }
+.minicolors-theme-default.minicolors-position-right .minicolors-input { padding-right: 26px; padding-left: inherit }
+.minicolors-theme-bootstrap .minicolors-swatch { top: 3px; left: 3px; width: 28px; height: 28px; border-radius: 3px }
+.minicolors-theme-bootstrap.minicolors-position-right .minicolors-swatch { right: 3px; left: auto }
+.minicolors-theme-bootstrap .minicolors-input { padding-left: 44px }
+.minicolors-theme-bootstrap.minicolors-position-right .minicolors-input { padding-right: 44px; padding-left: 12px }
+#colorpanel { }
+#colorpanel td { height: 13px; width: 13px; padding: 0; text-align: left }
+#colorpanel td input { border-radius: 0 }
+#colorpanel #resetcol, #colorpanel #morecol, #colorpanel #closecol { display: inline-block; width: 14px; height: 14px; background: url("/Themes/Images/color06.png") no-repeat; margin-left: 60px }
+#colorpanel #resetcol { background-position: -35px -3px }
+#colorpanel #morecol { background-position: -54px -3px; margin-left: 6px }
+#colorpanel #closecol { background-position: -73px -3px; margin-left: 6px }
+.crlist { box-sizing: border-box; padding: 20px 16px; width: 1280px }
+.crlist .crtitle { line-height: 40px; position: relative; display: block; height: 40px }
+.crlist .crtitle:after { position: absolute; top: 20px; left: 0; width: 100%; height: 1px; content: ''; background: #eee }
+.crlist .crtitle b { position: relative; z-index: 10; display: inline-block; padding-right: 20px; background: #fff }
+.crlist .crul_l { float: left; width: 820px }
+.crlist .crul_l .crli { line-height: 32px; display: block; padding: 6px 0 }
+.crlist .crul_l .block { display: block; overflow: hidden }
+.crlist .crul_l .crli .name { font-size: 12px; float: left; width: 80px; margin-right: 10px; text-align: right }
+.crlist .crul_l .crli .lh16 { line-height: 16px;}
+.crlist .crul_l .crli .val { float: left; width: calc(100% - 90px) }
+.crlist .crul_l .crli select, .crlist .crul_l .crli input { line-height: 32px; width: 50%; height: 32px }
+.crlist .crul_l .crli ul { zoom: 1; margin: -16px 0 0 -50px }
+.crlist .crul_l .crli ul:after { display: block; visibility: hidden; clear: both; height: 0; content: '' }
+.crlist .crul_l .crli ul li { position: relative; float: left; width: 240px; margin: 10px 0 0 50px }
+.crlist .crul_l .crli ul li input { font-size: 14px; width: 150px; cursor: pointer; background: none }
+.crlist .crul_l .crli ul li label { position: absolute; top: 5px; right: 5px; display: block; width: 20px; height: 20px; cursor: pointer; border: 1px solid #e3e2e2; background: #fff; background: url('/Themes/Images/color06.png') no-repeat; z-index: -1 }
+.crlist .crul_l .crli ul li label:after { position: absolute; right: 0; bottom: 0; display: block; width: 7px; height: 4px; content: ''; background: url('/Themes/Images/color06.png') no-repeat -23px -8px }
+.crlist .crdiv_r { font-family: '微软雅黑'; font-size: 16px; float: left; width: 375px; height: 660px; margin-left: 50px; border: 1px solid #eee;overflow: hidden; position: relative; cursor: pointer }
+.crlist .crdiv_r > div { height: 610px; overflow-y: auto }
+.crlist .crdiv_r > div::-webkit-scrollbar { width: 0; height: 0 }
+@font-face { font-family: 'colfonts'; font-weight: normal; font-style: normal; src: url('/App_Themes/default/css/fonts/icomoon.eot?jkd65n'); src: url('/App_Themes/default/css/fonts/icomoon.eot?jkd65n#iefix') format('embedded-opentype'), url('/App_Themes/default/css/fonts/icomoon.ttf?jkd65n') format('truetype'), url('/App_Themes/default/css/fonts/icomoon.woff?jkd65n') format('woff'), url('/App_Themes/default/css/fonts/icomoon.svg?jkd65n#icomoon') format('svg') }
+[class^='icon-'], [class*=' icon-'] { font-family: 'colfonts' !important; font-weight: normal; font-style: normal; font-variant: normal; line-height: 1; text-transform: none; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale }
+.icon-qubg:before { content: '\e900' }
+.icon-addr_cir:before { content: '\e901' }
+.icon-fd1:before { content: '\e902' }
+.icon-fd2:before { content: '\e903' }
+.icon-fd3:before { content: '\e904' }
+.icon-fd4:before { content: '\e905' }
+.icon-succ:before { content: '\e906' }
+.icon-tel:before { content: '\e907' }
+.icon-search:before { content: '\e908' }
+.icon-men:before { content: '\e909' }
+.icon-menfull:before { content: '\e90a' }
+.icon-gift1:before { content: '\e90b' }
+.icon-df2:before { content: '\e90c' }
+.icon-gift3:before { content: '\e90d' }
+.icon-telfull:before { content: '\e90e' }
+.icon-cart:before { content: '\e90f' }
+.icon-gift4:before { content: '\e910' }
+.icon-discu:before { content: '\e911' }
+.icon-addr:before { content: '\e912' }
+.icon-Vouc:before { content: '\e913' }
+.icon-rese:before { content: '\e914' }
+.icon-resefull:before { content: '\e915' }
+.icon-orderfull2:before { content: '\e916' }
+.icon-order2:before { content: '\e917' }
+.icon-menu:before { content: '\e918' }
+.icon-home:before { content: '\e919' }
+.icon-homefull:before { content: '\e91a' }
+.icon-ddddn:before { content: '\e91b' }
+.icon-shoper:before { content: '\e91c' }
+.icon-bed:before { content: '\e91d' }
+.icon-Hall:before { content: '\e91e' }
+.icon-mem4:before { content: '\e91f' }
+.icon-wxsucc:before { content: '\e920' }
+.icon-boldright:before { content: '\e921' }
+.icon-distri:before { content: '\e922' }
+.icon-uniE923:before { content: '\e923' }
+.icon-menu3:before { content: '\e924' }
+.icon-jt:before { content: '\e925' }
+.icon-record2:before { content: '\e926' }
+.icon-class:before { content: '\e927' }
+.icon-bankcart:before { content: '\e928' }
+.icon-conpon:before { content: '\e929' }
+.icon-conpon2:before { content: '\e92a' }
+.icon-money2:before { content: '\e92b' }
+.icon-adduser:before { content: '\e92c' }
+.icon-care2:before { content: '\e92d' }
+.icon-edit:before { content: '\e92e' }
+.icon-gift:before { content: '\e92f' }
+.icon-msg2:before { content: '\e930' }
+.icon-integ:before { content: '\e931' }
+.icon-integral:before { content: '\e932' }
+.icon-integral2:before { content: '\e933' }
+.icon-order3:before { content: '\e934' }
+.icon-orderfull3:before { content: '\e935' }
+.icon-member:before { content: '\e936' }
+.icon-saoy:before { content: '\e937' }
+.icon-order:before { content: '\e938' }
+.icon-question:before { content: '\e939' }
+.icon-share2:before { content: '\e93a' }
+.icon-sigh:before { content: '\e93c' }
+.icon-calen:before { content: '\e93e' }
+.icon-qq:before { content: '\e959' }
+.icon-wechat:before { content: '\e95c' }
+.icon-share:before { content: '\e966' }
+.icon-rmb:before { content: '\e96f' }
+.icon-setup:before { content: '\e972' }
+.icon-close:before { content: '\e973' }
+.icon-close_cir:before { content: '\e974' }
+.icon-closefull:before { content: '\e975' }
+.icon-down:before { content: '\e977' }
+.icon-downfull:before { content: '\e978' }
+.icon-Hook:before { content: '\e97a' }
+.icon-Hook_cir:before { content: '\e97b' }
+.icon-Hookfull:before { content: '\e97d' }
+.icon-left:before { content: '\e97e' }
+.icon-leftfull:before { content: '\e980' }
+.icon-plus:before { content: '\e981' }
+.icon-plusfull:before { content: '\e982' }
+.icon-radio:before { content: '\e983' }
+.icon-radioed:before { content: '\e985' }
+.icon-reduce:before { content: '\e986' }
+.icon-right:before { content: '\e989' }
+.icon-rightfull:before { content: '\e98b' }
+.icon-up:before { content: '\e990' }
+.icon-like:before { content: '\e993' }
+.icon-likefull:before { content: '\e994' }
+.icon-photo:before { content: '\e995' }
+.icon-star:before { content: '\e997' }
+.icon-starfull:before { content: '\e999' }
+.icon-hym:before { content: '\e93b' }
+.icon-fkm:before { content: '\e93d' }
+.ms-controller { visibility: hidden }
+.kfyd .Banner { position: relative; overflow: hidden; height: 200px }
+.kfyd .Banner img { width: 100% }
+.kfyd .Banner .fanh { position: absolute; z-index: 10; top: 14px; left: 14px; width: 40px; height: 40px; line-height: 40px; text-align: center; color: white; background: rgba(0, 0, 0, .2); border-radius: 50%; }
+.kfyd .Banner .fanh .icon-left { font-size: 28px; position: relative; z-index: 10; line-height: 40px }
+.kfyd .Banner .fanh i { position: absolute; top: 0; left: 0; display: block; width: 100%; height: 100%; content: ''; opacity: .4; border-radius: 50% }
+.kfyd .Banner .BanBtm { line-height: 44px; position: absolute; z-index: 18; bottom: 0; left: 0; width: 100%; height: 44px }
+.kfyd .Banner .BanBtm:before { position: absolute; top: 0; left: 0; width: 100%; height: 100%; content: ''; opacity: .5 }
+.kfyd .Banner .BanBtm:after { font-family: 'colfonts'; font-size: 22px; position: absolute; top: 0; right: 10px; content: '\e989'; color: #fff }
+.kfyd .Banner .BanBtm a { position: relative; z-index: 10; display: block; padding-left: 14px; color: white }
+.kfyd .AboutMe a { font-weight: normal; line-height: 46px; position: relative; display: block; overflow: hidden; height: 46px; padding-right: 34px; padding-left: 14px; white-space: nowrap; text-overflow: ellipsis }
+.kfyd .AboutMe a.address .icon-addr { font-size: 20px; float: left; width: 22px; margin-right: 4px; line-height: 46px }
+.kfyd .AboutMe a.pjia .icon-msg2 { font-size: 21px; position: relative; top: 1px; content: '\e930'; float: left; width: 22px; margin-right: 4px; line-height: 46px; float: left }
+.kfyd .AboutMe a:after { font-family: 'colfonts'; font-size: 22px; position: absolute; top: 0; right: 10px; content: '\e989'; opacity: .6 }
+.kfyd .AboutMe a.tel .icon-telfull { font-size: 18px; width: 18px; line-height: 46px; margin-right: 4px; float: left }
+.kfyd .AboutMe span { display: block; overflow: hidden; border-top: 1px solid; box-sizing: border-box }
+.kfyd .AboutMe span a { float: left; box-sizing: border-box; width: 50%; padding-right: 14px }
+.kfyd .AboutMe span u { position: absolute; top: 13px; left: 0; width: 1px; height: 20px; background: #eee }
+.kfyd .AboutMe span a b { font-weight: normal; }
+.kfyd .AboutMe span a:after { content: '' }
+.kfyd .AboutMe a.address { background: url(/App_Themes/default/images/map04.png) no-repeat right center; background-size: auto 50px }
+.kfyd .checkTime { position: relative; box-sizing: border-box; border-top: 1px solid }
+.kfyd .checkTime .ReTime { position: relative; overflow: hidden; padding: 10px 0 }
+.kfyd .checkTime .ReTime .ReIn { float: left; box-sizing: border-box; width: 50%; padding-right: 10px }
+.kfyd .checkTime .ReTime .ReIn + .ReIn { border-left: 1px solid }
+.kfyd .checkTime .ReTime .ReIn p { font-size: 15px; text-align: center }
+.kfyd .checkTime .ReTime .ReIn p i { font-size: 14px; font-style: normal; line-height: 22px; height: 22px; margin: 0 auto }
+.kfyd .checkTime .ReTime .ReIn p .icon-calen { font-size: 22px; line-height: 20px; width: 22px; height: 20px; display: inline-block; position: relative; top: 4px; left: -2px }
+.kfyd .checkTime .ReTime .ReIn p input { font-size: 15px; line-height: 24px; width: 90px; height: 20px; padding: 0; color: #666; border: none; background: none }
+.kfyd .checkTime .ReTime .ReIn p span { font-size: 13px; line-height: 20px; position: relative; top: -1px; display: inline-block; height: 20px }
+.kfyd .checkTime .ReTime .ReLong { font-size: 15px; position: absolute; top: 50%; left: 50%; width: 50px; padding: 5px 0; transform: translate(-50%, -50%); text-align: center }
+.kfyd .gtlist dd { border-top: 1px solid }
+.kfyd .gtlist dd .Guestroom { overflow: hidden; padding: 12px 14px }
+.kfyd .gtlist dd .Guestroom .photo { position: relative; float: left; overflow: hidden; width: 95px; height: 70px; border-radius: 2px; background-color: #f6f6f6 }
+.kfyd .gtlist dd .Guestroom .photo img { position: absolute; top: 50%; left: 50%; min-width: 100%; height: 100%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%) }
+.kfyd .gtlist dd .Guestroom .listDetail { position: relative; float: left; width: calc(100% - 105px); height: 70px; margin-left: 10px }
+.kfyd .gtlist dd .Guestroom .listDetail:after { font-family: 'colfonts'; font-size: 24px; position: absolute; right: 0; bottom: 0; height: 20px; content: '\e977'; transition: all .5s; opacity: .6 }
+.kfyd .gtlist dd .Guestroom .ctShow:after { transform: rotateX(180deg) translateY(-4px) }
+.kfyd .gtlist dd .Guestroom h3 { font-size: 16px; font-weight: normal; line-height: 26px; overflow: hidden; width: calc(100% - 120px) }
+.kfyd .gtlist dd .Guestroom .price { line-height: 26px; position: absolute; top: 0; right: 0; display: block; max-width: 80px; height: 26px }
+.kfyd .gtlist dd .Guestroom .price span { font-size: 14px; position: absolute; top: 0; left: -48px }
+.kfyd .gtlist dd .Guestroom .full { font-size: 12px; line-height: 16px; display: block; width: 16px; height: 16px; margin-top: 4px; text-align: center; color: white; border-radius: 2px }
+.kfyd .gtlist dd .Guestroom .price .zaocan { font-size: 14px; display: block; text-align: right; color: #999 }
+.kfyd .gtlist dd .Guestroom .price a { font-size: 22px; display: block; text-align: right }
+.kfyd .gtlist dd .Guestroom .price a:before, .kfyd .gtlist dd .Guestroom .price small:before { font-size: 12px; content: '￥'; vertical-align: middle }
+.kfyd .gtlist dd .Guestroom .price a.jgqi:after { font-size: 13px; margin-left: 2px; content: '起'; vertical-align: middle; color: #999 }
+.kfyd .gtlist dd .Guestroom .price small { font-size: 14px; line-height: 16px; position: relative; display: block; height: 16px; text-align: right; text-decoration: line-through; color: #999 }
+.kfyd .gtlist dd .context { position: relative; display: none; border-top: 1px solid; border-bottom: 8px solid }
+.kfyd .gtlist dd .context li { line-height: 44px; position: relative; z-index: 10; overflow: hidden; height: 44px; padding: 2px 14px }
+.kfyd .gtlist dd .context li + li { border-top: 1px solid }
+.kfyd .gtlist dd .context li div { font-size: 15px; font-weight: normal; display: flex; display: -webkit-flex; float: left; height: 44px; flex-wrap: wrap; align-items: center }
+.kfyd .gtlist dd .context li div b { font-size: 15px; line-height: 20px; display: block; width: 64px; font-weight: normal }
+.kfyd .gtlist dd .context li em, .kfyd .gtlist dd .context li span { font-size: 20px; font-style: normal; float: right; margin: 0 10px }
+.kfyd .gtlist dd .context li small { font-size: 16px; float: right; color: #333 }
+.kfyd .gtlist dd .context li i.req { line-height: 20px; display: block; overflow: hidden; margin-top: 2px; margin-left: 6px }
+.kfyd .gtlist dd .context li i.req i { font-size: 12px; font-style: normal; line-height: 16px; float: left; padding: 0 5px; border: 1px solid }
+.kfyd .gtlist dd .context li span:before { font-size: 14px; content: '￥' }
+.kfyd .gtlist dd .context li em:after { font-size: 14px; content: '分' }
+.kfyd .gtlist dd .context li a { font-size: 14px; line-height: 28px; float: right; width: 50px; margin-top: 8px; text-align: center; color: white; border-radius: 2px; background-color: rgba(0, 0, 0, .1); }
+.kfyd .gtlist dd .context li a.active { }
+.colFoot { position: absolute; bottom: 0; left: 0; width: 100%; height: 50px; display: flex; display: -webkit-flex; border-top: 1px solid; z-index: 101 }
+.colFoot li { display: block; width: 100% }
+.colFoot li a { display: block; font-size: 13px; text-align: center }
+.colFoot li a.gray{color: inherit !important; }
+.colFoot li a:before { display: block; width: 26px; height: 24px; text-align: center; margin: 5px auto 1px; font-family: 'colfonts' }
+.colFoot li a.rese:before { content: "\e917"; font-size: 25px }
+.colFoot li a.orde:before { content: "\e934"; font-size: 22px; position: relative; top: 2px }
+.colFoot li a.prof:before { content: "\e919"; font-size: 25px }
+.colFoot li a.conp:before { content: "\e913"; font-size: 28px; position: relative; top: -1px; left: -1px }
+.colFoot li a.mine:before { content: "\e909"; font-size: 25px }
+.colFoot li.active a.rese:before { content: "\e916"; font-size: 26px }
+.colFoot li.active a.orde:before { content: "\e935"; font-size: 22px }
+.colFoot li.active a.prof:before { content: "\e91a"; font-size: 25px }
+.colFoot li.active a.conp:before { content: "\e923"; font-size: 25px; left: 0; top: 0 }
+.colFoot li.active a.mine:before { content: "\e90a"; font-size: 25px }
+.crlistBtn { display: block; overflow: hidden; border-top: 1px solid #eee; padding: 0 10px; box-sizing: border-box; height: 50px; background-color: #f3f3f3; }
+.crlistBtn a { line-height: 30px; height: 30px; padding: 0 10px; margin-top: 10px; background: #e00; color: #333; min-width: 60px; border-radius: 4px; text-align: center; border: none; cursor: pointer; border: 1px solid #ddd; margin-right: 5px; background: linear-gradient(rgb(253, 253, 253), rgb(240, 240, 240)); box-sizing: border-box; float: right; }

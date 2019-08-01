@@ -1,0 +1,56 @@
+2019-05-08 15:42:27.661 INFO 微信支付: 微信支付返回的数据: <xml><AdminHotelid><![CDATA[1010104]]></AdminHotelid>
+<Hotelid><![CDATA[0]]></Hotelid>
+<appid><![CDATA[wxb1befead0f19ed91]]></appid>
+<attach><![CDATA[HYK20190508122856801,1010104,会员卡充值,88888888,154,0]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[100]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1526733001]]></mch_id>
+<nonce_str><![CDATA[55bb4bb6c2624724a113df1e936dd22c]]></nonce_str>
+<openid><![CDATA[oSRqS51VtrdoQBOFqC_-wh4ObjRo]]></openid>
+<out_trade_no><![CDATA[HYK20190508122856801]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[8C561F9AA4B0CD0801E16EAB06894498]]></sign>
+<sub_appid><![CDATA[wxac0378d5d22d8504]]></sub_appid>
+<sub_is_subscribe><![CDATA[Y]]></sub_is_subscribe>
+<sub_mch_id><![CDATA[1527560821]]></sub_mch_id>
+<sub_openid><![CDATA[oI3Qb6GWkXwOk25EvyMxu3DwHi8o]]></sub_openid>
+<time_end><![CDATA[20190508122916]]></time_end>
+<total_fee>100</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000314201905080585762306]]></transaction_id>
+</xml>
+2019-05-08 15:42:38.335 INFO 支付订单信息: HYK20190508122856801,1010104,会员卡充值,88888888,154,0
+2019-05-08 15:42:46.963 ERROR ProcessNotify参数:   AdminHotelid: 1010104  Hotelid:88888888
+2019-05-08 15:42:55.329 ERROR 订单查询失败: <xml><return_code><![CDATA[FAIL]]></return_code><return_msg><![CDATA[订单查询失败]]></return_msg></xml>
+2019-05-08 15:44:10.906 INFO 微信支付: 微信支付返回的数据: <xml><AdminHotelid><![CDATA[1010104]]></AdminHotelid>
+<Hotelid><![CDATA[0]]></Hotelid>
+<appid><![CDATA[wxb1befead0f19ed91]]></appid>
+<attach><![CDATA[HYK20190508144847011,1010104,会员卡充值,17665283032,154,0]]></attach>
+<bank_type><![CDATA[ICBC_DEBIT]]></bank_type>
+<cash_fee><![CDATA[100]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1526733001]]></mch_id>
+<nonce_str><![CDATA[3acb31c177d148fd9e71da59f17377fc]]></nonce_str>
+<openid><![CDATA[oSRqS5zWSZdzGzmOk8TsJKka4uY0]]></openid>
+<out_trade_no><![CDATA[HYK20190508144847011]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[9F5BEAEFBF76ABC87FE40153B0392EDA]]></sign>
+<sub_appid><![CDATA[wxac0378d5d22d8504]]></sub_appid>
+<sub_is_subscribe><![CDATA[Y]]></sub_is_subscribe>
+<sub_mch_id><![CDATA[1527560821]]></sub_mch_id>
+<sub_openid><![CDATA[oI3Qb6JAPO9e3TjmfEu39tV4SZKI]]></sub_openid>
+<time_end><![CDATA[20190508144852]]></time_end>
+<total_fee>100</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000332201905080715972521]]></transaction_id>
+</xml>
+2019-05-08 15:44:14.851 INFO 支付订单信息: HYK20190508144847011,1010104,会员卡充值,17665283032,154,0
+2019-05-08 15:48:04.253 ERROR ProcessNotify参数:   AdminHotelid: 1010104  Hotelid:0
+2019-05-08 16:22:06.532 INFO newhead报错信息：: 正在中止线程。
+2019-05-08 16:22:40.813 INFO newhead报错信息：: 正在中止线程。
+2019-05-08 16:24:00.192 INFO newhead报错信息：: 正在中止线程。

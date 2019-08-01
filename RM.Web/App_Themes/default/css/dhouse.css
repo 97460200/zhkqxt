@@ -1,0 +1,151 @@
+*{margin: 0; padding: 0;-webkit-box-sizing: inherit; box-sizing: inherit;}
+*:before, *:after { -webkit-box-sizing: border-box; box-sizing: border-box;}
+html{font-size: 16px;color: #333;-webkit-overflow-scrolling: touch;-webkit-tap-highlight-color: transparent;-webkit-text-size-adjust: 100%;
+	font-family: "Helvetica Neue";
+}
+html,body,form{height: 100%;}
+h1,h2,h3,h4,h5,h6,div,p,b,strong,em,i,span,a,small{word-wrap: break-word; font-weight: normal; font-style: normal;}
+table{border-collapse: collapse; width: 100%; table-layout:fixed;} 
+th,td{text-align: center; padding: 8px 6px; border: none; }
+ul,ol,li {list-style: none;}
+a{text-decoration: none; outline: 0; font-size: inherit; color: inherit; cursor: pointer;}
+a:hover{text-decoration: none； outline: 0;}
+img{border: 0; outline: 0; vertical-align: middle}
+::-webkit-input-placeholder{color: #ccc;}
+input,textarea,select{outline: none; resize: none; border: 1px solid #ccc; border-radius: 2px;-webkit-box-sizing: border-box; box-sizing: border-box;appearance: none; -webkit-appearance: none;background-color: transparent; width: 100%; height: 20px; line-height: 20px; padding: 0 6px;}
+textarea{padding: 4px 6px;height: 80px; line-height: 1.4em;}
+.button{cursor: pointer; display: block;color: white; border-radius: 4px; border: none; outline: none;box-sizing: border-box; -webkit-box-sizing: border-box;appearance: none; -webkit-appearance: none;width: 100%; height: 50px; line-height: 50px; padding: 0 6px; text-align: center;}
+.clearfix{zoom: 1}
+.clearfix:after{clear: both;display: block;visibility: hidden;content: "";height: 0;}
+.ellipsis{overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.line-clamp{width: 200px;overflow: hidden;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 2;max-height: 3.2em;line-height: 1.6em;}
+.justify{width: 100px;display: inline-block;text-align: justify;}
+.justify:after{content: "";display: inline-block;width: 100%;}
+::-webkit-scrollbar{width:0;height:0;}
+
+
+
+body
+{
+    background: #040911 url(../images/dhouseimages/bg.png) no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;   
+}
+.logo{
+    width: 55%;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+.logo img{
+    width: 100%;
+}
+.nav{
+    text-align: center;
+    padding-top: 60px;
+}
+.nav li{
+    padding-bottom: 25px;
+}
+.nav li a{
+    color: #fff;
+    font-size: 18px;
+}
+.nav li.xwdt a:before{
+    background: url(../images/dhouseimages/xwdt.png) no-repeat;
+    width: 14px;
+    height: 14px;
+    content: "";
+    display: inline-block;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    margin-right: 10px;
+}
+.nav li.dlwz a:before{
+    background: url(../images/dhouseimages/dlwz.png) no-repeat;
+    width: 15px;
+    height: 18.5px;
+    content: "";
+    display: inline-block;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    margin-right: 10px;
+    top: 3px;
+    position: relative;
+}
+.nav li.qjkf a:before{
+    background: url(../images/dhouseimages/qjkf.png) no-repeat;
+    width: 18px;
+    height: 12px;
+    content: "";
+    display: inline-block;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    margin-right: 10px;
+}
+.nav li.lxwm a:before{
+    background: url(../images/dhouseimages/lxwm.png) no-repeat;
+    width: 18px;
+    height: 18px;
+    content: "";
+    display: inline-block;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    margin-right: 10px;
+    top: 3px;
+    position: relative;
+}
+.yd{
+    text-align: center;
+}
+.yd a{
+    width: 100%;
+    font-size: 18px;
+    color: #fff;
+    width: 122px;
+    height: 42px;
+    line-height: 42px;
+    background-color: #D6BC49;
+    display: inline-block;  
+    border-radius: 5px;
+}
+.ppgs{
+    border: 1px solid #A69847;
+    width: 80%;
+    height: 460px;
+    margin: 60px 0 50px 25px;
+}
+.ppgs01{
+    border: 1px solid rgba(255,255,255,0.4);
+    width: 100%;
+    height: 460px;
+    margin: 12px 0 0 17px;
+    color: #fff;
+}
+.ppgs01 .d1{
+    width: 48px;
+    height: 48px;
+    background-color: rgba(214,188,73,0.75);
+    text-align: center; 
+    float: left;
+    margin-right: 12px;
+}
+.ppgs01 .d2,.ppgs01 .d3,.ppgs01 .d4{
+    line-height: 24px;
+    font-size: 14px;
+    margin-left: 12px;
+    width: 86%;
+
+}
+.ppgs01 .d2{
+    margin-top: 5px;
+}
+.ppgs01 .d3,.ppgs01 .d4{
+    margin-top: 25px;
+}
+.ppgs01 .d1 span{
+    font-size: 14px;
+    color: #fff;
+    position: relative;
+    top: 5px;
+
+}

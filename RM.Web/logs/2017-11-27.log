@@ -1,0 +1,9 @@
+2017-11-27 15:47:08.290 DEBUG WxPayApi: Refund request : <xml><act_name><![CDATA[现金红包]]></act_name><client_ip><![CDATA[127.0.0.1]]></client_ip><mch_billno><![CDATA[13758519022017112715470832]]></mch_billno><mch_id><![CDATA[1375851902]]></mch_id><nonce_str><![CDATA[94f535af1fbd472793df8cbf418bf58f]]></nonce_str><re_openid><![CDATA[oQQLEw7PmnhL_p717Uwgxav5Olno]]></re_openid><remark><![CDATA[关注公众号获得更多优惠信息！]]></remark><scene_id><![CDATA[PRODUCT_1]]></scene_id><send_name><![CDATA[美思柏丽酒店]]></send_name><sign><![CDATA[37E6C9D4E1909CF8C8E74C680DE36402]]></sign><total_amount>1000</total_amount><total_num>1</total_num><wishing><![CDATA[恭喜您获得红包一个！]]></wishing><wxappid><![CDATA[wx41bd9e5d7867ad93]]></wxappid></xml>
+2017-11-27 15:47:08.795 ERROR HttpService: System.Security.Cryptography.CryptographicException: 未指定的错误
+
+   在 System.Security.Cryptography.CryptographicException.ThrowCryptographicException(Int32 hr)
+   在 System.Security.Cryptography.X509Certificates.X509Utils._QueryCertFileType(String fileName)
+   在 System.Security.Cryptography.X509Certificates.X509Certificate.LoadCertificateFromFile(String fileName, Object password, X509KeyStorageFlags keyStorageFlags)
+   在 System.Security.Cryptography.X509Certificates.X509Certificate..ctor(String fileName, String password, X509KeyStorageFlags keyStorageFlags)
+   在 System.Security.Cryptography.X509Certificates.X509Certificate2..ctor(String fileName, String password, X509KeyStorageFlags keyStorageFlags)
+   在 RM.Web.Lib.HttpService.Post(String xml, String url, Boolean isUseCert, Int32 timeout, String AdminHotelid) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\Lib\HttpService.cs:行号 72

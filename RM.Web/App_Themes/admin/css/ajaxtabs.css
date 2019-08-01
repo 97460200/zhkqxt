@@ -1,0 +1,139 @@
+
+
+/* ######### CSS for Indented CSS Tabs. Remove if not using ######### */
+
+#img_bag{
+    width:770px;
+    margin-top:10px;
+    margin-left:3px;
+    *margin-left:3px;
+	background-image: url(images/1_r3_c4.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+    
+}
+
+#img_bag2{
+    width:99%;
+    margin-top:10px;
+    margin-left:3px;
+    height:24px;
+	background-image: url(../images/tabAreaBg.gif);
+	background-repeat: repeat-x;
+	background-position:0 23px;
+    
+}
+.tabs-prev,
+.tabs-next 
+{
+	width:14px;
+	height:23px;
+	cursor:pointer;
+	overflow:hidden;
+	background:url(../images/tabAreaLeftAreaBg.jpg) no-repeat scroll 0 0;
+	}
+.tabs-prev 
+{
+	float:left;
+	}
+.tabs-next 
+{
+	float:right;
+	background:url(../images/tabAreaRightAreaBg.jpg) no-repeat scroll 0 0;
+	}
+.tabs-prev span,
+.tabs-next span 
+{
+	display:none;
+	}
+.tabs-prev:hover,
+.tabs-prev:focus,
+.tabs-prev:active 
+{
+	background:url(../images/tabAreaLeftAreaBg_hover.jpg) no-repeat scroll 0 0;
+	}
+.tabs-next:hover,
+.tabs-next:focus,
+.tabs-next:active 
+{
+	background:url(../images/tabAreaRightAreaBg_hover.jpg) no-repeat scroll 0 0;
+	}
+	
+.indentmenu{
+    font: 12px "宋体";
+    width:95%;/*leave this value as is in most cases*/
+    overflow:hidden;
+}
+
+.indentmenu ul{
+	margin: 0;
+	padding: 0;
+	float: left;
+	/* width: 80%; width of menu*/
+	/*width:1536px;*/
+	list-style:none;
+}
+
+.indentmenu ul li
+{
+	float:left;
+	margin-right:1px;
+	height:22px;
+	line-height:22px;
+}
+
+/*.indentmenu ul li a{
+    height:24px;
+    float: left;
+    color: #666; 
+    padding-left:6px;
+    padding-right:6px;
+    margin-right:1px;
+    margin-left:1px;
+    margin-bottom:-3px;
+    text-decoration: none;
+    border-top:solid 1px  #CCCCCC;
+    border-left:solid 1px  #CCCCCC;
+    border-right:solid 1px  #CCCCCC;
+    border-bottom:solid 1px  #999999;
+    line-height:24px;
+}*/
+.indentmenu ul li a 
+{
+	float:left;
+	background-color:#CCCCCC;
+	padding:1px 1px 0;
+	color:#666666;
+	}
+.indentmenu ul li a:hover
+{
+	text-decoration:none;
+}
+.indentmenu ul li em 
+{
+	display:block;
+	font-style:normal;
+	padding:0 5px;
+	background:#FFFFFF url(../images/tabAreaLiBg.jpg) repeat-x scroll 0 bottom;
+	}
+/*.indentmenu ul li a:visited
+{
+     margin-bottom:-3px;
+     color: #666;
+}*/
+
+.indentmenu ul li a.selected
+{
+	background-color:#999999;
+	height:23px;
+	line-height:23px;
+	color:#000000;
+	font-weight:700;
+}
+.indentmenu ul li a.selected em 
+{
+	background-image:none;
+	}
+
+#petsdivcontainer{OVERFLOW: auto;clear:both; width:99%;  height:100%;  padding:0px; margin:0px;text-align:center;}
+.tab-title {background:#FFFFFF none;} /*书签页面标题背景*/

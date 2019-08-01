@@ -1,0 +1,2 @@
+2018-10-12 17:35:12.324 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=14_lC20c7zdldAtVRvxqbToXfTB3oI6IRH81Ge2aic-LCimfSP7ea-joWYneAAIcop3fhW48m792stWRRtBQhX_wfZzHR-JePrtJZj2IUbX3bn2HDJdu-6gsYD0-D3bJTOAghj_tjklKkS8r39sMEVhAGAVNE
+2018-10-12 17:35:13.516 INFO //获取返回信息22----------)：: {"list":[{"ref_date":"2018-10-11","user_source":0,"cumulate_user":420}]}

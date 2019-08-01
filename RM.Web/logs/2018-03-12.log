@@ -1,0 +1,14 @@
+2018-03-12 18:03:34.160 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx47f62011b0b0928c]]></appid><attach><![CDATA[HYK20180312180333964,1006203,会员卡充值]]></attach><body><![CDATA[会员卡充值，订单编号：HYK20180312180333964]]></body><goods_tag><![CDATA[test]]></goods_tag><mch_id><![CDATA[1480333832]]></mch_id><nonce_str><![CDATA[75cf4c6680384e0c841e60debefd7583]]></nonce_str><notify_url><![CDATA[http://wx.sewa-hotel.com/Reservation/ResultNotifyPage.aspx?AdminHotelid=1006203]]></notify_url><openid><![CDATA[okux11sciw4KgwDGjBxkBzLTbiTo]]></openid><out_trade_no><![CDATA[HYK20180312180333964]]></out_trade_no><sign><![CDATA[1FDA9C9B6AC38B34A56A8C18ACB2F6DB]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20180312181334]]></time_expire><time_start><![CDATA[20180312180334]]></time_start><total_fee>1000</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2018-03-12 18:03:37.008 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx47f62011b0b0928c]]></appid>
+<mch_id><![CDATA[1480333832]]></mch_id>
+<nonce_str><![CDATA[Mq4S5T8OdsAvxRI7]]></nonce_str>
+<sign><![CDATA[CFD595437CE8D3268B810C9366E1C6A5]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx20180312180336db558d2b650281446657]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+2018-03-12 18:03:37.156 DEBUG RM.Web.business.JsApiPay: Get jsApiParam : {"appId":"wx47f62011b0b0928c","nonceStr":"1bfdd224930b428d9280b07c7cd8e538","package":"prepay_id=wx20180312180336db558d2b650281446657","paySign":"6B7DC536D89D72C0B6FA83EDD4857B1C","signType":"MD5","timeStamp":"1520849017"}
+2018-03-12 18:25:32.767 INFO 会员卡充值错误信息: 列“iszsjf”不属于表 Table。
+2018-03-12 18:28:09.070 INFO 会员卡充值错误信息: 列“kh”不属于表 Table。

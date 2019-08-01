@@ -1,0 +1,1172 @@
+/* clearfix */
+.clearfix{zoom: 1}
+.clearfix:after{
+    clear: both;
+    display: block;
+    visibility: hidden;
+    content: "";
+    height: 0;
+}
+body, html
+{
+    font-size: 16px;
+    height: 100%;
+    background-color: #fff;
+}
+.rooms
+{
+    max-width: 640px;
+    margin: 0 auto;
+    position: relative;
+}
+.rooms .searchx
+{
+    padding: 0.7rem;
+    background: #F0F0F0;
+}
+.rooms .searchx input[type=text]
+{
+    width: 80%;
+    height: 3rem;
+    background: #fff;
+    padding-left: 0.7rem;
+    box-sizing: border-box;
+    border: 1px solid #D6D7DC;
+    font-family: "微软雅黑";
+    font-size: 1rem;
+    border-radius: 3px;
+    -webkit-border-raidus: 3px;
+}
+.rooms .searchx input[type=button]
+{
+    width: 17%;
+    height: 3rem;
+    color: #6a6a6a;
+    background: #EDEDEF; /* 一些不支持背景渐变的浏览器 */
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#fff), to(#EDEDEF));
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #D6D7DC;
+    font-family: "微软雅黑";
+    font-size: 1rem;
+    border-radius: 3px;
+    -webkit-border-raidus: 3px;
+}
+.rooms .tuli
+{
+    padding: 0.7rem;
+    background: #fff;
+    padding-top: 0.4rem;
+}
+.rooms .tuli ul
+{
+    overflow: hidden;
+}
+.rooms .tuli ul li
+{
+    float: left;
+    width: 19%;
+    min-height: 4rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    font-family: "微软雅黑";
+    color: #999;
+    text-align: center;
+    border: 1px solid #EBEBEB;
+    box-sizing: border-box;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-right: 1.25%;
+    margin-top: 0.3rem;
+}
+.rooms .tuli ul li:nth-child(5n)
+{
+    margin-right: 0;
+}
+.rooms .tuli ul li p:nth-child(1)
+{
+    font-size: 0.7rem;
+}
+.rooms .tuli ul li p:nth-child(2)
+{
+    font-size: 0.8rem;
+}
+.rooms .tuli ul li p:nth-child(3)
+{
+    font-size: 0.8rem;
+}
+.rooms .status .status_h
+{
+    padding: 0.7rem;
+    font-family: "微软雅黑";
+    font-size: 1rem;
+    color: #666;
+    background: #F0F0F0;
+}
+.rooms .status .status_h span
+{
+    color: #E9B836;
+}
+.rooms .status .status_m
+{
+    padding: 0.3rem 0;
+    background: #fff;
+    padding-bottom: 4rem;
+}
+.rooms .status .status_m > div
+{
+    padding: 0.5rem 0;
+    padding-top: 0.3rem;
+    border-bottom: 1px solid #F0F0F0;
+}
+.rooms .status .status_m > div:last-child
+{
+    border-bottom: 0;
+}
+.rooms .status .status_m > div ul
+{
+    overflow: hidden;
+    padding: 0 0.7rem;
+}
+
+.rooms .status .status_m > div ul li
+{
+    float: left;
+    width: 19%;
+    padding-right:3%;
+    height: 3.6rem;
+    line-height: 1.6rem;
+    font-family: "微软雅黑";
+    color: #333;
+    text-align: right;
+    border: 1px solid #EBEBEB;
+    box-sizing: border-box;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-right: 1.25%;
+    margin-top: 0.3rem;
+    position: relative;
+}
+.rooms .status .status_m > div ul li .xm
+{
+    font-size: 0.8rem;
+}
+
+
+.rooms .status .status_m > div ul li img
+{
+    position: absolute;
+    width: 20%;
+    top: -5px;
+    right: -5px;
+}
+.rooms .status .status_m > div ul li:nth-child(5n)
+{
+    margin-right: 0;
+}
+.rooms .btn_b
+{
+    position: fixed;
+    height: 3.6rem;
+    width: 100%;
+    max-width: 640px;
+    bottom: 0;
+    box-shadow: 0px -1px 10px 0px #666;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+}
+.rooms .btn_b input
+{
+    width: 100%;
+    height: 100%;
+    border: 0;
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: "微软雅黑";
+    opacity: 1;
+    border-radius: 0;
+}
+.rooms .btn_b input:nth-child(1)
+{
+    background: #eee;
+    color: #333;
+}
+.rooms .btn_b input:nth-child(2)
+{
+    background: #EBBD43;
+}
+.rooms .btn_b input:nth-child(3)
+{
+    background: #f93;
+}
+.zZc .b_yy
+{
+    border: 1px solid #eee;
+    padding: 0.3rem 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    width: 77%;
+    color: #333;
+    font-size: 14px;
+    margin-left: 12px;
+}
+.zZc > div .z_main table tr:nth-child(3) td
+{
+    padding-top: 0.8rem;
+}
+.zZc
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.2);
+    z-index: 10;
+    display: none;
+}
+.zZc > div
+{
+    background: #fff;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10rem;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    overflow: hidden;
+    color: #323232;
+}
+.zZc > div .z_head
+{
+    height: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    position: relative;
+    font-family: "微软雅黑";
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.zZc > div .z_head img
+{
+    height: 1rem;
+    position: absolute;
+    right: 1rem;
+    top: 0.8rem;
+}
+.zZc > div .z_head .close
+{
+
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+}
+.zZc > div .z_head .close:before
+{
+    content: "\e973";
+    font-size: 24px;
+    font-family: 'icomoon'; 
+}
+.zZc > div .z_main
+{
+    background: #fff;
+    font-family: "微软雅黑";
+    font-size: 1rem;
+    color: #666;
+    padding: 0 1rem;
+}
+.zZc > div .z_main table
+{
+    width: 100%;
+    table-layout: fixed;
+}
+.zZc > div .z_main table tr
+{
+    height: 2.2rem;
+}
+.zZc > div .z_main table tr:nth-child(4) td
+{
+    padding-top: 10px;
+}
+.zZc > div .z_main table tr td:first-child
+{
+    color: #333;
+    text-align: right;
+}
+/* .zZc > div .z_main table tr:nth-child(2) td:first-child
+{
+    vertical-align: top;
+} */
+.zZc > div .z_main table tr td > p
+{
+    display: inline-block;
+    width: 48%;
+}
+.zZc > div .z_main table tr:nth-child(1) td:nth-child(2)
+{
+    padding-left: 0.8rem;
+    width: 70%;
+    word-wrap: break-word;
+}
+.zZc > div .z_main table tr td > p i
+{
+    display: inline-block;
+    height: 0.8rem;
+    width: 0.8rem;
+    position: relative;
+    background: url('/App_Themes/default/imageszx/radio1.png') no-repeat;
+    background-size: 100%;
+    top: 0.1rem;
+    margin-left: 0.8rem;
+    margin-right: 0.1rem;
+}
+.zZc > div .z_main table tr td > p i.checked
+{
+    background: url('/App_Themes/default/imageszx/radio2.png') no-repeat;
+    background-size: 100%;
+}
+.zZc > div .z_main > input
+{
+    width: 50%;
+    height: 2.5rem;
+    border: 0;
+    background: #f90;
+    color: #fff;
+    font-family: "微软雅黑";
+    font-size: 1rem;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.zZc > div .z_main .qrxg input
+{
+    width: 50%;
+    height: 2.5rem;
+    margin-left: 25%;
+    border: 0;
+    background: #f90;
+    color: #fff;
+    font-family: "微软雅黑";
+    font-size: 1rem;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.zzcs{
+    position: fixed;
+    top: 40%;
+    left: 25%;
+    width: 50%;
+    background: rgba(0,0,0,0.75);
+    z-index: 10;
+    color: #fff;
+    padding: 30px 0;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+}
+/*背景颜色class名*/
+.OC
+{
+    background: #3ABC4E; /*绿色*/
+    color: #fff !important;
+    border: 1px solid #3ABC4E !important;
+}
+.OC p
+{
+    color: #fff !important;
+}
+.OD
+{
+    background: #2D8E3C; /*绿色*/
+    color: #fff !important;
+    border: 1px solid #2D8E3C !important;
+}
+.OD p
+{
+    color: #fff !important;
+}
+.GO
+{
+    background: #ED6BE0; /*粉色*/
+    color: #fff !important;
+    border: 1px solid #ED6BE0 !important;
+}
+.GO p
+{
+    color: #fff !important;
+}
+.LR
+{
+    background: #C08000; /*棕色*/
+    color: #fff !important;
+    border: 1px solid #C08000 !important;
+}
+.LR p
+{
+    color: #fff !important;
+}
+.OOO
+{
+    background: #E44141; /*红色*/
+    color: #fff !important;
+    border: 1px solid #E44141 !important;
+}
+.OOO p
+{
+    color: #fff !important;
+}
+.OOS
+{
+    background: #FDEA02; /*黄色*/
+    border: 1px solid #FDEA02 !important;
+}
+.OOS p
+{
+    color: #333;
+}
+.VD
+{
+    background: #C2C2C2; /*灰色ddd*/
+    color: #fff !important;
+    border: 1px solid #C2C2C2 !important;
+}
+.VD p
+{
+    color: #333 !important;
+}
+.CMC
+{
+    background: #4EC6F3; /*蓝色*/
+    color: #fff !important;
+    border: 1px solid #4EC6F3 !important;
+}
+.CMC p
+{
+    color: #fff !important;
+}
+.CMD
+{
+    background: #4F9FF9; /*蓝色*/
+    color: #fff !important;
+    border: 1px solid #4F9FF9 !important;
+}
+.CMD p
+{
+    color: #fff !important;
+}
+/*边框颜色*/
+li.OC2
+{
+    border: 0.2rem solid #93DD9E !important;
+    line-height: 2rem !important;
+}
+li.OD2
+{
+    border: 0.2rem solid #93DD9E !important;
+    line-height: 2rem !important;
+}
+li.GO2
+{
+    border: 0.2rem solid #F5ADEE !important;
+    line-height: 2rem !important;
+}
+li.LR2
+{
+    border: 0.2rem solid #FFC04A !important;
+    line-height: 2rem !important;
+}
+li.OOO2
+{
+    border: 0.2rem solid #FF7262 !important;
+    line-height: 2rem !important;
+}
+li.OOS2
+{
+    border: 0.2rem solid #FCE49E !important;
+    line-height: 2rem !important;
+}
+li.VD2
+{
+    border: 0.2rem solid #DDD !important;
+    line-height: 2rem !important;
+}
+li.CMC2
+{
+    border: 0.2rem solid #BBEAFB !important;
+    line-height: 2rem !important;
+}
+li.CMD2
+{
+    border: 0.2rem solid #BBEAFB !important;
+    line-height: 2rem !important;
+}
+.b_grey
+{
+    background: #dedede !important;
+    color: #fff !important;
+}
+@media screen and (max-width:380px) and (min-width:331px)
+{
+    body, html
+    {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width:330px)
+{
+    body, html
+    {
+        font-size: 12px;
+    }
+
+}
+
+.rooms .status .status_m > div ul li .T1 img
+{
+    position: absolute;
+    bottom: 32%;
+    left: 9%;
+    width: 18%;
+    top: auto;
+    right: auto;
+}
+
+
+/* 退房请求 */
+.tfqq2
+{
+    max-width: 640px;
+    margin: 0 auto;
+    position: relative;
+    font-size: 0.9rem;
+    font-family: "微软雅黑";
+}
+.tfqq2 > p
+{
+    font-size: 1rem;
+    padding: 0.7rem;
+    color: #333;
+    font-family: "微软雅黑";
+    background: #f9f9f9;
+}
+.tfqq2 .t_con table
+{
+    width: 100%;
+}
+.tfqq2 .t_con table tr
+{
+    height: 2.6rem;
+}/* 
+.tfqq2 .t_con table tr:first-child td:nth-child(2)
+{
+    width: 25%;
+}
+.tfqq2 .t_con table tr:first-child td:nth-child(3)
+{
+    width: 14%;
+}
+.tfqq2 .t_con table tr:nth-child(3) td
+{
+    padding-bottom: 0.5rem;
+}
+.tfqq2 .t_con table tr:nth-child(4) td
+{
+    vertical-align: top;
+    border-top: 1px solid #D6D7DC;
+    padding-top: 1rem;
+} */
+.tfqq2 .t_con table tr td:first-child
+{
+    font-size: 1rem;
+    color: #333;
+    font-family: "微软雅黑";
+    width: 23%;
+    text-align: right;
+    width: 25%;
+}
+.tfqq2 .t_con table tr td:nth-child(2n)
+{
+    font-size: 1rem;
+    color: #666;
+    font-family: "微软雅黑" ,Arial;
+}
+.tfqq2 .tf_btn
+{
+    width: 90%;
+    margin: 0 auto;
+}
+.tfqq2 .tf_btn input
+{
+    display: block;
+    width: 100%;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    height: 2.8rem;
+    font-family: "微软雅黑";
+    font-size: 1rem;
+    color: #fff;
+    margin-top: 1rem;
+}
+.tfqq2 .tf_btn input:nth-child(1)
+{
+    background: #FF9933;
+}
+.tfqq2 .tf_btn input:nth-child(2)
+{
+    background: #EBBD43;
+}
+
+@media screen and (max-width:380px) and (min-width:331px)
+{
+    body, html
+    {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width:330px)
+{
+    body, html
+    {
+        font-size: 12px;
+    }
+}
+/* 消费录入 */
+       
+.xflr
+{
+    max-width: 640px;
+    margin: 0 auto;
+    position: relative;
+}
+.xflr > p
+{
+    font-size: 1rem;
+    padding: 0.7rem;
+    color: #333;
+    font-family: "微软雅黑";
+    background: #f9f9f9;
+}
+.xflr ul
+{
+    padding: 0 0.7rem;
+    font-family: "微软雅黑";
+    padding-bottom: 4rem;
+}
+.xflr ul li
+{
+    overflow: hidden;
+    padding: 1rem 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+.xflr ul li:last-child
+{
+    border-bottom: 0;
+}
+.xflr ul li .x_left
+{
+    float: left;
+    height: 5rem;
+    width: 45%;
+    background: #FAEECF;
+    padding-left: 0.8rem;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+}
+.xflr ul li .x_left p
+{
+    height: 2.5rem;
+    line-height: 2.5rem;
+}
+.xflr ul li .x_left p:nth-child(1)
+{
+    color: #333;
+    font-size: 1.1rem;
+    line-height: 2.9rem;
+}
+.xflr ul li .x_left p:nth-child(2)
+{
+    color: #666;
+    font-size: 0.8rem;
+    line-height: 2.2rem;
+}
+.xflr ul li .x_left p:nth-child(2) span
+{
+    font-size: 1rem;
+    font-family: Arial;
+}
+.xflr ul li .x_right
+{
+    float: right;
+    width: 50%;
+    height: 5rem;
+    position: relative;
+    font-family: Arial;
+}
+.xflr ul li .x_right > div
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.xflr ul li .x_right > div span
+{
+    width: 30%;
+    text-align: center;
+}
+.xflr ul li .x_right > div span:nth-child(2)
+{
+    position: relative;
+    top: 0.1rem;
+}
+.xflr ul li .x_right > div img
+{
+    vertical-align: middle;
+    width: 100%;
+}
+.xflr ul li .x_right span
+{
+    display: inline-block;
+}
+.xflr .btn_b
+{
+    position: fixed;
+    height: 4rem;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0px -1px 10px 0px #666;
+    background: #fff;
+}
+.xflr .btn_b input
+{
+    height: 3rem;
+    padding: 0 2rem;
+    margin-top: 0.5rem;
+    background: #f90;
+    border: 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color: #fff;
+    font-size: 1.1rem;
+    font-family: "微软雅黑";
+    float: right;
+    margin-right: 1rem;
+    width:auto;
+}
+.xflr .btn_b > p
+{
+    float: left;
+    font-family: "微软雅黑";
+    color: #333;
+    font-size: 1rem;
+    height: 4rem;
+    line-height: 4rem;
+    padding-left: 1rem;
+}
+.xflr .btn_b > p span
+{
+    font-family: Arial;
+    color: #f90;
+}
+.xflr .btn_b > p span:nth-child(2)
+{
+    margin-left: 1.5rem;
+}
+
+.z_mainxflr ul{
+    max-height: 180px;
+    overflow: auto;
+}
+.z_mainxflr li{
+    border-bottom: 1px solid #e3e3e3;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.z_mainxflr li .d1{
+    float: left;
+    color:#333;
+    width: 55%;
+    margin-right: 5%
+    font-size: 16px;
+}
+.z_mainxflr li .d2{
+    float: left;
+    color:#333;
+    width: 20%;
+    font-size: 16px;
+}
+.z_mainxflr li .d2:before{
+    content: "x";
+}
+.z_mainxflr li .d3{
+    float: left;
+    color:#333;
+    width: 20%;
+    font-size: 16px;
+    text-align: right;
+}
+.z_mainxflr li .d3:before{
+    content: "￥";
+    font-family: "Microsoft YaHei";
+}
+.gongji{
+    font-size: 16px;
+    color: #333;
+    text-align: right;
+    margin-top: 10px;
+}
+.gongji span{
+    color: #f90;
+}
+.gongji span.s2{
+    margin-left: 10px;
+}
+.sharebutton {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    border-top: 1px solid #e3e3e3;
+    margin-top: 20px;
+    padding: 0 1rem;
+}
+.sharebutton input{
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #f90;
+    text-align: center;
+    background-color: #f90;
+    width: 100%;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 5px;
+    margin: 10px 0;
+    margin-right: 10px;
+}
+.sharebutton input:first-child{
+   background-color: #fff;
+   color: #f90;
+}
+.sharebutton input:last-child{
+    margin-right: 0;
+}
+
+
+/* 操作日志 */
+.czrz .d1,.czrz .d2{
+    padding: 15px;
+    font-size: 14px;
+    color: #666;
+}
+.czrz .d2{
+    border-top: 1px solid #e3e3e3;
+    color: #333;
+    font-size: 15px;
+}
+.czrz .d2:last-child{
+    border-bottom: 1px solid #e3e3e3;
+}
+.czrz .d1 .d11,.czrz .d2 .d21{
+    float: left;
+    width: 40%;
+    margin-right: 20px;
+}
+.czrz .d1 .d12,.czrz .d2 .d22{
+    float: left;
+    width: calc(60% - 20px);
+}
+.czrz .d1 .d12,.czrz .d2 .d22 p{
+    word-wrap:break-word
+}
+
+.back_color{
+    background-color: #f90;
+}
+
+.cfbanner img{
+    width: 100%;
+}
+.r_login
+{
+    max-width:640px;
+    margin:0 auto;
+    position:relative;
+    font-size:0.9rem;
+    font-family:"微软雅黑";
+    }
+.r_login .r_logo
+{
+   text-align:center;
+   }
+.r_login .r_logo img
+{
+   width:50%;
+   margin-top: 3rem;
+   margin-bottom: 2rem;
+   }
+.r_login .r_logo>p
+{
+    font-size: 1.5rem;
+    color: #553D35;
+   }
+.r_login .b_text
+{
+    border-bottom:1px solid #D3D5DE;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    text-align:center;
+    width:90%;
+    margin:0 auto;
+    padding: 0 0.5rem;
+    box-sizing: border-box;
+    margin-top: 10px;
+    font-size: 16px;
+    }
+ .r_login .b_text input:nth-child(1)
+ {
+     border-bottom:1px solid #D3D5DE;
+     /* 
+     background:url('/App_Themes/default/imageszx/r_user.png') no-repeat;
+     background-size: 1.4rem;
+     background-position: 0.2rem 0.6rem; */
+     }
+ .r_login .b_text input:nth-child(2)
+ {
+     /* background:url('/App_Themes/default/imageszx/r_pwd.png') no-repeat;
+     background-size: 1.15rem;
+     background-position: 0.3rem 0.5rem; */
+     }
+ .r_login .b_text label
+ {
+     width: 50px;
+     margin-right: 10px;
+     text-align: left;
+     float: left;
+     line-height: 50px;
+     }
+ .r_login .b_text input
+ {
+     display:block;
+     width:calc(100% - 60px);
+     height:50px;
+     box-sizing: border-box;
+     font-family:"微软雅黑";
+     border:0;
+     font-size: 16px;
+     }
+ .r_login>input
+ {
+    width:90%;
+    margin-left:5%;
+    outline:none;
+    border:0;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    height:44px;
+    font-family:"微软雅黑";
+    font-size:16px;
+    color:#fff;
+    margin-top:1rem;
+    background:#f90;
+     }
+.Powered{
+    position: fixed;
+    bottom: 20px;
+    font-size: 14px;
+    color: #CCC;
+    text-align: center;
+    width: 50%;
+    left: 25%;
+}
+.Powered span{
+    color: #f90;
+}
+
+
+.preLoad {
+    font-size: 14px;
+    position: absolute;
+    z-index: 180;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    background: rgba(30, 30, 30, .5);
+}
+
+.preLoad .load {
+    line-height: 46px;
+    display: block;
+    width: 46px;
+    height: 46px;
+    margin: 16px auto 6px;
+    -webkit-animation: move 1s steps(12) infinite;
+    animation: move 1s steps(12) infinite;
+    text-align: center;
+}
+
+.preLoad .load img {
+    width: 100%;
+}
+
+@-webkit-keyframes move {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+
+}
+
+@keyframes move {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+
+}
+
+
+
+
+.tfqq
+{
+    max-width: 640px;
+    margin: 0 auto;
+    position: relative;
+    font-size: 0.9rem;
+    font-family: "微软雅黑";
+}
+ .tfqq table
+ {
+     width:100%
+     }
+.tfqq table tr td
+{
+    box-sizing: border-box;
+    text-align: left;
+}
+.tfqq table thead tr
+{
+    height: 2.8rem;
+    background: #F0F0F0;
+}
+.tfqq table tbody tr td
+{
+    padding: 1rem 0;
+}
+.tfqq table tbody tr td
+{
+    border-bottom: 1px solid #f0f0f0;
+}
+.tfqq table tbody tr:last-child td
+{
+    border-bottom: 0;
+}
+.tfqq table tbody tr td:nth-child(1), .tfqq table tbody tr td:nth-child(3)
+{
+    vertical-align: top;
+    padding-top: 1.4rem;
+}
+.tfqq table tr td:first-child
+{
+    width: 15%;
+    text-align: center;
+}
+.tfqq table tr td:nth-child(2)
+{
+    width: 40%;
+    padding-right: 0.5rem;
+}
+.tfqq table tbody tr td:nth-child(3)
+{
+    font-family: Arial;
+}
+.tfqq table tbody tr td:nth-child(1)
+{
+    color: #553D35;
+}
+.tfqq table tr td:nth-child(3)
+{
+    width: 20%;
+}
+.tfqq table tr td:nth-child(4)
+{
+    width: 26%;
+}
+.tfqq table tr input
+{
+    display: block;
+    width: 90%;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    height: 1.8rem;
+    font-family: "微软雅黑";
+    color: #fff;
+}
+.tfqq table tr input:nth-child(1)
+{
+    background: #ff9933;
+    margin-bottom: 0.5rem;
+}
+.tfqq table tr input:nth-child(2)
+{
+    background: #EBBD43;
+}
+.tfqq .qrzzc
+{
+    width: 50%;
+    position: fixed;
+    top: 14rem;
+    background: rgba(0,0,0,0.8);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    text-align: center;
+    padding: 2rem 0;
+    margin-left: 25%;
+}
+.tfqq .qrzzc img
+{
+    width: 20%;
+}
+.tfqq .qrzzc p
+{
+    color: #fff;
+    margin-top: 1rem;
+}
+.nothing{
+    text-align: center;
+}
+.nothing img{
+    width: 30%;
+    margin-top: 50%;
+}
+#headimg tr{
+    height: 35px;
+}

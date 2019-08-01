@@ -1,0 +1,28 @@
+2018-06-27 10:38:52.996 DEBUG 配置账号信息: appid:wx756f617540199773
+2018-06-27 10:38:53.029 DEBUG 配置账号信息: appid:wx756f617540199773
+2018-06-27 10:38:53.037 DEBUG 配置账号信息: APPSECRET:a463541526f89fc572506376ca3dac18
+2018-06-27 10:55:16.761 INFO 错误页3: 3
+2018-06-27 10:55:16.762 INFO 错误页4: 4
+2018-06-27 10:55:31.016 DEBUG 配置账号信息: appid:wx41bd9e5d7867ad93
+2018-06-27 10:55:31.019 DEBUG 配置账号信息: appid:wx41bd9e5d7867ad93
+2018-06-27 10:55:31.021 DEBUG 配置账号信息: APPSECRET:ee8dfe055e22953e0f07adda79167fb5
+2018-06-27 10:55:35.474 DEBUG 配置账号信息: appid:wx41bd9e5d7867ad93
+2018-06-27 10:55:35.475 DEBUG 配置账号信息: appid:wx41bd9e5d7867ad93
+2018-06-27 10:55:35.476 DEBUG 配置账号信息: APPSECRET:ee8dfe055e22953e0f07adda79167fb5
+2018-06-27 10:55:37.318 INFO 酒店客房报错信息: System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 RM.Web.Reservation.Gethotel.GetHotelDetailsList(HttpContext context) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\Reservation\Gethotel.ashx.cs:行号 498
+2018-06-27 11:00:48.355 DEBUG 配置账号信息: appid:wx41bd9e5d7867ad93
+2018-06-27 11:00:48.356 DEBUG 配置账号信息: NOTIFY_URL:www.zidinn.com
+2018-06-27 11:00:55.287 INFO 酒店客房报错信息: System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 RM.Web.Reservation.Gethotel.GetHotelDetailsList(HttpContext context) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\Reservation\Gethotel.ashx.cs:行号 498
+2018-06-27 11:06:09.112 DEBUG 配置账号信息: appid:wx756f617540199773
+2018-06-27 11:06:09.114 DEBUG 配置账号信息: appid:wx756f617540199773
+2018-06-27 11:06:09.115 DEBUG 配置账号信息: APPSECRET:a463541526f89fc572506376ca3dac18
+2018-06-27 11:06:43.716 DEBUG 配置账号信息: appid:wx756f617540199773
+2018-06-27 11:06:43.717 DEBUG 配置账号信息: NOTIFY_URL:www.zidinn.com
+2018-06-27 11:08:22.294 DEBUG 配置账号信息: appid:wx47f62011b0b0928c
+2018-06-27 11:08:22.295 DEBUG 配置账号信息: appid:wx47f62011b0b0928c
+2018-06-27 11:08:22.296 DEBUG 配置账号信息: APPSECRET:9cc1515a4df9c0f91f0958fef34c2442
+2018-06-27 11:09:42.640 DEBUG 配置账号信息: appid:wx47f62011b0b0928c
+2018-06-27 11:09:42.640 DEBUG 配置账号信息: appid:wx47f62011b0b0928c
+2018-06-27 11:09:42.641 DEBUG 配置账号信息: APPSECRET:9cc1515a4df9c0f91f0958fef34c2442

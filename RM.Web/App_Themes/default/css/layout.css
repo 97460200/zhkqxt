@@ -1,0 +1,63 @@
+@charset "utf-8";
+/**
+* User: huanhuan
+* QQ: 651471385
+* Email: th.wanghuan@gmail.com
+* 微博: huanhuan的天�?
+* Data 2013-12-04
+* Dependence jquery-1.7.2.min.js
+* web:https://github.com/huanhuan1989
+  		http://www.cnblogs.com/huanhuan1989/
+* Copyright�?005-2013 www.techholder.com Inc. All rights reserved.
+*/
+/*Initialization style*/
+body{color:#000;background:url(../img/paper.jpg) repeat #fff;font:normal 100% Arial,sans-serif,Microsoft Yahei;margin:0;padding:0;}
+html,body,form,input,select,textarea,div,p,h1,h2,h3,h4,h5,h6,p,ul,ol,li,form,img,dl,dt,dd,table,th,td,blockquote,fieldset,div,strong,label,em{margin:0;padding:0;}
+ul,li,dl,dt,dd{list-style:none;}
+h1,h2,h3{font-weight:bold;color:#303030;font-family:Microsoft Yahei,w3;}
+table,td,img{border:0;}
+table,tr,td{border-collapse:collapse;border-spacing:0;}
+a:link,a:visited{color:#0fa7ff;text-decoration:none;outline:none;cursor: pointer;}
+a:hover{color:#ff6407;text-decoration:underline;}
+button{cursor:pointer;}
+
+/*public*/
+.left{float:left;}
+.right{float:right;}
+.relative{position:relative;left:0;top:0;}
+.clearfix:before,.clearfix:after{content:"";display:table;}
+.clearfix:after{clear:both;}
+.clearfix{zoom:1;}
+.opacity6{ -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)"; /* ie8  */filter:alpha(opacity=60);    /* ie5-7  */opacity:0.6;/* css standard, currently it works in most modern browsers  */}
+.app_center{width:100%;min-width:320px;margin-left:auto;margin-right:auto;}
+.red{color:red;}
+.c_999{color:#999;}
+.pt10{padding-top:10px;}
+.hide{display:none;}
+
+/*public scroll*/
+.scroll{margin:0px auto;max-width:640px;}
+.scroll_box{overflow:hidden;visibility:hidden;position:relative;}
+.scroll_wrap{overflow:hidden; position:relative;}
+.scroll_wrap li{position:relative;display:block;width:100%;float:left;}
+.scroll_wrap li a{display:block;margin:0 auto;position:relative;}
+.scroll_position{position:absolute;left:45%;z-index:400px;bottom:14px;}
+.scroll_position li{display:inline-block;width:16px;height:16px;border-radius:10px;background:#fff;}
+.scroll_position li a{font-size:0;}
+.scroll_position li.on{background-color:#666666;}
+.scroll_position_bg{position:absolute;bottom:12px;left:42%;padding:0 15px;z-index:380px;height:26px;border-radius:26px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

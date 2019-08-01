@@ -1,0 +1,20 @@
+2017-12-26 14:35:27.228 INFO 错误页3: 3
+2017-12-26 14:35:27.463 INFO 错误页4: 4
+2017-12-26 14:36:08.705 INFO 错误页3: 3
+2017-12-26 14:36:08.705 INFO 错误页4: 4
+2017-12-26 14:36:15.059 INFO 错误页3: 3
+2017-12-26 14:36:15.065 INFO 错误页4: 4
+2017-12-26 14:36:19.644 INFO 错误页3: 3
+2017-12-26 14:36:19.644 INFO 错误页4: 4
+2017-12-26 14:42:56.178 INFO 错误页3: 3
+2017-12-26 14:42:56.179 INFO 错误页4: 4
+2017-12-26 14:43:42.727 INFO 错误页3: 3
+2017-12-26 14:43:48.407 INFO 错误页4: 4
+2017-12-26 15:56:41.250 INFO 错误页3: 3
+2017-12-26 15:56:41.262 INFO 错误页4: 4
+2017-12-26 17:02:56.519 INFO 错误页3: 3
+2017-12-26 17:02:56.544 INFO 错误页4: 4
+2017-12-26 18:00:02.599 INFO 错误页2: SELECT (SELECT TOP 1 id FROM dbo.Hotel WHERE Hotel.AdminHotelid=@AdminHotelid)hotelid,Hotel_Admin.type,
+                     (SELECT type FROM Stylesheet WHERE IsAuxiliary=0 AND Stylesheet.id=dbo.Hotel_Admin.Stylesheet_ID)typecss,
+                     (SELECT type FROM Stylesheet WHERE IsAuxiliary=1 AND Stylesheet.id=dbo.Hotel_Admin.Complex_stylecss)Complex_stylecss, 
+                     state,openid FROM dbo.Hotel_Admin where Hotel_Admin.AdminHotelid=@AdminHotelid

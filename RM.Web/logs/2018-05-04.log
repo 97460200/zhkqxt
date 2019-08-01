@@ -1,0 +1,105 @@
+2018-05-04 10:47:29.814 DEBUG 配置账号信息: appid:wx756f617540199773
+2018-05-04 10:47:29.850 DEBUG 配置账号信息: appid:wx756f617540199773
+2018-05-04 10:47:29.903 DEBUG 配置账号信息: APPSECRET:a463541526f89fc572506376ca3dac18
+2018-05-04 10:50:18.818 DEBUG 配置账号信息: appid:wxa3ddbb606957c79c
+2018-05-04 10:50:18.818 DEBUG 配置账号信息: appid:wxa3ddbb606957c79c
+2018-05-04 10:50:18.820 DEBUG 配置账号信息: APPSECRET:196309d64d36715afa71548e6f06e97e
+2018-05-04 10:54:34.255 DEBUG 配置账号信息: appid:wxa3ddbb606957c79c
+2018-05-04 10:54:34.257 DEBUG 配置账号信息: appid:wxa3ddbb606957c79c
+2018-05-04 10:54:34.297 DEBUG 配置账号信息: APPSECRET:196309d64d36715afa71548e6f06e97e
+2018-05-04 10:54:38.771 DEBUG 配置账号信息: appid:wxa3ddbb606957c79c
+2018-05-04 10:54:38.771 DEBUG 配置账号信息: appid:wxa3ddbb606957c79c
+2018-05-04 10:54:38.772 DEBUG 配置账号信息: APPSECRET:196309d64d36715afa71548e6f06e97e
+2018-05-04 16:29:57.536 DEBUG 配置账号信息: appid:wx41bd9e5d7867ad93
+2018-05-04 16:29:57.567 DEBUG 配置账号信息: APPSECRET:ee8dfe055e22953e0f07adda79167fb5
+2018-05-04 16:29:58.041 DEBUG 配置账号信息: NOTIFY_URL:www.zidinn.com
+2018-05-04 16:29:58.147 INFO //获取返回信息11-----menuInfo: {"touser":"oQQLEw9kDkPsA4vfWbus-Nl9akjQ","template_id":"ptrlmG8gsYjTzHHHBvwBUBPUNt5jHFOOUPS1efpueKU","url":"http://www.zidinn.com/Reservation/OrderWith.aspx?AdminHotelid=1004613&Id=WX201804101922507071","data":{"first":{"value":"您好，您已经成功办理入住，祝您入住愉快","color":"#000"},"keyword1":{"value":"WX201804101922507071","color":"#000"},"keyword2":{"value":"智订云（东门店）","color":"#000"},"keyword3":{"value":"豪华大客房","color":"#000"},"keyword4":{"value":"2018-04-10 00:00:00","color":"#000"},"keyword5":{"value":"1529","color":"#000"},"remark":{"value":"订单金额: 1.00","color":"#000"}}}
+2018-05-04 16:29:58.148 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=
+2018-05-04 16:29:58.523 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [W_FrBa06021527!]"}
+2018-05-04 18:08:14.585 INFO 错误页3: 3
+2018-05-04 18:08:14.587 INFO 错误页4: 4
+2018-05-04 18:08:16.807 DEBUG 配置账号信息: appid:wxa3ddbb606957c79c
+2018-05-04 18:08:16.809 DEBUG 配置账号信息: appid:wxa3ddbb606957c79c
+2018-05-04 18:08:16.810 DEBUG 配置账号信息: APPSECRET:196309d64d36715afa71548e6f06e97e
+2018-05-04 18:08:24.204 DEBUG 配置账号信息: appid:wxa3ddbb606957c79c
+2018-05-04 18:08:24.205 DEBUG 配置账号信息: appid:wxa3ddbb606957c79c
+2018-05-04 18:08:24.206 DEBUG 配置账号信息: APPSECRET:196309d64d36715afa71548e6f06e97e
+2018-05-04 18:08:33.001 DEBUG 配置账号信息: appid:wxa3ddbb606957c79c
+2018-05-04 18:08:33.003 DEBUG 配置账号信息: appid:wxa3ddbb606957c79c
+2018-05-04 18:08:33.004 DEBUG 配置账号信息: APPSECRET:196309d64d36715afa71548e6f06e97e
+2018-05-04 18:08:45.296 INFO 在线支付1: 1
+2018-05-04 18:08:45.296 INFO 在线支付2: WX201805041808455674
+2018-05-04 18:09:33.095 INFO 错误页3: 3
+2018-05-04 18:09:33.096 INFO 错误页4: 4
+2018-05-04 18:09:50.168 DEBUG 配置账号信息: appid:wxa3ddbb606957c79c
+2018-05-04 18:09:50.169 DEBUG 配置账号信息: appid:wxa3ddbb606957c79c
+2018-05-04 18:09:50.170 DEBUG 配置账号信息: APPSECRET:196309d64d36715afa71548e6f06e97e
+2018-05-04 18:10:02.548 INFO 在线支付1: 1
+2018-05-04 18:10:02.549 INFO 在线支付2: WX201805041810028089
+2018-05-04 18:10:15.205 ERROR 在线支付Hotelid: 55
+2018-05-04 18:10:17.677 ERROR a在线支付: 1
+2018-05-04 18:10:20.489 ERROR openid: 1
+2018-05-04 18:10:20.491 ERROR Setopenid: 1
+2018-05-04 18:10:20.500 ERROR AdminHotelid: 1008337
+2018-05-04 18:10:20.503 ERROR Hotelid: 55
+2018-05-04 18:10:20.530 DEBUG 配置账号信息: NOTIFY_URL:www.zidinn.com
+2018-05-04 18:10:20.532 DEBUG 配置账号信息: appid:wx0661c9eb6b366317
+2018-05-04 18:10:20.532 DEBUG 配置账号信息: MCHID:1500571121
+2018-05-04 18:10:20.582 DEBUG 配置账号信息: KEYS:y06YhBhUGxCoT6gYMXbtL7QjlPSIQAm9
+2018-05-04 18:10:20.602 DEBUG 配置账号信息: appid:wx0661c9eb6b366317
+2018-05-04 18:10:20.603 DEBUG 公众账号ID公众账号ID: wx0661c9eb6b366317
+2018-05-04 18:10:20.604 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx0661c9eb6b366317]]></appid><attach><![CDATA[WX201805041810028089,1008337,客房预定,55]]></attach><body><![CDATA[预定：钟点房，订单编号：WX201805041810028089]]></body><goods_tag><![CDATA[test]]></goods_tag><mch_id><![CDATA[1500571121]]></mch_id><nonce_str><![CDATA[d337f03c57d7485ca07524374a26d36b]]></nonce_str><notify_url><![CDATA[http://www.zidinn.com/Reservation/ResultNotifyPage.aspx?AdminHotelid=1008337&Hotelid=55]]></notify_url><openid><![CDATA[1]]></openid><out_trade_no><![CDATA[WX201805041810028089]]></out_trade_no><sign><![CDATA[F128965FE0CBABD3BA1AB4A32F4DBB10]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20180504182020]]></time_expire><time_start><![CDATA[20180504181020]]></time_start><total_fee>10800</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2018-05-04 18:10:21.479 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[FAIL]]></return_code>
+<return_msg><![CDATA[签名错误]]></return_msg>
+</xml>
+2018-05-04 18:10:21.535 ERROR RM.Web.business.JsApiPay: UnifiedOrder response error!
+2018-05-04 18:10:38.149 ERROR a在线支付: 1
+2018-05-04 18:10:56.793 ERROR openid: 1
+2018-05-04 18:10:58.425 ERROR Setopenid: 1
+2018-05-04 18:11:00.125 ERROR AdminHotelid: 1008337
+2018-05-04 18:11:23.453 ERROR Hotelid: 55
+2018-05-04 18:11:33.529 DEBUG 配置账号信息: NOTIFY_URL:www.zidinn.com
+2018-05-04 18:11:34.581 DEBUG 配置账号信息: appid:wx0661c9eb6b366317
+2018-05-04 18:11:35.003 DEBUG 配置账号信息: MCHID:1500571121
+2018-05-04 18:11:38.152 DEBUG 配置账号信息: KEYS:y06YhBhUGxCoT6gYMXbtL7QjlPSIQAm9
+2018-05-04 18:11:44.588 DEBUG 配置账号信息: appid:wx0661c9eb6b366317
+2018-05-04 18:11:44.603 DEBUG 公众账号ID公众账号ID: wx0661c9eb6b366317
+2018-05-04 18:11:45.044 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx0661c9eb6b366317]]></appid><attach><![CDATA[WX201805041810028089,1008337,客房预定,55]]></attach><body><![CDATA[预定：钟点房，订单编号：WX201805041810028089]]></body><goods_tag><![CDATA[test]]></goods_tag><mch_id><![CDATA[1500571121]]></mch_id><nonce_str><![CDATA[132ffb65a4a048178c5e9039bfd54b51]]></nonce_str><notify_url><![CDATA[http://www.zidinn.com/Reservation/ResultNotifyPage.aspx?AdminHotelid=1008337&Hotelid=55]]></notify_url><openid><![CDATA[1]]></openid><out_trade_no><![CDATA[WX201805041810028089]]></out_trade_no><sign><![CDATA[E5081F049D34046D245A4F7DF8194102]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20180504182049]]></time_expire><time_start><![CDATA[20180504181048]]></time_start><total_fee>10800</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2018-05-04 18:11:47.148 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[FAIL]]></return_code>
+<return_msg><![CDATA[签名错误]]></return_msg>
+</xml>
+2018-05-04 18:15:15.671 ERROR RM.Web.business.JsApiPay: UnifiedOrder response error!
+2018-05-04 18:20:21.605 DEBUG 配置账号信息: appid:wxa3ddbb606957c79c
+2018-05-04 18:20:21.606 DEBUG 配置账号信息: appid:wxa3ddbb606957c79c
+2018-05-04 18:20:21.608 DEBUG 配置账号信息: APPSECRET:196309d64d36715afa71548e6f06e97e
+2018-05-04 18:20:31.881 INFO 在线支付1: 1
+2018-05-04 18:20:31.883 INFO 在线支付2: WX201805041820311222
+2018-05-04 18:20:46.573 ERROR 在线支付Hotelid: 55
+2018-05-04 18:20:47.017 ERROR a在线支付: 1
+2018-05-04 18:21:00.532 ERROR openid: 1
+2018-05-04 18:21:01.503 ERROR Setopenid: 1
+2018-05-04 18:21:01.810 ERROR AdminHotelid: 1008337
+2018-05-04 18:21:02.274 ERROR Hotelid: 55
+2018-05-04 18:21:11.561 DEBUG 配置账号信息: NOTIFY_URL:www.zidinn.com
+2018-05-04 18:21:13.114 DEBUG 配置账号信息: appid:wx0661c9eb6b366317
+2018-05-04 18:21:13.371 DEBUG 配置账号信息: MCHID:1500571121
+2018-05-04 18:21:40.324 DEBUG 配置账号信息: KEYS:y06YhBhUGxCoT6gYMXbtL7QjlPSIQAm9
+2018-05-04 18:21:54.753 DEBUG 配置账号信息: appid:wx0661c9eb6b366317
+2018-05-04 18:21:54.761 DEBUG 公众账号ID公众账号ID: wx0661c9eb6b366317
+2018-05-04 18:21:59.094 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx0661c9eb6b366317]]></appid><attach><![CDATA[WX201805041820311222,1008337,客房预定,55]]></attach><body><![CDATA[预定：钟点房，订单编号：WX201805041820311222]]></body><goods_tag><![CDATA[test]]></goods_tag><mch_id><![CDATA[1500571121]]></mch_id><nonce_str><![CDATA[46db37842715470c8e753c3738c6ea28]]></nonce_str><notify_url><![CDATA[http://www.zidinn.com/Reservation/ResultNotifyPage.aspx?AdminHotelid=1008337&Hotelid=55]]></notify_url><openid><![CDATA[1]]></openid><out_trade_no><![CDATA[WX201805041820311222]]></out_trade_no><sign><![CDATA[E3969879FD52E65CE9E448817613B132]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20180504183058]]></time_expire><time_start><![CDATA[20180504182057]]></time_start><total_fee>10800</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2018-05-04 18:47:42.153 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[FAIL]]></return_code>
+<return_msg><![CDATA[签名错误]]></return_msg>
+</xml>
+2018-05-04 18:47:42.169 ERROR RM.Web.business.JsApiPay: UnifiedOrder response error!
+2018-05-04 19:50:09.452 DEBUG 配置账号信息: appid:wx41bd9e5d7867ad93
+2018-05-04 19:50:09.456 DEBUG 配置账号信息: APPSECRET:ee8dfe055e22953e0f07adda79167fb5
+2018-05-04 19:50:09.728 DEBUG 配置账号信息: NOTIFY_URL:www.zidinn.com
+2018-05-04 19:50:09.755 INFO //获取返回信息11-----menuInfo: {"touser":"oQQLEw9kDkPsA4vfWbus-Nl9akjQ","template_id":"ptrlmG8gsYjTzHHHBvwBUBPUNt5jHFOOUPS1efpueKU","url":"http://www.zidinn.com/Reservation/OrderWith.aspx?AdminHotelid=1004613&Id=WX201804101922507071","data":{"first":{"value":"您好，您已经成功办理入住，祝您入住愉快","color":"#000"},"keyword1":{"value":"WX201804101922507071","color":"#000"},"keyword2":{"value":"智订云（东门店）","color":"#000"},"keyword3":{"value":"豪华大客房","color":"#000"},"keyword4":{"value":"2018-04-10 00:00:00","color":"#000"},"keyword5":{"value":"1529","color":"#000"},"remark":{"value":"订单金额: 1.00","color":"#000"}}}
+2018-05-04 19:50:09.764 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=
+2018-05-04 19:50:10.144 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [rsnfIa06144682!]"}
+2018-05-04 20:30:03.450 DEBUG 配置账号信息: appid:wx41bd9e5d7867ad93
+2018-05-04 20:30:03.516 DEBUG 配置账号信息: APPSECRET:ee8dfe055e22953e0f07adda79167fb5
+2018-05-04 20:30:03.834 DEBUG 配置账号信息: NOTIFY_URL:www.zidinn.com
+2018-05-04 20:30:03.908 INFO //获取返回信息11-----menuInfo: {"touser":"oQQLEw6xNcDk06dkGLaik190N0-o","template_id":"ptrlmG8gsYjTzHHHBvwBUBPUNt5jHFOOUPS1efpueKU","url":"http://www.zidinn.com/Reservation/OrderWith.aspx?AdminHotelid=1004613&Id=WX201804181032066608","data":{"first":{"value":"您好，您已经成功办理入住，祝您入住愉快","color":"#000"},"keyword1":{"value":"WX201804181032066608","color":"#000"},"keyword2":{"value":"智订云（东门店）","color":"#000"},"keyword3":{"value":"测试房","color":"#000"},"keyword4":{"value":"2018-04-18 00:00:00","color":"#000"},"keyword5":{"value":"1639","color":"#000"},"remark":{"value":"订单金额: 1.00","color":"#000"}}}
+2018-05-04 20:30:03.910 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=
+2018-05-04 20:30:04.296 INFO //获取返回信息22----------)：: {"errcode":41001,"errmsg":"access_token missing hint: [oLd11a0008a456!]"}

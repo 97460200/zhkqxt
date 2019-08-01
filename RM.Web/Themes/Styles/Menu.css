@@ -1,0 +1,758 @@
+﻿*
+{
+    font-size: 9pt;
+}
+html, body
+{
+    margin: 0px auto;
+    padding: 0px;
+    height: 100%;
+    overflow: hidden;
+}
+#main
+{
+    overflow: auto;
+}
+body a
+{
+    outline: none;
+    blr: expression(this.onFocus=this.blur());
+}
+input, button, select, textarea
+{
+    outline: none;
+}
+div, ul, li, dl, dt, dd, img, h1, h2
+{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    border: 0;
+}
+#Container
+{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+#Header
+{
+    height: 83px;
+    background-image: url(../images/topbg.png);
+    border-bottom:3px solid #1C456F;
+}
+#HeaderLogo
+{
+    float: left;
+    margin-top: 16px;
+    margin-left: 20px;
+    background: url(../images/bmslogo.png) no-repeat;
+    height: 52px;
+    width: 270px;
+    display: inline;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='bmslogo.png', sizingMethod='crop');
+}
+#weather
+{
+    position: absolute;
+    z-index: 3000;
+    right: 0%;
+    top: 0%;
+    width: auto;
+    cursor: pointer;
+}
+#Headermenu
+{
+    float: right;
+    margin-right: 10px;
+    position:relative;
+}
+.right_title
+{
+     overflow:hidden;
+     float:right;
+     padding-top:17px;
+}
+.right_title ul
+{
+    padding-right:5px;
+}
+.right_title ul li
+{
+    float:left;
+    background: url(../images/rightline.png) no-repeat right 3px;
+}
+.right_title ul li a
+{
+    float:left;
+    margin-right:10px;
+    font-family:宋体;
+    font-size:12px;
+    color:#fff;
+    padding-left:20px;
+    opacity:0.8;
+     background: url(../images/head1.png) no-repeat;
+     cursor:pointer;
+}
+.right_title ul li a:hover
+{
+    background: url(../images/head1.png) no-repeat;
+    opacity:1;
+}
+.right_title ul li a.li1
+{
+      background-position: -73px -4px;
+}
+
+.right_title ul li a.li2
+{
+      background-position: -145px -4px;
+      margin-left:10px;
+}
+
+
+.right_title ul li a.li3
+{
+    background-position: -217px -5px;
+    margin-left:10px;
+}
+
+.right_title ul li a.li4
+{
+    background-position: -310px -4px;
+    margin-left:10px;
+}
+.right_title ul li a.li5
+{
+    background: url(../images/headpeople.png) no-repeat left 2px;
+    font-family:Arial;
+}
+#Headermenu .bot ul li
+{
+     float:right;
+     width:90px;
+     height:35px;
+     border-left:1px solid #c8ddee;
+   
+}
+#Headermenu .bot ul li.l1
+{
+    border:none;
+    border-radius: 4px 0px 0px 0px;
+}
+#Headermenu .bot ul li.l1 a
+{
+    border-radius: 4px 0px 0px 0px;
+}
+#Headermenu .top
+{
+    overflow: hidden;
+  float: right;
+  height: 48px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 450px;
+}
+#Headermenu .bot
+{
+   float: right;
+  border-radius: 4px 4px 0px 0px;
+  overflow: hidden;
+  margin-right: 10px;
+  position: absolute;
+  right: 0px;
+  top: 48px;
+  width: 820px;
+}
+#Headermenu .bot ul li a
+{
+    font-family:微软雅黑;
+    font-size:14px;
+    color:#1F4D7C;
+    background:#AECDE6;
+    width:90px;
+    display:inline-block;
+    height:34px;
+    line-height:35px;
+    text-align:center;
+    cursor:pointer;
+     border-top:1px solid #c8ddee;
+}
+#Headermenu .bot ul li a.this
+{
+    background:#1E4A77;
+    color:#fff;
+    border-top:1px solid #1E4A77;
+}
+#Headermenu .bot ul li a.this:hover
+{
+    background:#1E4A77;
+    border-top:1px solid #1E4A77;
+}
+#Headermenu .bot ul li a:hover
+{
+    background:#D5E4F1;
+}
+#Headermenu .bot ul li.l1 a
+{
+    border-left:1px solid #c8ddee;
+    width:89px;
+}
+
+
+#Headermenu .bot ul li.l1 a.this {
+  background: #1E4A77;
+  color: #fff;
+  border-top: 1px solid #1E4A77;
+  border-left: 1px solid #1E4A77;
+}
+#Headermenu .bot ul li.l9 a.this {
+  background: #1E4A77;
+  color: #fff;
+  border-right: 1px solid #1E4A77;
+}
+#Headermenu .bot ul li.l9 a
+{
+    border-right:1px solid #c8ddee;
+    width:89px;
+}
+#Headermenu .bot ul li.l1 a:hover
+{
+    border-left:1px solid #fff;
+}
+#Headermenu .bot ul li.l1 a.this:hover
+{
+    border-left:1px solid #1E4A77;
+}
+#Headermenu .bot ul li.l9
+{
+    border-right:none;
+}
+#Headermenu .bot ul li.l9 a:hover
+{
+    border-right:1px solid #1E4A77;
+}
+#Headerbotton
+{
+    height: 23px;
+    padding-top: 2px;
+    border-bottom: 1px solid #ccc;
+    background-image: url(../images/Headerbotton.png);
+}
+#Content
+{
+    margin: 0px auto;
+    height: 100%;
+    overflow: hidden;
+}
+#left_title
+{
+    float: left;
+    height: 100%;
+    text-align: center;
+    width: 180px;
+    line-height: 20px;
+    color: #222;
+    font-weight: bold;
+}
+#conten_title
+{
+    height: 100%;
+    text-align: left;
+    line-height: 20px;
+    padding-left: 1px;
+    color: #222;
+    font-weight: bold;
+}
+/*Tabmenu
+------------------------------------------------*/
+div.removesel
+{
+    display: inline-block;
+    width: 105px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    border: 0px;
+    margin-left: 2px;
+    background: url(../images/top_title1.png) no-repeat left;
+    float: left;
+    vertical-align: bottom;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 11pt;
+    font-weight: bold;
+}
+div.sel
+{
+    border: 0px;
+    outline: none;
+    display: inline-block;
+    width: 105px;
+    line-height: 38px;
+    text-align: center;
+    height: 38px;
+    margin-left: 2px;
+    background: url(../images/top_title.png) no-repeat left;
+    vertical-align: bottom;
+    float: left;
+    cursor: pointer;
+    color: #395a7b;
+    font-size: 11pt;
+    font-weight: bold;
+}
+#MainContent
+{
+    height: 100%;
+    width: 100%;
+   
+}
+
+/**left导航菜单**/
+#Sidebar
+{
+    overflow: auto;
+    scrollbar-face-color: #e4e4e4;
+    scrollbar-heightlight-color: #f0f0f0;
+    scrollbar-3dlight-color: #d6d6d6;
+    scrollbar-arrow-color: #240024;
+    scrollbar-darkshadow-color: #d6d6d6;
+}
+#Sidebar div
+{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 7px;
+    text-decoration: none;
+    background: url(../images/leftbotton02.png) no-repeat scroll -1px 0px;
+    color: #222;
+    font-weight: bold;
+    cursor: pointer;
+}
+#Sidebar div:hover
+{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 7px;
+    text-decoration: none;
+    background: url(../images/leftbotton021.png) no-repeat scroll -1px 0px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+#Sidebar img
+{
+    padding-top: 7px;
+    padding-left: 29px;
+    margin-right: 2px;
+    float: left;
+}
+#Sidebar .leftselected
+{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 7px;
+    text-decoration: none;
+    background: url(../images/leftbotton021.png) no-repeat scroll -1px 0px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+/* 钢琴菜单 begin */
+.navPanel img, .navSelect img
+{
+    vertical-align: middle;
+    margin: 0px 5px 0px 0px;
+}
+.navigation
+{
+    padding-top: 2px;
+    width: 180px;
+    _width: 180px; /*兼容IE6*/
+    height: 100%;
+    margin-right: 0;
+    float: left;
+    vertical-align: bottom;
+    position: relative;
+}
+.navPanel
+{
+    padding-left: 1px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scrollbar-face-color: #e4e4e4;
+    scrollbar-heightlight-color: #f0f0f0;
+    scrollbar-3dlight-color: #d6d6d6;
+    scrollbar-arrow-color: #240024;
+    scrollbar-darkshadow-color: #d6d6d6;
+}
+.navPanel div
+{
+    width: 160px;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 7px;
+    text-decoration: none;
+    background: url(../images/leftbotton02mimi.png) no-repeat scroll -1px 0px;
+    color: #222;
+    cursor: pointer;
+    font-weight: bold;
+}
+.navPanel .selected
+{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 7px;
+    text-decoration: none;
+    background: url(../images/leftbotton021mimi.png) no-repeat scroll -1px 0px;
+    color: #FFFFFF;
+}
+.navPanel .navHover
+{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 7px;
+    text-decoration: none;
+    background: url(../images/leftbotton021mimi.png) no-repeat scroll -1px 0px;
+    color: #FFFFFF;
+}
+
+.navPanel img
+{
+    padding-left: 19px;
+    padding-right: 5px;
+    vertical-align: middle;
+    margin: 0px 5px 0px 0px;
+}
+.navPanelMini
+{
+   
+    margin-right: 0;
+    overflow: auto;
+    scrollbar-face-color: #e4e4e4;
+    scrollbar-heightlight-color: #f0f0f0;
+    scrollbar-3dlight-color: #d6d6d6;
+    scrollbar-arrow-color: #240024;
+    scrollbar-darkshadow-color: #d6d6d6;
+    background:#F3F8FC;
+}
+.navPanelMini div
+{
+    color: #000000;
+    margin-bottom: 1px;
+    cursor: pointer;
+    padding:0px;
+    margin:0px;
+}
+.navPanelMini div img
+{
+    padding-right: 5px;
+    height: 22px;
+    width: 22px;
+    border: 0px;
+    background-position: 0 0;
+    vertical-align: middle;
+    margin: 0px 5px 0px 0px;
+}
+.navPanelMini .navHover
+{
+    background2: #D0E5F5;
+    background1: #FBEC88;
+    background: #e0eccc;
+}
+.navPanelMini .selected
+{
+
+    background2: #D0E5F5;
+    background1: #FBEC88;
+    background: #e0eccc;
+}
+.navSelect
+{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+.navSelect div
+{
+    height: 22px;
+    line-height: 20px;
+    display: block;
+    padding: 5px;
+    background-image: url('../images/nav_link.gif');
+    background-repeat: repeat-x;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+}
+.navSelect .navHover
+{
+    height: 20px;
+    line-height: 18px;
+    padding-left: 4px;
+    color: #FFF;
+    border: solid 1px #3399dd;
+    background: #2288cc;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#33bbee', endColorstr='#2288cc');
+    background: linear-gradient(top, #33bbee, #2288cc);
+    background: -moz-linear-gradient(top, #33bbee, #2288cc);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#33bbee), to(#2288cc));
+    text-shadow: -1px -1px 1px #1c6a9e;
+}
+.navSelect .selected
+{
+    height: 20px;
+    line-height: 18px;
+    padding-left: 4px;
+    color: #FFF;
+    border: solid 1px #3399dd;
+    background: #2288cc;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#33bbee', endColorstr='#2288cc');
+    background: linear-gradient(top, #33bbee, #2288cc);
+    background: -moz-linear-gradient(top, #33bbee, #2288cc);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#33bbee), to(#2288cc));
+    text-shadow: -1px -1px 1px #1c6a9e;
+}
+.navSelect img
+{
+    vertical-align: middle;
+    margin: -2px 5px 0px 0px;
+}
+/* 钢琴菜单 end */
+
+/**left导航树菜单**/
+#sidebarTree
+{
+    overflow: auto;
+    scrollbar-face-color: #e4e4e4;
+    scrollbar-heightlight-color: #f0f0f0;
+    scrollbar-3dlight-color: #d6d6d6;
+    scrollbar-arrow-color: #240024;
+    scrollbar-darkshadow-color: #d6d6d6;
+}
+/**全屏**/
+.ContentMaximize
+{
+    position: absolute;
+    z-index: 999;
+    cursor: pointer;
+    left: 0%;
+    top: 0%;
+    background: #fff;
+}
+#fullreturn
+{
+    position: absolute;
+    z-index: 999;
+    cursor: pointer;
+    right: 0%;
+    top: 0%;
+    background: url('../images/close_32.png')no-repeat scroll;
+    width: 32px;
+    height: 32px;
+    display: none;
+}
+/*左部菜单
+------------------------------------------------*/
+.navigation
+{
+    overflow: hidden;
+    width: 200px;
+    float: left;
+    position: relative;
+    background: #fff;
+}
+.leftbg
+{
+    position:absolute;
+    right:0px;
+    z-index:1;
+}
+.menu
+{
+    background: #ffffff;
+    font-size: 14px;
+    font-family: 宋体;
+    color: #333;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.menu ul li
+{
+    display: block;
+    list-style: none;
+    overflow: visible;
+}
+.menu ul li a
+{
+    display: block;
+    height: 35px;
+    padding-left: 27px;
+    font-size: 12px;
+    color: #4b4b4b;
+    outline: none;
+    line-height: 35px;
+    background:  #F3F8FC;
+    border-left: 2px solid #F3F8FC;
+    position: relative;
+    cursor: pointer;
+    border-bottom:1px solid #E4EDF3;
+    margin-left:0px;
+}
+.menu ul li a:hover
+{
+   background:  #fff;
+    border-left: 2px solid #10619A;
+    color:#488CBF;
+}
+ .menu ul li a.this
+{
+   background: url(../images/nav3.png) no-repeat 180px 13px #fff;
+    border-left: 2px solid #10619A;
+    color:#488CBF;
+}
+
+/* 第二个*/
+.menu ul #li_content3 a
+{
+    background: url(../images/xjh.png) 193px 20px no-repeat #fff;
+}
+.menu ul #li_content3 a:hover
+{
+    background: url(../images/xlh6.png) 193px 20px no-repeat #fff;
+}
+.menu ul #li_content3 .lithis, .menu ul #li_content3 .active
+{
+    background: url(../images/xlh2.png) 193px 20px no-repeat #fff;
+}
+
+.menu ul #li_content3 ul li.aa a
+{
+    font-size: 12px;
+    color: #333;
+    background: none;
+    height: 31px;
+    line-height: 31px;
+    padding-left: 52px;
+    cursor: pointer;
+    border-left: 2px solid #fff;
+}
+.menu ul #li_content3 ul li.aa a:hover
+{
+    border: none;
+    border-left: 2px solid #ececec;
+    color: #000;
+    background: #ececec;
+}
+.menu ul #li_content3 ul li.aa a.tthis
+{
+    border-left: 2px solid #cc0000;
+    color: #cc0000;
+    background: url(../images/xlh7.png) 196px 12px no-repeat #ececec;
+}
+/**/
+.menu ul li a span
+{
+    background: url(../images/tubiao1.png) no-repeat;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 15px;
+    left: 24px;
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.7;
+    opacity: 0.7;
+}
+.menu ul li a:hover span
+{
+    filter: alpha(opacity=100);
+    -moz-opacity: 1;
+    opacity: 1;
+}
+
+.menu ul li a.active span, .menu ul li a.lithis span
+{
+    filter: alpha(opacity=100);
+    -moz-opacity: 1;
+    opacity: 1;
+}
+
+
+
+.menu ul li a.active span.span1, .menu ul li a:hover span.span1
+{
+    background: url(../images/nav_img22.png) no-repeat;
+}
+.menu ul li .active1
+{
+    background: url(../images/xlh66.png) no-repeat 13px 13px #F3F8FC;
+    border-left: 0px;
+    position: relative;
+    cursor: pointer;
+    border-bottom: 1px solid #E4EDF3;
+    margin: 0px;
+    font-weight: bold;
+    height: 35px;
+    padding-left: 30px;
+}
+.menu ul li .active1:hover
+{
+    background: url(../images/xlh77.png) no-repeat 13px 13px #F3F8FC;
+    border-left: 0px;
+    position: relative;
+    cursor: pointer;
+    border-bottom: 1px solid #E4EDF3;
+    margin: 0px;
+    font-weight: bold;
+    height: 35px;
+    padding-left: 30px;
+}
+.menu ul li .active 
+{
+      background: url(../images/xlh5.png) no-repeat 13px 13px #F3F8FC;
+    border-left: 0px;
+    position: relative;
+    cursor: pointer;
+    border-bottom:1px solid #E4EDF3;
+    margin:0px;
+    font-weight:bold;
+    height:35px;
+    padding-left:30px;
+}
+.menu ul li .active:hover
+{
+     background:#F3F8FC;
+     border-left:0px;
+     background: url(../images/xlh55.png) no-repeat 13px 13px #F3F8FC;
+}
+.menu ul li .inactive:hover
+{
+    background: url(../images/xlh6.png) 192px 18px no-repeat #ececec;
+}
+.menu ul li a.lithis
+{
+    border-left: 3px solid #cc0000;
+    background: url(../images/xlh4.png) 195px 18px no-repeat #ececec;
+    color: #cc0000;
+}
+.menu ul #li_content a.lithis, .menu ul #li_content a.active
+{
+    border-left: 3px solid #f7f7f7;
+    background: url(../images/xjh.png) 193px 20px no-repeat #f7f7f7;
+    color: #000;
+}
+.menu ul li .inactive
+{
+    border-left: 3px solid #fff;
+    background: url(../images/xjh.png) 192px 18px no-repeat;
+}
+.menu ul li .inactive span
+{
+}

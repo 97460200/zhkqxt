@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="/Frame/HomeIndex.aspx" title="系统首页"  description="系统首页">
+    <!--系统设置-->
+    <siteMapNode url="~/RMBase/SysBaseInfo/SetBaseInfo.aspx" title="基本信息设置" description="基本信息设置">
+    </siteMapNode>
+
+    <siteMapNode url="~/RMBase/SysBaseInfo/Gsroom.aspx" title="网站参数设置" description="网络参数设置">
+    </siteMapNode>
+    <siteMapNode url="~/RMBase/SetUp/SetUpInfo.aspx" title="酒店参数设置" description="酒店参数设置">
+    </siteMapNode>
+    <!--管理员系统-->
+    <siteMapNode url="~/RMBase/SysUser/UserInfo_List.aspx" title="用户管理"  description="用户管理系统">
+    </siteMapNode>
+    <!--信息管理系统-->
+    <siteMapNode url="~/RMBase/SysInfo/InfoList.aspx" title="信息管理" description="信息管理系统">
+      <siteMapNode url="~/RMBase/SysInfo/InfoKindList.aspx" title="栏目管理" description="栏目管理"></siteMapNode>
+      <siteMapNode url="~/RMBase/SysInfo/InfoKindLists.aspx" title="栏目管理" description="栏目管理"></siteMapNode>
+      <siteMapNode url="~/RMBase/SysInfo/infowith.aspx" title="信息详细" description="信息详细"></siteMapNode>
+    </siteMapNode>
+
+    <!--单页图文系统-->
+    <siteMapNode url="~/RMBase/SysPageText/PageTextEdit.aspx" title="单页管理"  description="单页管理系统">
+      <siteMapNode url="~/RMBase/SysPageText/KindLists.aspx" title="页面管理" description="页面管理"></siteMapNode>
+      <siteMapNode url="~/RMBase/SysPageText/KindList.aspx" title="页面管理" description="页面管理"></siteMapNode>
+      <siteMapNode url="~/RMBase/SysPageText/PageInfo.aspx" title="信息详细" description="信息详细"></siteMapNode>
+    </siteMapNode>
+    <!--订单管理系统-->
+    <siteMapNode url="~/RMBase/SysOrder/ReservationList.aspx" title="订单管理"  description="订单管理系统">
+
+      <siteMapNode url="~/RMBase/SysOrder/ReservationWith.aspx" title="订单详情"  description="订单详情">
+
+      </siteMapNode>
+    </siteMapNode>
+
+    <!--图片系统-->
+    <siteMapNode url="~/RMBase/SysImages/ImgList.aspx" title="图片管理"  description="图片管理系统">
+      <siteMapNode url="~/RMBase/SysImages/ImgKindList.aspx" title="栏目管理" description="栏目管理"></siteMapNode>
+      <siteMapNode url="~/RMBase/SysImages/ImgKindLists.aspx" title="栏目管理" description="栏目管理"></siteMapNode>
+    </siteMapNode>
+
+
+    <!--日志管理系统-->
+    <siteMapNode url="~/RMBase/SysLog/SysLogin.aspx" title="登录日志"  description="登录日志">
+    </siteMapNode>
+    <siteMapNode url="~/RMBase/SysLog/SysBase_Blog.aspx" title="操作日志"  description="操作日志">
+    </siteMapNode>
+
+
+
+    <siteMapNode url="~/RMBase/SysHotel/HotelList.aspx" title="酒店管理" description="酒店管理系统 ">
+
+      <siteMapNode url="~/RMBase/SysHotel/SheSiList.aspx" title="设施管理" description="设施管理"></siteMapNode>
+      <siteMapNode url="~/RMBase/SysHotel/ProductList.aspx" title="客房管理系统" description="客房管理系统">
+      </siteMapNode>
+    </siteMapNode>
+
+
+    <siteMapNode url="~/RMBase/SysBooking/BookList.aspx" title="营业点管理" description="营业点管理系统">
+
+     <siteMapNode url="~/RMBase/SysBooking/BookTypeList.aspx" title="类型管理" description="类型管理"></siteMapNode>
+    
+    </siteMapNode>
+
+
+
+    <!--视频管理系统-->
+    <siteMapNode url="~/admin/video/list.aspx" title="视频管理" description="视频管理系统">
+      <siteMapNode url="~/admin/video/addvideo.aspx" title="添加视频" description="添加视频"></siteMapNode>
+      <siteMapNode url="~/admin/video/editvideo.aspx" title="编辑视频" description="编辑视频"></siteMapNode>
+      <siteMapNode url="~/admin/video/video.aspx" title="默认视频管理" description="默认视频管理"></siteMapNode>
+    </siteMapNode>
+    <!-- 广告管理 -->
+
+    <siteMapNode url="~/RMBase/SysAdvertise/AdvertiseList.aspx" title="广告管理" description="广告管理系统">
+      <siteMapNode url="~/RMBase/SysAdvertise/AdvertisekindList.aspx" title="栏目管理" description="栏目管理"></siteMapNode>
+
+
+    </siteMapNode>
+    <!-- 财务管理系统 -->
+    <siteMapNode url="~/RMBase/SysFinance/FinanceList.aspx" title="财务管理" description="财务管理系统">
+    </siteMapNode>
+    <!-- 分销管理系统 -->
+    <siteMapNode url="~/RMBase/SysDistributor/DistributorList.aspx" title="分销管理" description="分销管理系统">
+
+      <siteMapNode url="~/RMBase/SysDistributor/DistributorAuditList.aspx" title="分销员详情" description="分销员详情"></siteMapNode>
+      <siteMapNode url="~/RMBase/SysDistributor/WithdrawalsList.aspx" title="审核管理" description="审核管理"></siteMapNode>
+    </siteMapNode>
+
+    <!-- 卡券管理系统 -->
+    <siteMapNode url="~/RMBase/SysCoupon/CLientCouponlist.aspx" title="卡券统计" description="卡券统计">
+    </siteMapNode>
+
+
+
+    <siteMapNode url="~/RMBase/SysCoupon/MattersList.aspx" title="优惠管理" description="优惠管理系统">
+      <siteMapNode url="~/RMBase/SysCoupon/CouponManage.aspx" title="优惠类别" description="优惠类别"></siteMapNode>
+      <siteMapNode url="~/RMBase/SysCoupon/MattersCoupon.aspx" title="赠送卡券" description="赠送卡券"></siteMapNode>
+      <siteMapNode url="~/RMBase/SysCoupon/CouponList.aspx" title="卡券管理" description="卡券管理"></siteMapNode>
+    </siteMapNode>
+
+    <!-- 积分管理系统 -->
+    <siteMapNode url="~/RMBase/SysIntegral/IntegralList.aspx" title="积分管理" description="积分管理系统">
+      <siteMapNode url="~/RMBase/SysIntegral/MatterList.aspx" title="积分管理系统" description="积分管理系统"></siteMapNode>
+    </siteMapNode>
+
+
+    <!-- 短信管理系统 -->
+    <siteMapNode url="~/RMBase/SysEMS/MessageList.aspx" title="短信管理" description="短信管理系统"></siteMapNode>
+
+    <!-- 会员卡管理系统 -->
+    <siteMapNode url="~/RMBase/SysCard/CardList.aspx" title="会员卡管理" description="会员卡管理系统">
+    </siteMapNode>
+
+
+    <!-- 会员管理 -->
+    <siteMapNode url="~/RMBase/SysMember/MemberList.aspx" title="会员管理" description="会员管理系统">
+      <siteMapNode url="~/RMBase/SysMember/MemberDetails.aspx" title="会员详情" description="会员详情"></siteMapNode>
+      <siteMapNode url="~/RMBase/SysCertificates/CertificatesList.aspx" title="证件管理" description="证件管理"></siteMapNode>
+    </siteMapNode>
+    <!-- 留言管理系统 -->
+    <siteMapNode url="~/RMBase/SysLeaveword/LeaveWordList1.aspx" title="评价管理" description="评价管理系统"></siteMapNode>
+    <siteMapNode url="~/RMBase/SysLeaveword/LeaveWordSee.aspx" title="回复评价" description="回复评价"></siteMapNode>
+    <!-- 图片管理 -->
+    <siteMapNode url="~/admin/album/AddImg.aspx" title="添加图片" description="图片管理系统"></siteMapNode>
+    <siteMapNode url="~/admin/album/imgManger.aspx" title="图片管理" description="图片管理系统"></siteMapNode>
+    <siteMapNode url="~/admin/album/ImgMsg.aspx" title="图片详情" description="图片管理系统"></siteMapNode>
+    <!-- 服务项目管理 -->
+    <siteMapNode url="~/RMBase/SysService/KindManger.aspx" title="服务管理" description="服务管理系统">
+      <siteMapNode url="~/RMBase/SysService/List.aspx" title="分类管理" description="分类管理"></siteMapNode>
+    </siteMapNode>
+
+    <!-- 菜单设置 -->
+    <siteMapNode url="~/RMBase/SysMenu/Menu_List.aspx" title="菜单设置" description="菜单管理系统">
+
+    </siteMapNode>
+
+    <siteMapNode url="~/RMBase/SysCalendar/Gsroom.aspx" title="参数管理" description="参数管理系统">
+
+    </siteMapNode>
+
+    <!-- 营销管理 -->
+    <siteMapNode url="~/RMBase/SysWelfare/WelfareList.aspx" title="营销管理" description="营销管理">
+      <siteMapNode url="~/RMBase/SysWelfare/WelfareTypeList.aspx" title="福利类型" description="营销管理">
+        <siteMapNode url="~/RMBase/SysWelfare/WelfareInfoList.aspx" title="福利管理" description="营销管理">
+
+        </siteMapNode>
+      </siteMapNode>
+    </siteMapNode>
+
+    
+
+    
+
+    <!-- 酒店管理列表 -->
+    <siteMapNode url="~/RMBase/SysHotelAdmin/HotelAdminList.aspx" title="酒店管理" description="酒店管理">
+      <siteMapNode url="~/RMBase/SysHotelAdmin/UserInfo_List.aspx" title="用户管理" description="用户管理"></siteMapNode>
+      <siteMapNode url="~/RMBase/SysHotelAdmin/SetUpInfo.aspx" title="参数设置" description="参数设置"></siteMapNode>
+    </siteMapNode>
+
+
+    <!-- 报表管理系统 -->
+    <siteMapNode title="报表管理系统" description="报表管理">
+      <siteMapNode url="~/RMBase/SysReport/PersonnelReportIndex.aspx?src=RoomReservateLeft.aspx,RoomReservateDetails.aspx" title="客房预订报表" description="客房预订报表"></siteMapNode>
+
+      <siteMapNode url="~/RMBase/SysReport/PersonnelReportIndex.aspx?src=FinanceListCondition.aspx,FinanceList.aspx" title="会员消费报表" description="会员消费报表"></siteMapNode>
+
+      <siteMapNode url="~/RMBase/SysReport/PersonnelReportIndex.aspx?src=CouponLeft.aspx,ConponDetails.aspx" title="会员卡券报表" description="会员卡券报表"></siteMapNode>
+
+      <siteMapNode url="~/RMBase/SysReport/PersonnelReportIndex.aspx?src=MembershipCardSalesLeft.aspx,MembershipCardSalesDetails.aspx" title="会员卡销售报表" description="会员卡销售报表"></siteMapNode>
+
+      <siteMapNode url="~/RMBase/SysReport/PersonnelReportIndex.aspx?src=RoomEvaluteLeft.aspx,RoomEvaluteDetails.aspx" title="酒店客房评价报表" description="酒店客房评价报表"></siteMapNode>
+      <siteMapNode url="~/RMBase/SysReport/PersonnelReportIndex.aspx?src=IntegralListCondition.aspx,IntegralList.aspx" title="会员积分报表" description="会员积分报表"></siteMapNode>
+      <siteMapNode url="~/RMBase/SysReport/PersonnelReportIndex.aspx?src=RechargeListCondition.aspx,RechargeList.aspx" title="会员卡充值报表" description="会员卡充值报表"></siteMapNode>
+    </siteMapNode>
+
+
+  </siteMapNode>
+
+
+ 
+
+  
+</siteMap>

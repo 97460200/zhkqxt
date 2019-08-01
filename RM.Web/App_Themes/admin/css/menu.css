@@ -1,0 +1,430 @@
+/*///////////menu框架页面样式开始///////////*/
+
+body {
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	font-size: 12px;
+	margin: 0px;
+	background-color: #EBEBEB;
+	background:url(../images/left_menu_bg.jpg);
+	background-repeat: repeat-y;
+	background-position:left top;
+}
+html{
+	scrollbar-face-color: #eee;
+	scrollbar-highlight-color: #ffffff; 
+	scrollbar-shadow-color: #cccccc;
+	scrollbar-3dlight-color: #cccccc;
+	scrollbar-arrow-color: #330000;
+	scrollbar-track-color: #eee;
+	scrollbar-darkshadow-color: #ffffff;
+
+
+}
+
+.scrolling{
+	overflow:auto; 
+	height:100%;
+}
+
+
+a {
+	color: #333;
+	text-decoration: none;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #000;
+}
+.menu_box {
+	height: 100%;	
+}
+/*左菜单标题头样式*/
+#menu_title {
+	background-image: url(../images/menu_title.jpg);
+	background-repeat: no-repeat;
+	background-position:left top;
+	width:142px;
+	height:55px;
+	padding-left:35px;
+	padding-top:5px;
+	color: #000;
+	font-size: 12px;
+	font-weight:normal;
+}
+
+#menu_title span {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #000;
+	font-size: 14px;
+	padding-right:3px;
+}
+
+/*关闭与打开左栏样式*/
+.switch {
+	cursor: hand;
+	background:url(../images/lineBg.jpg) no-repeat;
+	margin:0px;
+	padding-left:1px;
+	width:15px;
+}
+
+/*分类选项卡样式*/
+#Tab1{
+	width:176px;
+	margin:0px;
+	padding:0px;
+	margin:0 auto;
+}
+
+/*选项卡Menu_title*/
+.Menu_title {
+	background:url(../images/11.jpg);
+	height:31px;
+	line-height:31px;
+	margin-bottom:1px;
+}
+.Menu_title ul{
+	margin:0px;
+	padding:0px;
+	list-style-type: none;
+}
+.Menu_title li{
+	float:left;
+	display:block;
+	cursor:pointer;
+	padding-left:16px;
+	padding-right:16px;
+	color:#949694;
+	font-weight:bold;
+	text-align:center;
+	font-family: Arial;
+	font-size: 12px;
+}
+.Menu_title li.hover{
+	padding:0px;
+	background:#EBEBEB;
+	background:url(../images/menu_hover.jpg);
+	padding-left:16px;
+	padding-right:16px;
+	color:#000;
+	font-weight:bold;
+	font-family: Arial;
+	font-size: 12px;
+	height:31px;
+
+}
+.Contentbox{
+	clear:both;
+}
+
+/*左菜单目录样式*/
+/*.menu_box ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	
+}
+.menu_box li {
+	height: 30px;
+	padding-bottom: 5px;
+	*padding-bottom: 5px;
+	_padding-bottom: 0px;
+	list-style-type: none;
+	background-image: url(../images/menu_a.jpg);
+	background-repeat: no-repeat;
+	background-position:left top;
+	clear: both;
+}
+
+.menu_box a {
+	height: 29px;
+	padding-top: 5px;
+	*padding-top: 7px;
+	padding-left: 25px;
+	display: block;
+	color:#000;
+	text-decoration: none;	
+}
+
+.menu_box_a
+{
+	display: block;
+	background-image: url(../images/menu_a.jpg);
+	background-repeat: no-repeat;
+	background-position:left top;
+
+}
+.menu_box_a_click
+{
+
+	font-weight:bold;
+	display: block;
+	margin: 0px;
+	background-image: url(../images/menu_hover2.jpg);
+	background-repeat: no-repeat;
+	background-position:left top;
+	
+}
+.menu_box_a_hover {
+	display: block;
+	background-image: url(../images/menu_hover2.jpg);
+	background-repeat: no-repeat;
+	background-position:left top;
+	text-decoration: none;	
+}*/
+
+
+/*//////////////////////////////////////menu选项卡样式///////////////////////////////////////////////*/
+/*#title {
+	height: 31px;
+	margin-bottom:1px;
+}
+#title li {
+	float: left;
+	list-style-type: none;
+	height: 31px;
+	line-height: 31px;
+	text-align: center;
+	margin-right: 0px;
+}
+#title ul {
+	height: 31px;
+	margin:0px;
+	padding:0px;
+	list-style-type: none;
+}
+#title a {
+	text-decoration: none;
+	color: #000;
+	display: block;
+	width: auto;
+	background: url(../images/menu_left.png) no-repeat left 0px;
+}
+#title a span{
+	display: block;
+	background: url(../images/menu_right.png) no-repeat right 0px;
+	padding: 0 17px 0 17px;
+}
+#title #tag1 a:hover {
+	text-decoration: none;
+	color: #000;
+	display: block;
+	width: auto;
+	background: url(../images/menu_left.png) no-repeat left -31px;
+}
+#title #tag1 a:hover span{
+	display: block;
+	background: url(../images/menu_right.png) no-repeat right -31px;
+	padding: 0 17px 0 17px;
+}
+#title #tag2 a:hover {
+	text-decoration: none;
+	color: #000;
+	display: block;
+	width: auto;
+	background: url(../images/menu_left.png) no-repeat left -31px;
+}
+#title #tag2 a:hover span{
+	display: block;
+	background: url(../images/menu_right.png) no-repeat right -31px;
+	padding: 0 17px 0 17px;
+}
+#title #tag3 a:hover {
+	text-decoration: none;
+	color: #000;
+	display: block;
+	width: auto;
+	background: url(../images/menu_left.png) no-repeat left -31px;
+}
+#title #tag3 a:hover span{
+	display: block;
+	background: url(../images/menu_right.png) no-repeat right -31px;
+	padding: 0 17px 0 17px;
+}
+#title #tag4 a:hover {
+	text-decoration: none;
+	color: #000;
+	display: block;
+	width: auto;
+	background: url(../images/menu_left.png) no-repeat left -31px;
+}
+#title #tag4 a:hover span{
+	display: block;
+	background: url(../images/menu_right.png) no-repeat right -31px;
+	padding: 0 17px 0 17px;
+}
+#title #tag5 a:hover {
+	text-decoration: none;
+	color: #000;
+	display: block;
+	width: auto;
+	background: url(../images/menu_left.png) no-repeat left -31px;
+}
+#title #tag5 a:hover span{
+	display: block; 
+	background: url(../images/menu_right.png) no-repeat right -31px;
+	padding: 0 17px 0 17px;
+}
+#title .selectli1 {
+	text-decoration: none;
+	color: #000;
+	font-weight:bold;
+	display: block;
+	width: auto;
+	background: url(../images/menu_left.png) no-repeat left -62px;
+}
+#title a .selectspan1 {
+	display: block;
+	background: url(../images/menu_right.png) no-repeat right -62px;
+	padding: 0 17px 0 17px;
+}
+#title .selectli2 {
+	text-decoration: none;
+	color: #000;
+	font-weight:bold;
+	display: block;
+	width: auto;
+	background: url(../images/menu_left.png) no-repeat left -62px;
+}
+#title a .selectspan2 {
+	display: block; 
+	background: url(../images/menu_right.png) no-repeat right -62px;
+	padding: 0 17px 0 17px;
+}
+#title .selectli3 {
+	text-decoration: none;
+	color: #000;
+	font-weight:bold;
+	display: block;
+	width: auto;
+	background: url(../images/menu_left.png) no-repeat left -62px;
+}
+#title a .selectspan3 {
+	display: block; 
+	background: url(../images/menu_right.png) no-repeat right -62px; 
+	padding: 0 17px 0 17px;
+}
+#title .selectli4 {
+	text-decoration: none;
+	color: #000;
+	font-weight:bold;
+	display: block;
+	width: auto;
+	background: url(../images/menu_left.png) no-repeat left -62px;
+}
+#title a .selectspan4 {
+	display: block; 
+	background: url(../images/menu_right.png) no-repeat right -62px;
+	padding: 0 17px 0 17px;
+}
+#title .selectli5 {
+	text-decoration: none;
+	color: #000;
+	font-weight:bold;
+	display: block;
+	width: auto;
+	background: url(../images/menu_left.png) no-repeat left -62px;
+}
+#title a .selectspan5 {
+	display: block; 
+	background: url(../images/menu_right.png) no-repeat right -62px;
+	padding: 0 17px 0 17px;
+}
+.hidecontent {display:none;}
+
+#content ul {}
+#content li { }
+#content li img {}
+#content {
+
+}
+.content1 {
+
+}
+.content2 {
+
+}
+.content3 {
+
+}
+.content4 {
+
+}
+.content5 {
+
+}*/
+
+/*左菜单目录样式*/
+.title,
+.title ul
+{
+	padding:0;
+	margin:0;
+	list-style:none;
+	}
+	.title a 
+	{
+		display:block;
+		overflow:hidden;
+		height:30px;
+		line-height:32px;
+		text-indent:30px;
+		background:url(../images/menu_a.jpg) no-repeat scroll 0 0;
+		}
+	.title a:hover
+	{
+		background:url(../images/menu_ahover.jpg) no-repeat scroll 0 0 !important;
+		color:#c00 !important;
+		}
+	.title a.selectli 
+	{
+		background:url(../images/menu_hover.jpg) no-repeat scroll 0 0;
+		}
+	.title ul a 
+	{
+		text-indent:42px;
+		background:url(../images/menu_a2.jpg) no-repeat scroll 0 0;
+		}
+	.title ul a:hover 
+	{
+		background:url(../images/menu_hover2.jpg) no-repeat scroll 0 0;
+		}
+	.title ul a.menu_box_a_click 
+	{
+		background-image:url(../images/menu_hover2.jpg);
+		font-weight:700;
+		color:#CC0000;
+		}
+.hide 
+{
+	display:none;
+	}
+	.head_b_r a img 
+	{
+		padding-top:2px;
+		
+		}
+	.menu_box_a_click a
+	{
+		color:#f00;
+	
+		}
+/* #suotu
+{
+	position:relative;
+	left:0px !important;
+    top:30px !important;
+	}*/
+/*////////////////修改密码样式//////////*/
+.acolor:hover
+{
+	text-decoration:underline;
+	color:#f00;
+
+	}

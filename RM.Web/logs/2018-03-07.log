@@ -1,0 +1,48 @@
+2018-03-07 16:42:22.072 INFO 错误页3: 3
+2018-03-07 16:42:22.100 INFO 错误页4: 4
+2018-03-07 16:43:34.964 INFO 错误页3: 3
+2018-03-07 16:43:34.964 INFO 错误页4: 4
+2018-03-07 18:43:34.897 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx41bd9e5d7867ad93]]></appid><attach><![CDATA[HYK20180307184334206,1,会员卡充值]]></attach><body><![CDATA[会员卡充值，订单编号：HYK20180307184334206]]></body><goods_tag><![CDATA[test]]></goods_tag><mch_id><![CDATA[1375851902]]></mch_id><nonce_str><![CDATA[361264d0a5f24c37900d38dcfa67b4e7]]></nonce_str><notify_url><![CDATA[http://wx.sewa-hotel.com/Reservation/ResultNotifyPage.aspx?AdminHotelid=1]]></notify_url><openid><![CDATA[oQQLEw9kDkPsA4vfWbus-Nl9akjQ]]></openid><out_trade_no><![CDATA[HYK20180307184334206]]></out_trade_no><sign><![CDATA[07F5B09C96B99F48FE2EA2E5B31DEEFE]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20180307185334]]></time_expire><time_start><![CDATA[20180307184334]]></time_start><total_fee>0</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2018-03-07 18:43:36.173 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[FAIL]]></return_code>
+<return_msg><![CDATA[invalid total_fee]]></return_msg>
+</xml>
+2018-03-07 18:43:36.214 ERROR RM.Web.business.JsApiPay: UnifiedOrder response error!
+2018-03-07 18:43:36.434 INFO 会员卡升级或者充值报错: RM.Web.Lib.WxPayException: UnifiedOrder response error!
+   在 RM.Web.business.JsApiPay.GetUnifiedOrderResult(String AdminHotelid) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\business\JsApiPay.cs:行号 187
+   在 RM.Web.Reservation.Defray.bind() 位置 E:\刘航\酒店模板\c程序文件\RM.Web\Reservation\Defray.aspx.cs:行号 87
+2018-03-07 18:45:10.377 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx41bd9e5d7867ad93]]></appid><attach><![CDATA[HYK20180307184510339,1,会员卡充值]]></attach><body><![CDATA[会员卡充值，订单编号：HYK20180307184510339]]></body><goods_tag><![CDATA[test]]></goods_tag><mch_id><![CDATA[1375851902]]></mch_id><nonce_str><![CDATA[36c1d572612741108879b0b0fd9f259e]]></nonce_str><notify_url><![CDATA[http://wx.sewa-hotel.com/Reservation/ResultNotifyPage.aspx?AdminHotelid=1]]></notify_url><openid><![CDATA[oQQLEw9kDkPsA4vfWbus-Nl9akjQ]]></openid><out_trade_no><![CDATA[HYK20180307184510339]]></out_trade_no><sign><![CDATA[EF63B33C05A62023BD712F4C1C4A34E5]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20180307185510]]></time_expire><time_start><![CDATA[20180307184510]]></time_start><total_fee>0</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2018-03-07 18:45:10.581 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[FAIL]]></return_code>
+<return_msg><![CDATA[invalid total_fee]]></return_msg>
+</xml>
+2018-03-07 18:45:10.583 ERROR RM.Web.business.JsApiPay: UnifiedOrder response error!
+2018-03-07 18:45:10.584 INFO 会员卡升级或者充值报错: RM.Web.Lib.WxPayException: UnifiedOrder response error!
+   在 RM.Web.business.JsApiPay.GetUnifiedOrderResult(String AdminHotelid) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\business\JsApiPay.cs:行号 187
+   在 RM.Web.Reservation.Defray.bind() 位置 E:\刘航\酒店模板\c程序文件\RM.Web\Reservation\Defray.aspx.cs:行号 87
+2018-03-07 18:49:04.612 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx41bd9e5d7867ad93]]></appid><attach><![CDATA[HYK20180307184904564,1,会员卡充值]]></attach><body><![CDATA[会员卡充值，订单编号：HYK20180307184904564]]></body><goods_tag><![CDATA[test]]></goods_tag><mch_id><![CDATA[1375851902]]></mch_id><nonce_str><![CDATA[2cab64458aef451f89f499b80131b7e1]]></nonce_str><notify_url><![CDATA[http://wx.sewa-hotel.com/Reservation/ResultNotifyPage.aspx?AdminHotelid=1]]></notify_url><openid><![CDATA[oQQLEw9kDkPsA4vfWbus-Nl9akjQ]]></openid><out_trade_no><![CDATA[HYK20180307184904564]]></out_trade_no><sign><![CDATA[255672C7DC16B82693F13D2AB559121E]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20180307185904]]></time_expire><time_start><![CDATA[20180307184904]]></time_start><total_fee>0</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2018-03-07 18:49:04.836 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[FAIL]]></return_code>
+<return_msg><![CDATA[invalid total_fee]]></return_msg>
+</xml>
+2018-03-07 18:49:04.888 ERROR RM.Web.business.JsApiPay: UnifiedOrder response error!
+2018-03-07 18:49:04.908 INFO 会员卡升级或者充值报错: RM.Web.Lib.WxPayException: UnifiedOrder response error!
+   在 RM.Web.business.JsApiPay.GetUnifiedOrderResult(String AdminHotelid) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\business\JsApiPay.cs:行号 187
+   在 RM.Web.Reservation.Defray.bind() 位置 E:\刘航\酒店模板\c程序文件\RM.Web\Reservation\Defray.aspx.cs:行号 87
+2018-03-07 18:50:24.940 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx41bd9e5d7867ad93]]></appid><attach><![CDATA[HYK20180307185024756,1,会员卡充值]]></attach><body><![CDATA[会员卡充值，订单编号：HYK20180307185024756]]></body><goods_tag><![CDATA[test]]></goods_tag><mch_id><![CDATA[1375851902]]></mch_id><nonce_str><![CDATA[d78108a6401640e5858d30c47ef4b96b]]></nonce_str><notify_url><![CDATA[http://wx.sewa-hotel.com/Reservation/ResultNotifyPage.aspx?AdminHotelid=1]]></notify_url><openid><![CDATA[oQQLEw9kDkPsA4vfWbus-Nl9akjQ]]></openid><out_trade_no><![CDATA[HYK20180307185024756]]></out_trade_no><sign><![CDATA[EC606F0F48ED96DEF6D687B122FB692B]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20180307190024]]></time_expire><time_start><![CDATA[20180307185024]]></time_start><total_fee>0</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2018-03-07 18:50:25.211 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[FAIL]]></return_code>
+<return_msg><![CDATA[invalid total_fee]]></return_msg>
+</xml>
+2018-03-07 18:50:25.211 ERROR RM.Web.business.JsApiPay: UnifiedOrder response error!
+2018-03-07 18:50:25.212 INFO 会员卡升级或者充值报错: RM.Web.Lib.WxPayException: UnifiedOrder response error!
+   在 RM.Web.business.JsApiPay.GetUnifiedOrderResult(String AdminHotelid) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\business\JsApiPay.cs:行号 187
+   在 RM.Web.Reservation.Defray.bind() 位置 E:\刘航\酒店模板\c程序文件\RM.Web\Reservation\Defray.aspx.cs:行号 87
+2018-03-07 18:50:56.197 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx41bd9e5d7867ad93]]></appid><attach><![CDATA[HYK20180307185056147,1,会员卡充值]]></attach><body><![CDATA[会员卡充值，订单编号：HYK20180307185056147]]></body><goods_tag><![CDATA[test]]></goods_tag><mch_id><![CDATA[1375851902]]></mch_id><nonce_str><![CDATA[0a1ed142f6c542e4b9761b511547ffb4]]></nonce_str><notify_url><![CDATA[http://wx.sewa-hotel.com/Reservation/ResultNotifyPage.aspx?AdminHotelid=1]]></notify_url><openid><![CDATA[oQQLEw9kDkPsA4vfWbus-Nl9akjQ]]></openid><out_trade_no><![CDATA[HYK20180307185056147]]></out_trade_no><sign><![CDATA[4C961B6565C036B0A6AC7945D587E0DC]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20180307190056]]></time_expire><time_start><![CDATA[20180307185056]]></time_start><total_fee>1000</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2018-03-07 18:50:56.423 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx41bd9e5d7867ad93]]></appid>
+<mch_id><![CDATA[1375851902]]></mch_id>
+<nonce_str><![CDATA[2h3zW11GaiDHeg4e]]></nonce_str>
+<sign><![CDATA[AAEA5A90B3EEBE855070B85A4EEA3BD0]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx20180307185055fc57804d9b0843017036]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+2018-03-07 18:50:56.541 DEBUG RM.Web.business.JsApiPay: Get jsApiParam : {"appId":"wx41bd9e5d7867ad93","nonceStr":"e67c4d170acb49b4aaeaed300b9c2dc6","package":"prepay_id=wx20180307185055fc57804d9b0843017036","paySign":"5AA31A1CB6BD63F7D07FF2200F3B3F11","signType":"MD5","timeStamp":"1520419856"}

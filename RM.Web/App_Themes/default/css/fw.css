@@ -1,0 +1,190 @@
+*{margin: 0; padding: 0;-webkit-box-sizing: inherit; box-sizing: inherit;}
+*:before, *:after { -webkit-box-sizing: border-box; box-sizing: border-box;}
+html{font-size: 16px;color: #333;-webkit-overflow-scrolling: touch;-webkit-tap-highlight-color: transparent;-webkit-text-size-adjust: 100%;
+	font-family: "Helvetica Neue";
+}
+html,body,form{height: 100%;}
+h1,h2,h3,h4,h5,h6,div,p,b,strong,em,i,span,a,small{word-wrap: break-word; font-weight: normal; font-style: normal;}
+table{border-collapse: collapse; width: 100%; table-layout:fixed;} 
+th,td{text-align: center; padding: 8px 6px; border: none; }
+ul,ol,li {list-style: none;}
+a{text-decoration: none; outline: 0; font-size: inherit; color: inherit; cursor: pointer;}
+a:hover{text-decoration: none； outline: 0;}
+img{border: 0; outline: 0; vertical-align: middle}
+::-webkit-input-placeholder{color: #ccc;}
+input,textarea,select{outline: none; resize: none; border: 1px solid #ccc; border-radius: 2px;-webkit-box-sizing: border-box; box-sizing: border-box;appearance: none; -webkit-appearance: none;background-color: transparent; width: 100%; height: 20px; line-height: 20px; padding: 0 6px;}
+textarea{padding: 4px 6px;height: 80px; line-height: 1.4em;}
+.button{cursor: pointer; display: block;color: white; border-radius: 4px; border: none; outline: none;box-sizing: border-box; -webkit-box-sizing: border-box;appearance: none; -webkit-appearance: none;width: 100%; height: 50px; line-height: 50px; padding: 0 6px; text-align: center;}
+.clearfix{zoom: 1}
+.clearfix:after{clear: both;display: block;visibility: hidden;content: "";height: 0;}
+.ellipsis{overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.line-clamp{width: 200px;overflow: hidden;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 2;max-height: 3.2em;line-height: 1.6em;}
+.justify{width: 100px;display: inline-block;text-align: justify;}
+.justify:after{content: "";display: inline-block;width: 100%;}
+::-webkit-scrollbar{width:0;height:0;}
+
+
+/*首页头部*/
+
+.header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    height: 50px;;
+    width: 100%;
+    z-index: 110;
+}
+.header .logo{ float: left; height: 50px;}
+.header .logo img
+{
+    height: 30px;
+    margin-left: 14px;
+    margin-top: 10px;
+}
+.header .menu{float: right; height: 50px; position: relative}
+.header .menu img
+{
+    height: 16px;
+    margin-right: 14px;
+    margin-top: 17px;
+}
+
+.header + .headNextDiv{ height: 50px;}
+
+.header .menu .menuList{
+    background-color: #000;
+    position: absolute;
+    width: 100px;
+    right: 0;
+    top: 48px;
+    text-align: center;
+    padding-bottom: 4px;
+    display: none;
+}
+.header .menu .menuList li{}
+.header .menu .menuList a{color: White; display: block; height: 32px; line-height: 32px; font-size: 15px }
+
+/*首页banner*/
+.banner
+{
+    width: 100%;
+    height: 50vw;
+    max-height: 385px;
+}
+.banner .swiper-slide
+{
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.banner .swiper-slide img{width: 100%;}
+.banner .swiper-pagination-bullet
+{
+    opacity: .5 !important;
+    background-color: White;
+}
+.banner .swiper-pagination-bullet-active
+{
+    background-color: White;
+    opacity: 1 !important;
+}
+
+.fwjtxm{padding: 14px; margin: -10px 0 0 -10px;}
+.fwjtxm li
+{
+    width: calc(50% - 10px);
+    height: 33vw;
+    max-height: 254px;
+    float: left;
+    position: relative;
+    margin: 10px 0 0 10px;
+    overflow: hidden;
+}
+.fwjtxm li a{ display: block;}
+.fwjtxm li img{width: 100%;}
+
+.fwjtxm li span
+{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 14px;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    line-height: 48px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.3);
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.8));
+}
+
+
+/*首页底部*/
+
+.footer
+{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    display: -webkit-flex;
+    background-color: #000;
+    color: White;
+    width: 100%;
+    z-index: 105;
+}
+.footer li
+{
+    width: 100%;
+}
+.footer li a
+{
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    height: 50px;
+    line-height: 1;
+}
+
+.footer li a:before
+{
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 10px auto 4px;
+    content:"";
+    background: url("/App_Themes/default/images/footer.png") no-repeat;
+    background-size: 80px;
+}
+
+.footer li:nth-child(1) a:before{ background-position: 1px 0}
+.footer li:nth-child(2) a:before{ background-position: -20px 0}
+.footer li:nth-child(3) a:before{ background-position: -40px 0}
+.footer li:nth-child(4) a:before{ background-position: -61px 0}
+
+.footer  + .footerNextDiv{ height: 50px;}
+
+
+@media (min-width: 770px)
+{
+    body{ width: 770px; margin: 0 auto; }
+    
+    .footer,
+    .header{ width: 770px; left: 50%; transform: translateX(-50%);}
+}
+

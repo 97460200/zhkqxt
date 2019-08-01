@@ -1,0 +1,85 @@
+/*背景颜色*/
+	.YHIndes .YHbooked a,
+	/*预订页面*/
+	.GuestList dd .context li a.active,
+	.ReserBtm input[type="button"],
+	.ReserAlert .button,
+	.RewBtm #btnyes,
+	/*订单页*/
+	.plkList dd .plkBtm .plkLink a.To_Pay,
+	.cancAlert .MemberLQ .KnowBtn,
+	.cancAlert .MemberLQ .CancelBtn a.NoBtn,
+	.GuestList dd .Guestroom .full,
+	/*会员中心*/
+	.MInfoAlert .MemberLQ .KnowBtn,
+	.MemCart .barCode,
+	.MemCart .memCard,
+	.pulish .button,
+	.plckbox .pcbData .listDetail input[type="submit"],
+	.Code .CodeMem .barCode,
+	.succ .succTip .tipOK,
+	.succ .succTip .tipNO,
+	.Expla .expDo li i,
+	.Expla .expDo li p:before
+	{background-color: #f90;}
+
+
+
+/*字体颜色*/
+	/*预订页面*/
+	.HoList .ResList li .pirce,
+	.HoList .ResList li .pirce:before,
+	.ResList li .pirce,
+	.HoInfo .checkTime .ReTime .ReLong,
+	.GuestList dd .Guestroom .price a,
+	.GuestList dd .Guestroom .price a:before,
+	.GuestList dd .context li em,
+	.GuestList dd .context li span,
+    .GuestList dd .context li i.zaocan,
+	.ReserBtm span + span,
+	.RewBtm span#span7,
+	.guhouse .ghName .ghpri span#memberprice,
+	/*订单页*/
+	.plkList dd h3 a,
+	.plkList dd .plkBtm b,
+	.ordDtl .orDtList li #price,
+	.chpay .chpayList li span#price,
+	.htlpj h2 span,
+	.htlpj h2 span i.active:before,
+	.htlpj h2 b,
+	/*会员中心*/
+	.MInfo .memList li a span,
+	.mpot .list_con ul li .red,
+	.MemCart .CartMoney a,
+	.Sacet .Samon a,
+	.Sacet .memDd li b,
+	.mpot .getManList li > a,
+	.exten .extDd dd .listDetail b,
+	.scxtext .extinfo .ei_r b em,
+	.pppcin b,
+	.DePay .DpayList li em,
+	.pulish .plhmen .listDetail .price,
+	.pulish .plhstar i.active:before,
+	.pulish .plhstar h6 b,
+	.orderok .oroList li b,
+	.plckbox .pcbData .listDetail .price,
+	.plkInfo .plIn .listDetail .price,
+	.plkInfo .starList i.active:before,
+	.plkInfo h6 b,
+	.Ping_order .pirce,
+	.Code .CodeMem .codeInteg li a,
+	.Code .CodeMem .MenGoPay,
+	.succ .succTip p,
+	.succ .succTip .tipText b a,
+	.Discount .dctpoint .mpop #lbltext,
+	.Discount .dctpoint .mpop .mpfo span b,
+	.Discount .dctpoint .list_con ul li .red,
+	.Expla .expDo li b,
+	/*优惠*/
+	.Discount .cpnList .icon-qubg:before,
+	.Expla .expcode i,
+	.Expla .expcode:after
+	{color: #f90}
+
+
+

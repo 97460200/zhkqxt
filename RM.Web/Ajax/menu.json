@@ -1,0 +1,21 @@
+[
+	{
+        "menu": "first",
+        "sub": [
+            {"name": "one",   "send": "first-one",   "url": "http://baidu.com"},
+            {"name": "two",   "send": "first-two",   "url": "http://baidu.com"},
+            {"name": "three", "send": "first-three", "url": "http://baidu.com"},
+            {"name": "four",  "send": "first-four",  "url": "http://baidu.com"}
+        ]
+    }
+    // {
+    //     "menu": "second",
+    //     "sub": [
+    //         {"name": "one",   "send": "second-one",   "url": "http://baidu.com"},
+    //         {"name": "two",   "send": "second-two",   "url": "http://baidu.com"},
+    //         {"name": "three", "send": "second-three", "url": "http://baidu.com"},
+    //         {"name": "four",  "send": "second-four",  "url": "http://baidu.com"},
+    //         {"name": "five",  "send": "second-four",  "url": "http://baidu.com"}
+    //     ]
+    // }
+]

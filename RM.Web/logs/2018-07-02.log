@@ -1,0 +1,108 @@
+2018-07-02 14:22:19.437 INFO 错误页3: 3
+2018-07-02 14:22:19.449 INFO 错误页4: 4
+2018-07-02 14:22:56.504 DEBUG 配置账号信息: appid:wx1425992c785c8c2a
+2018-07-02 14:22:56.507 DEBUG 配置账号信息: appid:wx1425992c785c8c2a
+2018-07-02 14:22:56.507 DEBUG 配置账号信息: APPSECRET:1a36e7db03ab6add0ad9834ee7f68347
+2018-07-02 14:24:39.067 DEBUG 配置账号信息: appid:wx1425992c785c8c2a
+2018-07-02 14:24:39.068 DEBUG 配置账号信息: appid:wx1425992c785c8c2a
+2018-07-02 14:24:39.068 DEBUG 配置账号信息: APPSECRET:1a36e7db03ab6add0ad9834ee7f68347
+2018-07-02 14:24:54.929 INFO 在线支付1: 1
+2018-07-02 14:24:54.930 INFO 在线支付2: 温泉酒店WX201807021424548187
+2018-07-02 14:27:11.745 DEBUG 配置账号信息: appid:wx1425992c785c8c2a
+2018-07-02 14:27:11.753 DEBUG 配置账号信息: appid:wx1425992c785c8c2a
+2018-07-02 14:27:11.755 DEBUG 配置账号信息: APPSECRET:1a36e7db03ab6add0ad9834ee7f68347
+2018-07-02 14:27:18.569 INFO 在线支付1: 1
+2018-07-02 14:27:18.570 INFO 在线支付2: 温泉酒店WX201807021427189452
+2018-07-02 14:27:30.041 ERROR 在线支付Hotelid: 92
+2018-07-02 14:27:31.506 ERROR a在线支付: 1
+2018-07-02 14:27:32.326 ERROR openid: 1
+2018-07-02 14:27:32.327 ERROR Setopenid: 1
+2018-07-02 14:27:32.328 ERROR AdminHotelid: 1007247
+2018-07-02 14:27:32.329 ERROR Hotelid: 92
+2018-07-02 14:27:32.417 DEBUG 配置账号信息: NOTIFY_URL:www.zidinn.com
+2018-07-02 14:27:32.418 DEBUG 配置账号信息: appid:wx1425992c785c8c2a
+2018-07-02 14:27:32.419 DEBUG 配置账号信息: MCHID:1501370321
+2018-07-02 14:27:32.466 DEBUG 配置账号信息: KEYS:2s6dwd3ds3dwffgz65f67gGDdweQQfeB
+2018-07-02 14:27:32.468 DEBUG 配置账号信息: appid:wx1425992c785c8c2a
+2018-07-02 14:27:32.468 DEBUG 公众账号ID公众账号ID: wx1425992c785c8c2a
+2018-07-02 14:27:32.469 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx1425992c785c8c2a]]></appid><attach><![CDATA[温泉酒店WX201807021427189452,1007247,客房预定,92]]></attach><body><![CDATA[预定：系统测试（勿订），订单编号：温泉酒店WX201807021427189452]]></body><goods_tag><![CDATA[test]]></goods_tag><mch_id><![CDATA[1501370321]]></mch_id><nonce_str><![CDATA[be74bd3287514a7a800fd112ed01e2c9]]></nonce_str><notify_url><![CDATA[http://www.zidinn.com/Reservation/ResultNotifyPage.aspx?AdminHotelid=1007247&Hotelid=92]]></notify_url><openid><![CDATA[1]]></openid><out_trade_no><![CDATA[温泉酒店WX201807021427189452]]></out_trade_no><sign><![CDATA[D04BF767E7716E52D2B29AA306535ABE]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20180702143732]]></time_expire><time_start><![CDATA[20180702142732]]></time_start><total_fee>100</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2018-07-02 14:27:33.580 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[FAIL]]></return_code>
+<return_msg><![CDATA[invalid out_trade_no]]></return_msg>
+</xml>
+2018-07-02 14:27:33.642 ERROR RM.Web.business.JsApiPay: UnifiedOrder response error!
+2018-07-02 14:27:41.486 ERROR a在线支付: 1
+2018-07-02 14:27:43.492 ERROR openid: 1
+2018-07-02 14:27:43.501 ERROR Setopenid: 1
+2018-07-02 14:27:43.502 ERROR AdminHotelid: 1007247
+2018-07-02 14:27:43.503 ERROR Hotelid: 92
+2018-07-02 14:27:43.503 DEBUG 配置账号信息: NOTIFY_URL:www.zidinn.com
+2018-07-02 14:27:43.504 DEBUG 配置账号信息: appid:wx1425992c785c8c2a
+2018-07-02 14:27:43.505 DEBUG 配置账号信息: MCHID:1501370321
+2018-07-02 14:27:43.506 DEBUG 配置账号信息: KEYS:2s6dwd3ds3dwffgz65f67gGDdweQQfeB
+2018-07-02 14:27:43.506 DEBUG 配置账号信息: appid:wx1425992c785c8c2a
+2018-07-02 14:27:43.507 DEBUG 公众账号ID公众账号ID: wx1425992c785c8c2a
+2018-07-02 14:27:43.508 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx1425992c785c8c2a]]></appid><attach><![CDATA[温泉酒店WX201807021427189452,1007247,客房预定,92]]></attach><body><![CDATA[预定：系统测试（勿订），订单编号：温泉酒店WX201807021427189452]]></body><goods_tag><![CDATA[test]]></goods_tag><mch_id><![CDATA[1501370321]]></mch_id><nonce_str><![CDATA[e818d35996e446d29f4c33e89a167dea]]></nonce_str><notify_url><![CDATA[http://www.zidinn.com/Reservation/ResultNotifyPage.aspx?AdminHotelid=1007247&Hotelid=92]]></notify_url><openid><![CDATA[1]]></openid><out_trade_no><![CDATA[温泉酒店WX201807021427189452]]></out_trade_no><sign><![CDATA[3BC35887B268A2317F1C4F1546B1BFBC]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20180702143743]]></time_expire><time_start><![CDATA[20180702142743]]></time_start><total_fee>100</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2018-07-02 14:27:43.787 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[FAIL]]></return_code>
+<return_msg><![CDATA[invalid out_trade_no]]></return_msg>
+</xml>
+2018-07-02 14:27:43.819 ERROR RM.Web.business.JsApiPay: UnifiedOrder response error!
+2018-07-02 14:27:47.102 ERROR a在线支付: 1
+2018-07-02 14:27:53.557 ERROR openid: 1
+2018-07-02 14:27:53.765 ERROR Setopenid: 1
+2018-07-02 14:27:53.981 ERROR AdminHotelid: 1007247
+2018-07-02 14:27:54.181 ERROR Hotelid: 92
+2018-07-02 14:28:02.724 DEBUG 配置账号信息: NOTIFY_URL:www.zidinn.com
+2018-07-02 14:28:03.600 DEBUG 配置账号信息: appid:wx1425992c785c8c2a
+2018-07-02 14:28:04.107 DEBUG 配置账号信息: MCHID:1501370321
+2018-07-02 14:28:05.574 DEBUG 配置账号信息: KEYS:2s6dwd3ds3dwffgz65f67gGDdweQQfeB
+2018-07-02 14:28:10.923 DEBUG 配置账号信息: appid:wx1425992c785c8c2a
+2018-07-02 14:28:10.932 DEBUG 公众账号ID公众账号ID: wx1425992c785c8c2a
+2018-07-02 14:28:12.506 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx1425992c785c8c2a]]></appid><attach><![CDATA[温泉酒店WX201807021427189452,1007247,客房预定,92]]></attach><body><![CDATA[预定：系统测试（勿订），订单编号：温泉酒店WX201807021427189452]]></body><goods_tag><![CDATA[test]]></goods_tag><mch_id><![CDATA[1501370321]]></mch_id><nonce_str><![CDATA[55fd00cfd3434c88b38ca9695680e844]]></nonce_str><notify_url><![CDATA[http://www.zidinn.com/Reservation/ResultNotifyPage.aspx?AdminHotelid=1007247&Hotelid=92]]></notify_url><openid><![CDATA[1]]></openid><out_trade_no><![CDATA[温泉酒店WX201807021427189452]]></out_trade_no><sign><![CDATA[0C6104F021F42BA657D3A7018C653056]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20180702143752]]></time_expire><time_start><![CDATA[20180702142752]]></time_start><total_fee>100</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2018-07-02 14:29:19.057 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[FAIL]]></return_code>
+<return_msg><![CDATA[invalid out_trade_no]]></return_msg>
+</xml>
+2018-07-02 14:29:19.129 ERROR RM.Web.business.JsApiPay: UnifiedOrder response error!
+2018-07-02 14:29:32.819 DEBUG 配置账号信息: appid:wx1425992c785c8c2a
+2018-07-02 14:29:32.821 DEBUG 配置账号信息: appid:wx1425992c785c8c2a
+2018-07-02 14:29:32.822 DEBUG 配置账号信息: APPSECRET:1a36e7db03ab6add0ad9834ee7f68347
+2018-07-02 14:29:38.221 INFO 在线支付1: 1
+2018-07-02 14:29:38.224 INFO 在线支付2: 温泉酒店WX201807021429384690
+2018-07-02 14:29:43.962 ERROR 在线支付Hotelid: 92
+2018-07-02 14:29:45.306 ERROR a在线支付: 1
+2018-07-02 14:29:49.084 ERROR openid: 1
+2018-07-02 14:29:49.132 ERROR Setopenid: 1
+2018-07-02 14:29:49.465 ERROR AdminHotelid: 1007247
+2018-07-02 14:29:49.690 ERROR Hotelid: 92
+2018-07-02 14:29:55.087 DEBUG 配置账号信息: NOTIFY_URL:www.zidinn.com
+2018-07-02 14:29:55.179 DEBUG 配置账号信息: appid:wx1425992c785c8c2a
+2018-07-02 14:29:55.238 DEBUG 配置账号信息: MCHID:1501370321
+2018-07-02 14:29:55.983 DEBUG 配置账号信息: KEYS:2s6dwd3ds3dwffgz65f67gGDdweQQfeB
+2018-07-02 14:29:56.818 DEBUG 配置账号信息: appid:wx1425992c785c8c2a
+2018-07-02 14:29:56.837 DEBUG 公众账号ID公众账号ID: wx1425992c785c8c2a
+2018-07-02 14:29:57.151 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx1425992c785c8c2a]]></appid><attach><![CDATA[温泉酒店WX201807021429384690,1007247,客房预定,92]]></attach><body><![CDATA[预定：系统测试（勿订），订单编号：温泉酒店WX201807021429384690]]></body><goods_tag><![CDATA[test]]></goods_tag><mch_id><![CDATA[1501370321]]></mch_id><nonce_str><![CDATA[242237a472c942cbaba690270198c046]]></nonce_str><notify_url><![CDATA[http://www.zidinn.com/Reservation/ResultNotifyPage.aspx?AdminHotelid=1007247&Hotelid=92]]></notify_url><openid><![CDATA[1]]></openid><out_trade_no><![CDATA[温泉酒店WX201807021429384690]]></out_trade_no><sign><![CDATA[B2D7042634D69E731CF731C7640257E9]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20180702143948]]></time_expire><time_start><![CDATA[20180702142948]]></time_start><total_fee>100</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2018-07-02 14:30:09.530 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[FAIL]]></return_code>
+<return_msg><![CDATA[invalid out_trade_no]]></return_msg>
+</xml>
+2018-07-02 14:30:09.546 ERROR RM.Web.business.JsApiPay: UnifiedOrder response error!
+2018-07-02 14:42:53.325 DEBUG 配置账号信息: appid:wx1425992c785c8c2a
+2018-07-02 14:42:53.329 DEBUG 配置账号信息: appid:wx1425992c785c8c2a
+2018-07-02 14:42:53.330 DEBUG 配置账号信息: APPSECRET:1a36e7db03ab6add0ad9834ee7f68347
+2018-07-02 14:42:59.105 INFO 在线支付1: 1
+2018-07-02 14:42:59.106 INFO 在线支付2: 温泉酒店WX201807021442587267
+2018-07-02 14:45:18.710 ERROR 在线支付Hotelid: 92
+2018-07-02 14:45:18.713 ERROR a在线支付: 1
+2018-07-02 14:45:18.714 ERROR openid: 1
+2018-07-02 14:45:18.715 ERROR Setopenid: 1
+2018-07-02 14:45:18.715 ERROR AdminHotelid: 1007247
+2018-07-02 14:45:18.716 ERROR Hotelid: 92
+2018-07-02 14:45:18.716 DEBUG 配置账号信息: NOTIFY_URL:www.zidinn.com
+2018-07-02 14:45:18.718 DEBUG 配置账号信息: appid:wx1425992c785c8c2a
+2018-07-02 14:45:18.718 DEBUG 配置账号信息: MCHID:1501370321
+2018-07-02 14:45:18.719 DEBUG 配置账号信息: KEYS:2s6dwd3ds3dwffgz65f67gGDdweQQfeB
+2018-07-02 14:45:18.719 DEBUG 配置账号信息: appid:wx1425992c785c8c2a
+2018-07-02 14:45:18.720 DEBUG 公众账号ID公众账号ID: wx1425992c785c8c2a
+2018-07-02 14:45:18.720 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx1425992c785c8c2a]]></appid><attach><![CDATA[温泉酒店WX201807021442587267,1007247,客房预定,92]]></attach><body><![CDATA[预定：系统测试（勿订），订单编号：温泉酒店WX201807021442587267]]></body><goods_tag><![CDATA[test]]></goods_tag><mch_id><![CDATA[1501370321]]></mch_id><nonce_str><![CDATA[c9aeb08ce49d49a48ab623ed4106a8f0]]></nonce_str><notify_url><![CDATA[http://www.zidinn.com/Reservation/ResultNotifyPage.aspx?AdminHotelid=1007247&Hotelid=92]]></notify_url><openid><![CDATA[1]]></openid><out_trade_no><![CDATA[温泉酒店WX201807021442587267]]></out_trade_no><sign><![CDATA[A49DB9B1CAE36DB8877C361565A5C6BC]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20180702145518]]></time_expire><time_start><![CDATA[20180702144518]]></time_start><total_fee>100</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2018-07-02 14:45:18.911 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[FAIL]]></return_code>
+<return_msg><![CDATA[invalid out_trade_no]]></return_msg>
+</xml>
+2018-07-02 14:45:18.915 ERROR RM.Web.business.JsApiPay: UnifiedOrder response error!

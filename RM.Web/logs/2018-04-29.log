@@ -1,0 +1,110 @@
+2018-04-29 12:12:20.597 DEBUG 配置账号信息: appid:wx7ee46a6b03e3dca9
+2018-04-29 12:12:20.600 DEBUG 配置账号信息: MCHID:1502885641
+2018-04-29 12:12:20.603 DEBUG 配置账号信息: MCHID:1502885641
+2018-04-29 12:12:20.606 DEBUG 配置账号信息: KEYS:256FJHRINnkopo5225ghhrykfDEBC214
+2018-04-29 12:12:20.613 DEBUG WxPayApi: Refund request : <xml><amount>1</amount><check_name><![CDATA[NO_CHECK]]></check_name><desc><![CDATA[奖金提现！]]></desc><mch_appid><![CDATA[wx7ee46a6b03e3dca9]]></mch_appid><mchid><![CDATA[1502885641]]></mchid><nonce_str><![CDATA[6273b74f355548eeb15ff5bf873bffe4]]></nonce_str><openid><![CDATA[okWtw0cBbSbBUNcnOaHYIwpV5Rbc]]></openid><partner_trade_no><![CDATA[150288564120180429121220362]]></partner_trade_no><sign><![CDATA[8D67C7FFC39E799A8E2D0BD7C3523725]]></sign><spbill_create_ip><![CDATA[127.0.0.1]]></spbill_create_ip></xml>
+2018-04-29 12:12:20.762 DEBUG 配置账号信息: SSLCERT_PATH:/Authorization/SEWA006637/apiclient_cert1.p12
+2018-04-29 12:12:20.763 DEBUG 配置账号信息: SSLCERT_PASSWORD:1502885641
+2018-04-29 12:12:21.296 ERROR HttpService: System.Security.Cryptography.CryptographicException: 指定的网络密码不正确。
+
+   在 System.Security.Cryptography.CryptographicException.ThrowCryptographicException(Int32 hr)
+   在 System.Security.Cryptography.X509Certificates.X509Utils._LoadCertFromFile(String fileName, IntPtr password, UInt32 dwFlags, Boolean persistKeySet, SafeCertContextHandle& pCertCtx)
+   在 System.Security.Cryptography.X509Certificates.X509Certificate.LoadCertificateFromFile(String fileName, Object password, X509KeyStorageFlags keyStorageFlags)
+   在 System.Security.Cryptography.X509Certificates.X509Certificate..ctor(String fileName, String password, X509KeyStorageFlags keyStorageFlags)
+   在 System.Security.Cryptography.X509Certificates.X509Certificate2..ctor(String fileName, String password, X509KeyStorageFlags keyStorageFlags)
+   在 RM.Web.Lib.HttpService.Post(String xml, String url, Boolean isUseCert, Int32 timeout, String AdminHotelid, Int32 Hotelid) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\Lib\HttpService.cs:行号 72
+2018-04-29 12:12:24.526 INFO 提现报错: RM.Web.Lib.WxPayException: System.Security.Cryptography.CryptographicException: 指定的网络密码不正确。
+
+   在 System.Security.Cryptography.CryptographicException.ThrowCryptographicException(Int32 hr)
+   在 System.Security.Cryptography.X509Certificates.X509Utils._LoadCertFromFile(String fileName, IntPtr password, UInt32 dwFlags, Boolean persistKeySet, SafeCertContextHandle& pCertCtx)
+   在 System.Security.Cryptography.X509Certificates.X509Certificate.LoadCertificateFromFile(String fileName, Object password, X509KeyStorageFlags keyStorageFlags)
+   在 System.Security.Cryptography.X509Certificates.X509Certificate..ctor(String fileName, String password, X509KeyStorageFlags keyStorageFlags)
+   在 System.Security.Cryptography.X509Certificates.X509Certificate2..ctor(String fileName, String password, X509KeyStorageFlags keyStorageFlags)
+   在 RM.Web.Lib.HttpService.Post(String xml, String url, Boolean isUseCert, Int32 timeout, String AdminHotelid, Int32 Hotelid) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\Lib\HttpService.cs:行号 72
+   在 RM.Web.Lib.HttpService.Post(String xml, String url, Boolean isUseCert, Int32 timeout, String AdminHotelid, Int32 Hotelid) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\Lib\HttpService.cs:行号 110
+   在 RM.Web.WX_SET.WXRed_envelope.Refunds(WxPayData inputObj, String AdminHotelid, String url, Int32 Hotelid, Int32 timeOut) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\WX_SET\WXRed_envelope.cs:行号 110
+   在 RM.Web.WX_SET.WXRed_envelope.transfers_user(String openid, Int32 amount, String AdminHotelid, Int32 Hotelid) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\WX_SET\WXRed_envelope.cs:行号 84
+   在 RM.Web.Melt.Getdeal.withdraw(HttpContext c) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\Melt\Getdeal.ashx.cs:行号 157
+2018-04-29 12:13:01.009 DEBUG 配置账号信息: appid:wx7ee46a6b03e3dca9
+2018-04-29 12:13:01.026 DEBUG 配置账号信息: MCHID:1502885641
+2018-04-29 12:13:01.027 DEBUG 配置账号信息: MCHID:1502885641
+2018-04-29 12:13:01.028 DEBUG 配置账号信息: KEYS:256FJHRINnkopo5225ghhrykfDEBC214
+2018-04-29 12:13:01.029 DEBUG WxPayApi: Refund request : <xml><amount>1</amount><check_name><![CDATA[NO_CHECK]]></check_name><desc><![CDATA[奖金提现！]]></desc><mch_appid><![CDATA[wx7ee46a6b03e3dca9]]></mch_appid><mchid><![CDATA[1502885641]]></mchid><nonce_str><![CDATA[f12473f747674b1e8a1db81b7aa9013e]]></nonce_str><openid><![CDATA[okWtw0cBbSbBUNcnOaHYIwpV5Rbc]]></openid><partner_trade_no><![CDATA[150288564120180429121301837]]></partner_trade_no><sign><![CDATA[6F0C137D38948073C7AFCD41A3DA5724]]></sign><spbill_create_ip><![CDATA[127.0.0.1]]></spbill_create_ip></xml>
+2018-04-29 12:13:01.042 DEBUG 配置账号信息: SSLCERT_PATH:/Authorization/SEWA006637/apiclient_cert1.p12
+2018-04-29 12:13:01.043 DEBUG 配置账号信息: SSLCERT_PASSWORD:1502885641
+2018-04-29 12:13:01.065 ERROR HttpService: System.Security.Cryptography.CryptographicException: 指定的网络密码不正确。
+
+   在 System.Security.Cryptography.CryptographicException.ThrowCryptographicException(Int32 hr)
+   在 System.Security.Cryptography.X509Certificates.X509Utils._LoadCertFromFile(String fileName, IntPtr password, UInt32 dwFlags, Boolean persistKeySet, SafeCertContextHandle& pCertCtx)
+   在 System.Security.Cryptography.X509Certificates.X509Certificate.LoadCertificateFromFile(String fileName, Object password, X509KeyStorageFlags keyStorageFlags)
+   在 System.Security.Cryptography.X509Certificates.X509Certificate..ctor(String fileName, String password, X509KeyStorageFlags keyStorageFlags)
+   在 System.Security.Cryptography.X509Certificates.X509Certificate2..ctor(String fileName, String password, X509KeyStorageFlags keyStorageFlags)
+   在 RM.Web.Lib.HttpService.Post(String xml, String url, Boolean isUseCert, Int32 timeout, String AdminHotelid, Int32 Hotelid) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\Lib\HttpService.cs:行号 72
+2018-04-29 12:13:04.758 INFO 提现报错: RM.Web.Lib.WxPayException: System.Security.Cryptography.CryptographicException: 指定的网络密码不正确。
+
+   在 System.Security.Cryptography.CryptographicException.ThrowCryptographicException(Int32 hr)
+   在 System.Security.Cryptography.X509Certificates.X509Utils._LoadCertFromFile(String fileName, IntPtr password, UInt32 dwFlags, Boolean persistKeySet, SafeCertContextHandle& pCertCtx)
+   在 System.Security.Cryptography.X509Certificates.X509Certificate.LoadCertificateFromFile(String fileName, Object password, X509KeyStorageFlags keyStorageFlags)
+   在 System.Security.Cryptography.X509Certificates.X509Certificate..ctor(String fileName, String password, X509KeyStorageFlags keyStorageFlags)
+   在 System.Security.Cryptography.X509Certificates.X509Certificate2..ctor(String fileName, String password, X509KeyStorageFlags keyStorageFlags)
+   在 RM.Web.Lib.HttpService.Post(String xml, String url, Boolean isUseCert, Int32 timeout, String AdminHotelid, Int32 Hotelid) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\Lib\HttpService.cs:行号 72
+   在 RM.Web.Lib.HttpService.Post(String xml, String url, Boolean isUseCert, Int32 timeout, String AdminHotelid, Int32 Hotelid) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\Lib\HttpService.cs:行号 110
+   在 RM.Web.WX_SET.WXRed_envelope.Refunds(WxPayData inputObj, String AdminHotelid, String url, Int32 Hotelid, Int32 timeOut) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\WX_SET\WXRed_envelope.cs:行号 110
+   在 RM.Web.WX_SET.WXRed_envelope.transfers_user(String openid, Int32 amount, String AdminHotelid, Int32 Hotelid) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\WX_SET\WXRed_envelope.cs:行号 84
+   在 RM.Web.Melt.Getdeal.withdraw(HttpContext c) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\Melt\Getdeal.ashx.cs:行号 157
+2018-04-29 12:14:01.660 DEBUG 配置账号信息: appid:wx7ee46a6b03e3dca9
+2018-04-29 12:14:09.280 DEBUG 配置账号信息: MCHID:1502885641
+2018-04-29 12:14:11.103 DEBUG 配置账号信息: MCHID:1502885641
+2018-04-29 12:14:12.340 DEBUG 配置账号信息: KEYS:256FJHRINnkopo5225ghhrykfDEBC214
+2018-04-29 12:14:28.808 DEBUG WxPayApi: Refund request : <xml><amount>1</amount><check_name><![CDATA[NO_CHECK]]></check_name><desc><![CDATA[奖金提现！]]></desc><mch_appid><![CDATA[wx7ee46a6b03e3dca9]]></mch_appid><mchid><![CDATA[1502885641]]></mchid><nonce_str><![CDATA[849c6b0f24734acf8309434394976600]]></nonce_str><openid><![CDATA[okWtw0cBbSbBUNcnOaHYIwpV5Rbc]]></openid><partner_trade_no><![CDATA[150288564120180429121411359]]></partner_trade_no><sign><![CDATA[0DE78B6777F3E4ED2D5732D466B5AF90]]></sign><spbill_create_ip><![CDATA[127.0.0.1]]></spbill_create_ip></xml>
+2018-04-29 12:15:15.425 DEBUG 配置账号信息: SSLCERT_PATH:/Authorization/SEWA006637/apiclient_cert1.p12
+2018-04-29 12:15:15.483 DEBUG 配置账号信息: SSLCERT_PASSWORD:1502885641
+2018-04-29 12:15:40.781 ERROR HttpService: System.Security.Cryptography.CryptographicException: 指定的网络密码不正确。
+
+   在 System.Security.Cryptography.CryptographicException.ThrowCryptographicException(Int32 hr)
+   在 System.Security.Cryptography.X509Certificates.X509Utils._LoadCertFromFile(String fileName, IntPtr password, UInt32 dwFlags, Boolean persistKeySet, SafeCertContextHandle& pCertCtx)
+   在 System.Security.Cryptography.X509Certificates.X509Certificate.LoadCertificateFromFile(String fileName, Object password, X509KeyStorageFlags keyStorageFlags)
+   在 System.Security.Cryptography.X509Certificates.X509Certificate..ctor(String fileName, String password, X509KeyStorageFlags keyStorageFlags)
+   在 System.Security.Cryptography.X509Certificates.X509Certificate2..ctor(String fileName, String password, X509KeyStorageFlags keyStorageFlags)
+   在 RM.Web.Lib.HttpService.Post(String xml, String url, Boolean isUseCert, Int32 timeout, String AdminHotelid, Int32 Hotelid) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\Lib\HttpService.cs:行号 72
+2018-04-29 12:15:40.800 INFO 提现报错: RM.Web.Lib.WxPayException: System.Security.Cryptography.CryptographicException: 指定的网络密码不正确。
+
+   在 System.Security.Cryptography.CryptographicException.ThrowCryptographicException(Int32 hr)
+   在 System.Security.Cryptography.X509Certificates.X509Utils._LoadCertFromFile(String fileName, IntPtr password, UInt32 dwFlags, Boolean persistKeySet, SafeCertContextHandle& pCertCtx)
+   在 System.Security.Cryptography.X509Certificates.X509Certificate.LoadCertificateFromFile(String fileName, Object password, X509KeyStorageFlags keyStorageFlags)
+   在 System.Security.Cryptography.X509Certificates.X509Certificate..ctor(String fileName, String password, X509KeyStorageFlags keyStorageFlags)
+   在 System.Security.Cryptography.X509Certificates.X509Certificate2..ctor(String fileName, String password, X509KeyStorageFlags keyStorageFlags)
+   在 RM.Web.Lib.HttpService.Post(String xml, String url, Boolean isUseCert, Int32 timeout, String AdminHotelid, Int32 Hotelid) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\Lib\HttpService.cs:行号 72
+   在 RM.Web.Lib.HttpService.Post(String xml, String url, Boolean isUseCert, Int32 timeout, String AdminHotelid, Int32 Hotelid) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\Lib\HttpService.cs:行号 110
+   在 RM.Web.WX_SET.WXRed_envelope.Refunds(WxPayData inputObj, String AdminHotelid, String url, Int32 Hotelid, Int32 timeOut) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\WX_SET\WXRed_envelope.cs:行号 110
+   在 RM.Web.WX_SET.WXRed_envelope.transfers_user(String openid, Int32 amount, String AdminHotelid, Int32 Hotelid) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\WX_SET\WXRed_envelope.cs:行号 84
+   在 RM.Web.Melt.Getdeal.withdraw(HttpContext c) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\Melt\Getdeal.ashx.cs:行号 157
+2018-04-29 12:15:46.960 DEBUG 配置账号信息: appid:wx7ee46a6b03e3dca9
+2018-04-29 12:15:46.960 DEBUG 配置账号信息: MCHID:1502885641
+2018-04-29 12:15:46.960 DEBUG 配置账号信息: MCHID:1502885641
+2018-04-29 12:15:46.961 DEBUG 配置账号信息: KEYS:256FJHRINnkopo5225ghhrykfDEBC214
+2018-04-29 12:15:46.962 DEBUG WxPayApi: Refund request : <xml><amount>1</amount><check_name><![CDATA[NO_CHECK]]></check_name><desc><![CDATA[奖金提现！]]></desc><mch_appid><![CDATA[wx7ee46a6b03e3dca9]]></mch_appid><mchid><![CDATA[1502885641]]></mchid><nonce_str><![CDATA[afd742292eff4134afd53decd228dad5]]></nonce_str><openid><![CDATA[okWtw0cBbSbBUNcnOaHYIwpV5Rbc]]></openid><partner_trade_no><![CDATA[150288564120180429121546527]]></partner_trade_no><sign><![CDATA[53F860ABBCAD7B45A7DDAB1CE871094F]]></sign><spbill_create_ip><![CDATA[127.0.0.1]]></spbill_create_ip></xml>
+2018-04-29 12:15:53.879 DEBUG 配置账号信息: SSLCERT_PATH:/Authorization/SEWA006637/apiclient_cert1.p12
+2018-04-29 12:16:04.374 DEBUG 配置账号信息: SSLCERT_PATH:/Authorization/SEWA006637/apiclient_cert1.p12
+2018-04-29 12:16:04.432 DEBUG 配置账号信息: SSLCERT_PATH:/Authorization/SEWA006637/apiclient_cert1.p12
+2018-04-29 12:20:46.928 DEBUG 配置账号信息: SSLCERT_PASSWORD:1502885641
+2018-04-29 12:20:46.943 ERROR HttpService: System.Security.Cryptography.CryptographicException: 指定的网络密码不正确。
+
+   在 System.Security.Cryptography.CryptographicException.ThrowCryptographicException(Int32 hr)
+   在 System.Security.Cryptography.X509Certificates.X509Utils._LoadCertFromFile(String fileName, IntPtr password, UInt32 dwFlags, Boolean persistKeySet, SafeCertContextHandle& pCertCtx)
+   在 System.Security.Cryptography.X509Certificates.X509Certificate.LoadCertificateFromFile(String fileName, Object password, X509KeyStorageFlags keyStorageFlags)
+   在 System.Security.Cryptography.X509Certificates.X509Certificate..ctor(String fileName, String password, X509KeyStorageFlags keyStorageFlags)
+   在 System.Security.Cryptography.X509Certificates.X509Certificate2..ctor(String fileName, String password, X509KeyStorageFlags keyStorageFlags)
+   在 RM.Web.Lib.HttpService.Post(String xml, String url, Boolean isUseCert, Int32 timeout, String AdminHotelid, Int32 Hotelid) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\Lib\HttpService.cs:行号 72
+2018-04-29 12:20:46.945 INFO 提现报错: RM.Web.Lib.WxPayException: System.Security.Cryptography.CryptographicException: 指定的网络密码不正确。
+
+   在 System.Security.Cryptography.CryptographicException.ThrowCryptographicException(Int32 hr)
+   在 System.Security.Cryptography.X509Certificates.X509Utils._LoadCertFromFile(String fileName, IntPtr password, UInt32 dwFlags, Boolean persistKeySet, SafeCertContextHandle& pCertCtx)
+   在 System.Security.Cryptography.X509Certificates.X509Certificate.LoadCertificateFromFile(String fileName, Object password, X509KeyStorageFlags keyStorageFlags)
+   在 System.Security.Cryptography.X509Certificates.X509Certificate..ctor(String fileName, String password, X509KeyStorageFlags keyStorageFlags)
+   在 System.Security.Cryptography.X509Certificates.X509Certificate2..ctor(String fileName, String password, X509KeyStorageFlags keyStorageFlags)
+   在 RM.Web.Lib.HttpService.Post(String xml, String url, Boolean isUseCert, Int32 timeout, String AdminHotelid, Int32 Hotelid) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\Lib\HttpService.cs:行号 72
+   在 RM.Web.Lib.HttpService.Post(String xml, String url, Boolean isUseCert, Int32 timeout, String AdminHotelid, Int32 Hotelid) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\Lib\HttpService.cs:行号 110
+   在 RM.Web.WX_SET.WXRed_envelope.Refunds(WxPayData inputObj, String AdminHotelid, String url, Int32 Hotelid, Int32 timeOut) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\WX_SET\WXRed_envelope.cs:行号 110
+   在 RM.Web.WX_SET.WXRed_envelope.transfers_user(String openid, Int32 amount, String AdminHotelid, Int32 Hotelid) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\WX_SET\WXRed_envelope.cs:行号 84
+   在 RM.Web.Melt.Getdeal.withdraw(HttpContext c) 位置 E:\刘航\酒店模板\c程序文件\RM.Web\Melt\Getdeal.ashx.cs:行号 157

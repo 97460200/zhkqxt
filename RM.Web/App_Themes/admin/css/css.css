@@ -1,0 +1,62 @@
+﻿*{
+	margin:0px;
+	padding:0px;
+}
+
+
+body {
+	font:11px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color:#000;
+	background: url("../images/bg.jpg") #5a5a5a repeat-x; background-position: top center ;
+}
+
+
+/*自定义id style*/
+#title{
+	line-height:80px;
+	margin:50px 0px;
+	font-size:14px;
+}
+.centeralgin{ padding-top:26px;}
+
+#loginPanel{
+	margin:150px auto;
+	background:#fff;
+	width:530px;
+	height:274px;
+	background:url(../images/bg_login.jpg) repeat;
+}
+
+#foot{
+	margin:35px 0px 0px 0px;
+	text-align:right;
+}
+
+#link {
+	float:left;
+	margin:15px 0px 0px 300px;
+}
+/*class style*/
+.validInput {
+	width:50px;
+}
+
+.forgetPwd {
+	color:#cc0000;
+}
+
+.logolink {
+	float:right;
+}
+
+.alignLeft {
+	float:left;
+}
+
+.inputTxb {
+    width :100px;
+    border:#999999 solid 1px;  
+    height:17px;
+    padding-left:2px;
+    padding-top:1px;
+}

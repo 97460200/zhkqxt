@@ -1,0 +1,355 @@
+D:\360data\重要数据\桌面\新权限系统\code\RM\RM.DataBase\bin\Debug\RM.DataBase.dll
+D:\360data\重要数据\桌面\新权限系统\code\RM\RM.DataBase\bin\Debug\RM.DataBase.pdb
+D:\360data\重要数据\桌面\新权限系统\code\RM\RM.DataBase\bin\Debug\Interop.SQLDMO.dll
+D:\360data\重要数据\桌面\新权限系统\code\RM\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\360data\重要数据\桌面\新权限系统\code\RM\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\360data\重要数据\桌面\新权限系统\code\RM\RM.DataBase\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\360data\重要数据\桌面\新权限系统\code\RM\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.dll
+D:\360data\重要数据\桌面\新权限系统\code\RM\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\360data\重要数据\桌面\新权限系统\code\RM\RM.DataBase\bin\Debug\Oracle.DataAccess.dll
+D:\360data\重要数据\桌面\新权限系统\code\RM\RM.DataBase\bin\Debug\RM.Common.dll
+D:\360data\重要数据\桌面\新权限系统\code\RM\RM.DataBase\bin\Debug\RM.Common.pdb
+D:\360data\重要数据\桌面\新权限系统\code\RM\RM.DataBase\obj\Debug\RM.DataBase.csprojResolveAssemblyReference.cache
+D:\360data\重要数据\桌面\新权限系统\code\RM\RM.DataBase\obj\Debug\RM.DataBase.dll
+D:\360data\重要数据\桌面\新权限系统\code\RM\RM.DataBase\obj\Debug\RM.DataBase.pdb
+D:\360data\重要数据\桌面\新权限系统\code\SQLServer版本\RM\RM.DataBase\obj\Debug\RM.DataBase.csprojResolveAssemblyReference.cache
+D:\360data\重要数据\桌面\新权限系统\code\SQLServer版本\RM\RM.DataBase\obj\Debug\RM.DataBase.dll
+D:\360data\重要数据\桌面\新权限系统\code\SQLServer版本\RM\RM.DataBase\bin\Debug\RM.DataBase.dll
+D:\360data\重要数据\桌面\新权限系统\code\SQLServer版本\RM\RM.DataBase\bin\Debug\RM.DataBase.pdb
+D:\360data\重要数据\桌面\新权限系统\code\SQLServer版本\RM\RM.DataBase\bin\Debug\Interop.SQLDMO.dll
+D:\360data\重要数据\桌面\新权限系统\code\SQLServer版本\RM\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\360data\重要数据\桌面\新权限系统\code\SQLServer版本\RM\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\360data\重要数据\桌面\新权限系统\code\SQLServer版本\RM\RM.DataBase\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\360data\重要数据\桌面\新权限系统\code\SQLServer版本\RM\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.dll
+D:\360data\重要数据\桌面\新权限系统\code\SQLServer版本\RM\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\360data\重要数据\桌面\新权限系统\code\SQLServer版本\RM\RM.DataBase\bin\Debug\Oracle.DataAccess.dll
+D:\360data\重要数据\桌面\新权限系统\code\SQLServer版本\RM\RM.DataBase\bin\Debug\RM.Common.dll
+D:\360data\重要数据\桌面\新权限系统\code\SQLServer版本\RM\RM.DataBase\bin\Debug\RM.Common.pdb
+D:\360data\重要数据\桌面\新权限系统\code\SQLServer版本\RM\RM.DataBase\obj\Debug\RM.DataBase.pdb
+E:\项目\wwb调试\审核后台源码\通用权限管理框架源码\code\RM\RM.DataBase\bin\Debug\RM.DataBase.dll
+E:\项目\wwb调试\审核后台源码\通用权限管理框架源码\code\RM\RM.DataBase\bin\Debug\RM.DataBase.pdb
+E:\项目\wwb调试\审核后台源码\通用权限管理框架源码\code\RM\RM.DataBase\bin\Debug\Interop.SQLDMO.dll
+E:\项目\wwb调试\审核后台源码\通用权限管理框架源码\code\RM\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\项目\wwb调试\审核后台源码\通用权限管理框架源码\code\RM\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\项目\wwb调试\审核后台源码\通用权限管理框架源码\code\RM\RM.DataBase\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\项目\wwb调试\审核后台源码\通用权限管理框架源码\code\RM\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.dll
+E:\项目\wwb调试\审核后台源码\通用权限管理框架源码\code\RM\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\项目\wwb调试\审核后台源码\通用权限管理框架源码\code\RM\RM.DataBase\bin\Debug\RM.Common.dll
+E:\项目\wwb调试\审核后台源码\通用权限管理框架源码\code\RM\RM.DataBase\bin\Debug\RM.Common.pdb
+E:\项目\wwb调试\审核后台源码\通用权限管理框架源码\code\RM\RM.DataBase\obj\Debug\RM.DataBase.csprojResolveAssemblyReference.cache
+E:\项目\wwb调试\审核后台源码\通用权限管理框架源码\code\RM\RM.DataBase\obj\Debug\RM.DataBase.dll
+E:\项目\wwb调试\审核后台源码\通用权限管理框架源码\code\RM\RM.DataBase\obj\Debug\RM.DataBase.pdb
+E:\项目\wwb调试\审核后台源码\通用权限管理框架源码\code\RM.DataBase\bin\Debug\RM.DataBase.dll
+E:\项目\wwb调试\审核后台源码\通用权限管理框架源码\code\RM.DataBase\bin\Debug\RM.DataBase.pdb
+E:\项目\wwb调试\审核后台源码\通用权限管理框架源码\code\RM.DataBase\bin\Debug\Interop.SQLDMO.dll
+E:\项目\wwb调试\审核后台源码\通用权限管理框架源码\code\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\项目\wwb调试\审核后台源码\通用权限管理框架源码\code\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\项目\wwb调试\审核后台源码\通用权限管理框架源码\code\RM.DataBase\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\项目\wwb调试\审核后台源码\通用权限管理框架源码\code\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.dll
+E:\项目\wwb调试\审核后台源码\通用权限管理框架源码\code\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\项目\wwb调试\审核后台源码\通用权限管理框架源码\code\RM.DataBase\bin\Debug\RM.Common.dll
+E:\项目\wwb调试\审核后台源码\通用权限管理框架源码\code\RM.DataBase\bin\Debug\RM.Common.pdb
+E:\项目\wwb调试\审核后台源码\通用权限管理框架源码\code\RM.DataBase\obj\Debug\RM.DataBase.csprojResolveAssemblyReference.cache
+E:\项目\wwb调试\审核后台源码\通用权限管理框架源码\code\RM.DataBase\obj\Debug\RM.DataBase.dll
+E:\项目\wwb调试\审核后台源码\通用权限管理框架源码\code\RM.DataBase\obj\Debug\RM.DataBase.pdb
+E:\项目研究\商业软件\通用权限管理系统（20130515）\code\RM.DataBase\bin\Debug\RM.DataBase.dll
+E:\项目研究\商业软件\通用权限管理系统（20130515）\code\RM.DataBase\bin\Debug\RM.DataBase.pdb
+E:\项目研究\商业软件\通用权限管理系统（20130515）\code\RM.DataBase\bin\Debug\Interop.SQLDMO.dll
+E:\项目研究\商业软件\通用权限管理系统（20130515）\code\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\项目研究\商业软件\通用权限管理系统（20130515）\code\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\项目研究\商业软件\通用权限管理系统（20130515）\code\RM.DataBase\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\项目研究\商业软件\通用权限管理系统（20130515）\code\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.dll
+E:\项目研究\商业软件\通用权限管理系统（20130515）\code\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\项目研究\商业软件\通用权限管理系统（20130515）\code\RM.DataBase\bin\Debug\RM.Common.dll
+E:\项目研究\商业软件\通用权限管理系统（20130515）\code\RM.DataBase\bin\Debug\RM.Common.pdb
+E:\项目研究\商业软件\通用权限管理系统（20130515）\code\RM.DataBase\obj\Debug\ResolveAssemblyReference.cache
+E:\项目研究\商业软件\通用权限管理系统（20130515）\code\RM.DataBase\obj\Debug\RM.DataBase.dll
+E:\项目研究\商业软件\通用权限管理系统（20130515）\code\RM.DataBase\obj\Debug\RM.DataBase.pdb
+E:\通用权限\ASP.net通用权限管理系统_20130515_商业版\code\RM.DataBase\bin\Debug\RM.DataBase.dll
+E:\通用权限\ASP.net通用权限管理系统_20130515_商业版\code\RM.DataBase\bin\Debug\RM.DataBase.pdb
+E:\通用权限\ASP.net通用权限管理系统_20130515_商业版\code\RM.DataBase\bin\Debug\Interop.SQLDMO.dll
+E:\通用权限\ASP.net通用权限管理系统_20130515_商业版\code\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\通用权限\ASP.net通用权限管理系统_20130515_商业版\code\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\通用权限\ASP.net通用权限管理系统_20130515_商业版\code\RM.DataBase\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\通用权限\ASP.net通用权限管理系统_20130515_商业版\code\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.dll
+E:\通用权限\ASP.net通用权限管理系统_20130515_商业版\code\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\通用权限\ASP.net通用权限管理系统_20130515_商业版\code\RM.DataBase\bin\Debug\RM.Common.dll
+E:\通用权限\ASP.net通用权限管理系统_20130515_商业版\code\RM.DataBase\bin\Debug\RM.Common.pdb
+E:\通用权限\ASP.net通用权限管理系统_20130515_商业版\code\RM.DataBase\obj\Debug\ResolveAssemblyReference.cache
+E:\通用权限\ASP.net通用权限管理系统_20130515_商业版\code\RM.DataBase\obj\Debug\RM.DataBase.dll
+E:\通用权限\ASP.net通用权限管理系统_20130515_商业版\code\RM.DataBase\obj\Debug\RM.DataBase.pdb
+E:\公司软件\net源码\BN065-通用权限-new\BN065-通用权限\code\RM.DataBase\bin\Debug\RM.DataBase.dll
+E:\公司软件\net源码\BN065-通用权限-new\BN065-通用权限\code\RM.DataBase\bin\Debug\RM.DataBase.pdb
+E:\公司软件\net源码\BN065-通用权限-new\BN065-通用权限\code\RM.DataBase\bin\Debug\Interop.SQLDMO.dll
+E:\公司软件\net源码\BN065-通用权限-new\BN065-通用权限\code\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\公司软件\net源码\BN065-通用权限-new\BN065-通用权限\code\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\公司软件\net源码\BN065-通用权限-new\BN065-通用权限\code\RM.DataBase\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\公司软件\net源码\BN065-通用权限-new\BN065-通用权限\code\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.dll
+E:\公司软件\net源码\BN065-通用权限-new\BN065-通用权限\code\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\公司软件\net源码\BN065-通用权限-new\BN065-通用权限\code\RM.DataBase\bin\Debug\RM.Common.dll
+E:\公司软件\net源码\BN065-通用权限-new\BN065-通用权限\code\RM.DataBase\bin\Debug\RM.Common.pdb
+E:\公司软件\net源码\BN065-通用权限-new\BN065-通用权限\code\RM.DataBase\obj\Debug\ResolveAssemblyReference.cache
+E:\公司软件\net源码\BN065-通用权限-new\BN065-通用权限\code\RM.DataBase\obj\Debug\RM.DataBase.dll
+E:\公司软件\net源码\BN065-通用权限-new\BN065-通用权限\code\RM.DataBase\obj\Debug\RM.DataBase.pdb
+E:\凌焱洋\程序安装包\.net\1415相关说明01等3个文件\ASP.NET通用权限管理框架含帮助与数据库DH1415\code\RM.DataBase\bin\Debug\RM.DataBase.dll
+E:\凌焱洋\程序安装包\.net\1415相关说明01等3个文件\ASP.NET通用权限管理框架含帮助与数据库DH1415\code\RM.DataBase\bin\Debug\RM.DataBase.pdb
+E:\凌焱洋\程序安装包\.net\1415相关说明01等3个文件\ASP.NET通用权限管理框架含帮助与数据库DH1415\code\RM.DataBase\bin\Debug\Interop.SQLDMO.dll
+E:\凌焱洋\程序安装包\.net\1415相关说明01等3个文件\ASP.NET通用权限管理框架含帮助与数据库DH1415\code\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\凌焱洋\程序安装包\.net\1415相关说明01等3个文件\ASP.NET通用权限管理框架含帮助与数据库DH1415\code\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\凌焱洋\程序安装包\.net\1415相关说明01等3个文件\ASP.NET通用权限管理框架含帮助与数据库DH1415\code\RM.DataBase\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\凌焱洋\程序安装包\.net\1415相关说明01等3个文件\ASP.NET通用权限管理框架含帮助与数据库DH1415\code\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.dll
+E:\凌焱洋\程序安装包\.net\1415相关说明01等3个文件\ASP.NET通用权限管理框架含帮助与数据库DH1415\code\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\凌焱洋\程序安装包\.net\1415相关说明01等3个文件\ASP.NET通用权限管理框架含帮助与数据库DH1415\code\RM.DataBase\bin\Debug\RM.Common.dll
+E:\凌焱洋\程序安装包\.net\1415相关说明01等3个文件\ASP.NET通用权限管理框架含帮助与数据库DH1415\code\RM.DataBase\bin\Debug\RM.Common.pdb
+E:\凌焱洋\程序安装包\.net\1415相关说明01等3个文件\ASP.NET通用权限管理框架含帮助与数据库DH1415\code\RM.DataBase\obj\Debug\ResolveAssemblyReference.cache
+E:\凌焱洋\程序安装包\.net\1415相关说明01等3个文件\ASP.NET通用权限管理框架含帮助与数据库DH1415\code\RM.DataBase\obj\Debug\RM.DataBase.dll
+E:\凌焱洋\程序安装包\.net\1415相关说明01等3个文件\ASP.NET通用权限管理框架含帮助与数据库DH1415\code\RM.DataBase\obj\Debug\RM.DataBase.pdb
+E:\w王小雄\ASP.NET通用权限管理框架含帮助与数据库DH1415\c程序文件\RM.DataBase\bin\Debug\RM.DataBase.dll
+E:\w王小雄\ASP.NET通用权限管理框架含帮助与数据库DH1415\c程序文件\RM.DataBase\bin\Debug\RM.DataBase.pdb
+E:\w王小雄\ASP.NET通用权限管理框架含帮助与数据库DH1415\c程序文件\RM.DataBase\bin\Debug\Interop.SQLDMO.dll
+E:\w王小雄\ASP.NET通用权限管理框架含帮助与数据库DH1415\c程序文件\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\w王小雄\ASP.NET通用权限管理框架含帮助与数据库DH1415\c程序文件\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\w王小雄\ASP.NET通用权限管理框架含帮助与数据库DH1415\c程序文件\RM.DataBase\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\w王小雄\ASP.NET通用权限管理框架含帮助与数据库DH1415\c程序文件\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.dll
+E:\w王小雄\ASP.NET通用权限管理框架含帮助与数据库DH1415\c程序文件\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\w王小雄\ASP.NET通用权限管理框架含帮助与数据库DH1415\c程序文件\RM.DataBase\bin\Debug\RM.Common.dll
+E:\w王小雄\ASP.NET通用权限管理框架含帮助与数据库DH1415\c程序文件\RM.DataBase\bin\Debug\RM.Common.pdb
+E:\w王小雄\ASP.NET通用权限管理框架含帮助与数据库DH1415\c程序文件\RM.DataBase\obj\Debug\RM.DataBase.csprojResolveAssemblyReference.cache
+E:\w王小雄\ASP.NET通用权限管理框架含帮助与数据库DH1415\c程序文件\RM.DataBase\obj\Debug\RM.DataBase.dll
+E:\w王小雄\ASP.NET通用权限管理框架含帮助与数据库DH1415\c程序文件\RM.DataBase\obj\Debug\RM.DataBase.pdb
+E:\w王小雄\d队伍管理系统\队伍管理系统\x新版程序文件PC\c程序文件\RM.DataBase\bin\Debug\RM.DataBase.dll
+E:\w王小雄\d队伍管理系统\队伍管理系统\x新版程序文件PC\c程序文件\RM.DataBase\bin\Debug\RM.DataBase.pdb
+E:\w王小雄\d队伍管理系统\队伍管理系统\x新版程序文件PC\c程序文件\RM.DataBase\bin\Debug\Interop.SQLDMO.dll
+E:\w王小雄\d队伍管理系统\队伍管理系统\x新版程序文件PC\c程序文件\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\w王小雄\d队伍管理系统\队伍管理系统\x新版程序文件PC\c程序文件\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\w王小雄\d队伍管理系统\队伍管理系统\x新版程序文件PC\c程序文件\RM.DataBase\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\w王小雄\d队伍管理系统\队伍管理系统\x新版程序文件PC\c程序文件\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.dll
+E:\w王小雄\d队伍管理系统\队伍管理系统\x新版程序文件PC\c程序文件\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\w王小雄\d队伍管理系统\队伍管理系统\x新版程序文件PC\c程序文件\RM.DataBase\bin\Debug\RM.Common.dll
+E:\w王小雄\d队伍管理系统\队伍管理系统\x新版程序文件PC\c程序文件\RM.DataBase\bin\Debug\RM.Common.pdb
+E:\w王小雄\d队伍管理系统\队伍管理系统\x新版程序文件PC\c程序文件\RM.DataBase\obj\Debug\RM.DataBase.csprojResolveAssemblyReference.cache
+E:\w王小雄\d队伍管理系统\队伍管理系统\x新版程序文件PC\c程序文件\RM.DataBase\obj\Debug\RM.DataBase.dll
+E:\w王小雄\d队伍管理系统\队伍管理系统\x新版程序文件PC\c程序文件\RM.DataBase\obj\Debug\RM.DataBase.pdb
+E:\w王小雄\d队伍管理系统\辅警管理系统\x新版程序文件PC\c程序文件\RM.DataBase\bin\Debug\RM.DataBase.dll
+E:\w王小雄\d队伍管理系统\辅警管理系统\x新版程序文件PC\c程序文件\RM.DataBase\bin\Debug\RM.DataBase.pdb
+E:\w王小雄\d队伍管理系统\辅警管理系统\x新版程序文件PC\c程序文件\RM.DataBase\bin\Debug\Interop.SQLDMO.dll
+E:\w王小雄\d队伍管理系统\辅警管理系统\x新版程序文件PC\c程序文件\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\w王小雄\d队伍管理系统\辅警管理系统\x新版程序文件PC\c程序文件\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\w王小雄\d队伍管理系统\辅警管理系统\x新版程序文件PC\c程序文件\RM.DataBase\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\w王小雄\d队伍管理系统\辅警管理系统\x新版程序文件PC\c程序文件\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.dll
+E:\w王小雄\d队伍管理系统\辅警管理系统\x新版程序文件PC\c程序文件\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\w王小雄\d队伍管理系统\辅警管理系统\x新版程序文件PC\c程序文件\RM.DataBase\bin\Debug\RM.Common.dll
+E:\w王小雄\d队伍管理系统\辅警管理系统\x新版程序文件PC\c程序文件\RM.DataBase\bin\Debug\RM.Common.pdb
+E:\w王小雄\d队伍管理系统\辅警管理系统\x新版程序文件PC\c程序文件\RM.DataBase\obj\Debug\RM.DataBase.csprojResolveAssemblyReference.cache
+E:\w王小雄\d队伍管理系统\辅警管理系统\x新版程序文件PC\c程序文件\RM.DataBase\obj\Debug\RM.DataBase.dll
+E:\w王小雄\d队伍管理系统\辅警管理系统\x新版程序文件PC\c程序文件\RM.DataBase\obj\Debug\RM.DataBase.pdb
+F:\周含\f辅警管理系统\辅警项目\RM.DataBase\bin\Debug\RM.DataBase.dll
+F:\周含\f辅警管理系统\辅警项目\RM.DataBase\bin\Debug\RM.DataBase.pdb
+F:\周含\f辅警管理系统\辅警项目\RM.DataBase\bin\Debug\Interop.SQLDMO.dll
+F:\周含\f辅警管理系统\辅警项目\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\周含\f辅警管理系统\辅警项目\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\周含\f辅警管理系统\辅警项目\RM.DataBase\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+F:\周含\f辅警管理系统\辅警项目\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.dll
+F:\周含\f辅警管理系统\辅警项目\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+F:\周含\f辅警管理系统\辅警项目\RM.DataBase\bin\Debug\RM.Common.dll
+F:\周含\f辅警管理系统\辅警项目\RM.DataBase\bin\Debug\RM.Common.pdb
+F:\周含\f辅警管理系统\辅警项目\RM.DataBase\obj\Debug\RM.DataBase.csprojResolveAssemblyReference.cache
+F:\周含\f辅警管理系统\辅警项目\RM.DataBase\obj\Debug\RM.DataBase.dll
+F:\周含\f辅警管理系统\辅警项目\RM.DataBase\obj\Debug\RM.DataBase.pdb
+E:\辅警项目\RM.DataBase\bin\Debug\RM.DataBase.dll
+E:\辅警项目\RM.DataBase\bin\Debug\RM.DataBase.pdb
+E:\辅警项目\RM.DataBase\bin\Debug\Interop.SQLDMO.dll
+E:\辅警项目\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\辅警项目\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\辅警项目\RM.DataBase\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\辅警项目\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.dll
+E:\辅警项目\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\辅警项目\RM.DataBase\bin\Debug\RM.Common.dll
+E:\辅警项目\RM.DataBase\bin\Debug\RM.Common.pdb
+E:\辅警项目\RM.DataBase\obj\Debug\RM.DataBase.csprojResolveAssemblyReference.cache
+E:\辅警项目\RM.DataBase\obj\Debug\RM.DataBase.dll
+E:\辅警项目\RM.DataBase\obj\Debug\RM.DataBase.pdb
+E:\白雪\项目\aaa宝安公安分局\f辅警管理系统\辅警项目\RM.DataBase\bin\Debug\RM.DataBase.dll
+E:\白雪\项目\aaa宝安公安分局\f辅警管理系统\辅警项目\RM.DataBase\bin\Debug\RM.DataBase.pdb
+E:\白雪\项目\aaa宝安公安分局\f辅警管理系统\辅警项目\RM.DataBase\bin\Debug\Interop.SQLDMO.dll
+E:\白雪\项目\aaa宝安公安分局\f辅警管理系统\辅警项目\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\白雪\项目\aaa宝安公安分局\f辅警管理系统\辅警项目\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\白雪\项目\aaa宝安公安分局\f辅警管理系统\辅警项目\RM.DataBase\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\白雪\项目\aaa宝安公安分局\f辅警管理系统\辅警项目\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.dll
+E:\白雪\项目\aaa宝安公安分局\f辅警管理系统\辅警项目\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\白雪\项目\aaa宝安公安分局\f辅警管理系统\辅警项目\RM.DataBase\bin\Debug\RM.Common.dll
+E:\白雪\项目\aaa宝安公安分局\f辅警管理系统\辅警项目\RM.DataBase\bin\Debug\RM.Common.pdb
+E:\白雪\项目\aaa宝安公安分局\f辅警管理系统\辅警项目\RM.DataBase\obj\Debug\RM.DataBase.csprojResolveAssemblyReference.cache
+E:\白雪\项目\aaa宝安公安分局\f辅警管理系统\辅警项目\RM.DataBase\obj\Debug\RM.DataBase.dll
+E:\白雪\项目\aaa宝安公安分局\f辅警管理系统\辅警项目\RM.DataBase\obj\Debug\RM.DataBase.pdb
+E:\肖辉\20160305\辅警项目\RM.DataBase\bin\Debug\RM.DataBase.dll
+E:\肖辉\20160305\辅警项目\RM.DataBase\bin\Debug\RM.DataBase.pdb
+E:\肖辉\20160305\辅警项目\RM.DataBase\bin\Debug\Interop.SQLDMO.dll
+E:\肖辉\20160305\辅警项目\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\肖辉\20160305\辅警项目\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\肖辉\20160305\辅警项目\RM.DataBase\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\肖辉\20160305\辅警项目\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.dll
+E:\肖辉\20160305\辅警项目\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\肖辉\20160305\辅警项目\RM.DataBase\bin\Debug\RM.Common.dll
+E:\肖辉\20160305\辅警项目\RM.DataBase\bin\Debug\RM.Common.pdb
+E:\肖辉\20160305\辅警项目\RM.DataBase\obj\Debug\RM.DataBase.csprojResolveAssemblyReference.cache
+E:\肖辉\20160305\辅警项目\RM.DataBase\obj\Debug\RM.DataBase.dll
+E:\肖辉\20160305\辅警项目\RM.DataBase\obj\Debug\RM.DataBase.pdb
+E:\肖辉\20160306\辅警项目\RM.DataBase\bin\Debug\RM.DataBase.dll
+E:\肖辉\20160306\辅警项目\RM.DataBase\bin\Debug\RM.DataBase.pdb
+E:\肖辉\20160306\辅警项目\RM.DataBase\bin\Debug\Interop.SQLDMO.dll
+E:\肖辉\20160306\辅警项目\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\肖辉\20160306\辅警项目\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\肖辉\20160306\辅警项目\RM.DataBase\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\肖辉\20160306\辅警项目\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.dll
+E:\肖辉\20160306\辅警项目\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\肖辉\20160306\辅警项目\RM.DataBase\bin\Debug\RM.Common.dll
+E:\肖辉\20160306\辅警项目\RM.DataBase\bin\Debug\RM.Common.pdb
+E:\肖辉\20160306\辅警项目\RM.DataBase\obj\Debug\RM.DataBase.csprojResolveAssemblyReference.cache
+E:\肖辉\20160306\辅警项目\RM.DataBase\obj\Debug\RM.DataBase.dll
+E:\肖辉\20160306\辅警项目\RM.DataBase\obj\Debug\RM.DataBase.pdb
+E:\肖辉\20160307\辅警项目\RM.DataBase\bin\Debug\RM.DataBase.dll
+E:\肖辉\20160307\辅警项目\RM.DataBase\bin\Debug\RM.DataBase.pdb
+E:\肖辉\20160307\辅警项目\RM.DataBase\bin\Debug\Interop.SQLDMO.dll
+E:\肖辉\20160307\辅警项目\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\肖辉\20160307\辅警项目\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\肖辉\20160307\辅警项目\RM.DataBase\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\肖辉\20160307\辅警项目\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.dll
+E:\肖辉\20160307\辅警项目\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\肖辉\20160307\辅警项目\RM.DataBase\bin\Debug\RM.Common.dll
+E:\肖辉\20160307\辅警项目\RM.DataBase\bin\Debug\RM.Common.pdb
+E:\肖辉\20160307\辅警项目\RM.DataBase\obj\Debug\RM.DataBase.csprojResolveAssemblyReference.cache
+E:\肖辉\20160307\辅警项目\RM.DataBase\obj\Debug\RM.DataBase.dll
+E:\肖辉\20160307\辅警项目\RM.DataBase\obj\Debug\RM.DataBase.pdb
+E:\肖辉\f辅警项目\辅警项目\RM.DataBase\bin\Debug\RM.DataBase.dll
+E:\肖辉\f辅警项目\辅警项目\RM.DataBase\bin\Debug\RM.DataBase.pdb
+E:\肖辉\f辅警项目\辅警项目\RM.DataBase\bin\Debug\Interop.SQLDMO.dll
+E:\肖辉\f辅警项目\辅警项目\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\肖辉\f辅警项目\辅警项目\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\肖辉\f辅警项目\辅警项目\RM.DataBase\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\肖辉\f辅警项目\辅警项目\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.dll
+E:\肖辉\f辅警项目\辅警项目\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\肖辉\f辅警项目\辅警项目\RM.DataBase\bin\Debug\RM.Common.dll
+E:\肖辉\f辅警项目\辅警项目\RM.DataBase\bin\Debug\RM.Common.pdb
+E:\肖辉\f辅警项目\辅警项目\RM.DataBase\obj\Debug\RM.DataBase.csprojResolveAssemblyReference.cache
+E:\肖辉\f辅警项目\辅警项目\RM.DataBase\obj\Debug\RM.DataBase.dll
+E:\肖辉\f辅警项目\辅警项目\RM.DataBase\obj\Debug\RM.DataBase.pdb
+E:\白雪\项目\aaa宝安公安分局\f辅警管理系统\c程序文件\RM.DataBase\bin\Debug\RM.DataBase.dll
+E:\白雪\项目\aaa宝安公安分局\f辅警管理系统\c程序文件\RM.DataBase\bin\Debug\RM.DataBase.pdb
+E:\白雪\项目\aaa宝安公安分局\f辅警管理系统\c程序文件\RM.DataBase\bin\Debug\Interop.SQLDMO.dll
+E:\白雪\项目\aaa宝安公安分局\f辅警管理系统\c程序文件\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\白雪\项目\aaa宝安公安分局\f辅警管理系统\c程序文件\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\白雪\项目\aaa宝安公安分局\f辅警管理系统\c程序文件\RM.DataBase\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\白雪\项目\aaa宝安公安分局\f辅警管理系统\c程序文件\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.dll
+E:\白雪\项目\aaa宝安公安分局\f辅警管理系统\c程序文件\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\白雪\项目\aaa宝安公安分局\f辅警管理系统\c程序文件\RM.DataBase\bin\Debug\RM.Common.dll
+E:\白雪\项目\aaa宝安公安分局\f辅警管理系统\c程序文件\RM.DataBase\bin\Debug\RM.Common.pdb
+E:\白雪\项目\aaa宝安公安分局\f辅警管理系统\c程序文件\RM.DataBase\obj\Debug\RM.DataBase.csprojResolveAssemblyReference.cache
+E:\白雪\项目\aaa宝安公安分局\f辅警管理系统\c程序文件\RM.DataBase\obj\Debug\RM.DataBase.dll
+E:\白雪\项目\aaa宝安公安分局\f辅警管理系统\c程序文件\RM.DataBase\obj\Debug\RM.DataBase.pdb
+E:\刘航\c程序文件\RM.DataBase\bin\Debug\RM.DataBase.dll
+E:\刘航\c程序文件\RM.DataBase\bin\Debug\RM.DataBase.pdb
+E:\刘航\c程序文件\RM.DataBase\bin\Debug\Interop.SQLDMO.dll
+E:\刘航\c程序文件\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\刘航\c程序文件\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\刘航\c程序文件\RM.DataBase\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\刘航\c程序文件\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.dll
+E:\刘航\c程序文件\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\刘航\c程序文件\RM.DataBase\bin\Debug\RM.Common.dll
+E:\刘航\c程序文件\RM.DataBase\bin\Debug\RM.Common.pdb
+E:\刘航\c程序文件\RM.DataBase\obj\Debug\RM.DataBase.csprojResolveAssemblyReference.cache
+E:\刘航\c程序文件\RM.DataBase\obj\Debug\RM.DataBase.dll
+E:\刘航\c程序文件\RM.DataBase\obj\Debug\RM.DataBase.pdb
+E:\肖辉\f辅警项目\c程序文件\RM.DataBase\bin\Debug\RM.DataBase.dll
+E:\肖辉\f辅警项目\c程序文件\RM.DataBase\bin\Debug\RM.DataBase.pdb
+E:\肖辉\f辅警项目\c程序文件\RM.DataBase\bin\Debug\Interop.SQLDMO.dll
+E:\肖辉\f辅警项目\c程序文件\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\肖辉\f辅警项目\c程序文件\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\肖辉\f辅警项目\c程序文件\RM.DataBase\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\肖辉\f辅警项目\c程序文件\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.dll
+E:\肖辉\f辅警项目\c程序文件\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\肖辉\f辅警项目\c程序文件\RM.DataBase\bin\Debug\RM.Common.dll
+E:\肖辉\f辅警项目\c程序文件\RM.DataBase\bin\Debug\RM.Common.pdb
+E:\肖辉\f辅警项目\c程序文件\RM.DataBase\obj\Debug\RM.DataBase.csprojResolveAssemblyReference.cache
+E:\肖辉\f辅警项目\c程序文件\RM.DataBase\obj\Debug\RM.DataBase.dll
+E:\肖辉\f辅警项目\c程序文件\RM.DataBase\obj\Debug\RM.DataBase.pdb
+E:\肖辉\f辅警项目\c程序文件 - 副本\RM.DataBase\bin\Debug\RM.DataBase.dll
+E:\肖辉\f辅警项目\c程序文件 - 副本\RM.DataBase\bin\Debug\RM.DataBase.pdb
+E:\肖辉\f辅警项目\c程序文件 - 副本\RM.DataBase\bin\Debug\Interop.SQLDMO.dll
+E:\肖辉\f辅警项目\c程序文件 - 副本\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\肖辉\f辅警项目\c程序文件 - 副本\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\肖辉\f辅警项目\c程序文件 - 副本\RM.DataBase\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\肖辉\f辅警项目\c程序文件 - 副本\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.dll
+E:\肖辉\f辅警项目\c程序文件 - 副本\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\肖辉\f辅警项目\c程序文件 - 副本\RM.DataBase\bin\Debug\RM.Common.dll
+E:\肖辉\f辅警项目\c程序文件 - 副本\RM.DataBase\bin\Debug\RM.Common.pdb
+E:\肖辉\f辅警项目\c程序文件 - 副本\RM.DataBase\obj\Debug\RM.DataBase.csprojResolveAssemblyReference.cache
+E:\肖辉\f辅警项目\c程序文件 - 副本\RM.DataBase\obj\Debug\RM.DataBase.dll
+E:\肖辉\f辅警项目\c程序文件 - 副本\RM.DataBase\obj\Debug\RM.DataBase.pdb
+F:\黄高亮20160823\升维办公管理系统——新版\c程序文件 - 副本\c程序文件 - 副本\RM.DataBase\bin\Debug\RM.DataBase.dll
+F:\黄高亮20160823\升维办公管理系统——新版\c程序文件 - 副本\c程序文件 - 副本\RM.DataBase\bin\Debug\RM.DataBase.pdb
+F:\黄高亮20160823\升维办公管理系统——新版\c程序文件 - 副本\c程序文件 - 副本\RM.DataBase\bin\Debug\Interop.SQLDMO.dll
+F:\黄高亮20160823\升维办公管理系统——新版\c程序文件 - 副本\c程序文件 - 副本\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\黄高亮20160823\升维办公管理系统——新版\c程序文件 - 副本\c程序文件 - 副本\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\黄高亮20160823\升维办公管理系统——新版\c程序文件 - 副本\c程序文件 - 副本\RM.DataBase\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+F:\黄高亮20160823\升维办公管理系统——新版\c程序文件 - 副本\c程序文件 - 副本\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.dll
+F:\黄高亮20160823\升维办公管理系统——新版\c程序文件 - 副本\c程序文件 - 副本\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+F:\黄高亮20160823\升维办公管理系统——新版\c程序文件 - 副本\c程序文件 - 副本\RM.DataBase\bin\Debug\RM.Common.dll
+F:\黄高亮20160823\升维办公管理系统——新版\c程序文件 - 副本\c程序文件 - 副本\RM.DataBase\bin\Debug\RM.Common.pdb
+F:\黄高亮20160823\升维办公管理系统——新版\c程序文件 - 副本\c程序文件 - 副本\RM.DataBase\obj\Debug\RM.DataBase.csprojResolveAssemblyReference.cache
+F:\黄高亮20160823\升维办公管理系统——新版\c程序文件 - 副本\c程序文件 - 副本\RM.DataBase\obj\Debug\RM.DataBase.dll
+F:\黄高亮20160823\升维办公管理系统——新版\c程序文件 - 副本\c程序文件 - 副本\RM.DataBase\obj\Debug\RM.DataBase.pdb
+F:\黎强\项目文件\z 最新框架\c 程序文件\酒店模版框架\RM.DataBase\bin\Debug\RM.DataBase.dll
+F:\黎强\项目文件\z 最新框架\c 程序文件\酒店模版框架\RM.DataBase\bin\Debug\RM.DataBase.pdb
+F:\黎强\项目文件\z 最新框架\c 程序文件\酒店模版框架\RM.DataBase\bin\Debug\Interop.SQLDMO.dll
+F:\黎强\项目文件\z 最新框架\c 程序文件\酒店模版框架\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\黎强\项目文件\z 最新框架\c 程序文件\酒店模版框架\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\黎强\项目文件\z 最新框架\c 程序文件\酒店模版框架\RM.DataBase\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+F:\黎强\项目文件\z 最新框架\c 程序文件\酒店模版框架\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.dll
+F:\黎强\项目文件\z 最新框架\c 程序文件\酒店模版框架\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+F:\黎强\项目文件\z 最新框架\c 程序文件\酒店模版框架\RM.DataBase\bin\Debug\RM.Common.dll
+F:\黎强\项目文件\z 最新框架\c 程序文件\酒店模版框架\RM.DataBase\bin\Debug\RM.Common.pdb
+F:\黎强\项目文件\z 最新框架\c 程序文件\酒店模版框架\RM.DataBase\obj\Debug\RM.DataBase.csprojResolveAssemblyReference.cache
+F:\黎强\项目文件\z 最新框架\c 程序文件\酒店模版框架\RM.DataBase\obj\Debug\RM.DataBase.dll
+F:\黎强\项目文件\z 最新框架\c 程序文件\酒店模版框架\RM.DataBase\obj\Debug\RM.DataBase.pdb
+F:\黎强\项目文件\z 最新框架\c 程序文件\Hotel_frame\RM.DataBase\bin\Debug\RM.DataBase.dll
+F:\黎强\项目文件\z 最新框架\c 程序文件\Hotel_frame\RM.DataBase\bin\Debug\RM.DataBase.pdb
+F:\黎强\项目文件\z 最新框架\c 程序文件\Hotel_frame\RM.DataBase\bin\Debug\Interop.SQLDMO.dll
+F:\黎强\项目文件\z 最新框架\c 程序文件\Hotel_frame\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\黎强\项目文件\z 最新框架\c 程序文件\Hotel_frame\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\黎强\项目文件\z 最新框架\c 程序文件\Hotel_frame\RM.DataBase\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+F:\黎强\项目文件\z 最新框架\c 程序文件\Hotel_frame\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.dll
+F:\黎强\项目文件\z 最新框架\c 程序文件\Hotel_frame\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+F:\黎强\项目文件\z 最新框架\c 程序文件\Hotel_frame\RM.DataBase\bin\Debug\RM.Common.dll
+F:\黎强\项目文件\z 最新框架\c 程序文件\Hotel_frame\RM.DataBase\bin\Debug\RM.Common.pdb
+F:\黎强\项目文件\z 最新框架\c 程序文件\Hotel_frame\RM.DataBase\obj\Debug\RM.DataBase.csprojResolveAssemblyReference.cache
+F:\黎强\项目文件\z 最新框架\c 程序文件\Hotel_frame\RM.DataBase\obj\Debug\RM.DataBase.dll
+F:\黎强\项目文件\z 最新框架\c 程序文件\Hotel_frame\RM.DataBase\obj\Debug\RM.DataBase.pdb
+E:\刘航\酒店模板\c程序文件\RM.DataBase\bin\Debug\RM.DataBase.dll
+E:\刘航\酒店模板\c程序文件\RM.DataBase\bin\Debug\RM.DataBase.pdb
+E:\刘航\酒店模板\c程序文件\RM.DataBase\bin\Debug\Interop.SQLDMO.dll
+E:\刘航\酒店模板\c程序文件\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\刘航\酒店模板\c程序文件\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\刘航\酒店模板\c程序文件\RM.DataBase\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\刘航\酒店模板\c程序文件\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.dll
+E:\刘航\酒店模板\c程序文件\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\刘航\酒店模板\c程序文件\RM.DataBase\bin\Debug\RM.Common.dll
+E:\刘航\酒店模板\c程序文件\RM.DataBase\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\刘航\酒店模板\c程序文件\RM.DataBase\bin\Debug\RM.Common.pdb
+E:\刘航\酒店模板\c程序文件\RM.DataBase\obj\Debug\RM.DataBase.csprojResolveAssemblyReference.cache
+E:\刘航\酒店模板\c程序文件\RM.DataBase\obj\Debug\RM.DataBase.dll
+E:\刘航\酒店模板\c程序文件\RM.DataBase\obj\Debug\RM.DataBase.pdb
+E:\刘航\智慧考勤系统\c程序文件\c程序文件\RM.DataBase\bin\Debug\RM.DataBase.dll
+E:\刘航\智慧考勤系统\c程序文件\c程序文件\RM.DataBase\bin\Debug\RM.DataBase.pdb
+E:\刘航\智慧考勤系统\c程序文件\c程序文件\RM.DataBase\bin\Debug\Interop.SQLDMO.dll
+E:\刘航\智慧考勤系统\c程序文件\c程序文件\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\刘航\智慧考勤系统\c程序文件\c程序文件\RM.DataBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\刘航\智慧考勤系统\c程序文件\c程序文件\RM.DataBase\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\刘航\智慧考勤系统\c程序文件\c程序文件\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.dll
+E:\刘航\智慧考勤系统\c程序文件\c程序文件\RM.DataBase\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\刘航\智慧考勤系统\c程序文件\c程序文件\RM.DataBase\bin\Debug\RM.Common.dll
+E:\刘航\智慧考勤系统\c程序文件\c程序文件\RM.DataBase\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\刘航\智慧考勤系统\c程序文件\c程序文件\RM.DataBase\bin\Debug\RM.Common.pdb
+E:\刘航\智慧考勤系统\c程序文件\c程序文件\RM.DataBase\obj\Debug\RM.DataBase.csprojResolveAssemblyReference.cache
+E:\刘航\智慧考勤系统\c程序文件\c程序文件\RM.DataBase\obj\Debug\RM.DataBase.dll
+E:\刘航\智慧考勤系统\c程序文件\c程序文件\RM.DataBase\obj\Debug\RM.DataBase.pdb

@@ -1,0 +1,124 @@
+﻿.footer {
+  width: 100%;
+  max-width:640px;
+  height: 60px;
+  position: fixed;
+  bottom: 0;
+  line-height: 116px;
+  z-index: 100;
+  display: none;
+  margin:0 auto;
+}
+.footer .footerInner {
+  width: 100%;
+  height: 100%;
+  -moz-box-shadow: 6px 0 24px rgba(32,21,18,.72);
+  -webkit-box-shadow: 6px 0 24px rgba(32,21,18,.72);
+  box-shadow: 6px 0 24px rgba(32,21,18,.72);
+}
+.footer a {
+  display: block;
+  float: left;
+  position: relative;
+}
+.footerLink3 {
+  width: 40%;
+  height: 100%;
+  background-color: #26c540;
+}
+.phoneIcon {
+  left: 50%;
+  top: 50%;
+  width:100%;
+  height:100%;
+  max-width: 54px;
+  max-height: 54px;
+  margin-top: -27px;
+  margin-left: -90px;
+  background: url(/App_Themes/default/images/footerLink3.png) center no-repeat;
+  background-size:100% 100%;
+}
+.footer a em, .footer a i {
+  display: block;
+  position: absolute;
+}
+.footerLink2 {
+  width: 40%;
+  height: 100%;
+  background-color: #ff6005;
+}
+.footerLink1 {
+  width: 20%;
+  height: 100%;
+  background-color: #2e3642;
+}
+.swtIcon {
+  left: 50%;
+  top: 6px;
+  width:100%;
+  height:100%;
+  max-width: 54px;
+  max-height: 48px;
+  margin-left: -100px;
+  background: url(/App_Themes/default/images/footerLink2.png) center no-repeat;
+  background-size:100% 100%;
+}
+.footerLink3 em {
+  display: block;
+  left: 50%;
+  top: 50%;
+  margin-left: -28px;
+  margin-top: -23px;
+  color: #fff;
+  font-size: 32px;
+  line-height: 46px;
+}
+.footer a em, .footer a i {
+  display: block;
+  position: absolute;
+}
+.footerLink2 em {
+  display: block;
+  left: 50%;
+  top: 50%;
+  margin-left: -28px;
+  margin-top: -23px;
+  color: #fff;
+  font-size: 32px;
+  line-height: 46px;
+}
+.homeIcon {
+  left: 50%;
+  top: 8px;
+  width:100%;
+  height:100%;
+  max-width: 59px;
+  max-height: 50px;
+  margin-left: -29px;
+  background: url(/App_Themes/default/images/footerLink1.png) center no-repeat;
+  background-size:100% 100%;
+}
+.footerLink1 em {
+  display: block;
+  left: 0;
+  top: 68px;
+  width: 100%;
+  color: #6a7380;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+}
+em {
+  font-style: normal;
+}
+
+@media screen and (min-width:320px) and (max-width:900px){
+.footer {height:58px;}
+.homeIcon {top:9px;width:30px;height:25px;margin-left:-15px;-moz-background-size:100% 100%;-webkit-background-size:100% 100%;background-size:100% 100%;}
+.footerLink1 em {font-size:10px;top:34px;line-height:18px;}
+.swtIcon {top:18px;width:27px;height:24px;margin-left:-50px;-moz-background-size:100% 100%;-webkit-background-size:100% 100%;background-size:100% 100%;}
+.swtIcon_Counter {top:15px;width:14px;height:14px;margin-left:-34px;line-height:13px;font-size:9px;}
+.footerLink2 em {font-size:16px;line-height:23px;margin-left:-14px;margin-top:-12px;}
+.phoneIcon {width:27px;height:27px;margin-top:-14px;margin-left:-45px;-moz-background-size:100% 100%;-webkit-background-size:100% 100%;background-size:100% 100%;}
+.footerLink3 em {font-size:16px;line-height:23px;margin-left:-14px;margin-top:-12px;}
+}

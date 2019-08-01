@@ -1,0 +1,13 @@
+2018-05-24 19:08:20.464 DEBUG 配置账号信息: appid:wx02e46b75ac1730b9
+2018-05-24 19:08:20.500 DEBUG 配置账号信息: APPSECRET:2c499b9a8d22c8aed9098878ad21b2a0
+2018-05-24 19:09:15.387 INFO //获取返回信息11-----menuInfo: 
+2018-05-24 19:11:19.610 DEBUG 配置账号信息: appid:wx02e46b75ac1730b9
+2018-05-24 19:11:19.612 DEBUG 配置账号信息: APPSECRET:2c499b9a8d22c8aed9098878ad21b2a0
+2018-05-24 19:11:45.273 DEBUG 配置账号信息: appid:wx02e46b75ac1730b9
+2018-05-24 19:11:45.278 DEBUG 配置账号信息: APPSECRET:2c499b9a8d22c8aed9098878ad21b2a0
+2018-05-24 19:12:53.547 DEBUG 配置账号信息: appid:wx02e46b75ac1730b9
+2018-05-24 19:12:53.551 DEBUG 配置账号信息: APPSECRET:2c499b9a8d22c8aed9098878ad21b2a0
+2018-05-24 19:12:54.758 DEBUG 配置账号信息: NOTIFY_URL:www.zidinn.com
+2018-05-24 19:12:58.881 INFO //获取返回信息11-----menuInfo: {"touser":"ovrF61uKBu_0HzxMK75d0JbIXGEQ","template_id":"krRz5-vde4pZ-J-pop-CK_uxC_ClD1Stwd0rm703NSo","url":"http://www.zidinn.com/Reservation/OrderWith.aspx?AdminHotelid=1002490&Id=WX201805241832292677","data":{"first":{"value":"您的订单已正式提交并支付成功，点击查看详情","color":"#000"},"keyword1":{"value":"WX201805241832292677","color":"#000"},"keyword2":{"value":"1.00元","color":"#000"},"keyword3":{"value":"深圳宝丽酒店","color":"#000"},"keyword4":{"value":"标准双人房","color":"#000"},"keyword5":{"value":"2018年05月24日-2018年05月25日","color":"#000"},"remark":{"value":"酒店地址: 深圳市龙岗区龙岗大道（横岗段）3180号信义大厦\n感谢您的预订。","color":"#000"}}}
+2018-05-24 19:13:01.818 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=10_9emJ77gtYpQuMrtkto3xpLp6EWJ7IVAg1acuL3Gfd0JNxE_41kqfYU27VEWOCnsypeYcMHVaobOyPT06nM2xPx6yz5Dm_PUHb7xvlE0_53AEzN61wsCN3uyAw08BCTcABATUL
+2018-05-24 19:13:02.520 INFO //获取返回信息22----------)：: {"errcode":0,"errmsg":"ok","msgid":294744034767945731}

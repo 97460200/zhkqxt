@@ -1,0 +1,869 @@
+﻿html,body
+{
+    background:#fff;
+    }
+    
+.footer,
+.content 
+{
+	width: 100%;
+	max-width: 640px;
+	overflow: hidden;
+	margin: 0 auto;
+	box-sizing:border-box;
+	}
+.back_color 
+{
+    width: 100%;
+	background: #f0f0f0;
+	box-sizing:border-box;
+	}
+/*********咨询留言**********/
+.list_con 
+{
+	padding: 20px;
+	position: relative;
+	font-family: Arial,"微软雅黑";
+	}
+.list_con dl 
+{
+	background: white;
+	margin-bottom: 10px;
+	padding: 20px;
+	}
+.list_con dl dt 
+{
+	float: left;
+	}
+.list_con dl dd 
+{
+	padding-left: 45px;
+	}
+.list_con dl dd .tt 
+{
+	overflow: hidden;
+	margin-top:6px;
+	margin-bottom: 10px;
+	font-size: 16px;
+	}
+.list_con dl dd .tt p.name
+{
+	float: left;
+	display:inline-block;
+	color: #0458b0;
+	}
+.tt .like 
+{
+	float: right;
+	display: inline-block;
+	overflow: hidden;
+	line-height: 35px;
+	}
+.like span.math 
+{
+	line-height: 47px;
+	}
+.tt .like i 
+{
+	width: 27px;
+	height: 35px;
+	float: right;
+	display:inline-block;
+	line-height:47px;
+	margin-left: 5px;
+	margin-top: 5px;
+	cursor: pointer;
+	}
+	
+.list_con dl dd p.msgcon 
+{
+	font-size: 14px;
+	line-height: 30px;
+	}
+.list_con .images 
+{
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	overflow: hidden;
+	margin-bottom: 10px;
+	}
+.images .pp 
+{
+	width: 33.333%;
+	padding: 5px;
+	float:left;
+	-webkit-box-sizing: border-box;
+	}
+.images .pp img 
+{
+	width: 100%;
+	}
+p.where,
+p.time
+{
+	display: inline-block;
+	color: #888;
+	font-size: 12px;
+	margin-bottom: 5px;
+	}
+
+.footer a 
+{
+	width: 100%;
+	height: 88px;
+	display: block;
+	line-height: 88px;
+	color: White;
+	font-size: 30px;
+	text-align: center;
+	background:#0458b0;
+	text-decoration: none;
+	}
+.callback
+{
+	background:white;
+	border-top: 1px solid #ccc;
+	margin-top: -20px;
+	}
+.callback 
+{
+	margin-bottom: 10px;
+	padding: 20px;
+	}
+.callback dl dt 
+{
+	float: left;
+	}
+.callback dl dd 
+{
+	padding-left: 45px;
+	font-size: 22px;
+	}
+.callback p.name 
+{
+	color: #0458b0;
+	font-size: 16px;
+	margin: 8px 0;
+	}
+
+/**********留言内页2************/
+.msgarea 
+{
+	padding: 20px;
+	box-sizing: border-box;
+	font-family: Arial,"微软雅黑";
+	}
+.msgarea .comments 
+{
+	width: 100%;
+	overflow: hidden;
+	word-break:break-all; 
+	font-size:18px;
+	padding: 10px 5px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	}
+.msgarea p 
+{
+	line-height: 50px;
+	font-size: 16px;
+	}
+.upload  
+{
+	width: 100%;
+	overflow:hidden;
+	}
+.upload .cc 
+{
+	width: 20%;
+	float: left;
+	display: inline-block;
+	-webkit-box-sizing: border-box;
+	margin-right: 15px;
+	}
+.upload .cc img 
+{
+	width: 100%;
+	padding: 10px 20px;
+	
+	}
+.msgarea input[type="text"] 
+{
+	width: 100%;
+	height: 40px;
+	margin-bottom: 13px;
+	font-size: 14px;
+	font-family: Arial,"微软雅黑";
+	line-height: 40px;
+	border-radius: 5px;
+	outline:none;
+	background: white;
+	border: 1px solid #ccc;
+	text-indent: 4px;
+	}
+.ver 
+{
+	overflow:hidden;
+	width: 100%;
+	}
+.ver .ll 
+{
+	float: left;
+	width: 80%;
+	box-sizing: border-box;
+	padding-right: 20px;
+	}
+.ver .rr 
+{
+	float: right;
+	width: 20%;
+	}
+input[type="image"]
+{
+	width: 100%;
+	padding-left: 5px;
+	height: 40px;
+	line-height: 40px;
+	box-sizing: border-box;
+	}
+/*
+input[type="submit"] 
+{
+	width: 100%;
+	height: 60px;
+	display: block;
+	line-height: 60px;
+	color: White;
+	font-size: 25px;
+	text-align: center;
+	background:#0458b0;
+	text-decoration: none;
+	-webkit-border-radius: 5px;
+	margin-top: 20px;
+	}
+*/
+/************辅警页*****************/
+.hirecon 
+{
+	padding: 20px 20px;
+	font-family: Arial,"微软雅黑";
+	}
+.hirecon h2 
+{
+	margin-bottom: 15px;
+	text-align: center;
+	}
+.hirecon .part 
+{
+	margin-bottom: 15px;
+	}
+.hirecon p 
+{
+	font-size: 14px;
+	line-height: 30px;
+	}
+	
+/********素材提供**************/
+.topbar 
+{
+	background:#fff7e3;
+	font-family: Arial,"微软雅黑";
+	font-size: 14px;
+	}
+.topbar p 
+{
+	padding: 20px;
+	}
+.topbar span 
+{
+	color: #0158b1;
+	}
+/***************线索提供******************/
+.choose 
+{
+	width:100%;
+	padding: 20px 20px 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	}
+select.ss 
+{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border: solid 1px #ccc;
+    font-size: 16px;
+    appearance: none;
+    background: #fff url("../images/select_bg.png") no-repeat;
+    background-size: contain;
+    background-position: 100% 0;
+    padding-right: 40px;
+    outline: none;
+    border-radius: 5px;
+    -webkit-radius: 5px;
+    -webkit-appearance: none;
+	}
+select.ss option.sub
+{
+	font-size:16px;
+	line-height: 30px;
+	}
+	
+	/***************万能通讯录*****************/
+.sortbar 
+{
+	background: #fff;
+	width: 100%;
+	overflow:hidden;
+	}
+.sortbar a 
+{
+	width: 25%;
+	box-sizing: border-box;
+	height: 50px;
+    line-height: 50px;
+    text-align: center;
+	float:left;
+	outline:none;
+	font-family:Arial,"微软雅黑";
+	font-size: 16px;
+	color: #323232;
+	text-decoration:none;
+	display: inline-block;
+	border-bottom: 3px solid #c8c8c8;
+}
+.sortbar a.active 
+{
+	border-color: #0458b0;
+	color:  #0458b0;
+	}
+.conbar 
+{
+	background: #fff;
+	}
+.conbar ul li  
+{
+	border-bottom: 1px solid #f0f0f0;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 20px;
+	font-family:Arial,"微软雅黑";
+	font-size: 14px;
+	color: #646464;
+	}
+.conbar ul li span.partname 
+{
+	float: left;
+	background:url("../images/headicon.png") left center no-repeat;
+	-webkit-background-size:25% 50%;
+	padding-left: 30px;
+	display:inline-block;
+	}
+.conbar ul li span.partphone 
+{
+	float:right;
+	color: #0458b0;
+	}
+/****************一键挪车******************/
+.ex_con {
+    line-height: 28px;
+    padding: 0px 20px 20px;
+    font-size: 16px;
+    font-family: Arial, "微软雅黑";
+    color: #323232;
+    padding-top:10px;
+}
+.ex_con a 
+{
+    display:block;
+    width: 100%;
+    height: 45px;
+    text-align:center;
+    line-height:45px;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    color: #fff;
+    background: #0158b1;
+    margin-top: 20px;
+    border: none;
+    border-radius: .2em;
+    outline: none;
+    -webkit-appearance: none;
+}
+.ex_con p {
+    padding: 10px 0px;
+    line-height:22px;
+}
+.ex_con p.steps 
+{
+    text-align:center;
+    width:65%;
+    margin:0 auto;
+    }
+.ex_con p img 
+{
+    width:100%;
+    margin-bottom:28px;
+    }
+.ex_con p img:last-child 
+{
+    margin-bottom:-10px;
+    }
+    
+    
+/*************** 播放视频 ******************/
+.videoMsg 
+{
+    padding: 20px;
+    font-family:Arial,"微软雅黑";
+    }
+.videoMsg .top 
+{
+    display:block;
+    overflow:hidden;
+    height: 30px;
+    margin: 10px 0;
+    }
+  .video_con 
+  {
+      position:relative;
+      }
+ .video_con img {
+     
+     width: 100%;            
+     }
+.top .videoTitle 
+{
+    float:left;
+    color: #f79400;
+    font-size: 16px;
+    }
+.top .playtimes 
+{
+    float:right;
+    font-size: 12px;
+    color: #999;
+    }
+.fzp p 
+{
+    color: #4f4f4f;
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 28px;
+    }
+input.ghg 
+{
+    width: 100%;
+    height: 45px;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    color: #888;
+    background: #e0e0e0;
+    margin-top: 20px;
+    border: none;
+    border-radius: .2em;
+    outline: none;
+    -webkit-appearance: none;
+    cursor:pointer;
+    }
+    
+/*********** 观后感填写信息 ****************/
+.innercon 
+{
+    padding: 20px;
+    }
+.thinkEdit 
+{
+    margin-bottom: 20px;
+    }
+.thinkEdit p,
+.thinkMsg p
+{
+    font-size: 16px;
+    font-family: Arial,"微软雅黑";
+    line-height:28px;
+    margin-bottom: 10px;
+    }
+.thinkEdit .comments 
+{
+    width: 100%;
+    overflow: hidden;
+    word-break: break-all;
+    font-size: 16px;
+    padding: 10px 5px 0px 5px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #c8c7cc;
+    -webkit-appearance: none;
+    resize: none;
+    }
+.thinkMsg input,
+.thinkMsg select  
+{
+    display:block;
+    }
+.thinkMsg input 
+{
+    width: 100%;
+    margin-bottom: 13px;
+    font-size: 14px;
+    font-family: Arial,"微软雅黑";
+    line-height: 16px;
+    padding: 10px 0;
+    border-radius: 5px;
+    outline: none;
+    background: white;
+    border: 1px solid #ccc;
+    padding-left: 8px;
+    box-sizing:border-box;
+    -webkit-appearance: none;
+    }
+ .thinkMsg 
+ {
+     position:relative;
+     }
+.thinkMsg .sl 
+{
+    position: relative;
+    }
+
+.thinkMsg .sl::after 
+{
+    content:"";
+    width: 10px;
+    height:10px;
+    border-left: 2px solid #999;
+    border-bottom: 2px solid #999;
+    display:block;
+    position:absolute;
+    top: 10px;
+    transform:rotate(-45deg);
+    -webkit-transform:rotate(-45deg);
+    right: 15px;
+    }
+ .thinkMsg select 
+ {
+    width: 100%;
+    margin-bottom: 13px;
+    font-size: 14px;
+    font-family: Arial,"微软雅黑";
+    line-height: 16px;
+    padding: 10px 0;
+    border-radius: 5px;
+    outline: none;
+    background: white;
+    border: 1px solid #ccc;
+    padding-left: 8px;
+    color:#a9a9a9;
+    -webkit-appearance: none;
+     }
+
+input.think_btn 
+{
+        width: 100%;
+    height: 50px;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    color: #fff;
+    background: #0158b1;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    -webkit-appearance: none;
+    margin-top: 10px;
+    }
+    
+/**************** 以案说防 *******************/   
+.case_con 
+{
+    padding:20px;
+    }  
+dl.case_item 
+{
+    background:#fff;
+    font-family:Arial,"微软雅黑";
+    display:block;
+    width: 100%;
+    padding: 20px 20px;
+    box-sizing:border-box;
+    margin-bottom: 20px;
+    border: 1px solid #e1e1e1;
+    box-shadow: 0 0 1px 1px #e1e1e1;
+    }
+dl.case_item dt 
+{
+    display:block;
+    text-align:left;
+    font-size: 18px;
+    line-height:  30px;
+    padding-bottom: 20px;
+    }
+dd.overlook img 
+{
+    width: 100%;
+    }
+dd.time 
+{
+    margin-top: 15px;
+    color: #888;
+    font-size: 14px;
+    }
+dd.time  span 
+{
+    margin-left: 10px;
+    }
+    
+/***************** 微校警 ********************/
+.wxjPic 
+{
+    width: 100%;
+    }
+.buttonCon 
+{
+    overflow:hidden;
+    clear:both;
+    margin-top:20px;
+    }
+.buttonCon input 
+{
+     width: 47%;
+    height: 50px;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    color: #fff;
+    background: #0158b1;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    -webkit-appearance: none;
+    margin-top: 10px; 
+    }
+.buttonCon input:first-child 
+{
+        float:left;
+    }
+.buttonCon input:last-child 
+{
+        float:right;
+    }
+.wfoot 
+{
+    margin-top:266px;
+    }
+.wfoot p 
+{
+    font-family:Arial,"Microsoft Yahei";
+    font-color:#646464;
+    font-size: 14px;
+    text-align:center;
+    }
+    
+    
+/***************** 辅警招聘  *********************/
+.item-card 
+{
+    background:#fff;
+    margin-bottom: 20px;
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    font-family:Arial,"Microsoft Yahei";
+    }
+.item-card  table 
+{
+    padding-bottom:18px;
+    }
+  .item-card table.recommend 
+  {
+      border-spacing:0;
+      }
+.content .item-card:first-child 
+{
+   border-top:none;
+    }
+.item-cara table tr td:first-child 
+{
+       width:110px;
+    }
+.item-card table tr 
+{
+    height:50px;
+    width:100%;
+    box-sizing:border-box;
+    line-height:40px;
+    padding:4px 0px;
+    }
+.item-card table tr th 
+{
+    text-align:left;
+    background:#f7f7f7;
+    color:#488cbf;
+    height:40px;
+    font-size:18px;
+    line-height: 40px;
+    padding-left:20px;
+    }
+.item-card table tr td:nth-child(1) 
+{
+    width:25%;
+    padding-left:20px;
+    box-sizing:border-box;
+    font-size:14px;
+    }
+.item-card table tr td:nth-child(2) 
+{
+    width:70%;
+    box-sizing:border-box;
+    }
+.item-card table textarea 
+{
+    width:100%;
+    box-sizing:border-box;
+    border-color:#c8c7cc;
+    resize:none;
+    height:80px;
+    padding:4px;
+    }
+.item-card table tr td input.mm,
+.item-card table tr td select 
+{
+    font-size: 14px;
+    width:100%;
+    padding:8px 5px;
+    border-radius:4px;
+    box-sizing:border-box;
+    border:1px solid #c8c7cc;
+    -webkit-appearance:none; /*去除input默认样式*/
+    }
+.item-card table tr td select 
+{
+    background:#fff;
+    -webkit-appearance:none; /*去除input默认样式*/
+    }
+.next 
+{
+    padding:0 20px;
+    margin:30px 0;
+    margin-top:15px;
+    }
+.next input 
+{
+     width: 100%;
+    height: 50px;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    color: #fff;
+    background: #0158b1;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    -webkit-appearance: none;
+    margin-top: 10px;
+    }
+table#rank tr 
+{
+    width:100%;
+    }
+table#rank tr td 
+{
+    width:100%;
+    float:left;
+    }
+table#rank tr td:nth-child(2) 
+{
+    padding-left:20px;
+    box-sizing:border-box;
+    }
+table.basic 
+{
+    padding-top:15px;
+    }
+        .UploadImg div span 
+        {
+                float: left;
+    width: 100%;
+    width:120px;
+            }   
+ .UploadImg div span {
+    float: left;
+    width: 100%;
+    padding-left: 37px;
+}
+ .sample img 
+ {
+    width: 98px;
+    margin-right: 10px;
+    height: 133px;
+     }
+table.basic tr.tjdress td select
+{
+    width:87%;
+    margin-bottom:6px;
+    float:left;
+    }
+table.basic tr.tjdress td span 
+{
+    padding-left:10px;
+    font-size:14px;
+    float:left;
+    }
+table div.wl 
+{
+    position:relative;
+    }
+ tr.tjdress td div.wl 
+ {
+     height:50px;
+     }
+.wl:after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    display: block;
+    border-left: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    position: absolute;
+    top: 11px;
+    right: 11px;
+    transform: rotate(-45deg);
+}
+tr.tjdress .wl:after 
+{
+    right:48px;
+    }
+/******************* 我要当辅警要求 ******************************/
+.ask-con 
+{
+    padding-bottom:20px;
+    border-bottom:1px solid #ccc;
+    margin-bottom:10px;
+    }
+.ask-con h2 
+{
+    font-family:Arial,"Microsoft YaHei";
+    line-height:45px;
+    font-size:16px;
+    font-style:normal;
+    padding-left: 25px;
+    color:#888;
+    }
+h2.yp 
+{
+    background:url(../App_Themes/default/images/ask_icon.png) no-repeat left 11px;
+    background-size: 23px 25px;
+    -webkit-background-size: 20px;
+    }
+h2.gw
+{
+    background:url(../App_Themes/default/images/ask_icon2.png) no-repeat left 14px;
+    background-size: 28px 25px;
+    -webkit-background-size: 20px;
+    }
+.ask-con p 
+{
+    font-family:Arial,"Microsoft YaHei";
+    font-size:14px;
+    line-height:30px;
+    }
+    

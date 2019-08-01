@@ -1,0 +1,38 @@
+2018-08-09 15:07:46.207 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=12_eQtk-L4dr2P6pcXWNnYbxc7h_tLFK-VqnKsOlPHMB8DNOZKyPoAxTCGCH454MSDbHnf3hjX6TnNJsZ1l9ECsNp1deTIiwyGo37Xz4DhEbEp5Wp4FVTWuaUf05PhYAslKBHED8T_FAwJqVm0DATOiADAHAV
+2018-08-09 15:08:12.745 INFO //获取返回信息22----------)：: {"errcode":0,"errmsg":"ok","msgid":406112729540083713}
+2018-08-09 15:08:14.988 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=12__JVWCYdDdDVEdKzf-MSGw1AkLKbAyJvxM7DD5ScXhFujEQpsmNANZxAaKeTE9BVMqs1yN8pA2qzvG5Nl6DzXt8sUC4EkpS_8YaLs7wgBaffjCSSYgN2Z2hnE9BLDzvlKwT6X_kcN4sF40czkMFTeABAHAO
+2018-08-09 15:08:15.327 INFO //获取返回信息22----------)：: {"errcode":0,"errmsg":"ok","msgid":406113130968530945}
+2018-08-09 15:08:15.974 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=12_kePhSWxejz5dU8Oh-MSGw1AkLKbAyJvxM7DD5ScXhFujEQpsmNANZxAaKeS1aTBWClQS3jsjmmypK9uroPNokLWQR5clrBSbh_LTMZG1Mjt7-KVNFXn3pbLaImx8IXvO_Koz-1XCLdWl44KnZXYeABAJHI
+2018-08-09 15:08:16.372 INFO //获取返回信息22----------)：: {"errcode":0,"errmsg":"ok","msgid":406113148282617865}
+2018-08-09 15:09:56.663 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=12_4bTJVsrJUcQYaBATnmJ3EHVpQN_X4WMrfEm1lnAaBY14f6n32XIp5DmYEh2SQFjaD6jUkZ_jU-I-NmvqI-Bn0LroVX7xbfIVMffacd6Sn0j6ri01bTr4Y3gzpyUXFKgACAJRW
+2018-08-09 15:09:57.364 INFO //获取返回信息22----------)：: {"errcode":0,"errmsg":"ok","msgid":406114843268284416}
+2018-08-09 15:09:57.565 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=12_ff_TdRyhgwZ7WAIKnmJ3EHVpQN_X4WMrfEm1lnAaBY14f6n32XIp5DmYEh2lFIaXP9J7VTX5JorOcyr-_sksR9zq7qhurvBs0RAbLkgpetvBwy14LkJsB_WrevMQUPgACATXS
+2018-08-09 15:09:57.899 INFO //获取返回信息22----------)：: {"errcode":0,"errmsg":"ok","msgid":406114852495753216}
+2018-08-09 15:09:58.461 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=12_xqyYybfrK9SSDdlenmJ3EHVpQN_X4WMrfEm1lnAaBY14f6n32XIp5DmYEh1R0zEzHggPX16JobslMGZhpL9PssMw98pQensU8kihi7VAza0zKdDYpdvPzkB6micHTMgACASEX
+2018-08-09 15:09:58.821 INFO //获取返回信息22----------)：: {"errcode":0,"errmsg":"ok","msgid":406114867628802048}
+2018-08-09 19:31:35.606 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=12_tTA2Y_7HTrv_E-vznmJ3EHVpQN_X4WMrfEm1lgSH70dnBJ7DzsMxt8nC2EJFlHcFdVKRBFSVmy_Bwmmeqlyp8sdtc3dNLNwP5bEgPRMJugPUJn_mU2IRv5d13vuoi3kAkUXRVvLY3htmlPbYWJBaAFACPH
+2018-08-09 19:31:36.208 INFO //获取返回信息22----------)：: {"list":[{"ref_date":"2018-08-08","user_source":0,"cumulate_user":163}]}
+2018-08-09 19:31:48.625 DEBUG WxPayApi: Refund request : <xml><amount>100000</amount><check_name><![CDATA[NO_CHECK]]></check_name><desc><![CDATA[奖金提现！]]></desc><mch_appid><![CDATA[wx41bd9e5d7867ad93]]></mch_appid><mchid><![CDATA[1375851902]]></mchid><nonce_str><![CDATA[599304dcb458466091e8f565d0ed593f]]></nonce_str><openid><![CDATA[oQQLEw9kDkPsA4vfWbus-Nl9akjQ]]></openid><partner_trade_no><![CDATA[137585190220180809193148667]]></partner_trade_no><sign><![CDATA[D77FA6599CBDDBC00BEA09A850D4289A]]></sign><spbill_create_ip><![CDATA[127.0.0.1]]></spbill_create_ip></xml>
+2018-08-09 19:31:49.658 DEBUG WxPayApi: PostXml used cert
+2018-08-09 19:31:54.577 DEBUG WxPayApi: Refund response : <xml>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[]]></return_msg>
+<mch_appid><![CDATA[wx41bd9e5d7867ad93]]></mch_appid>
+<mchid><![CDATA[1375851902]]></mchid>
+<nonce_str><![CDATA[599304dcb458466091e8f565d0ed593f]]></nonce_str>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<partner_trade_no><![CDATA[137585190220180809193148667]]></partner_trade_no>
+<payment_no><![CDATA[1000018301201808090612634735]]></payment_no>
+<payment_time><![CDATA[2018-08-09 19:31:59]]></payment_time>
+</xml>
+2018-08-09 19:31:54.586 INFO Refund: Refund process complete, result : <xml><mch_appid><![CDATA[wx41bd9e5d7867ad93]]></mch_appid><mchid><![CDATA[1375851902]]></mchid><nonce_str><![CDATA[599304dcb458466091e8f565d0ed593f]]></nonce_str><partner_trade_no><![CDATA[137585190220180809193148667]]></partner_trade_no><payment_no><![CDATA[1000018301201808090612634735]]></payment_no><payment_time><![CDATA[2018-08-09 19:31:59]]></payment_time><result_code><![CDATA[SUCCESS]]></result_code><return_code><![CDATA[SUCCESS]]></return_code><return_msg><![CDATA[]]></return_msg></xml>
+2018-08-09 19:31:55.205 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=12_B-0tPyjvI5ABnvujL5bW2Jc6i_2_KV44JV0gTu4mjsm29jnkyiqeXS1guCmz6xwfgD_csY_aFkMO1wQfrj5zJqJ4n2JPMJK55vA4F1ivx7xHvhYlD3KGTKypUiDODiX16du8DV2-FwUo932pQVJaAEAXCQ
+2018-08-09 19:31:55.349 INFO //获取返回信息22----------)：: {"list":[{"ref_date":"2018-08-08","user_source":0,"cumulate_user":163}]}
+2018-08-09 19:37:25.189 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=12_UQDatgxedjLTzC1X68OZNqMXD3-p928UBBgbN9ocUJQX7tw2flzCPgbYFHDvH6CHsXczE78t7aq7H-a5eKtyH5QA2RNVFhyZWYxFdT3kj2yzYQ4yj9zgvXCrZCKZswVl_yexRPL9z1TQl1d3DCPfAAAVUH
+2018-08-09 19:37:25.654 INFO //获取返回信息22----------)：: {"list":[{"ref_date":"2018-08-08","user_source":0,"cumulate_user":163}]}
+2018-08-09 19:59:32.544 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=12_RnKQywO3pXk1WI6VT274LBfWUrcsLi6U0QDihuItHTthh1xYym00xjkTztURyJqTSqZ2et5ImwcmtGLuSXnH50n8LIqMx-nrYJOaCyQwMWwbNUmQB_co4JBLjl85ITYt5UXCGP6-atwMlNMNIWUcAAABPN
+2018-08-09 19:59:33.010 INFO //获取返回信息22----------)：: {"list":[{"ref_date":"2018-08-08","user_source":0,"cumulate_user":163}]}
+2018-08-09 20:21:00.679 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=12_6Dz7TwTcm3x8VcF6VKj0daeSgzCuUzsPmsyqBnFFwHtFAmU3PhLrBkZu-tA8Jmdf7nNlmtcn_y6PYCl4-hoEFcWOkhHbhLC83LxSkab2hA12oERb8Dqs_K7xY_IQb5uV76nGxK2696IWstVxXUCbAAAGDL
+2018-08-09 20:21:01.156 INFO //获取返回信息22----------)：: {"list":[{"ref_date":"2018-08-08","user_source":0,"cumulate_user":163}]}
+2018-08-09 20:21:30.832 INFO //获取返回信息11----------)：: https://api.weixin.qq.com/datacube/getusercumulate?access_token=12_TMe--fY5NtBky8WCi9J4vMK4YBdlsos86ehrnfSTy-nLDBVpNfnEA_HoIXxDnXJFH_9hA9eIM1WHZuq1mnEj1-WOR8n8_uf4JUF1zm6qWmOVOueby6VE9O1b-tCzxONRwOAfiGD-xZNDZs_SHHFjAIANNL
+2018-08-09 20:21:30.962 INFO //获取返回信息22----------)：: {"list":[{"ref_date":"2018-08-08","user_source":0,"cumulate_user":163}]}
